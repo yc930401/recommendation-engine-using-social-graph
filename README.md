@@ -1,6 +1,6 @@
 # Social Analytics Repo
 
-* An academic project for text analytics.
+* An academic project for social analytics.
 
 ## Directories Summary
 
