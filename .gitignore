@@ -6,6 +6,7 @@ code/99_config/*.ini
 
 # OSX Files
 .DS_Store
+code/.DS_Store
 
 # IPython Notebook
 .ipynb_checkpoints
