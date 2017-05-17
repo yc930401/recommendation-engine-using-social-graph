@@ -1,15 +1,15 @@
 ## Useful Links
 
 ### Networks Data Set
-* The Koblenz Network Collection [link] (http://konect.uni-koblenz.de/networks/)
-* Stanford Large Network Dataset Collection [link] (http://snap.stanford.edu/data/)
-* Quora - Where can I find large Graph Data Sets [link] (https://www.quora.com/Where-can-I-find-large-graph-test-datasets)
+* The Koblenz Network Collection [link](http://konect.uni-koblenz.de/networks/)
+* Stanford Large Network Dataset Collection [link](http://snap.stanford.edu/data/)
+* Quora - Where can I find large Graph Data Sets [link](https://www.quora.com/Where-can-I-find-large-graph-test-datasets)
 
 ### OrientDB (Graph DB)
-* Documentation [link] (http://orientdb.com/docs/last/index.html)
+* Documentation [link](http://orientdb.com/docs/last/index.html)
 
 ### Git workflow
-* Git Workflow [here] (https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow)
+* Git Workflow [here](https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow)
 * We are probably following the centralized workflow.
 
 ### Markdown (.md) to Microsoft Docx
