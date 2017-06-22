@@ -1,56 +1,62 @@
-###### [proposal-draft01]
-# An Exploratory Study Using Graph Theory to Classify Images
+# Community Detection in Social Graphs and its Application 
 
 ## Section 1: Background
-Reddit.com is a community news site where it empowers users to share any content such as stories, images, and links - related to a topic that he/she is interested it. The others are able to evaluate, vote, and comments on these posts. These ratings are then used to promote contents and gain higher visibility.
 
-## Section 2: Objective
-It is the priority of social sites to increase traffics to the site. Thus, it is crucial for reddit.com to identify the interest of the communities and users, so as to design strategies to attract more users to the site.
+Detecting communities and the influencers within that community is a key in analysis of social networks. There are multiple approaches to community detection and determining who are the influencers **find papers pls**. Its applications ranges from biology to sociology. In our project, we seek to detect communities in the Foursquare social network and its influencers. We also aim to evaluate if such analysis can be incorporated in a recommendation engine. 
 
-In this project, we aim to help reddit.com to do so by identifying (A) existing communities, and (B) members in each of these communities via;
+## Section 2: Motivation
 
-1. Number, size, and strength of the existing communities
-2. Topics that these communities are interested in
-3. Traits / characteristics of key / influential members
-4. Any common interests of these members in other communities
+Before the current pervasiveness of social networks, analysis of customers or potential customers typically involves mining their demographics and clustering customers with similar attributes together. The insights gleaned may then be used for making recommendations to customers based on their profiles. 
 
-via focusing on content that have been re-submitted multiple times, so as to determine the factor(s) that determine the popularity of the content.
-
-We will do so by analyzing the images that have been submitted/resubmitted with multiple titles to multiple communities - and thereafter; the votes, comments, and users related to posts. Images are the dominant form of content that were shared on the site, and often; it is the images that drive the popularity of the sharing; instead of the title.[1]
+Our motivation primarily arise from the fact that social network data are now also available for analysis. While the above approach may still be relevant, we can now cluster customers according to their communities for making recommendations given the fact that one is more likely to trust a "friend". Through identifying influencers within the community, targeted marketing can be done **(really?)**. 
 
 ## Section 3: About the Dataset
-This dataset is downloaded from snap.stanford.edu for research purposes. It is made up submissions of images that have been submitted to reddit.com multiple times. The dataset includes the these fields; (1) time of submission, (2) name of user, (3) name of community, (4) number of ratings (positive / negative), (5) submission titles, (6) no. of comments received, (7) html of comment pages.
 
-The statistics related to the data as below;
+This dataset will be retrieved from Foursquare through 2 channels. 
 
-| Timespan :                | July 2008 - Jan 2013|
+1) Foursqure API - For users, venues and photos data
+2) Web Scraping - For reviews, not available via the Foursquare API. 
+
+The records used for this analysis are summarized below:
+
+| Data Set :                | # of Records|
 | :-------------|:-------------:|
-| Number of unique images : | 16,736|
-| No. of submissions : |132,308  |
+| Users : | 16,736|
+| Venues : |132,308  |
+| Photos : |132,308  |
+| Tips? Reviews? : |132,308  |
 
-## Section 4: Analysis Approach
+**<Insert details on user, venues, photos etc>**
 
-The overview of the methodology to meet the objective of the analysis as below;
+## Section 4: Analysis 
 
-[add a diagram of overview]
+Questions we seek to answer are on 2 levels. Namely, community and restaurants.  
 
-<HY: we need to discuss on how to implement>
-1. prepare data (may want to update data by downloading from API)
-2. apply graph theory to identify the community (image, meta data, users)
-3. machine learning to classify images (unsupervised)
-4. compare the results
+#### Community
+**What kind of photo (food / face / random) does one tend to share of restaurant given one's membership in a community?**
+* We propose to first detect the community membership of the individual. 
+* Based on the community membership, 
 
-### 4.1: Data Preparation
+**Are the different communities based on photos, restaurants visited and the feedback shared?**
+* We propose to do this by ...
 
-<in html for each comment : need to list down how to clean each of the file>
+**Who are the influencers within a particular community and are there different influencers for different restaurants or food items?**
+* We propose to do this by ...
 
-### 4.2: blah blah
+#### Restaurants 
 
-### 4.3: blah blah blah
+**What restaurants do people visit, even though the comments are bad?**
+* How to do this?
 
-## Section 5: Validation of Results
+**Is there a way to determine the rating of a restaurant by the photos posted?**
+* How?
+
+## Section 5: Evaluation 
+
+How do we plan to evaluate whether our analysis make sense / can be applied?
 
 ## Section 6: Reference
-1. H. Lakkaraju, J. J. McAuley, J. Leskovec What's in a name? Understanding the interplay between titles, content, and communities in social media. ICWSM, 2013.
+[1] 
 
-2. Web data: Reddit Submissions, from https://snap.stanford.edu/data/web-Reddit.html retrieved on 28 May 17.
+[2]
+
