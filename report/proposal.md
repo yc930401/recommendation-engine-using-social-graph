@@ -30,36 +30,23 @@ The records used for this analysis are summarized below:
 
 ## Section 4: Methods 
 
-Data retrieved from Foursquare will be transformed into adjancency matrices with each row representing users and columns representing restaurants, photos or comments illustrated below. 
+Data retrieved from Foursquare will be transformed into adjancency matrices with each row representing users and columns representing restaurants or photos. The user-restaurant matrix will be constructed based on the # of check-ins a user has at a particular restaurant. Photos will be first classified into cuisines (eg. Indian, Chinese etc), people or others.
+   
+Following which, clustering or dimension reduction will be applied to detect communities within using the above adjacency matrices. The result of the clustering or dimension reduction will then be appended to the user attributes to form the data set to be used for recommendations. A high level representation of the data set is shown below. 
 
+![dataset](/img_proposal/proposal_clus.png)
 
+This will also help us answer questions such as:
+* What kind of photo (food / face / random) does one tend to share of restaurant given one's membership in a community?
+* Are the different communities based on photos and restaurants visited?
 
+Using the data set prepared, we will attempt to create a recommendation engine for the purpose of suggesting restaurants based on the community memberships of the users and their attributes. This will be done by leveraging machine learning algorithms. 
+ 
+ Depending on the results, we may further enrich the data set to contain the user's past check-ins in making recommendations. 
 
+## Section 5: Evaluation and Comments
 
-Questions we seek to answer are on 2 levels. Namely, community and restaurants.  
-
-#### Community
-**What kind of photo (food / face / random) does one tend to share of restaurant given one's membership in a community?**
-* We propose to first detect the community membership of the individual. 
-* Based on the community membership, 
-
-**Are the different communities based on photos, restaurants visited and the feedback shared?**
-* We propose to do this by ...
-
-**Who are the influencers within a particular community and are there different influencers for different restaurants or food items?**
-* We propose to do this by ...
-
-#### Restaurants 
-
-**What restaurants do people visit, even though the comments are bad?**
-* How to do this?
-
-**Is there a way to determine the rating of a restaurant by the photos posted?**
-* How?
-
-## Section 5: Evaluation 
-
-How do we plan to evaluate whether our analysis make sense / can be applied?
+Evaluation will be done by comparing the recommendations to the actual check-ins of the users. Precision and recall will be used as the measures for evaluation. We will then comment on the effectiveness of using our methods for a recommendation engine. 
 
 ## Section 6: Reference
 [1] 
