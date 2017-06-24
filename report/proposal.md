@@ -34,7 +34,7 @@ Data retrieved from Foursquare will be transformed into adjancency matrices with
    
 Following which, clustering or dimension reduction will be applied to detect communities within using the above adjacency matrices. The result of the clustering or dimension reduction will then be appended to the user attributes to form the data set to be used for recommendations. A high level representation of the data set is shown below. 
 
-![dataset](/img_proposal/proposal_clus.png)
+![dataset](img_proposal/proposal_clus.png)
 
 This will also help us answer questions such as:
 * What kind of photo (food / face / random) does one tend to share of restaurant given one's membership in a community?
