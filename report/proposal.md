@@ -12,7 +12,7 @@ Our motivation primarily arise from the fact that food is a favourite past time 
 
 ## Section 3: About the Dataset
 
-This dataset will be retrieved from Foursquare through 2 methods. 
+Our dataset will be retrieved from Foursquare through 2 methods. 
 
 * **Foursqure API** - For users, venues and photos data
 * **Web Scraping** - For reviews, not available via the Foursquare API. 
@@ -28,7 +28,13 @@ The records used for this analysis are summarized below:
 
 **<Insert details on user, venues, photos etc>**
 
-## Section 4: Analysis 
+## Section 4: Methods 
+
+Data retrieved from Foursquare will be transformed into adjancency matrices with each row representing users and columns representing restaurants, photos or comments illustrated below. 
+
+
+
+
 
 Questions we seek to answer are on 2 levels. Namely, community and restaurants.  
 
