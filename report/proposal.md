@@ -2,20 +2,20 @@
 
 ## Section 1: Background
 
-Detecting communities and the influencers within that community is a key in analysis of social networks. There are multiple approaches to community detection and determining who are the influencers **find papers pls**. Its applications ranges from biology to sociology. In our project, we seek to detect communities in the Foursquare social network and its influencers. We also aim to evaluate if such analysis can be incorporated in a recommendation engine. 
+Detecting communities and the influencers within that community is a key in analysis of social networks. There are multiple approaches to community detection and determining who are the influencers **find papers pls**. Its applications ranges from biology to sociology. In our project, we seek to detect communities in the Foursquare social network and its influencers. We also aim to assess the effectiveness of using the output of such an analysis in a recommendation engine. 
 
 ## Section 2: Motivation
 
-Before the current pervasiveness of social networks, analysis of customers or potential customers typically involves mining their demographics and clustering customers with similar attributes together. The insights gleaned may then be used for making recommendations to customers based on their profiles. 
-
-Our motivation primarily arise from the fact that social network data are now also available for analysis. While the above approach may still be relevant, we can now cluster customers according to their communities for making recommendations given the fact that one is more likely to trust a "friend". Through identifying influencers within the community, targeted marketing can be done **(really?)**. 
+Our motivation primarily arise from the fact that food is a favourite past time in Singapore. While there is an abundance of information on where are some of the nicer foods on the island, there are limited ways to discover novel cuisines or restaurants based on one's preferences. Given that social network data are now readily available for analysis, we can now detect the various communities present in Singapore when it comes to food, and perhaps use the information for making recommendations.
+ 
+ The output of the analysis can then be used by bloggers to help decide on the cuisines to cover so as to appeal to certain communities, or even in a recommendation engine as part of a web portal or mobile application.  
 
 ## Section 3: About the Dataset
 
-This dataset will be retrieved from Foursquare through 2 channels. 
+This dataset will be retrieved from Foursquare through 2 methods. 
 
-1) Foursqure API - For users, venues and photos data
-2) Web Scraping - For reviews, not available via the Foursquare API. 
+* **Foursqure API** - For users, venues and photos data
+* **Web Scraping** - For reviews, not available via the Foursquare API. 
 
 The records used for this analysis are summarized below:
 
