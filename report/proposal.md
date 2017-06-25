@@ -11,21 +11,23 @@ One's social network can influence his/her dining choices. In fact, A survey con
 
 While there is an abundance of information on great food places on this island, most of them are food blogs, sites with paid advertisements, and random reviews.[3] Thus, not much have been done to investigate if dining decisions in Singapore are affected by one's social network. Hence, we can verify the impact of one's social networks in influencing his/her dining decision by detecting the various communities present in Singapore when it comes to dining decisions, and identify the influencers in each of these communities. In this project, we will detect these communities via the Foursquare social network.
 
-<b> Application </b>: From here, we are able to assess the effectiveness of using one's social networks' decision in dining venues, and make relevant dining recommendations to the users. These analysis will be useful to build a recommendation engine on dining decisions in other web/mobile applications.
+<b> Application </b>: From here, we are able to assess the effectiveness of using one's social networks' decision in dining venues, and make relevant dining recommendations to the users. These analysis will be useful to build a recommendation engine on dining decisions in other web/mobile applications in Singapore.
 
 ## Section 3: About the Dataset
 
 We are able to obtain our data from Foursquare.com via its API, as below;
 
-1.
-2.
-3.
-4.
-5.
+1. Search Venues[6]:  return all "Venue ID" in Singapore via providing various combinations of "Latitude" and "longitude".
+
+2. Venue Details [7]: with the "Venue ID", we are able to obtain additional information related to the dining venues from this API such as : location, categories, stats (inclusive of checkin counts, user's counts and tips' counts), menu, price, rating, mayor, tips (inclusive of comments), tags, photos, likes etc
+
+3. Users' Details [8]: we will retrieve all user ids whom have interactions in those venue_ids' identified, and get additional information about them through this API. These additional data include : first name, last name, photos, friends, type, home city, gender, contact, followers, following, mayorships, scores, checkins, and requests.
+
+<b>Note:</b> we will attempt to apply web-crawling if we identified additional information required that are not available via Foursquare's API.
 
 ## Section 4: Analysis Approaches
 
-Data retrieved from Foursquare will be transformed into adjancency matrices with each row representing users and columns representing restaurants or photos. The user-restaurant matrix will be constructed based on the # of check-ins a user has at a particular restaurant. Photos will be first classified into cuisines (eg. Indian, Chinese etc), people or others.
+Data retrieved from Foursquare will be transformed into adjacency matrices with each row representing users and columns representing restaurants or photos. The user-restaurant matrix will be constructed based on the # of check-ins a user has at a particular restaurant. Photos will be first classified into cuisines (eg. Indian, Chinese etc), people or others.
 
 Following which, clustering or dimension reduction will be applied to detect communities within, using the above adjacency matrices. The result of the clustering or dimension reduction will then be appended to the user attributes to form the data set to be used for recommendations. A high level representation of the data set is shown below.
 
@@ -54,5 +56,8 @@ Evaluation will be done by comparing the recommendations to the actual check-ins
 
 [5] Community Detection in Social Networks through Community Formation Games from https://www.ijcai.org/Proceedings/11/Papers/429.pdf retrieved on 25 Jun 17
 
+[6] Foursquare's API : "Search Venues" from https://developer.foursquare.com/docs/venues/search retrieved on 25 Jun 17.
 
-[2]
+[7] Foursquare's API: "Venue Details" from https://developer.foursquare.com/docs/responses/venue retrieved on 25 Jun 17.
+
+[8] Foursquare's API: "Users Details" from https://developer.foursquare.com/docs/users/users retrieved on 25 Jun 17.
