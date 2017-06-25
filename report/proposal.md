@@ -19,11 +19,19 @@ We are able to obtain our data from Foursquare.com via its API, as below;
 
 1. Search Venues[5]:  return all "Venue ID" in Singapore via providing various combinations of "Latitude" and "longitude".
 
-2. Venue Details [6]: with the "Venue ID", we are able to obtain additional information related to the dining venues from this API such as : location, categories, stats (inclusive of checkin counts, user's counts and tips' counts), menu, price, rating, mayor, tips (inclusive of comments), tags, photos, likes etc
+2. Venue Details [6]: with the "Venue ID", we are able to obtain additional information related to the dining venues from this API such as : location, categories, stats (inclusive of checkin counts, user's counts and tips' counts), menu, price, rating, mayor, tips (inclusive of comments), tags, photos, likes etc. This also includes reviews retrieved from scraping Foursquare. 
 
 3. Users' Details [7]: we will retrieve all user ids whom have interactions in those venue_ids' identified, and get additional information about them through this API. These additional data include : first name, last name, photos, friends, type, home city, gender, contact, followers, following, mayorships, scores, checkins, and requests.
 
-<b>Note:</b> we will attempt to apply web-crawling if we identified additional information required that are not available via Foursquare's API.
+A summary of the data set is as follows. 
+
+| Record Type | # Records |
+| ----------- | --------- |
+| Venues | ~ 1000 |
+| Users | ~ 8000 |
+| Comments | ~ 12000 |
+
+*Photos will be retrieved later*
 
 ## Section 4: Analysis Approaches
 
