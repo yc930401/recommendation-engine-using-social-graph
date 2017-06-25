@@ -17,11 +17,11 @@ While there is an abundance of information on great food places on this island, 
 
 We are able to obtain our data from Foursquare.com via its API, as below;
 
-1. Search Venues[6]:  return all "Venue ID" in Singapore via providing various combinations of "Latitude" and "longitude".
+1. Search Venues[5]:  return all "Venue ID" in Singapore via providing various combinations of "Latitude" and "longitude".
 
-2. Venue Details [7]: with the "Venue ID", we are able to obtain additional information related to the dining venues from this API such as : location, categories, stats (inclusive of checkin counts, user's counts and tips' counts), menu, price, rating, mayor, tips (inclusive of comments), tags, photos, likes etc
+2. Venue Details [6]: with the "Venue ID", we are able to obtain additional information related to the dining venues from this API such as : location, categories, stats (inclusive of checkin counts, user's counts and tips' counts), menu, price, rating, mayor, tips (inclusive of comments), tags, photos, likes etc
 
-3. Users' Details [8]: we will retrieve all user ids whom have interactions in those venue_ids' identified, and get additional information about them through this API. These additional data include : first name, last name, photos, friends, type, home city, gender, contact, followers, following, mayorships, scores, checkins, and requests.
+3. Users' Details [7]: we will retrieve all user ids whom have interactions in those venue_ids' identified, and get additional information about them through this API. These additional data include : first name, last name, photos, friends, type, home city, gender, contact, followers, following, mayorships, scores, checkins, and requests.
 
 <b>Note:</b> we will attempt to apply web-crawling if we identified additional information required that are not available via Foursquare's API.
 
@@ -54,10 +54,8 @@ Evaluation will be done by comparing the recommendations to the actual check-ins
 
 [4] Groundbreaking Survey Reveals How Diners Choose Restaurants from http://angelsmith.net/social-media-marketing/groundbreaking-survey-reveals-how-diners-choose-restaurants/ retrieved on 25 Jun 17
 
-[5] Community Detection in Social Networks through Community Formation Games from https://www.ijcai.org/Proceedings/11/Papers/429.pdf retrieved on 25 Jun 17
+[5] Foursquare's API : "Search Venues" from https://developer.foursquare.com/docs/venues/search retrieved on 25 Jun 17.
 
-[6] Foursquare's API : "Search Venues" from https://developer.foursquare.com/docs/venues/search retrieved on 25 Jun 17.
+[6] Foursquare's API: "Venue Details" from https://developer.foursquare.com/docs/responses/venue retrieved on 25 Jun 17.
 
-[7] Foursquare's API: "Venue Details" from https://developer.foursquare.com/docs/responses/venue retrieved on 25 Jun 17.
-
-[8] Foursquare's API: "Users Details" from https://developer.foursquare.com/docs/users/users retrieved on 25 Jun 17.
+[7] Foursquare's API: "Users Details" from https://developer.foursquare.com/docs/users/users retrieved on 25 Jun 17.
