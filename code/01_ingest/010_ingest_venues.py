@@ -15,7 +15,7 @@ for filename in os.listdir(venue_json_dir):
 
     json_file = open(venue_json_dir + filename)
     raw_json = json_file.readlines()[0]
-    print(raw_json)
+
     parsed = json.loads(raw_json,encoding='utf-8')
 
     resta_records = []
