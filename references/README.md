@@ -5,6 +5,9 @@
 * Stanford Large Network Dataset Collection [link](http://snap.stanford.edu/data/)
 * Quora - Where can I find large Graph Data Sets [link](https://www.quora.com/Where-can-I-find-large-graph-test-datasets)
 
+### SQLite
+* DB Browser for SQLite [link](http://sqlitebrowser.org/)
+
 ### OrientDB (Graph DB)
 * Documentation [link](http://orientdb.com/docs/last/index.html)
 
