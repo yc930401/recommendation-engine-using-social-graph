@@ -21,7 +21,7 @@ db_path = './data/foursquare.db'
 config = configparser.ConfigParser()
 config.read(config_path)
 
-app_to_use = 'app06'
+app_to_use = 'app14'
 client_id = config[app_to_use]['client_id']
 client_secret = config[app_to_use]['client_secret']
 access_token = config[app_to_use]['access_token']
