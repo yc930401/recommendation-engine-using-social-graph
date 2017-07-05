@@ -11,6 +11,10 @@ c.execute('DELETE FROM tips;')
 c.execute('DELETE FROM users;')
 conn.commit()
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 748c91984e0ab8a3d192694693e532771463fbc3
 uids = []
 cids = []
 
@@ -33,6 +37,11 @@ for filename in os.listdir(tips_json_dir):
         print(filename, ' | ',parsed)
         continue
 
+<<<<<<< HEAD
+=======
+    print(parsed)
+
+>>>>>>> 748c91984e0ab8a3d192694693e532771463fbc3
     for i in parsed['response']['tips']['items']:
 
         uid = i['user']['id']
@@ -61,7 +70,11 @@ for filename in os.listdir(tips_json_dir):
     # prepare and execute statement
     for record in user_records:
         var_str = ', '.join('?' * len(record))
+<<<<<<< HEAD
         query_str = 'INSERT INTO users (uid, first_name, last_name, gender) VALUES (%s);' % var_str
+=======
+        query_str = 'INSERT INTO users VALUES (%s);' % var_str
+>>>>>>> 748c91984e0ab8a3d192694693e532771463fbc3
         c.execute(query_str, record)
 
     for record in comment_records:

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"response": {"totalCount": 0, "photos": {"count": 0, "items": []}}, "notifications": [{"type": "notificationTray", "item": {"unreadCount": 0}}], "meta": {"requestId": "595baf1ddd57972d2b86b2ae", "code": 200}}
+=======
+{"response": {}, "meta": {"errorType": "rate_limit_exceeded", "requestId": "595a69d64c1f67704e55d21f", "code": 403, "errorDetail": "Quota exceeded"}}
+>>>>>>> 748c91984e0ab8a3d192694693e532771463fbc3

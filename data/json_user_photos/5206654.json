@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"response": {"totalCount": 0, "photos": {"count": 0, "items": []}}, "notifications": [{"type": "notificationTray", "item": {"unreadCount": 0}}], "meta": {"requestId": "595bb5781ed21919f810d652", "code": 200}}
+=======
+{"response": {"photos": {"items": [], "count": 0}, "totalCount": 0}, "meta": {"code": 200, "requestId": "595a72914434b96bff8d8141"}, "notifications": [{"item": {"unreadCount": 0}, "type": "notificationTray"}]}
+>>>>>>> 748c91984e0ab8a3d192694693e532771463fbc3
