@@ -1,1 +1,1 @@
-{"response": {}, "meta": {"errorType": "rate_limit_exceeded", "requestId": "595a68481ed21919fa3ea9c4", "code": 403, "errorDetail": "Quota exceeded"}}
+{"response": {"totalCount": 0, "photos": {"count": 0, "items": []}}, "notifications": [{"type": "notificationTray", "item": {"unreadCount": 0}}], "meta": {"requestId": "595bb0971ed21919fc1f4412", "code": 200}}

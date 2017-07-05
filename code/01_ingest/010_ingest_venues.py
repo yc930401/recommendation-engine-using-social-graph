@@ -9,6 +9,9 @@ resta_ids = []
 # connect database
 conn = sqlite3.connect('./data/foursquare.db')
 c = conn.cursor()
+c.execute('DELETE FROM venues;')
+conn.commit()
+
 
 for filename in os.listdir(venue_json_dir):
     print('Processing:', filename)

@@ -1,1 +1,1 @@
-{"response": {"photos": {"items": [], "count": 0}, "totalCount": 0}, "meta": {"code": 200, "requestId": "595a73209fb6b77b76a5947b"}, "notifications": [{"item": {"unreadCount": 0}, "type": "notificationTray"}]}
+{"response": {"totalCount": 0, "photos": {"count": 0, "items": []}}, "notifications": [{"type": "notificationTray", "item": {"unreadCount": 0}}], "meta": {"requestId": "595bb612db04f562ee3aa4c6", "code": 200}}

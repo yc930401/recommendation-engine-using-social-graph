@@ -11,7 +11,6 @@ c.execute('DELETE FROM tips;')
 c.execute('DELETE FROM users;')
 conn.commit()
 
-
 uids = []
 cids = []
 
@@ -33,8 +32,6 @@ for filename in os.listdir(tips_json_dir):
     except:
         print(filename, ' | ',parsed)
         continue
-
-    print(parsed)
 
     for i in parsed['response']['tips']['items']:
 
