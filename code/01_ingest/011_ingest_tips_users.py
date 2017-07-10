@@ -1,6 +1,7 @@
 import os
 import json
 import sqlite3
+import time
 
 tips_json_dir = './data/json_tips/'
 
@@ -40,6 +41,8 @@ for filename in os.listdir(tips_json_dir):
 
         cid = i['id']
         text = i['text']
+        created_at = i['createdAt']
+        created_at = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(created_at))
 
         try:
             firstName = i['user']['firstName']
@@ -55,7 +58,7 @@ for filename in os.listdir(tips_json_dir):
             uids.append(uid)
 
         if cid not in cids:
-            comment_records.append((rid, uid, text))
+            comment_records.append((rid, uid,created_at, text))
             cids.append(cid)
 
     # prepare and execute statement
