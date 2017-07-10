@@ -26,7 +26,7 @@ for filename in os.listdir(tips_json_dir):
     comment_records = []
     user_records = []
 
-    rid = filename
+    rid = filename.split('.')[0]
     try:
         x = parsed['response']['tips']
     except:
@@ -61,9 +61,7 @@ for filename in os.listdir(tips_json_dir):
     # prepare and execute statement
     for record in user_records:
         var_str = ', '.join('?' * len(record))
-
-        query_str = 'INSERT INTO users VALUES (%s);' % var_str
-
+        query_str = 'INSERT INTO users (uid, first_name, last_name, gender) VALUES (%s);' % var_str
         c.execute(query_str, record)
 
     for record in comment_records:
