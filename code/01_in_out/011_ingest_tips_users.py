@@ -13,7 +13,7 @@ c.execute('DELETE FROM users;')
 conn.commit()
 
 uids = []
-cids = []
+tids = []
 
 counter = 0
 
@@ -39,7 +39,7 @@ for filename in os.listdir(tips_json_dir):
         uid = i['user']['id']
         gender = i['user']['gender']
 
-        cid = i['id']
+        tid = i['id']
         text = i['text']
         created_at = i['createdAt']
         created_at = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(created_at))
@@ -57,9 +57,9 @@ for filename in os.listdir(tips_json_dir):
             user_records.append((uid, firstName, lastName, gender))
             uids.append(uid)
 
-        if cid not in cids:
-            comment_records.append((rid, uid,created_at, text))
-            cids.append(cid)
+        if tid not in tids:
+            comment_records.append((tid, rid, uid,created_at, text))
+            tids.append(tid)
 
     # prepare and execute statement
     for record in user_records:
@@ -69,7 +69,7 @@ for filename in os.listdir(tips_json_dir):
 
     for record in comment_records:
         var_str = ', '.join('?' * len(record))
-        query_str = 'INSERT INTO tips VALUES (%s);' % var_str
+        query_str = 'INSERT INTO tips (tid, rid, uid,created_at, tip) VALUES (%s);' % var_str
         c.execute(query_str, record)
 
     conn.commit()
