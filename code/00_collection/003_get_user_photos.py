@@ -4,10 +4,6 @@ import configparser
 import sqlite3
 import time
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 748c91984e0ab8a3d192694693e532771463fbc3
 def write_to_config(config_path):
     with open(config_path, 'w') as configfile:
         v = int(progress) + counter
@@ -24,11 +20,8 @@ db_path = './data/foursquare.db'
 config = configparser.ConfigParser()
 config.read(config_path)
 
-<<<<<<< HEAD
-app_to_use = 'app01'
-=======
+
 app_to_use = 'app14'
->>>>>>> 748c91984e0ab8a3d192694693e532771463fbc3
 client_id = config[app_to_use]['client_id']
 client_secret = config[app_to_use]['client_secret']
 access_token = config[app_to_use]['access_token']
@@ -52,11 +45,8 @@ conn = sqlite3.connect(db_path)
 c = conn.cursor()
 
 c.execute('SELECT DISTINCT uid FROM users LIMIT ' + limit + ' OFFSET ' + progress + ';')
-<<<<<<< HEAD
 #c.execute("select uid from users where uid in ('17103062')")
 
-=======
->>>>>>> 748c91984e0ab8a3d192694693e532771463fbc3
 uids = c.fetchall()
 
 counter = 0
