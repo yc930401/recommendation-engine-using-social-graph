@@ -15,7 +15,7 @@ c = conn.cursor()
 c.execute('DELETE FROM user_relationships;')
 conn.commit()
 
-c.execute('SELECT uid, venues.rid, count(*) as count, avg(tips.rating) as rating FROM venues inner join tips on tips.rid = venues.rid group by uid, venues.rid order by uid;')
+c.execute('SELECT uid, venues.rid, count(*) as count, avg(tips.senti_score) as rating FROM venues inner join tips on tips.rid = venues.rid group by uid, venues.rid order by uid;')
 results = c.fetchall()
 print(len(results))
 
