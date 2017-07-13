@@ -39,4 +39,4 @@ for i in range(num_clusters):
     for j in range(len(spc_clusters[i])):
         c.execute('UPDATE users SET spe_clus_id = ' + str(i) + ' WHERE uid= ' + str(spc_clusters[i][j]) + ';')
 conn.commit()
-
+conn.close()
