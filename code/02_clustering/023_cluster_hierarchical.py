@@ -4,7 +4,7 @@ import pandas as pd, numpy as np
 import networkx as nx
 from itertools import compress
 import matplotlib.pyplot as plt
-from sklearn.cluster import AffinityPropagation
+from sklearn.cluster import AgglomerativeClustering
 
 # Set the file paths
 db_path ='D:/Workspace-Github/saproject/data/foursquare.db'
@@ -30,13 +30,13 @@ adj_matrix = nx.adjacency_matrix(G)
 # Spectral Clustering
 num_clusters = 6
 hierarchical = AgglomerativeClustering(n_clusters=num_clusters, affinity='precomputed', linkage='average')
-hierarchical.fit(adj_matrix)
+hierarchical.fit(adj_matrix.todense())
 hie_labels = hierarchical.labels_
 
 hie_clusters = [list(compress(users, hie_labels == n)) for n in range(num_clusters)]
 for i in range(num_clusters):
     print(len(hie_clusters[i]))
     for j in range(len(hie_clusters[i])):
-        c.execute('UPDATE users SET pro_clus_id = ' + str(i) + ' WHERE uid= ' + str(hie_clusters[i][j]) + ';')
+        c.execute('UPDATE users SET hie_clus_id = ' + str(i) + ' WHERE uid= ' + str(hie_clusters[i][j]) + ';')
 conn.commit()
-
+conn.close()

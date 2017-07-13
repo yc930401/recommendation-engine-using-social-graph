@@ -27,5 +27,6 @@ kmeans_clusters = [list(compress(users, kmeans_labels == n)) for n in range(num_
 for i in range(num_clusters):
     print(len(kmeans_clusters[i]))
     for j in range(len(kmeans_clusters[i])):
-        c.execute('UPDATE users SET typ_clus_id = ' + str(i) + ' WHERE uid= ' + str(kmeans_clusters[i][j]) + ';')
+        c.execute('UPDATE users SET kmn_clus_id = ' + str(i) + ' WHERE uid= ' + str(kmeans_clusters[i][j]) + ';')
 conn.commit()
+conn.close()
