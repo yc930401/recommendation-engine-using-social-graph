@@ -19,10 +19,10 @@ db_path = './data/foursquare.db'
 # Declare the config parser
 config = configparser.ConfigParser()
 
-app_ids = ['app01','app02','app03','app04','app05','app06','app07','app08','app09',
-           'app10','app11','app12','app13','app14','app15','app16','app17','app18']
+#app_ids = ['app01','app02','app03','app04','app05','app06','app07','app08','app09',
+#           'app10','app11','app12','app13','app14','app15','app16','app17','app18']
 
-#app_ids = ['app09','app10','app11','app12','app13','app14','app15','app16','app17','app18']
+app_ids = ['app06','app07','app08']
 
 # For each app_id
 for app_to_use in app_ids:
