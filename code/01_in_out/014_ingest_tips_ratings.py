@@ -14,6 +14,6 @@ for rid, uid, tip in results:
     sid = SentimentIntensityAnalyzer()
     rating = round((sid.polarity_scores(tip)['compound'] + 1) * 5, 2) # Rating: 1-10
     c.execute("""UPDATE tips SET senti_score = ? WHERE uid= ? and rid = ?;""",(rating, uid, rid))
-    
+
 conn.commit()
 conn.close()
