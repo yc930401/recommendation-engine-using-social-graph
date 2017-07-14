@@ -21,6 +21,9 @@ for filename in os.listdir(venue_json_dir):
     parsed = json.loads(raw_json,encoding='utf-8')
 
     resta_records = []
+    mrt = filename.split('_')[0]
+
+    print(mrt)
 
     for i in parsed['response']['groups'][0]['items']:
         rid = i['venue']['id']
@@ -44,7 +47,7 @@ for filename in os.listdir(venue_json_dir):
             postal = ''
 
         if rid not in resta_ids:
-            resta_records.append((rid, url, venue_type, venue_name, address, lat, lng, postal, rating))
+            resta_records.append((rid, url, venue_type, venue_name, address, lat, lng, postal, mrt, rating))
             resta_ids.append(rid)
 
     # prepare and execute statement

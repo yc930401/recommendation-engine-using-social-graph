@@ -1,1 +1,1 @@
-{"notifications": [{"type": "notificationTray", "item": {"unreadCount": 0}}], "response": {"friends": {"items": [], "count": 0}, "checksum": "07de1832f293e704795285aab6a48e7e0dcdd3b8"}, "meta": {"requestId": "5965b8444434b96bc82df50a", "code": 200}}
+{"notifications": [{"item": {"unreadCount": 0}, "type": "notificationTray"}], "meta": {"code": 200, "requestId": "59689a97db04f528b08e39a2"}, "response": {"checksum": "07de1832f293e704795285aab6a48e7e0dcdd3b8", "friends": {"items": [], "count": 0}}}

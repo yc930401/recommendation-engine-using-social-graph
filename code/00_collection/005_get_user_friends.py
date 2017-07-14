@@ -19,10 +19,10 @@ db_path = './data/foursquare.db'
 # Declare the config parser
 config = configparser.ConfigParser()
 
-#app_ids = ['app01','app02','app03','app04','app05','app06','app07','app08','app09',
-#           'app10','app11','app12','app13','app14','app15','app16','app17','app18']
+app_ids = ['app01','app02','app03','app04','app05','app06','app07','app08','app09',
+           'app10','app11','app12','app13','app14','app15','app16','app17','app18']
 
-app_ids = ['app06','app07','app08']
+#app_ids = ['app06','app07','app08']
 
 # For each app_id
 for app_to_use in app_ids:
@@ -53,7 +53,12 @@ for app_to_use in app_ids:
     # connect and write to database
     conn = sqlite3.connect(db_path)
     c = conn.cursor()
-    c.execute('SELECT DISTINCT uid FROM users WHERE uid != "6858102" LIMIT ' + limit + ' OFFSET ' + progress + ';')
+
+    # first round
+    #c.execute('SELECT DISTINCT uid FROM users WHERE uid != "6858102" LIMIT ' + limit + ' OFFSET ' + progress + ';')
+
+    # second round verification
+    c.execute('SELECT uid FROM users WHERE uid NOT IN (SELECT uid FROM user_friends) AND UID != "6858102";')
 
     # fetch the user ids
     uids = c.fetchall()
@@ -92,7 +97,7 @@ for app_to_use in app_ids:
                 total_results = parsed['response']['friends']['count']
 
                 # increment the offset
-                offset += 100
+                offset += 500
                 req_count += 1
 
                 # if no more results for the user then increment uid process +1
