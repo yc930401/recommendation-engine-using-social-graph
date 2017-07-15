@@ -1,0 +1,22 @@
+{
+    "bot": [
+        "bot",
+        "jiakbot",
+        "you",
+        "chatbot",
+        "yours",
+        "your"
+    ],
+    "user": [
+        "i",
+        "me",
+        "i'm",
+        "myself",
+        "mine"
+    ],
+    "intent":[
+        "recommend",
+        "recommendation",
+        "tell me"
+    ]
+}

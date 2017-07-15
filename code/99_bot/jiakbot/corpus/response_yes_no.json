@@ -1,0 +1,27 @@
+{
+    "yes_after_result": [
+        "Swee lah! Do you want to search for anything else?",
+        "Woohoo! I'm glad that it was useful. You want to find anything else or not?",
+        "Nice, let me know if you want recommendations for something else?"
+    ],
+    "yes_generic": [
+        "Swee lah! Now ... what food or cuisine you like?",
+        "Woohoo! What cuisine do you prefer?",
+        "Nice, what is your favourite food?"
+    ],
+    "no_after_result": [
+        "Oh man...maybe I can help you search for something else?",
+        "I'm sorry to hear that. Try finding something else?",
+        "Give chance leh, try another search?"
+    ],
+    "no_generic": [
+        "Oh man...what is your favourite food then?",
+        "I'm sorry to hear that. Try giving me a more common cuisine or food?",
+        "Give chance leh, got any preferred cuisine?"
+    ],
+    "repeated_no_response": [
+        "I give up ... request some other food?",
+        "Like that also not happy, I don't know already. Give me some other food or cuisine?",
+        "Give chance leh, I'm only a bot. I really don't know lah. Tell me some other cuisine?"
+    ]
+}
