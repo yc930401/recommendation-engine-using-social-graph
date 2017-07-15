@@ -1,10 +1,11 @@
+import pickle
 import sqlite3
 import operator
-from scipy import sparse
-import pandas as pd, numpy as np
 import networkx as nx
+from scipy import sparse
 from itertools import compress
 import matplotlib.pyplot as plt
+import pandas as pd, numpy as np
 from sklearn.cluster import SpectralClustering
 
 # Set the file paths
@@ -29,9 +30,12 @@ G.add_weighted_edges_from(weights_matrix)
 adj_matrix = nx.adjacency_matrix(G)
 
 # Spectral Clustering
-spc = SpectralClustering(num_clusters, affinity='precomputed', eigen_solver='arpack', assign_labels='kmeans')#kmeans
+spc = SpectralClustering(num_clusters, affinity='precomputed', eigen_solver='arpack', assign_labels='kmeans', random_state=0)#kmeans
 spc.fit(adj_matrix)
 spc_labels = spc.labels_
+
+filename = 'D:/Workspace-Github/saproject/data/clustering_models/Spectral.sav'
+pickle.dump(spc, open(filename, 'wb'))
 
 spc_clusters = [list(compress(users, spc_labels == n)) for n in range(num_clusters)]
 for i in range(num_clusters):
