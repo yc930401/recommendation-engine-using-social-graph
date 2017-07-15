@@ -1,9 +1,10 @@
+import pickle
 import sqlite3
 import operator
-import pandas as pd, numpy as np
 import networkx as nx
 from itertools import compress
 import matplotlib.pyplot as plt
+import pandas as pd, numpy as np
 from sklearn.cluster import AgglomerativeClustering
 
 # Set the file paths
@@ -32,6 +33,9 @@ num_clusters = 6
 hierarchical = AgglomerativeClustering(n_clusters=num_clusters, affinity='precomputed', linkage='average')
 hierarchical.fit(adj_matrix.todense())
 hie_labels = hierarchical.labels_
+
+filename = 'D:/Workspace-Github/saproject/data/clustering_models/Hierarchical.sav'
+pickle.dump(hierarchical, open(filename, 'wb'))
 
 hie_clusters = [list(compress(users, hie_labels == n)) for n in range(num_clusters)]
 for i in range(num_clusters):

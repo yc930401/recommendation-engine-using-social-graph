@@ -1,9 +1,10 @@
+import pickle
 import sqlite3
 import operator
-import pandas as pd, numpy as np
 import networkx as nx
 from itertools import compress
 import matplotlib.pyplot as plt
+import pandas as pd, numpy as np
 from sklearn.cluster import KMeans
 
 # Set the file paths
@@ -22,6 +23,9 @@ num_clusters = 6
 kmeans = KMeans(n_clusters=num_clusters, random_state=0)
 kmeans.fit(x)
 kmeans_labels = kmeans.labels_
+
+filename = 'D:/Workspace-Github/saproject/data/clustering_models/KMeans.sav'
+pickle.dump(kmeans, open(filename, 'wb'))
 
 kmeans_clusters = [list(compress(users, kmeans_labels == n)) for n in range(num_clusters)]
 for i in range(num_clusters):
