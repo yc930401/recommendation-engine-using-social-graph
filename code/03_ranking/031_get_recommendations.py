@@ -52,8 +52,8 @@ def get_global_recommendation(G,top_n=10):
 
     return(venues)
 
-friend_uids = [611228,3441492,32264433,4998202,2686277]
-uid = 1194133
+# friend_uids = [611228,3441492,32264433,4998202,2686277]
+# uid = 1194133
 
 def get_friends_recommendations(G, friend_uids, uid, top_n=10):
     venues = []
@@ -122,11 +122,11 @@ def construct_history(G, uid):
 
     return(ew)
 
-G = g.copy()
-uid = 1194133
-history = construct_history(G,uid)
+# G = g.copy()
+# uid = 1194133
+# history = construct_history(G,uid)
 
-def get_recommendation_for_history(G, uid, clus_id, history, top_n=5):
+def get_recommendation_for_history(G, uid, clus_id, history, top_n=10):
 
     # NOTES: history is used for evaluation and can be full or recent history
     # minus the latest venue for comparison purposes
@@ -138,12 +138,14 @@ def get_recommendation_for_history(G, uid, clus_id, history, top_n=5):
     G.remove_node(uid)
 
     # get the restaurants nodes from bipartite graph
-    top_nodes = set(n for n,d in G.nodes(data=True) if d['bipartite'] == 0)
-    bottom_nodes = set(G) - top_nodes
+    # top_nodes = set(n for n,d in G.nodes(data=True) if d['bipartite'] == 0)
+    # bottom_nodes = set(G) - top_nodes
 
     # get nodes of cluster
-    venue_nodes = [(n,d) for n,d in G.nodes(data=True) if d['bipartite'] == 0]
-    clus_nodes = [n for n,d in venue_nodes if d['clus_id'] == clus_id]
+    # venue_nodes = [(n,d) for n,d in G.nodes(data=True) if d['bipartite'] == 0]
+    # clus_nodes = [n for n,d in venue_nodes if d['clus_id'] == clus_id]
+
+    clus_nodes = [n for n, d in G.nodes(data=True) if d['bipartite'] == 0 and d['clus_id'] == clus_id]
 
     neighbors = []
     for node in clus_nodes:
@@ -180,7 +182,7 @@ def get_recommendation_for_history(G, uid, clus_id, history, top_n=5):
 
     return(venues)
 
-get_recommendation_for_history(G,uid,0,history)
+# get_recommendation_for_history(G,uid,0,history)
 # # ----------------------------------------
 # # SAMPLE CODES
 # # ----------------------------------------

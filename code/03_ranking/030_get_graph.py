@@ -2,6 +2,7 @@ import sqlite3
 import pandas as pd
 import networkx as nx
 from networkx.algorithms import bipartite
+import pickle
 
 # params
 # ---------------------------------------------------------------
@@ -17,8 +18,8 @@ c = conn.cursor()
 # get all ratings (implied check-in. except the last rating for evaluation)
 c.execute('SELECT kmn_clus_id as clus_id, t.uid, t.rid, avg(senti_score) as score FROM tips t '
           'LEFT JOIN users u ON t.uid = u.uid '
-          'WHERE t.tid NOT IN (SELECT tid FROM tips GROUP BY uid HAVING MAX(created_at)) '
           'GROUP BY t.rid, t.uid, u.kmn_clus_id')
+
 scores = c.fetchall()
 
 # get users-venue score matrix (long term). this is the global cluster graph
@@ -59,6 +60,8 @@ g.add_weighted_edges_from(edge_weights)
 nx.set_node_attributes(g,'clus_id',node_clus)
 u_nodes,r_nodes = bipartite.sets(g)
 print('Is graph bipartite:', nx.is_bipartite(g))
+
+pickle.dump(g, open('code/03_ranking/g.sav', 'wb'))
 
 # RECENT HISTORY GRAPH
 # ------------------------
