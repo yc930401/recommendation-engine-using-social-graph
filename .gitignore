@@ -19,3 +19,4 @@ code/.DS_Store
 code/__pycache__/*.*
 code/.project
 code/.pydevproject
+data/foursquare.db
