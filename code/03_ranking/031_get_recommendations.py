@@ -2,6 +2,20 @@ import networkx as nx
 import numpy as np
 import operator
 from collections import Counter
+from datetime import datetime
+
+class Timer:
+    def __init__(self):
+        pass
+
+    def getTimeString(mydate):
+        return str(mydate.strftime('%Y-%m-%d %H:%M:%S'))
+
+    def getTime():
+        return datetime.now()
+
+    def getFormattedTime():
+        return str(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
 
 def get_degree_weighted_centrality(G, nodes=None, alpha=0.5):
 
@@ -135,26 +149,23 @@ def get_recommendation_for_history(G, uid, clus_id, history, top_n=10):
     venues = []
 
     # remove node from graph
-    G.remove_node(uid)
+    # G.remove_node(uid)
 
     # get the restaurants nodes from bipartite graph
     # top_nodes = set(n for n,d in G.nodes(data=True) if d['bipartite'] == 0)
     # bottom_nodes = set(G) - top_nodes
 
     # get nodes of cluster
-    # venue_nodes = [(n,d) for n,d in G.nodes(data=True) if d['bipartite'] == 0]
-    # clus_nodes = [n for n,d in venue_nodes if d['clus_id'] == clus_id]
+    sub_graph_nodes = []
 
-    clus_nodes = [n for n, d in G.nodes(data=True) if d['bipartite'] == 0 and d['clus_id'] == clus_id]
+    for n,d in G.nodes(data=True):
 
-    neighbors = []
-    for node in clus_nodes:
-        neighbors.extend(G.neighbors(node))
-
-    clus_nodes.extend(neighbors)
+        if d['bipartite'] == 0 and d['clus_id'] == clus_id:
+            sub_graph_nodes.extend([n])
+            sub_graph_nodes.extend(G.neighbors(n))
 
     # get sub graph
-    sub_graph = G.subgraph(clus_nodes)
+    sub_graph = G.subgraph(sub_graph_nodes)
     sub_graph.add_weighted_edges_from(history)
 
     # check if visited venues are in sub_graph

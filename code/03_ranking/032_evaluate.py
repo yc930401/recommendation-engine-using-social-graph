@@ -68,6 +68,7 @@ hist_recommend_users = c.fetchall()
 
 recs = {}
 counter = 0
+print(Timer.getFormattedTime())
 for u in hist_recommend_users:
 
     uid = u[0]
@@ -75,26 +76,36 @@ for u in hist_recommend_users:
     history = eval_records[uid]['history']
     latest = eval_records[uid]['latest']
 
-    gx = g.copy()
+    # gx = g.copy()
 
     r = get_recommendation_for_history(gx, uid, clus_id, history, top_n=20)
+
     recs[uid] = (latest[1],r)
 
     counter += 1
-    if counter == 10:
+    if counter % 100 == 0:
+        print(counter)
+    if counter == 5000:
         break
 
+print(Timer.getFormattedTime())
+
 # evaluation
-correct = 0
-total = 0
+rr = 0
 
-for k,v in recs.items():
-    if v[0] in v[1]:
-        correct += 1
+for ks,vs in recs.items():
 
-    total += 1
+    visited = vs[0]
+    recommended = vs[1]
 
-print(correct/total)
+
+    for i in range(len(recommended)):
+        if visited == recommended[i]:
+            rr += 1/(i+1)
+
+mrr = rr / len(recs.items())
+
+print(mrr)
 
 # get all users with visited count < 3
 # use friends to recommend
