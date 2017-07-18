@@ -47,7 +47,7 @@ plt.ylabel("# BIC")
 plt.show()
 '''
 
-num_clusters = 15
+num_clusters = 6
 spc = mixture.GaussianMixture(n_components=num_clusters, random_state=0, covariance_type='full')
 spc.fit(spe)
 spc_labels = spc.predict(spe)
