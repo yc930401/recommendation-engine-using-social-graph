@@ -6,7 +6,9 @@ from scipy import sparse
 from itertools import compress
 import matplotlib.pyplot as plt
 import pandas as pd, numpy as np
-from sklearn.cluster import SpectralClustering
+from sklearn import mixture
+#from sklearn.cluster import SpectralClustering
+from sklearn.manifold import spectral_embedding
 
 # Set the file paths
 db_path ='D:/Workspace-Github/saproject/data/foursquare.db'
@@ -19,7 +21,6 @@ c.execute('SELECT uid1, uid2, weight from user_relationships;')
 weights = c.fetchall()
 
 df = pd.DataFrame(weights, columns = ['uid1', 'uid2', 'weight'])
-num_clusters = 6
 
 G = nx.Graph()
 users = set(pd.concat([df['uid1'], df['uid2']]))
@@ -29,10 +30,27 @@ weights_matrix = df.as_matrix(columns=['uid1', 'uid2', 'weight'])
 G.add_weighted_edges_from(weights_matrix)
 adj_matrix = nx.adjacency_matrix(G)
 
-# Spectral Clustering
-spc = SpectralClustering(num_clusters, affinity='precomputed', eigen_solver='arpack', assign_labels='kmeans', random_state=0)#kmeans
-spc.fit(adj_matrix)
-spc_labels = spc.labels_
+
+scores = []
+my_range = range(3, 30)
+spe = spectral_embedding(adj_matrix, n_components=8, random_state=0)
+'''
+# Choose the best k(num_clusters) using AIC. Do not run it, soooooooo slow!
+for num_clusters in my_range:
+    spc = mixture.GaussianMixture(n_components=num_clusters, random_state=0, covariance_type='full')
+    spc.fit(spe)
+    scores.append(spc.aic(np.array(spe)))
+
+plt.plot(my_range, scores,'r-o')
+plt.xlabel("# clusters")
+plt.ylabel("# BIC")
+plt.show()
+'''
+
+num_clusters = 15
+spc = mixture.GaussianMixture(n_components=num_clusters, random_state=0, covariance_type='full')
+spc.fit(spe)
+spc_labels = spc.predict(spe)
 
 filename = 'D:/Workspace-Github/saproject/data/clustering_models/Spectral.sav'
 pickle.dump(spc, open(filename, 'wb'))
