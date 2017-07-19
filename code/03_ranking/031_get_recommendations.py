@@ -193,6 +193,10 @@ def get_recommendation_for_history(G, uid, clus_id, history, top_n=10):
 
     return(venues)
 
+def get_venue_by_rids(rids):
+
+def get_venue_by_uid(uid):
+
 # get_recommendation_for_history(G,uid,0,history)
 # # ----------------------------------------
 # # SAMPLE CODES
