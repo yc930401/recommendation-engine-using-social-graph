@@ -1,21 +1,23 @@
 # import your libraries here
 import sqlite3
-import random
 import nltk
 import re
 from nltk.tokenize import word_tokenize
-import gensim
 from gensim import corpora
 from gensim import models
 from gensim import similarities
+import configparser
 
 stop_list = nltk.corpus.stopwords.words('english')
 
 class Retriever:
 
-    _db_path = './jiakbot/database/jiakbot.db'
+    def __init__(self,config, config_key):
 
-    retrieved_biz = []
+        self.config = config
+        self.config_key = config_key
+        self._db_path = config[config_key]['db_path']
+        self.retrieved_biz = []
 
     def get_business_by_food(self,parsed_dict,requested_food): # guaranteed to be different each time
 

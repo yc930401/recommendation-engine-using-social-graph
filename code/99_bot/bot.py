@@ -4,8 +4,7 @@ sys.path.insert(0, '/Users/junquantham/Development/saproject/code/99_bot/jiakbot
 
 from jiakbot import JiakBot
 
-# main
-jiakbot = JiakBot()
+jiakbot = JiakBot
 
 # telegram wrapper
 from telegram.ext import Updater, CommandHandler,MessageHandler, Filters
@@ -18,18 +17,20 @@ def hello(bot, update):
     update.message.reply_text(
         'Hello {}'.format(update.message.from_user.first_name))
 
-def echo(bot, update):
+def reply(bot, update):
     response = jiakbot.respond(update.message['text'])
     bot.send_message(chat_id=update.message.chat_id, text=response)
 
 
 updater = Updater('418463610:AAHh8CEVl4hu4J6D6_BnxhqT39TlPVfadmM')
-echo_handler = MessageHandler(Filters.text, echo)
+message_handler = MessageHandler(Filters.text, reply)
+start_handler = CommandHandler('start', start)
+hello_handler = CommandHandler('hello', hello)
 
 # adding handlers
-updater.dispatcher.add_handler(echo_handler)
-updater.dispatcher.add_handler(CommandHandler('start', start))
-updater.dispatcher.add_handler(CommandHandler('hello', hello))
+updater.dispatcher.add_handler(message_handler)
+updater.dispatcher.add_handler(start_handler)
+updater.dispatcher.add_handler(hello_handler)
 
 # listen to requests
 updater.start_polling()

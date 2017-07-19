@@ -4,48 +4,47 @@ import random
 from retriever import Retriever
 from state_machine import StateMachine, State
 
-# Set up
-# ------------------------------------------------------------------------------
-config_file_path = './jiakbot/config_app/app_config.ini'
-
-# Read in the config in the auth files
-config = configparser.ConfigParser()
-config.read(config_file_path)
-
-
-# For Understanding User Inputs
-input_yes_or_no = json.load(open(config['file_path']['input_yes_or_no']))
-input_about = json.load(open(config['file_path']['input_about']))
-
-# For Generating Responses
-response_greetings = json.load(open(config['file_path']['response_greetings']))
-response_yes_no = json.load(open(config['file_path']['response_yes_no']))
-response_about = json.load(open(config['file_path']['response_about']))
-response_general = json.load(open(config['file_path']['response_general']))
-response_for_business = json.load(open(config['file_path']['response_for_business']))
-
-
 # Responder
 # ------------------------------------------------------------------------------
 class Responder:
 
-    # Helpers
-    retriever = Retriever()
+    def __init__(self,config, config_key):
 
-    # Parameters
-    valid_locations = ['city hall', 'raffles place', 'bras basah', 'dhoby ghaut']
+        self.config = config
+        self.config_key = config_key
 
-    # read in cuisines
-    cuisine_file = open('./jiakbot/corpus/knowledge/cuisines.txt', 'r')
-    known_cuisines = [cuisine.lower() for cuisine in cuisine_file.read().splitlines()]
-    cuisine_file.close()
+        # For Understanding User Inputs
+        self.input_yes_or_no = json.load(open(config[config_key]['input_yes_or_no']))
+        self.input_about = json.load(open(config[config_key]['input_about']))
+        self.location_file_path = config[config_key]['location']
+        self.cuisine_file_path = config[config_key]['cuisine']
+        self.food_file_path = config[config_key]['food']
 
-    # read in food
-    food_file = open('./jiakbot/corpus/knowledge/foods.txt', 'r')
-    known_foods = [food.lower() for food in food_file.read().splitlines()]
-    food_file.close()
+        # For Generating Responses
+        self.response_greetings = json.load(open(config[config_key]['response_greetings']))
+        self.response_yes_no = json.load(open(config[config_key]['response_yes_no']))
+        self.response_about = json.load(open(config[config_key]['response_about']))
+        self.response_general = json.load(open(config[config_key]['response_general']))
+        self.response_for_business = json.load(open(config[config_key]['response_for_business']))
 
-    state_after_response = State.understood_nothing
+        # Helpers
+        self.retriever = Retriever(config, config_key)
+
+        # read in valid locations
+        with open(self.location_file_path,'r') as location_file:
+            self.valid_locations = [location.lower() for location in location_file.read().splitlines()]
+
+
+        # read in cuisines
+        with open(self.cuisine_file_path, 'r') as cuisine_file:
+            self.known_cuisines = [cuisine.lower() for cuisine in cuisine_file.read().splitlines()]
+
+        # read in food
+        with open(self.food_file_path, 'r') as food_file:
+            known_foods = [food.lower() for food in food_file.read().splitlines()]
+
+
+        self.state_after_response = State.understood_nothing
 
     def get_response(self, parsed_dict, state, context, history):
 
@@ -54,16 +53,17 @@ class Responder:
 
         # Understanding using input
         abt_question = True if parsed_dict['input_type'] == 'question' else False
-        abt_intent = True if set(parsed_dict['tokens']) & set(input_about['intent']) else False
+        abt_intent = True if set(parsed_dict['tokens']) & set(self.input_about['intent']) else False
         abt_statement = True if parsed_dict['input_type'] == 'statement' else False
         abt_rhetoric = True if parsed_dict['input_type'] == 'rhetoric' else False
-        abt_greeting = True if set(parsed_dict['tokens']) & set(response_greetings.keys()) else False
-        abt_bot = True if set(parsed_dict['pronouns']) & set(input_about['bot']) or \
-                          set(parsed_dict['nouns']) & set(input_about['bot']) else False
-        abt_user = True if set(parsed_dict['pronouns']) & set(input_about['user']) or \
-                           set(parsed_dict['nouns']) & set(input_about['user']) else False
-        abt_yes = True if set(parsed_dict['tokens']) & set(input_yes_or_no['yes']) else False
-        abt_no = True if set(parsed_dict['tokens']) & set(input_yes_or_no['no']) else False
+        abt_greeting = True if set(parsed_dict['tokens']) & set(self.response_greetings.keys()) else False
+        abt_bot = True if set(parsed_dict['pronouns']) & set(self.input_about['bot']) or \
+                          set(parsed_dict['nouns']) & set(self.input_about['bot']) else False
+        abt_user = True if set(parsed_dict['pronouns']) & set(self.input_about['user']) or \
+                           set(parsed_dict['nouns']) & set(self.input_about['user']) else False
+        abt_yes = True if set(parsed_dict['tokens']) & set(self.input_yes_or_no['yes']) else False
+        abt_no = True if set(parsed_dict['tokens']) & set(self.input_yes_or_no['no']) else False
+
         # ---------------------------------------------------------
         # Begin construction of response
         # ---------------------------------------------------------
@@ -79,38 +79,38 @@ class Responder:
             if abt_statement:
 
                 if abt_greeting: # Greet if greeting
-                    greeting = set(parsed_dict['tokens']) & set(response_greetings.keys())
-                    response = random.choice(response_greetings[greeting.pop()])
+                    greeting = set(parsed_dict['tokens']) & set(self.response_greetings.keys())
+                    response = random.choice(self.response_greetings[greeting.pop()])
 
                 elif abt_user:  # Talk about user
-                    response = random.choice(response_about['user'])
+                    response = random.choice(self.response_about['user'])
 
                 elif abt_bot: # Talk about jiakbot
-                    response = random.choice(response_about['bot'])
+                    response = random.choice(self.response_about['bot'])
 
                 elif abt_yes: # yes to anything
-                    response = random.choice(response_yes_no['yes_generic'])
+                    response = random.choice(self.response_yes_no['yes_generic'])
 
                 elif abt_no:  # no to anything
-                    response = random.choice(response_yes_no['no_generic'])
+                    response = random.choice(self.response_yes_no['no_generic'])
 
                 else:
                     response = self.retriever.get_random_similar_stmt(parsed_dict['input_text'])
                     if response == None:
-                        response = random.choice(response_general['generic'])
+                        response = random.choice(self.response_general['generic'])
 
             # if user asks a question
             elif abt_question:
-                response = random.choice(response_general['question'])
+                response = random.choice(self.response_general['question'])
 
             # some random rhetoric question
             elif abt_rhetoric:
-                response = random.choice(response_general['rhetoric'])
+                response = random.choice(self.response_general['rhetoric'])
 
             # if user asks to recommend override everything else
             # -----------------
             if abt_intent:
-                response = random.choice(response_general['recommend'])
+                response = random.choice(self.response_general['recommend'])
 
 
             return response
@@ -121,7 +121,7 @@ class Responder:
 
             # Check if location is known and valid
             if context['locations'][0] not in self.valid_locations:
-                response = random.choice(response_general['unknown_location'])
+                response = random.choice(self.response_general['unknown_location'])
             else:
                 result = self.retriever.get_random_business(parsed_dict)
                 response = self._format_response_with_biz(result)
@@ -171,7 +171,7 @@ class Responder:
 
             # Construct the response for no result
             else:
-                response = random.choice(response_general['no_result'])
+                response = random.choice(self.response_general['no_result'])
                 self.state_after_response = State.provided_no_result  # Update internal state
 
             return response
@@ -186,20 +186,20 @@ class Responder:
 
             # Checks what the user answers
             for word in parsed_dict['tokens']:
-                if word in input_yes_or_no['yes']:
+                if word in self.input_yes_or_no['yes']:
                     answered_yes = True
                     break
-                elif word in input_yes_or_no['no']:
+                elif word in self.input_yes_or_no['no']:
                     answered_no = True
                     break
                 else:
                     answered_something_else = True
 
             if answered_yes:
-                response = random.choice(response_general['request_food_cuisine'])
+                response = random.choice(self.response_general['request_food_cuisine'])
                 self.state_after_response = State.understood_nothing
             else:
-                response = random.choice(response_general['unknown_food_cuisine'])
+                response = random.choice(self.response_general['unknown_food_cuisine'])
                 self.state_after_response = State.understood_nothing  # Update internal state
 
             return response
@@ -215,10 +215,10 @@ class Responder:
 
             # Checks what the user answers
             for word in parsed_dict['tokens']:
-                if word in input_yes_or_no['yes']:
+                if word in self.input_yes_or_no['yes']:
                     answered_yes = True
                     break
-                elif word in input_yes_or_no['no']:
+                elif word in self.input_yes_or_no['no']:
                     answered_no = True
                     break
                 else:
@@ -226,7 +226,7 @@ class Responder:
 
             # Based on the answer perform stuff
             if answered_yes:
-                response = random.choice(response_yes_no['yes_after_result'])
+                response = random.choice(self.response_yes_no['yes_after_result'])
                 self.state_after_response = State.understood_nothing
 
             if answered_no:
@@ -246,11 +246,11 @@ class Responder:
                         break
 
                     else:
-                        response = random.choice(response_general['no_result'])
+                        response = random.choice(self.response_general['no_result'])
                         self.state_after_response = State.provided_revised_result
 
             if answered_something_else:
-                response = random.choice(response_general['request_yes_no'])
+                response = random.choice(self.response_general['request_yes_no'])
 
             return response
 
@@ -260,23 +260,23 @@ class Responder:
 
             # Checks if the user says yes
             for word in parsed_dict['tokens']:
-                give_up = False if word in input_yes_or_no['yes'] else True
+                give_up = False if word in self.input_yes_or_no['yes'] else True
 
-            response = random.choice(response_yes_no['repeated_no_response']) if give_up else random.choice(response_yes_no['yes_after_result'])
+            response = random.choice(self.response_yes_no['repeated_no_response']) if give_up else random.choice(response_yes_no['yes_after_result'])
             self.state_after_response = State.understood_nothing
 
         return response
 
     def _format_response_with_biz(self,business):
 
-        response = random.choice(response_for_business['with_biz']).format(biz_name=business['biz_name'],
+        response = random.choice(self.response_for_business['with_biz']).format(biz_name=business['biz_name'],
                                                                            category=business['category'].lower(),
                                                                            statement=business['statement'],
                                                                            rating=business['rating'])
         return response
 
     def _format_response_with_guessed_biz(self,business, kw):
-        response = random.choice(response_for_business['with_guessed_biz']).format(biz_name=business['biz_name'],
+        response = random.choice(self.response_for_business['with_guessed_biz']).format(biz_name=business['biz_name'],
                                                                                    category=business['category'].lower(),
                                                                                    kw=kw)
 

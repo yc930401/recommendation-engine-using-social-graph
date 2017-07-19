@@ -13,10 +13,14 @@ code/.DS_Store
 
 # Spyder project settings
 .spyderproject
-.idea/
+.idea/*.*
 
 # pycache
 code/__pycache__/*.*
 code/.project
 code/.pydevproject
-data/foursquare.db
+
+.settings/**
+.myumldata
+.project
+.pydevproject

@@ -12,9 +12,9 @@ results = c.fetchall()
 conn.close()
 
 # food_list from wordnet
-food = wn.synset('food.n.02')
-food_list = list(set([w.replace('_', ' ') for s in food.closure(lambda s:s.hyponyms()) for w in s.lemma_names()]))
-#food_list = []
+#food = wn.synset('food.n.02')
+#food_list = list(set([w.replace('_', ' ') for s in food.closure(lambda s:s.hyponyms()) for w in s.lemma_names()]))
+food_list = []
 
 # food_list from existing file
 f = open('D:/Workspace-Github/saproject/code/99_bot/jiakbot/corpus/knowledge/foods.txt', 'r')
