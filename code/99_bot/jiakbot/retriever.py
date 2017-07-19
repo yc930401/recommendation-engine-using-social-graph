@@ -291,7 +291,7 @@ class Retriever:
         venue = {}
         exclude_str = self._get_rid_exclude_str()
 
-        sql_str = "SELECT v.rid, v.venue_name, f.food, v.rating FROM venues v " \
+        sql_str = "SELECT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
                   "LEFT JOIN venues_food f ON v.rid = f.rid " \
                   "LEFT JOIN tips t ON v.rid = t.rid " \
                   "WHERE 1 = 1 " \
