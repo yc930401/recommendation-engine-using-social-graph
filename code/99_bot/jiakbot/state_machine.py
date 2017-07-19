@@ -1,6 +1,6 @@
 import nltk, re
 from enum import Enum
-import copy
+import copy, configparser
 
 class State(Enum):
     understood_nothing = 1
@@ -10,37 +10,47 @@ class State(Enum):
     provided_revised_result = 5
     provided_no_result = 6
 
-class StateMachine:
+class StateMachine():
 
-    state = State.understood_nothing
+    def __init__(self,config, config_key):
 
-    context = {
-        'cuisines': [],
-        'foods': [],
-        'locations': []
-    }
+        self.config = config
+        self.config_key = config_key
 
-    history = []
+        location_file_path = config[config_key]['location']
+        cuisine_file_path = config[config_key]['cuisine']
+        food_file_path = config[config_key]['food']
+        non_food_file_path = config[config_key]['non_food']
 
-    # read in locations
-    location_file = open('./jiakbot/corpus/knowledge/locations.txt','r')
-    known_locations = [location.lower() for location in location_file.read().splitlines()]
-    location_file.close()
+        self.state = State.understood_nothing
 
-    # read in cuisines
-    cuisine_file = open('./jiakbot/corpus/knowledge/cuisines.txt', 'r')
-    known_cuisines = [cuisine.lower() for cuisine in cuisine_file.read().splitlines()]
-    cuisine_file.close()
+        self.context = {
+            'cuisines': [],
+            'foods': [],
+            'locations': []
+        }
 
-    # read in food
-    food_file = open('./jiakbot/corpus/knowledge/foods.txt', 'r')
-    known_foods = [food.lower() for food in food_file.read().splitlines()]
-    food_file.close()
+        self.history = []
 
-    # custom non food words
-    non_food_file = open('./jiakbot/corpus/knowledge/non_foods.txt', 'r')
-    non_food_words = [non_food.lower() for non_food in non_food_file.read().splitlines()]
-    non_food_file.close()
+        # read in locations
+        self.location_file = open(location_file_path,'r')
+        self.known_locations = [location.lower() for location in self.location_file.read().splitlines()]
+        self.location_file.close()
+
+        # read in cuisines
+        self.cuisine_file = open(cuisine_file_path, 'r')
+        self.known_cuisines = [cuisine.lower() for cuisine in self.cuisine_file.read().splitlines()]
+        self.cuisine_file.close()
+
+        # read in food
+        self.food_file = open(food_file_path, 'r')
+        self.known_foods = [food.lower() for food in self.food_file.read().splitlines()]
+        self.food_file.close()
+
+        # custom non food words
+        self.non_food_file = open(non_food_file_path, 'r')
+        self.non_food_words = [non_food.lower() for non_food in self.non_food_file.read().splitlines()]
+        self.non_food_file.close()
 
     def update_state(self, parsed_dict):
 

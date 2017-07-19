@@ -2,13 +2,17 @@ from nltk.tokenize import word_tokenize
 from nltk import pos_tag
 from nltk.corpus import stopwords
 from sklearn.externals import joblib
-
 import re
 import numpy as np
 
 class JiakBotParser:
 
-    question_clf = joblib.load('./jiakbot/jiak_models/question_model.pkl')
+    def __init__(self,config, config_key):
+
+        self.config = config
+        self.config_key = config_key
+
+        self.question_clf = joblib.load(config[config_key]['question_clf'])
 
     def parse_input(self, user_input):
         parsed_dict = {'tokens': word_tokenize(user_input.lower()),
@@ -83,7 +87,6 @@ class JiakBotParser:
         #######################################################################
         return parsed_dict
 
-#
 # jbp = JiakBotParser()
 # jbp.parse_input("why would i care?")
 # jbp.parse_input("where can i find good noodles?")

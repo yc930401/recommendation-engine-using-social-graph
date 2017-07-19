@@ -1,4 +1,5 @@
 import logging
+import configparser
 
 # import jiakbot helpers
 from state_machine import StateMachine
@@ -9,16 +10,20 @@ from responder import Responder
 logging.basicConfig()
 logger = logging.getLogger()
 
-# INFO to switch display all logs
-# WARNING to display only warning
+# INFO to switch display all logs. WARNING to display only warning
 logger.setLevel(logging.WARNING)
-
 
 class JiakBot:
 
-    state_machine = StateMachine()
-    jiakbot_parser = JiakBotParser()
-    responder = Responder()
+    # Read in the config in the auth files
+    config_file_path = './jiakbot/config_app/app_config.ini'
+    config = configparser.ConfigParser()
+    config.read(config_file_path)
+    config_key = 'file_path'
+
+    jiakbot_parser = JiakBotParser(config, config_key)
+    state_machine = StateMachine(config, config_key)
+    responder = Responder(config, config_key)
 
     # Initializer
     def __init__(self):
@@ -53,3 +58,4 @@ class JiakBot:
         print('----- ----- ----- -----')
 
         return(response)
+

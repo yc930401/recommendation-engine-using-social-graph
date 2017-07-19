@@ -1,379 +1,179 @@
-Admiralty
-Admiralty
-Alexandra
-Aljunied
-Ang Mo Kio
-Ayer Rajah
-Balestier
-Bartley
-Bartley
-Bayfront
-Bayfront
-Bayshore
-Beauty World
-Bedok
-Bedok
-Bedok North
-Bedok Reservoir
-Bedok Reservoir
-Bedok South
-Bencoolen
-Bencoolen
-Bendemeer
-Bidadari
-Bishan
-Bishan
-Bishan
-Boon Keng
-Boon Keng
-Boon Lay
-Boon Lay
-Boon Lay Place
-Botanic Gardens
-Botanic Gardens
-Braddell
-Bras Basah
-Bras Basah
-Bright Hill
-Buangkok
-Bugis
-Bugis
-Bugis
-Bukit Batok
-Bukit Batok
-Bukit Brown
-Bukit Brown
-Bukit Chandu
-Bukit Gombak
-Bukit Gombak
-Bukit Ho Swee
-Bukit Merah
-Bukit Panjang
-Bukit Panjang
-Bukit Purmei
-Bukit Timah
-Buona Vista
-Buona Vista
-Buona Vista
-Caldecott
-Caldecott
-Caldecott Hill
-Canberra
-Canberra
-Cantonment
-Cashew
-Central
-Central Catchment Nature Reserve
-Chai Chee
-Changi
-Changi Airport
-Changi Bay
-Changi East
-Changi Village
-Cheng San
-Chin Bee
-Chinatown
-Chinatown
-Chinatown
-Chinese Garden
-Choa Chu Kang
-Choa Chu Kang
-Chong Boon
-Chong Pang
-City Hall
-City Hall
-Clarke Quay
-Clarke Quay
-Clementi
-Clementi
-Commonwealth
-Commonwealth
-Dakota
-Defu
-Dhoby Ghaut
-Dhoby Ghaut
-Dhoby Ghaut
-Dhoby Ghaut
-Dover
-Dover
-Downtown
-East
-East
-East Coast
-Elias
-Emerald Hill
-Esplanade
-Esplanade
-Eunos
-Eunos
-Expo
-Expo
-Farrer Park
-Farrer Park
-Farrer Road
-Fort Canning
-Gardens by the Bay
-Geylang
-Geylang Bahru
-Geylang Bahru
-Geylang East
-Ghim Moh
-Great World
-Guilin
-Gul Circle
-Gul Circle
-HarbourFront
-HarbourFront
-HarbourFront
-Havelock
-Haw Par Villa
-Hillview
-Hillview
-Holland Village
-Holland Village
-Hong Kah
-Hougang
-Hougang
-Innova
-International Business Park
-Jalan Besar
-Jalan Besar
-Joo Chiat
-Joo Koon
-Joo Koon
-Jurong
-Jurong East
-Jurong East
-Jurong East
-Jurong Regional Centre
-Jurong West
-Kaki Bukit
-Kaki Bukit
-Kallang
-Kallang
-Kallang Bahru
-Kallang Basin
-Katong
-Katong Park
-Kebun Baru
-Kembangan
-Kembangan
-Kent Ridge
-Kent Ridge
-Keppel
-Keppel
-Khatib
-Kian Teck
-Kim Seng
-King Albert Park
-Kolam Ayer
-Kovan
-Kovan
-Kranji
-Kranji
-Kreta Ayer
-Labrador Park
-Lakeside
-Lakeside
-Lavender
-Lavender
-Lentor
-Lentor
-Lim Chu Kang
-Lim Chu Kang
-Little India
-Little India
-Little India
-Liu Fang
-Lorong Chuan
-Lorong Chuan
-Lorong Halus
-Loyang
-MacPherson
-MacPherson
-MacPherson
-Mandai
-Marina Bay
-Marina Bay
-Marina Bay
-Marina Bay
-Marina Bay Sands
-Marina Centre
-Marina East
-Marina South
-Marina South
-Marina South Pier
-Marine Parade
-Marine Parade
-Marine Terrace
-Marsiling
-Marsiling
-Marymount
-Marymount
-Mattar
-Maxwell
-Mayflower
-Mount Faber
-Mount Faber
-Mount Pleasant
-Mount Vernon
-Mountbatten
-Mountbatten
-Murai
-Museum
-Napier
-Neo Tiew
-Newton
-Newton
-Newton
-Nicoll Highway[C]
-North
-North-East
-North-Eastern Islands
-Novena
-Novena
-Old Airport
-one-north
-one-north
-Orchard
-Orchard
-Orchard Boulevard
-Orchard Road
-Outram
-Outram Park
-Outram Park
-Outram Park
-Pandan
-Pasir Panjang
-Pasir Panjang
-Pasir Ris
-Pasir Ris
-Paya Lebar
-Paya Lebar
-Paya Lebar
-Penjuru
-Pioneer
-Pioneer
-Pioneer
-Pioneer Sector
-Port
-Potong Pasir
-Potong Pasir
-Prince Edward
-Promenade
-Promenade
-Promenade
-Punggol
-Punggol
-Punggol New Town
-Punggol Point
-Queenstown
-Queenstown
-Radin Mas
-Raffles Place
-Redhill
-River
-River Valley
-Rochor
-Rochor-Kampong Glam
-Safti
-Samulun
-Sarimbun
-Seletar
-Sembawang
-Sengkang
-Sengkang
-Senoko
-Serangoon
-Serangoon
-Serangoon
-Serangoon Gardens
-Serangoon North
-Shenton Way
-Shenton Way
-Shipyard
-Siglap
-Siglap
-Simei
-Simei
-Simpang
-Sin Ming
-Singapore River
-Sixth Avenue
-Somerset
-Soon Lee
-Southern Islands
-Springleaf
-St. Michael's
-Stadium
-Stevens
-Stevens
-Sungei Bedok
-Sungei Bedok
-Sungei Gedong
-Sungei Kadut
-Tai Seng
-Taman Jurong
-Tampines
-Tampines
-Tampines
-Tampines East
-Tampines West
-Tan Kah Kee
-Tanah Merah
-Tanah Merah
-Tanglin
-Tanjong Katong
-Tanjong Pagar
-Tanjong Pagar
-Tanjong Rhu
-Tanjong Rhu
-Teban Gardens
-Teck Ghee
-Telok Ayer
-Telok Ayer
-Telok Blangah
-Telok Blangah
-Tengah
-Thomson
-Tiong Bahru
-Tiong Bahru
-Toa Payoh
-Toa Payoh
-Toh Guan
-Toh Tuck
-Tuas
-Tuas Crescent
-Tuas Link
-Tuas South
-Tuas West Road
-Tukang
-Ubi
-Ubi
-Upper Changi
-Upper Thomson
-Wenya
-West
-West
-West Coast
-Western Islands Planning Area
-Western Water Catchment
-Whampoa
-Woodgrove
-Woodlands
-Woodlands
-Woodlands
-Woodlands North
-Woodlands South
-Woodleigh
-Wrexham
-Xilin
-Yew Tee
-Yew Tee
-Yio Chu Kang
-Yio Chu Kang
-Yishun
-Yishun
-Yuhua
-Yunnan
-CBD
+EUNOS
+CHINESE GARDEN
+KHATIB
+KRANJI
+REDHILL
+YEW TEE
+PIONEER
+COMMONWEALTH
+PAYA LEBAR
+SIMEI
+TAMPINES
+ADMIRALTY
+YISHUN
+PASIR RIS
+CLEMENTI
+ALJUNIED
+ANG MO KIO
+EXPO
+CHOA CHU KANG
+JURONG EAST
+QUEENSTOWN
+TUAS LINK
+GUL CIRCLE
+WOODLANDS
+TUAS CRESCENT
+KALLANG
+TUAS WEST ROAD
+BUONA VISTA
+DOVER
+SEMBAWANG
+KEMBANGAN
+BUKIT BATOK
+ANG MO KIO
+BOON LAY
+BUKIT GOMBAK
+MARSILING
+BEDOK
+JOO KOON
+LAKESIDE
+TANAH MERAH
+YIO CHU KANG
+OASIS
+SAM KEE
+FARMWAY
+KUPANG
+RENJONG
+BUKIT PANJANG
+FAJAR
+PUNGGOL
+SAMUDERA
+NIBONG
+SOO TECK
+KADALOOR
+CORAL EDGE
+THANGGAM
+KEAT HONG
+DAMAI
+COVE
+RIVIERA
+SENJA
+JELAPANG
+PETIR
+TECK WHYE
+CHOA CHU KANG
+SOUTH VIEW
+LAYAR
+KANGKAR
+MERIDIAN
+CHENG LIM
+PUNGGOL POINT
+SUMANG
+FERNVALE
+TONGKANG
+PENDING
+TECK LEE
+BANGKIT
+BAKAU
+RUMBIA
+COMPASSVALE
+TEN MILE JUNCTION
+RANGGUNG
+PHOENIX
+SEGAR
+SENGKANG
+BRAS BASAH
+MACPHERSON
+CITY HALL
+TAMPINES EAST
+TAMPINES WEST
+GEYLANG BAHRU
+BENDEMEER
+BENCOOLEN
+HARBOURFRONT
+PROMENADE
+BUGIS
+KENT RIDGE
+MACPHERSON
+PUNGGOL
+TANJONG PAGAR
+ONE-NORTH
+BISHAN
+STADIUM
+BUGIS
+SOMERSET
+ORCHARD
+JALAN BESAR
+BAYFRONT
+SENGKANG
+BUKIT BROWN
+MOUNTBATTEN
+KOVAN
+FORT CANNING
+FARRER ROAD
+EXPO
+DOWNTOWN
+BUONA VISTA
+ESPLANADE
+NICOLL HIGHWAY
+CALDECOTT
+MARINA BAY
+LABRADOR PARK
+CHINATOWN
+NEWTON
+TAN KAH KEE
+TIONG BAHRU
+HILLVIEW
+KING ALBERT PARK
+MATTAR
+UBI
+BEAUTY WORLD
+KAKI BUKIT
+TAMPINES
+BEDOK NORTH
+DHOBY GHAUT
+SERANGOON
+WOODLEIGH
+NOVENA
+SERANGOON
+BEDOK RESERVOIR
+MARINA SOUTH PIER
+FARRER PARK
+PAYA LEBAR
+BARTLEY
+DAKOTA
+PASIR PANJANG
+OUTRAM PARK
+CLARKE QUAY
+BISHAN
+BOTANIC GARDENS
+MARYMOUNT
+HAW PAR VILLA
+LORONG CHUAN
+LAVENDER
+DHOBY GHAUT
+TAI SENG
+ROCHOR
+LITTLE INDIA
+STEVENS
+BUKIT PANJANG
+CASHEW
+SIXTH AVENUE
+TOA PAYOH
+WOODLANDS SOUTH
+POTONG PASIR
+HOUGANG
+BOON KENG
+UPPER CHANGI
+CHANGI AIRPORT
+WOODLANDS
+BRADDELL
+BUANGKOK
+PROMENADE
+BOTANIC GARDENS
+RAFFLES PLACE
+HOLLAND VILLAGE
+OUTRAM PARK
+TELOK BLANGAH
+TELOK AYER
+NEWTON

@@ -1,60 +1,108 @@
-American
-Argentine
-Asian
-Asian Fusion
-Australian
-Austrian
-Belgian
-Brazilian
-British
-Burmese
-Cambodian
-Cantonese
-Caribbean
-Chinese
-Filipino
-French
-German
-Greek
-Hainan
-Hainanese
-Hawaiian
-Himalayan
-Nepalese
-Hokkien
-Indian
-Indonesian
-International
-Irish
-Italian
-Japanese
-Korean
-Latin American
-Lebanese
-Malay
-malay
-Malaysian
-Mediterranean
-Mexican
-Middle Eastern
-Modern European
-Mongolian
-Moroccan
-Pakistani
-Persian/Iranian
-Portuguese
-Russian
-Scandinavian
-Shanghainese
-Singaporean
-Spanish
-Szechuan
-Taiwanese
-Teochew
-Thai
-Turkish
-Vegan
-Vegetarian
-Vietnamese
-Western Style Japanese Food
-Western
+Fast Food Restaurant
+Vegetarian 
+Vegan Restaurant
+Snack Place
+Bakery
+Food Truck
+Food Court
+Restaurant
+Café
+Fried Chicken Joint
+Asian Restaurant
+Seafood Restaurant
+BBQ Joint
+Pizza Place
+Sandwich Place
+Steakhouse
+American Restaurant
+Bistro
+Cafeteria
+Food
+Halal Restaurant
+Chinese Restaurant
+Thai Restaurant
+Japanese Restaurant
+Diner
+Sushi Restaurant
+Korean Restaurant
+Noodle House
+Indonesian Restaurant
+Italian Restaurant
+Ramen Restaurant
+Indian Restaurant
+Hong Kong Restaurant
+Comfort Food Restaurant
+Malay Restaurant
+Portuguese Restaurant
+Dumpling Restaurant
+Pie Shop
+Mexican Restaurant
+Burrito Place
+Breakfast Spot
+French Restaurant
+Chinese Aristocrat Restaurant
+Dim Sum Restaurant
+Salad Place
+Szechuan Restaurant
+Macanese Restaurant
+Burger Joint
+Chinese Breakfast Place
+Deli
+Bodega
+Hot Dog Joint
+Hakka Restaurant
+Hainan Restaurant
+Soup Place
+Spanish Restaurant
+Satay Restaurant
+Gastropub
+Modern European Restaurant
+Middle Eastern Restaurant
+Filipino Restaurant
+Creperie
+Cajun
+Creole Restaurant
+German Restaurant
+Wings Joint
+Yunnan Restaurant
+Tapas Restaurant
+Vietnamese Restaurant
+Buffet
+Cantonese Restaurant
+New American Restaurant
+Burmese Restaurant
+Swiss Restaurant
+Mediterranean Restaurant
+Pet Café
+Taco Place
+Hotpot Restaurant
+Donut Shop
+Udon Restaurant
+Gluten-free Restaurant
+Australian Restaurant
+Argentinian Restaurant
+Southern
+Soul Food Restaurant
+Pakistani Restaurant
+Dongbei Restaurant
+Beijing Restaurant
+Kebab Restaurant
+Turkish Restaurant
+Cuban Restaurant
+Bagel Shop
+South Indian Restaurant
+Persian Restaurant
+Churrascaria
+North Indian Restaurant
+Shabu-Shabu Restaurant
+Austrian Restaurant
+Scandinavian Restaurant
+Falafel Restaurant
+Japanese Curry Restaurant
+English Restaurant
+Fish & Chips Shop
+Taiwanese Restaurant
+Food Stand
+Shanghai Restaurant
+Pastry Shop
+Peking Duck Restaurant
