@@ -16,10 +16,15 @@ logger.setLevel(logging.WARNING)
 class JiakBot:
 
     # Read in the config in the auth files
-    config_file_path = 'D:/Workspace-Github/saproject/code/99_bot/jiakbot/config_app/app_config.ini'
+    # config_file_path = 'D:/Workspace-Github/saproject/code/99_bot/jiakbot/config_app/app_config.ini'
+    # config_key = 'yangcheng'
+
+    config_file_path = '/Users/junquantham/Development/saproject/code/99_bot/jiakbot/config_app/app_config.ini'
+    config_key = 'file_path'
+
     config = configparser.ConfigParser()
     config.read(config_file_path)
-    config_key = 'yangcheng'
+
 
     jiakbot_parser = JiakBotParser(config, config_key)
     state_machine = StateMachine(config, config_key)
@@ -31,7 +36,7 @@ class JiakBot:
 
     # Public function to respond
     # -----------------------------------------------------
-    def respond(self, sentence):
+    def respond(self, sentence, uid=None):
 
         p = self.jiakbot_parser
         sm = self.state_machine
@@ -46,7 +51,7 @@ class JiakBot:
         sm.update_state(parsed_dict)
 
         # get the response
-        response = r.get_response(parsed_dict, sm.state,sm.context,sm.history)
+        response = r.get_response(parsed_dict, sm.state,sm.context,sm.history, uid)
 
         if sm.state != r.state_after_response:
             sm.update_state_after_response(r.state_after_response)

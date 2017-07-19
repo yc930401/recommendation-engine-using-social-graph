@@ -1,6 +1,6 @@
-Fast Food Restaurant
+Fast Food
 Vegetarian 
-Vegan Restaurant
+Vegan
 Snack Place
 Bakery
 Food Truck
@@ -8,101 +8,102 @@ Food Court
 Restaurant
 Café
 Fried Chicken Joint
-Asian Restaurant
-Seafood Restaurant
+Asian
+Seafood
 BBQ Joint
 Pizza Place
 Sandwich Place
 Steakhouse
-American Restaurant
+American
 Bistro
 Cafeteria
 Food
-Halal Restaurant
-Chinese Restaurant
-Thai Restaurant
-Japanese Restaurant
+Halal
+Chinese
+Thai
+Japanese
 Diner
-Sushi Restaurant
-Korean Restaurant
+Sushi
+Korean
 Noodle House
-Indonesian Restaurant
-Italian Restaurant
-Ramen Restaurant
-Indian Restaurant
-Hong Kong Restaurant
-Comfort Food Restaurant
-Malay Restaurant
-Portuguese Restaurant
-Dumpling Restaurant
+Indonesian
+Italian
+Ramen
+Indian
+Hong Kong
+Comfort Food
+Malay
+Portuguese
+Dumpling
 Pie Shop
-Mexican Restaurant
+Mexican
 Burrito Place
 Breakfast Spot
-French Restaurant
-Chinese Aristocrat Restaurant
-Dim Sum Restaurant
+French
+Chinese Aristocrat
+Dim Sum
 Salad Place
-Szechuan Restaurant
-Macanese Restaurant
+Szechuan
+Macanese
 Burger Joint
 Chinese Breakfast Place
 Deli
 Bodega
 Hot Dog Joint
-Hakka Restaurant
-Hainan Restaurant
+Hakka
+Hainan
 Soup Place
-Spanish Restaurant
-Satay Restaurant
+Spanish
+Satay
 Gastropub
-Modern European Restaurant
-Middle Eastern Restaurant
-Filipino Restaurant
+Modern European
+Middle Eastern
+Filipino
 Creperie
 Cajun
-Creole Restaurant
-German Restaurant
+Creole
+German
 Wings Joint
-Yunnan Restaurant
-Tapas Restaurant
-Vietnamese Restaurant
+Yunnan
+Tapas
+Vietnamese
 Buffet
-Cantonese Restaurant
-New American Restaurant
-Burmese Restaurant
-Swiss Restaurant
-Mediterranean Restaurant
+Cantonese
+New American
+Burmese
+Swiss
+Mediterranean
 Pet Café
 Taco Place
-Hotpot Restaurant
+Hotpot
 Donut Shop
-Udon Restaurant
-Gluten-free Restaurant
-Australian Restaurant
-Argentinian Restaurant
+Udon
+Gluten-free
+Australian
+Argentinian
 Southern
-Soul Food Restaurant
-Pakistani Restaurant
-Dongbei Restaurant
-Beijing Restaurant
-Kebab Restaurant
-Turkish Restaurant
-Cuban Restaurant
+Soul Food
+Pakistani
+Dongbei
+Beijing
+Kebab
+Turkish
+Cuban
 Bagel Shop
-South Indian Restaurant
-Persian Restaurant
+South Indian
+Persian
 Churrascaria
-North Indian Restaurant
-Shabu-Shabu Restaurant
-Austrian Restaurant
-Scandinavian Restaurant
-Falafel Restaurant
-Japanese Curry Restaurant
-English Restaurant
+North Indian
+Shabu-Shabu
+Austrian
+Scandinavian
+Falafel
+Japanese Curry
+English
 Fish & Chips Shop
-Taiwanese Restaurant
+Taiwanese
 Food Stand
-Shanghai Restaurant
+Shanghai
 Pastry Shop
-Peking Duck Restaurant
+Peking Duck
+Food Court

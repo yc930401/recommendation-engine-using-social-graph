@@ -138,6 +138,11 @@ case12_sentences[3] = "Yes"  # bot: Great! (clear state and repeat cycle)
 
 # PARAMETERS:
 # ---------------------------------------------
+
+uid = 58112
+uid = 81916899
+
+
 bot_mode = 'live' # live
 test_sentences = case1_sentences # case2_sentences
 
@@ -154,7 +159,7 @@ if bot_mode == 'live':
 
         # if input is not 'exit' loop ...
         if(sentence!='exit'):
-            print('Jiakbot says: ',jiakbot.respond(sentence))
+            print('Jiakbot says: ',jiakbot.respond(sentence, uid))
 
         else:
             print('bye bye')
