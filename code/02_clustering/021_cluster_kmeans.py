@@ -20,7 +20,7 @@ c.execute('SELECT * from user_venue_type;')
 results = c.fetchall()
 users = [result[0] for result in results]
 x = [result[1:] for result in results]
-
+'''
 # Choose the best k(num_clusters) using AIC. Do not run it, soooooooo slow!
 my_range = range(1, 30)
 scores = []
@@ -55,4 +55,3 @@ for i in range(num_clusters):
         c.execute('UPDATE users SET kmn_clus_id = ' + str(i) + ' WHERE uid= ' + str(kmeans_clusters[i][j]) + ';')
 conn.commit()
 conn.close()
-'''
