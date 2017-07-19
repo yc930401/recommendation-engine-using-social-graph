@@ -336,7 +336,7 @@ class Retriever:
                   "AND t.tip LIKE '%{0}%' " \
                   "AND f.food NOT LIKE '%{0}%'".format(requested) + " " + exclude_str + " " + \
                   "ORDER BY v.rating DESC LIMIT 1;"
-
+        print(sql_str)
 
         # connect and get the result
         conn = sqlite3.connect(self._db_path)
