@@ -5,7 +5,7 @@ import pickle
 # params
 # ---------------------------------------------------------------
 db_path = './data/foursquare.db'
-g = pickle.load(open('code/03_ranking/g.sav', 'rb'))
+g = pickle.load(open('data/graph_objects/g.sav', 'rb'))
 
 # main code chunk
 # ---------------------------------------------------------------

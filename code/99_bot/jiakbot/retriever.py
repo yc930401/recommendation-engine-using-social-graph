@@ -368,6 +368,20 @@ class Retriever:
 
         return str
 
+    def _get_venue_by_rids(rids):
+
+        venue = {}
+
+        return(venue)
+
+    def _get_venue_by_uid(uid):
+
+        venue = {}
+
+        # get the clus information
+
+        return(venue)
+
 ########################################################
 # for testing purposes
 ########################################################
