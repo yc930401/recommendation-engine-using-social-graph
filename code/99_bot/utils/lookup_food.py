@@ -13,13 +13,7 @@ results = c.fetchall()
 food_list = []
 # food_list from existing file
 f = open('D:/Workspace-Github/saproject/code/99_bot/jiakbot/corpus/knowledge/foods.txt', 'r')
-for i in range(53):
-    food_list.append(f.readline().split('\n')[0].lower())
-f.close()
-
-# food_list from wiki
-f = open('D:/Workspace-Github/saproject/code/99_bot/jiakbot/corpus/knowledge/food2.txt', 'r')
-for i in range(120):
+for i in range(173):
     food_list.append(f.readline().split('\n')[0].lower())
 f.close()
 print(food_list)

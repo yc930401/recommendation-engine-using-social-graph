@@ -5,6 +5,7 @@ sys.path.insert(0, 'D:/Workspace-Github/saproject/code/99_bot/jiakbot')
 from jiakbot import JiakBot
 
 jiakbot = JiakBot
+jiak_sessions = {}
 
 # -------------------------------------------------------------------
 # ID mapping: hardcode
@@ -20,6 +21,8 @@ from telegram.ext import Updater, CommandHandler,MessageHandler, Filters
 
 # functions
 def start(bot, update):
+    jiakbot = JiakBot
+    jiak_sessions[update.message.chat_id] = jiakbot
     update.message.reply_text('Hello World!')
 
 def hello(bot, update):
@@ -27,7 +30,14 @@ def hello(bot, update):
         'Hello {}'.format(update.message.from_user.first_name))
 
 def reply(bot, update):
-    response = jiakbot.respond(jiakbot, sentence=update.message['text'],uid=uid)
+
+    try:
+        jiakbot = jiak_sessions[update.message.chat_id]
+    except:
+        jiakbot = JiakBot
+        jiak_sessions[update.message.chat_id] = jiakbot
+    response = jiakbot.respond(jiakbot, update.message['text'])
+
     bot.send_message(chat_id=update.message.chat_id, text=response)
 
 

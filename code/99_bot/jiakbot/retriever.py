@@ -399,7 +399,7 @@ class Retriever:
         sql_str = "SELECT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
                   "INNER JOIN venues_food f ON v.rid = f.rid " \
                   "WHERE 1 = 1 " \
-                  "AND v.rid IN (SELECT DISTINCT(t.rid) FROM tips t WHERE t.tip LIKE '%{0}%')".format(requested) + \
+                  "AND v.rid IN (SELECT DISTINCT(t.rid) FROM tips t WHERE t.tip LIKE '%" + requested + "%')" + \
                   " " + exclude_str + " " + \
                   "ORDER BY v.rating DESC;"
 
