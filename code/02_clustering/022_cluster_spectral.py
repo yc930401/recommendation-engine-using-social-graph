@@ -43,7 +43,7 @@ for num_clusters in my_range:
 
 plt.plot(my_range, scores,'r-o')
 plt.xlabel("# clusters")
-plt.ylabel("# BIC")
+plt.ylabel("# AIC")
 plt.show()
 '''
 
