@@ -142,16 +142,16 @@ class Responder:
 
             # Attempt to get food / cuisine based what user wants
             if requested_food and not requested_cuisine:
-                result = self.retriever.get_business_by_food(parsed_dict,requested_food)
+                result = self.retriever.get_venue_by_food(parsed_dict,requested_food)
             elif requested_cuisine and not requested_food:
-                result = self.retriever.get_business_by_food(parsed_dict,requested_cuisine)
+                result = self.retriever.get_venue_by_venue_type(parsed_dict,requested_cuisine)
             elif requested_food and requested_cuisine:
-                result = self.retriever.get_business_by_food_cuisine(parsed_dict,requested_food, requested_cuisine)
+                result = self.retriever.get_venue_by_food_venue_type(parsed_dict,requested_food, requested_cuisine)
 
             # If no result attempt to get similar stuff based on biz name
             if not result:
                 requested = requested_food if requested_food else requested_cuisine
-                result = self.retriever.get_similar_business_by_name(parsed_dict,requested)
+                result = self.retriever.get_similar_venue_by_name(parsed_dict,requested)
 
             # Lastly attempt to get similar stuff based on review text
             if not result:
@@ -269,15 +269,15 @@ class Responder:
 
     def _format_response_with_biz(self,business):
 
-        response = random.choice(self.response_for_business['with_biz']).format(biz_name=business['biz_name'],
-                                                                           category=business['category'].lower(),
+        response = random.choice(self.response_for_business['with_biz']).format(biz_name=business['venue_name'],
+                                                                           category=business['venue_type'].lower(),
                                                                            statement=business['statement'],
                                                                            rating=business['rating'])
         return response
 
     def _format_response_with_guessed_biz(self,business, kw):
-        response = random.choice(self.response_for_business['with_guessed_biz']).format(biz_name=business['biz_name'],
-                                                                                   category=business['category'].lower(),
+        response = random.choice(self.response_for_business['with_guessed_biz']).format(biz_name=business['venue_name'],
+                                                                                   category=business['venue_type'].lower(),
                                                                                    kw=kw)
 
         return response

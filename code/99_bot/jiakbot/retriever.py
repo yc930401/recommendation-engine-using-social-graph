@@ -29,10 +29,10 @@ class Retriever:
             'rating': ''
         }
 
-        exclude_str = self._get_biz_id_exclude_str()
+        exclude_str = self._get_rid_exclude_str()
 
         sql_str = "SELECT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
-                  "LEFT JOIN venue_food f ON v.rid = f.rid " \
+                  "LEFT JOIN venues_food f ON v.rid = f.rid " \
                   "WHERE lower(f.food) LIKE '%{0}%'".format(requested_food) + " " + \
                   exclude_str + " " + \
                   "ORDER BY v.rating DESC LIMIT 100;"
@@ -70,7 +70,7 @@ class Retriever:
             'rating': ''
         }
 
-        exclude_str = self._get_biz_id_exclude_str()
+        exclude_str = self._get_rid_exclude_str()
 
         sql_str = "SELECT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
                   "LEFT JOIN foods f ON v.rid = f.rid " \
@@ -227,7 +227,7 @@ class Retriever:
         # Step 3: Return most relevant statement back
         if len(q_sorted_sims) != 0:
             most_similar_stmt_id = q_sorted_sims[0][0]
-            statement = results[most_similar_stmt_id][2]
+            statement = results[most_similar_stmt_id][1]
         else:
             return None
 
@@ -247,9 +247,11 @@ class Retriever:
         c = conn.cursor()
 
         for row in c.execute(sql_str):
-            tokenized_docs.append(row[1].split('|'))
-            results.append(row[0])
-
+            try:
+                tokenized_docs.append(row[1].split('|'))
+                results.append(row[0])
+            except:
+                print('Error tip!')
         conn.close()
 
         processed_docs = [[w for w in doc if re.search('^[a-z]+$', w)] for doc in tokenized_docs]

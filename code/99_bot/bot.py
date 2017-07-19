@@ -1,6 +1,6 @@
 # import jiakbot
 import sys
-sys.path.insert(0, '/Users/junquantham/Development/saproject/code/99_bot/jiakbot')
+sys.path.insert(0, 'D:/Workspace-Github/saproject/code/99_bot/jiakbot')
 
 from jiakbot import JiakBot
 
@@ -27,7 +27,7 @@ def hello(bot, update):
         'Hello {}'.format(update.message.from_user.first_name))
 
 def reply(bot, update):
-    response = jiakbot.respond(update.message['text'])
+    response = jiakbot.respond(jiakbot, update.message['text'])
     bot.send_message(chat_id=update.message.chat_id, text=response)
 
 
