@@ -6,7 +6,6 @@ from nltk.tokenize import word_tokenize
 from gensim import corpora
 from gensim import models
 from gensim import similarities
-import configparser
 
 stop_list = nltk.corpus.stopwords.words('english')
 
@@ -19,23 +18,146 @@ class Retriever:
         self._db_path = config[config_key]['db_path']
         self.retrieved_biz = []
 
-    def get_business_by_food(self,parsed_dict,requested_food): # guaranteed to be different each time
+    def get_venue_by_food(self,parsed_dict,requested_food): # guaranteed to be different each time
 
-        business = {
-            'biz_id': '',
-            'biz_name': '',
-            'category': '',
-            'cuisine': '',
+        venue = {
+            'rid': '',
+            'venue_name': '',
+            'venue_food': '',
+            'venue_type': '',
             'statement': '',
             'rating': ''
         }
 
         exclude_str = self._get_biz_id_exclude_str()
 
-        sql_str = "SELECT b.biz_id, b.biz_name, f.food, b.biz_rating FROM businesses b " \
-                  "LEFT JOIN foods f ON b.biz_id = f.biz_id " \
+        sql_str = "SELECT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
+                  "LEFT JOIN venue_food f ON v.rid = f.rid " \
                   "WHERE lower(f.food) LIKE '%{0}%'".format(requested_food) + " " + \
                   exclude_str + " " + \
+                  "ORDER BY v.rating DESC LIMIT 100;"
+
+        # connect and get the result
+        conn = sqlite3.connect(self._db_path)
+        c = conn.cursor()
+        c.execute(sql_str)
+        result = c.fetchone()
+        conn.close()
+
+        if result is None: return
+
+        biz_id = result[0]
+        venue['rid'] = result[0]  #  biz_id
+        venue['venue_name'] = result[1] #  biz_name
+        venue['venue_food'] = result[2] #  the type of food they serve
+        venue['venue_type'] = result[3]  # the type of food they serve
+        venue['rating'] = result[4]  # rating
+        venue['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict,biz_id)
+
+        self.retrieved_biz.extend([venue])
+
+        return venue
+
+
+    def get_venue_by_venue_type(self,parsed_dict,requested_venue_type): # guaranteed to be different each time
+
+        venue = {
+            'rid': '',
+            'venue_name': '',
+            'venue_food': '',
+            'venue_type': '',
+            'statement': '',
+            'rating': ''
+        }
+
+        exclude_str = self._get_biz_id_exclude_str()
+
+        sql_str = "SELECT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
+                  "LEFT JOIN foods f ON v.rid = f.rid " \
+                  "WHERE lower(v.venue_type) LIKE '%{0}%' ".format(requested_venue_type) + \
+                  exclude_str + " " + \
+                  "ORDER BY v.rating DESC LIMIT 10;"
+
+        # connect and get the result
+        conn = sqlite3.connect(self._db_path)
+        c = conn.cursor()
+        c.execute(sql_str)
+        result = c.fetchone()
+        conn.close()
+
+        if result is None: return
+
+        biz_id = result[0]
+        venue['rid'] = result[0]  # biz_id
+        venue['venue_name'] = result[1]  # biz_name
+        venue['venue_food'] = result[2]  # the type of food they serve
+        venue['venue_type'] = result[3]  # the type of food they serve
+        venue['rating'] = result[4]  # rating
+        venue['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict,biz_id)
+
+        self.retrieved_biz.extend([venue])
+        self.retrieved_biz_type.extend(['venue_type'])
+
+        return venue
+
+    def get_venue_by_food_venue_type(self,parsed_dict,requested_food,requested_venue_type): # guaranteed to be different each time
+
+        venue = {
+            'rid': '',
+            'venue_name': '',
+            'venue_food': '',
+            'venue_type': '',
+            'statement': '',
+            'rating': ''
+        }
+
+        exclude_str = self._get_rid_exclude_str()
+
+        sql_str = "SELECT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
+                  "LEFT JOIN venue_food f ON v.rid = f.rid " \
+                  "WHERE lower(v.venue_type) LIKE '%{0}%' " \
+                  "OR lower(f.food) LIKE '%{1}%' ".format(requested_food, requested_venue_type) + " " + \
+                  exclude_str + " " + \
+                  "ORDER BY v.rating DESC LIMIT 1;"
+
+        # connect and get the result
+        conn = sqlite3.connect(self._db_path)
+        c = conn.cursor()
+        c.execute(sql_str)
+        result = c.fetchone()
+        conn.close()
+
+        if result is None: return
+
+        rid = result[0]
+        venue['rid'] = result[0]  #  rid
+        venue['venue_name'] = result[1] #  biz_name
+        venue['venue_food'] = result[2] #  the type of food they serve
+        venue['venue_type'] = result[3]  # the type of food they serve
+        venue['rating'] = result[4]  # rating
+        venue['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict,rid)
+
+        self.retrieved_biz.extend([venue])
+        self.retrieved_biz_type.extend(['food_venue_type'])
+
+        return venue
+
+    def get_random_venue(self,parsed_dict):
+
+        venue = {
+            'rid': '',
+            'venue_name': '',
+            'venue_food': '',
+            'venue_type': '',
+            'statement': '',
+            'rating': ''
+        }
+
+        exclude_str = self._get_rid_exclude_str()
+
+        sql_str = "SELECT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
+                  "LEFT JOIN venue_food f ON v.rid = f.rid WHERE 1 = 1 " + \
+                  exclude_str + " " + \
                   "ORDER BY b.biz_rating DESC LIMIT 1;"
 
         # connect and get the result
@@ -47,147 +169,25 @@ class Retriever:
 
         if result is None: return
 
-        biz_id = result[0]
-        business['biz_id'] = result[0]  #  biz_id
-        business['biz_name'] = result[1] #  biz_name
-        business['category'] = result[2] #  the type of food they serve
-        business['rating'] = result[3]  # rating
-        business['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict,biz_id)
+        rid = result[0]
+        venue['rid'] = result[0]  # rid
+        venue['venue_name'] = result[1]  # biz_name
+        venue['venue_food'] = result[2]  # the type of food they serve
+        venue['venue_type'] = result[3]  # the type of food they serve
+        venue['rating'] = result[4]  # rating
+        venue['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict,rid)
 
-        self.retrieved_biz.extend([business])
+        self.retrieved_biz.extend([venue])
 
-        return business
+        return venue
 
-
-    def get_business_by_cuisine(self,parsed_dict,requested_cuisine): # guaranteed to be different each time
-
-        business = {
-            'biz_id': '',
-            'biz_name': '',
-            'category': '',
-            'cuisine': '',
-            'statement': '',
-            'rating': ''
-        }
-
-        exclude_str = self._get_biz_id_exclude_str()
-
-        sql_str = "SELECT b.biz_id, b.biz_name, c.cuisine, b.biz_rating FROM businesses b " \
-                  "LEFT JOIN foods f ON b.biz_id = f.biz_id " \
-                  "LEFT JOIN cuisines c ON b.biz_id = c.biz_id " \
-                  "WHERE lower(c.cuisine) LIKE '%{0}%' ".format(requested_cuisine) + \
-                  exclude_str + " " + \
-                  "ORDER BY b.biz_rating DESC LIMIT 10;"
-
-        # connect and get the result
-        conn = sqlite3.connect(self._db_path)
-        c = conn.cursor()
-        c.execute(sql_str)
-        result = c.fetchone()
-        conn.close()
-
-        if result is None: return
-
-        biz_id = result[0]
-        business['biz_id'] = result[0]  # biz_id
-        business['biz_name'] = result[1]  # biz_name
-        business['category'] = result[2]  # the type of food they serve
-        business['rating'] = result[3]  # rating
-        business['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict,biz_id)
-
-        self.retrieved_biz.extend([business])
-        self.retrieved_biz_type.extend(['cuisine'])
-
-        return business
-
-    def get_business_by_food_cuisine(self,parsed_dict,requested_food,requested_cuisine): # guaranteed to be different each time
-
-        business = {
-            'biz_id': '',
-            'biz_name': '',
-            'category': '',
-            'cuisine': '',
-            'statement': '',
-            'rating': ''
-        }
-
-        exclude_str = self._get_biz_id_exclude_str()
-
-        sql_str = "SELECT b.biz_id, b.biz_name, f.food FROM businesses b " \
-                  "LEFT JOIN foods f ON b.biz_id = f.biz_id " \
-                  "LEFT JOIN cuisines c ON b.biz_id = c.biz_id " \
-                  "WHERE lower(c.cuisine) LIKE '%{0}%' " \
-                  "OR lower(f.food) LIKE '%{1}%' ".format(requested_food, requested_cuisine) + " " + \
-                  exclude_str + " " + \
-                  "ORDER BY b.biz_rating DESC LIMIT 1;"
-
-        # connect and get the result
-        conn = sqlite3.connect(self._db_path)
-        c = conn.cursor()
-        c.execute(sql_str)
-        result = c.fetchone()
-        conn.close()
-
-        if result is None: return
-
-        biz_id = result[0]
-        business['biz_id'] = result[0]  #  biz_id
-        business['biz_name'] = result[1] #  biz_name
-        business['category'] = result[2] #  the type of food they serve
-        business['rating'] = result[3]  # rating
-        business['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict,biz_id)
-
-        self.retrieved_biz.extend([business])
-        self.retrieved_biz_type.extend(['food_cuisine'])
-
-        return business
-
-    def get_random_business(self,parsed_dict):
-
-        business = {
-            'biz_id': '',
-            'biz_name': '',
-            'category': '',
-            'cuisine': '',
-            'statement': '',
-            'rating': ''
-        }
-
-        exclude_str = self._get_biz_id_exclude_str()
-
-        sql_str = "SELECT b.biz_id, b.biz_name, f.food, b.biz_rating FROM businesses b " \
-                  "LEFT JOIN foods f ON b.biz_id = f.biz_id WHERE 1 = 1 " + \
-                  exclude_str + " " + \
-                  "ORDER BY b.biz_rating DESC LIMIT 1;"
-
-        # connect and get the result
-        conn = sqlite3.connect(self._db_path)
-        c = conn.cursor()
-        c.execute(sql_str)
-        result = c.fetchone()
-        conn.close()
-
-        if result is None: return
-
-        biz_id = result[0]
-        business['biz_id'] = result[0]  # biz_id
-        business['biz_name'] = result[1]  # biz_name
-        business['category'] = result[2]  # the type of food they serve
-        business['rating'] = result[3]  # rating
-        business['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict,biz_id)
-
-        self.retrieved_biz.extend([business])
-
-        return business
-
-    def get_random_similar_stmt_by_biz(self,parsed_dict,biz_id):
+    def get_random_similar_stmt_by_biz(self,parsed_dict,rid):
 
         statement = ''
 
         # Step 1: Select all statements
-        sql_str = "SELECT r.biz_id, r.description, s.stmt FROM reviews r " \
-                  "LEFT JOIN stmts s ON r.review_id = s.review_id " \
-                  "WHERE r.biz_id = '{0}';".format(biz_id)
+        sql_str = "SELECT t.rid, t.tip FROM tips t " \
+                  "WHERE t.rid = '{0}';".format(rid)
 
 
         results = []
@@ -197,7 +197,7 @@ class Retriever:
         c = conn.cursor()
 
         for row in c.execute(sql_str):
-            doc = word_tokenize(row[2])
+            doc = word_tokenize(row[1])
             tokenized_docs.append(doc)
             results.append(row)
 
@@ -238,7 +238,7 @@ class Retriever:
         statement = ''
 
         # Step 1: Select all statements
-        sql_str = "SELECT stmt, stmt_cleansed FROM stmts ORDER BY RANDOM() LIMIT 10000" #
+        sql_str = "SELECT tip, tok_tip FROM tips ORDER BY RANDOM() LIMIT 1000" #
 
         results = []
         tokenized_docs = []
@@ -284,20 +284,18 @@ class Retriever:
 
         return statement
 
-    def get_similar_business_by_name(self,parsed_dict, requested):
+    def get_similar_venue_by_name(self,parsed_dict, requested):
 
-        businesses = []
-        business = {}
-        exclude_str = self._get_biz_id_exclude_str()
+        venue = {}
+        exclude_str = self._get_rid_exclude_str()
 
-        sql_str = "SELECT b.biz_id, b.biz_name, f.food, b.biz_rating FROM businesses b " \
-                  "LEFT JOIN foods f ON b.biz_id = f.biz_id " \
-                  "LEFT JOIN reviews r ON b.biz_id = r.biz_id " \
+        sql_str = "SELECT v.rid, v.venue_name, f.food, v.rating FROM venues v " \
+                  "LEFT JOIN foods f ON v.rid = f.rid " \
+                  "LEFT JOIN tips t ON v.rid = t.rid " \
                   "WHERE 1 = 1 " \
-                  "AND b.biz_name LIKE '%{0}%' " \
-                  "AND f.food NOT LIKE '%{0}%'".format(requested) + " " + \
-                  exclude_str + " " + \
-                  "ORDER BY b.biz_rating DESC LIMIT 1;"
+                  "AND v.venue_name LIKE '%{0}%' " \
+                  "AND f.food NOT LIKE '%{0}%'".format(requested) + " " + exclude_str + " " + \
+                  "ORDER BY v.rating DESC LIMIT 1;"
 
         # connect and get the result
         conn = sqlite3.connect(self._db_path)
@@ -308,34 +306,35 @@ class Retriever:
 
         if result is None: return
 
-        biz_id = result[0]
-        business['biz_id'] = result[0]  # biz_id
-        business['biz_name'] = result[1]  # biz_name
-        business['category'] = result[2]  # the type of food they serve
-        business['rating'] = result[3]  # rating
-        business['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict, biz_id)
+        rid = result[0]
+        venue['rid'] = result[0]  # rid
+        venue['venue_name'] = result[1]  # biz_name
+        venue['venue_food'] = result[2]  # the type of food they serve
+        venue['venue_type'] = result[3]  # the type of food they serve
+        venue['rating'] = result[4]  # rating
+        venue['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict, rid)
 
-        self.retrieved_biz.extend([business])
+        self.retrieved_biz.extend([venue])
 
         conn.close()
 
-        return business
+        return venue
 
-    def get_similar_business_by_review(self,parsed_dict,requested):
+    def get_similar_venue_by_review(self,parsed_dict,requested):
 
-        businesses = []
-        business = {}
+        venuees = []
+        venue = {}
 
-        exclude_str = self._get_biz_id_exclude_str()
+        exclude_str = self._get_rid_exclude_str()
 
-        sql_str = "SELECT b.biz_id, b.biz_name, f.food, b.biz_rating FROM businesses b " \
-                  "LEFT JOIN foods f ON b.biz_id = f.biz_id " \
-                  "LEFT JOIN reviews r ON b.biz_id = r.biz_id " \
+        sql_str = "SELECT v.rid, v.venue_name, f.food, v.rating FROM venues v " \
+                  "LEFT JOIN foods f ON v.rid = f.rid " \
+                  "LEFT JOIN tips t ON v.rid = t.rid " \
                   "WHERE 1 = 1 " \
-                  "AND r.description LIKE '%{0}%' " \
-                  "AND f.food NOT LIKE '%{0}%'".format(requested) + " " + \
-                  exclude_str + " " + \
-                  "ORDER BY b.biz_rating DESC LIMIT 1;"
+                  "AND t.tip LIKE '%{0}%' " \
+                  "AND f.food NOT LIKE '%{0}%'".format(requested) + " " + exclude_str + " " + \
+                  "ORDER BY v.rating DESC LIMIT 1;"
+
 
         # connect and get the result
         conn = sqlite3.connect(self._db_path)
@@ -346,26 +345,27 @@ class Retriever:
 
         if result is None: return
 
-        biz_id = result[0]
-        business['biz_id'] = result[0]  # biz_id
-        business['biz_name'] = result[1]  # biz_name
-        business['category'] = result[2]  # the type of food they serve
-        business['rating'] = result[3]  # rating
-        business['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict, biz_id)
+        rid = result[0]
+        venue['rid'] = result[0]  # rid
+        venue['venue_name'] = result[1]  # biz_name
+        venue['venue_food'] = result[2]  # the type of food they serve
+        venue['venue_type'] = result[3]  # the type of food they serve
+        venue['rating'] = result[4]  # rating
+        venue['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict, rid)
 
-        self.retrieved_biz.extend([business])
+        self.retrieved_biz.extend([venue])
 
         conn.close()
 
-        return business
+        return venue
 
-    def _get_biz_id_exclude_str(self):
+    def _get_rid_exclude_str(self):
         str = ''
 
         if len(self.retrieved_biz) > 0:
-            biz_ids = [b['biz_id'] for b in self.retrieved_biz]
-            biz_ids_str = ",".join('"' + biz_id + '"' for biz_id in biz_ids)
-            str = "AND b.biz_id NOT IN ("+ biz_ids_str + ")"
+            rids = [b['rid'] for b in self.retrieved_biz]
+            rids_str = ",".join('"' + rid + '"' for rid in rids)
+            str = "AND v.rid NOT IN ("+ rids_str + ")"
 
         return str
 
@@ -380,13 +380,13 @@ class Retriever:
 #          'post_feedback': False,
 #          'previous_state': [1, 1, 0],
 #          'recommendations': [],
-#          'cuisines': ['japanese'],
+#          'venue_types': ['japanese'],
 #          'locations': [],
 #          'retrieved': False,
 #          'foods': ['burgers']}
 #
 # parsed_dict = {'tokens': ['you', 'know', 'of', 'any', 'place', 'for', 'japanese', 'or', 'sells', 'burgers', '?']}
-# print(r.get_business_by_food(parsed_dict,'burgers'))
-# print(r.get_similar_business('burgers'))
+# print(r.get_venue_by_food(parsed_dict,'burgers'))
+# print(r.get_similar_venue('burgers'))
 
 # r.get_random_similar_stmt("i like to eat healthy")

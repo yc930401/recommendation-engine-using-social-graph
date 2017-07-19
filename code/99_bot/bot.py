@@ -5,7 +5,16 @@ sys.path.insert(0, '/Users/junquantham/Development/saproject/code/99_bot/jiakbot
 from jiakbot import JiakBot
 
 jiakbot = JiakBot
+# -------------------------------------------------------------------
+# ID mapping: hardcode
+# -------------------------------------------------------------------
 
+
+
+
+# -------------------------------------------------------------------
+# telegram codes
+# -------------------------------------------------------------------
 # telegram wrapper
 from telegram.ext import Updater, CommandHandler,MessageHandler, Filters
 
