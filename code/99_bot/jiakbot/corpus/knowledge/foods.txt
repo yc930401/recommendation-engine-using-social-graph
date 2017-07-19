@@ -20,7 +20,6 @@ Donuts
 Fast Food
 Fish & Chips
 Fondue
-Food
 Food Stands
 Fruits
 Veggies
