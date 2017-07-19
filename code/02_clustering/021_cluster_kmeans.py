@@ -37,8 +37,8 @@ plt.ylabel("# AIC")
 plt.show()
 '''
 
-# Train a model with the best k = 4
-num_clusters = 4
+# Train a model with the best k = 9
+num_clusters = 9
 kmeans = KMeans(n_clusters=num_clusters, random_state=0)
 kmeans.fit(x)
 kmeans_labels = kmeans.labels_ 
