@@ -123,7 +123,7 @@ class Responder:
             if context['locations'][0] not in self.valid_locations:
                 response = random.choice(self.response_general['unknown_location'])
             else:
-                result = self.retriever.get_random_business(parsed_dict)
+                result = self.retriever.get_random_venue(parsed_dict)
                 response = self._format_response_with_biz(result)
 
                 # Update internal state
@@ -156,7 +156,7 @@ class Responder:
             # Lastly attempt to get similar stuff based on review text
             if not result:
                 requested = requested_food if requested_food else requested_cuisine
-                result = self.retriever.get_similar_business_by_review(parsed_dict,requested)
+                result = self.retriever.get_similar_venue_by_review(parsed_dict,requested)
                 guessed = True
 
             # Construct the response for guessed response
@@ -238,7 +238,7 @@ class Responder:
                         history_food_cuisine.append(context['cuisines'][0]) if len(context['cuisines']) > 0 else None
 
                 for fc in history_food_cuisine:
-                    result = self.retriever.get_similar_business_by_review(parsed_dict, fc)
+                    result = self.retriever.get_similar_venue_by_review(parsed_dict, fc)
 
                     if result is not None:
                         response = self._format_response_with_guessed_biz(result, fc)

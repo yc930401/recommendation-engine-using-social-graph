@@ -292,7 +292,7 @@ class Retriever:
         exclude_str = self._get_rid_exclude_str()
 
         sql_str = "SELECT v.rid, v.venue_name, f.food, v.rating FROM venues v " \
-                  "LEFT JOIN foods f ON v.rid = f.rid " \
+                  "LEFT JOIN venues_food f ON v.rid = f.rid " \
                   "LEFT JOIN tips t ON v.rid = t.rid " \
                   "WHERE 1 = 1 " \
                   "AND v.venue_name LIKE '%{0}%' " \
@@ -330,7 +330,7 @@ class Retriever:
         exclude_str = self._get_rid_exclude_str()
 
         sql_str = "SELECT v.rid, v.venue_name, f.food, v.rating FROM venues v " \
-                  "LEFT JOIN foods f ON v.rid = f.rid " \
+                  "LEFT JOIN venues_food f ON v.rid = f.rid " \
                   "LEFT JOIN tips t ON v.rid = t.rid " \
                   "WHERE 1 = 1 " \
                   "AND t.tip LIKE '%{0}%' " \
