@@ -292,11 +292,9 @@ class Retriever:
         exclude_str = self._get_rid_exclude_str()
 
         sql_str = "SELECT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
-                  "LEFT JOIN venues_food f ON v.rid = f.rid " \
-                  "LEFT JOIN tips t ON v.rid = t.rid " \
+                  "INNER JOIN venues_food f ON v.rid = f.rid " \
                   "WHERE 1 = 1 " \
-                  "AND v.venue_name LIKE '%{0}%' " \
-                  "AND f.food NOT LIKE '%{0}%'".format(requested) + " " + exclude_str + " " + \
+                  "AND v.venue_name LIKE '%{0}%' ".format(requested) + " " + exclude_str + " " + \
                   "ORDER BY v.rating DESC LIMIT 1;"
 
         # connect and get the result
@@ -330,11 +328,10 @@ class Retriever:
         exclude_str = self._get_rid_exclude_str()
 
         sql_str = "SELECT v.rid, v.venue_name, f.food, v.rating FROM venues v " \
-                  "LEFT JOIN venues_food f ON v.rid = f.rid " \
-                  "LEFT JOIN tips t ON v.rid = t.rid " \
+                  "INNER JOIN venues_food f ON v.rid = f.rid " \
                   "WHERE 1 = 1 " \
-                  "AND t.tip LIKE '%{0}%' " \
-                  "AND f.food NOT LIKE '%{0}%'".format(requested) + " " + exclude_str + " " + \
+                  "AND v.rid IN (SELECT DISTINCT(t.rid) FROM tips t WHERE t.tip LIKE '%{0}%')".format(requested) + \
+                  " " + exclude_str + " " + \
                   "ORDER BY v.rating DESC LIMIT 1;"
         print(sql_str)
 
