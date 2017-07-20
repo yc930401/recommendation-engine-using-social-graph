@@ -253,8 +253,9 @@ class Retriever:
 
         # Step 1: Select all statements
         sql_str = "SELECT t.rid, t.tip FROM tips t " \
-                  "WHERE t.rid = '{0}';".format(rid)
+                  "WHERE t.rid = '{0}' ORDER BY t.senti_score DESC LIMIT 10;".format(rid)
 
+        print('get_random_similar_stmt_by_biz --- ', sql_str)
 
         results = []
         tokenized_docs = []
@@ -305,6 +306,9 @@ class Retriever:
 
         # Step 1: Select all statements
         sql_str = "SELECT tip, tok_tip FROM tips WHERE tok_tip IS NOT NULL ORDER BY RANDOM() LIMIT 500" #
+
+        print('get_random_similar_stmt --- ', sql_str)
+
 
         results = []
         tokenized_docs = []
@@ -416,7 +420,7 @@ class Retriever:
                   "ORDER BY v.rating DESC;"
 
         print('get_similar_venue_by_review --- ', sql_str)
-        print(sql_str.encode(encoding='UTF-8',errors='strict'))
+        # print(sql_str.encode(encoding='UTF-8',errors='strict'))
 
         # connect and get the result
         conn = sqlite3.connect(self._db_path)
