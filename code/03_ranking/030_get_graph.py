@@ -61,7 +61,7 @@ nx.set_node_attributes(g,'clus_id',node_clus)
 u_nodes,r_nodes = bipartite.sets(g)
 print('Is graph bipartite:', nx.is_bipartite(g))
 
-pickle.dump(g, open('code/03_ranking/g.sav', 'wb'))
+pickle.dump(g, open('data/graph_objects/g.sav', 'wb'))
 
 # RECENT HISTORY GRAPH
 # ------------------------
@@ -121,3 +121,5 @@ rhg.add_weighted_edges_from(edge_weights)
 nx.set_node_attributes(rhg,'clus_id',node_clus)
 u_nodes,r_nodes = bipartite.sets(rhg)
 print('Is graph bipartite:', nx.is_bipartite(rhg))
+
+pickle.dump(g, open('data/graph_objects/g_recent.sav', 'wb'))

@@ -4,38 +4,28 @@ import operator
 from collections import Counter
 from datetime import datetime
 
-class Timer:
-    def __init__(self):
-        pass
-
-    def getTimeString(mydate):
-        return str(mydate.strftime('%Y-%m-%d %H:%M:%S'))
-
-    def getTime():
-        return datetime.now()
-
-    def getFormattedTime():
-        return str(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+# -----------------------------------------
+# HELPER FUNCTIONS
+# -----------------------------------------
+def getFormattedTime():
+    return str(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
 
 def get_degree_weighted_centrality(G, nodes=None, alpha=0.5):
 
     dw_centrality = {}
 
-    if nodes == None:
+    if nodes == None: # if no nodes specified, calculate for every damn node
         nodes = G.nodes()
 
     for n in nodes:
 
         w = 0
-
         for e in G.edge[n].values():
             w += e['weight']
 
         k = len(G.edge[n].values()) ** (1 - alpha)
         s = w ** alpha
-
-        ks = np.round(k*s,3)
-        dw_centrality[n] = ks
+        dw_centrality[n] = np.round(k*s,3)
 
     return(dw_centrality)
 
@@ -69,7 +59,7 @@ def get_global_recommendation(G,top_n=10):
 # friend_uids = [611228,3441492,32264433,4998202,2686277]
 # uid = 1194133
 
-def get_friends_recommendations(G, friend_uids, uid, top_n=10):
+def get_friends_recommendations_for_eval(G, friend_uids, uid, top_n=10):
     venues = []
 
     # get the restaurants nodes from bipartite graph
@@ -126,34 +116,17 @@ def get_friends_recommendations(G, friend_uids, uid, top_n=10):
 
     return(venues)
 
-
-def construct_history(G, uid):
-    ew = []
-
-    venues = G.neighbors(uid)
-    for v in venues:
-        ew.append([uid,v,G.get_edge_data(uid, v)['weight']])
-
-    return(ew)
-
 # G = g.copy()
 # uid = 1194133
 # history = construct_history(G,uid)
 
-def get_recommendation_for_history(G, uid, clus_id, history, top_n=10):
+def get_recommendation_for_history_for_eval(G, uid, clus_id, history, top_n=10):
 
     # NOTES: history is used for evaluation and can be full or recent history
     # minus the latest venue for comparison purposes
     # graph should always be a full graph
 
     venues = []
-
-    # remove node from graph
-    # G.remove_node(uid)
-
-    # get the restaurants nodes from bipartite graph
-    # top_nodes = set(n for n,d in G.nodes(data=True) if d['bipartite'] == 0)
-    # bottom_nodes = set(G) - top_nodes
 
     # get nodes of cluster
     sub_graph_nodes = []
@@ -166,6 +139,7 @@ def get_recommendation_for_history(G, uid, clus_id, history, top_n=10):
 
     # get sub graph
     sub_graph = G.subgraph(sub_graph_nodes)
+    sub_graph.remove_node(uid)
     sub_graph.add_weighted_edges_from(history)
 
     # check if visited venues are in sub_graph
@@ -193,9 +167,6 @@ def get_recommendation_for_history(G, uid, clus_id, history, top_n=10):
 
     return(venues)
 
-def get_venue_by_rids(rids):
-
-def get_venue_by_uid(uid):
 
 # get_recommendation_for_history(G,uid,0,history)
 # # ----------------------------------------

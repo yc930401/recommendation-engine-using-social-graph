@@ -46,7 +46,7 @@ class Responder:
 
         self.state_after_response = State.understood_nothing
 
-    def get_response(self, parsed_dict, state, context, history):
+    def get_response(self, parsed_dict, state, context, history, uid=None):
 
         # Initialization
         self.state_after_response = state
@@ -123,7 +123,7 @@ class Responder:
             if context['locations'][0] not in self.valid_locations:
                 response = random.choice(self.response_general['unknown_location'])
             else:
-                result = self.retriever.get_random_venue(parsed_dict)
+                result = self.retriever.get_random_venue(parsed_dict, uid)
                 response = self._format_response_with_biz(result)
 
                 # Update internal state
@@ -142,26 +142,26 @@ class Responder:
 
             # Attempt to get food / cuisine based what user wants
             if requested_food and not requested_cuisine:
-                result = self.retriever.get_venue_by_food(parsed_dict,requested_food)
+                result = self.retriever.get_venue_by_food(parsed_dict,requested_food, uid)
             elif requested_cuisine and not requested_food:
-                result = self.retriever.get_venue_by_venue_type(parsed_dict,requested_cuisine)
+                result = self.retriever.get_venue_by_venue_type(parsed_dict,requested_cuisine, uid)
             elif requested_food and requested_cuisine:
-                result = self.retriever.get_venue_by_food_venue_type(parsed_dict,requested_food, requested_cuisine)
+                result = self.retriever.get_venue_by_food_venue_type(parsed_dict,requested_food, requested_cuisine, uid)
 
             # If no result attempt to get similar stuff based on biz name
             if not result:
                 requested = requested_food if requested_food else requested_cuisine
-                result = self.retriever.get_similar_venue_by_name(parsed_dict,requested)
+                result = self.retriever.get_similar_venue_by_name(parsed_dict,requested, uid)
 
             # Lastly attempt to get similar stuff based on review text
             if not result:
                 requested = requested_food if requested_food else requested_cuisine
-                result = self.retriever.get_similar_venue_by_review(parsed_dict,requested)
+                result = self.retriever.get_similar_venue_by_review(parsed_dict,requested, uid)
                 guessed = True
 
             # Construct the response for guessed response
             if result and guessed:
-                response = self._format_response_with_guessed_biz(result, requested)
+                response = self._format_response_with_guessed_biz(result, requested, uid)
                 self.state_after_response = State.provided_initial_result  # Update internal state
 
             # Construct the response for non-guessed response
@@ -238,7 +238,7 @@ class Responder:
                         history_food_cuisine.append(context['cuisines'][0]) if len(context['cuisines']) > 0 else None
 
                 for fc in history_food_cuisine:
-                    result = self.retriever.get_similar_venue_by_review(parsed_dict, fc)
+                    result = self.retriever.get_similar_venue_by_review(parsed_dict, fc, uid)
 
                     if result is not None:
                         response = self._format_response_with_guessed_biz(result, fc)

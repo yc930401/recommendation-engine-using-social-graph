@@ -4,13 +4,14 @@ sys.path.insert(0, 'D:/Workspace-Github/saproject/code/99_bot/jiakbot')
 
 from jiakbot import JiakBot
 
+jiakbot = JiakBot
 jiak_sessions = {}
+
 # -------------------------------------------------------------------
 # ID mapping: hardcode
 # -------------------------------------------------------------------
 
-
-
+uid = 81916899
 
 # -------------------------------------------------------------------
 # telegram codes
@@ -29,12 +30,14 @@ def hello(bot, update):
         'Hello {}'.format(update.message.from_user.first_name))
 
 def reply(bot, update):
+
     try:
         jiakbot = jiak_sessions[update.message.chat_id]
     except:
         jiakbot = JiakBot
         jiak_sessions[update.message.chat_id] = jiakbot
     response = jiakbot.respond(jiakbot, update.message['text'])
+
     bot.send_message(chat_id=update.message.chat_id, text=response)
 
 
