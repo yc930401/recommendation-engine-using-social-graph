@@ -33,21 +33,22 @@ adj_matrix = nx.adjacency_matrix(G)
 
 scores = []
 my_range = range(3, 30)
-spe = spectral_embedding(adj_matrix, n_components=8, random_state=0)
+spe = spectral_embedding(adj_matrix, random_state=0, drop_first=True, n_components=20)
+
 '''
 # Choose the best k(num_clusters) using AIC. Do not run it, soooooooo slow!
 for num_clusters in my_range:
     spc = mixture.GaussianMixture(n_components=num_clusters, random_state=0, covariance_type='full')
     spc.fit(spe)
-    scores.append(spc.aic(np.array(spe)))
+    scores.append(spc.bic(np.array(spe)))
 
 plt.plot(my_range, scores,'r-o')
 plt.xlabel("# clusters")
-plt.ylabel("# AIC")
+plt.ylabel("# BIC")
 plt.show()
 '''
 
-num_clusters = 6
+num_clusters = 5
 spc = mixture.GaussianMixture(n_components=num_clusters, random_state=0, covariance_type='full')
 spc.fit(spe)
 spc_labels = spc.predict(spe)
