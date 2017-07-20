@@ -262,7 +262,7 @@ class Responder:
             for word in parsed_dict['tokens']:
                 give_up = False if word in self.input_yes_or_no['yes'] else True
 
-            response = random.choice(self.response_yes_no['repeated_no_response']) if give_up else random.choice(response_yes_no['yes_after_result'])
+            response = random.choice(self.response_yes_no['repeated_no_response']) if give_up else random.choice(self.response_yes_no['yes_after_result'])
             self.state_after_response = State.understood_nothing
 
         return response
@@ -272,12 +272,14 @@ class Responder:
         response = random.choice(self.response_for_business['with_biz']).format(biz_name=business['venue_name'],
                                                                            category=business['venue_type'].lower(),
                                                                            statement=business['statement'],
-                                                                           rating=business['rating'])
+                                                                           rating=business['rating'],
+                                                                                mrt=business['mrt'])
         return response
 
     def _format_response_with_guessed_biz(self,business, kw):
         response = random.choice(self.response_for_business['with_guessed_biz']).format(biz_name=business['venue_name'],
                                                                                    category=business['venue_type'].lower(),
-                                                                                   kw=kw)
+                                                                                   kw=kw,
+                                                                                mrt=business['mrt'])
 
         return response

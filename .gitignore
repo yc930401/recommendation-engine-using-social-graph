@@ -19,6 +19,7 @@ code/.DS_Store
 code/__pycache__/*.*
 code/.project
 code/.pydevproject
+code/99_bot/jiakbot/__pycache__/*.*
 
 .settings/**
 .myumldata

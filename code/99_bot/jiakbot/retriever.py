@@ -26,6 +26,7 @@ class Retriever:
         self.g_recent = pickle.load(open(self.g_recent_path, 'rb'))
 
         self.retrieved_biz = []
+        self.retrieved_biz_type = []
 
     def get_venue_by_food(self,parsed_dict,requested_food, uid=None): # guaranteed to be different each time
 
@@ -34,13 +35,14 @@ class Retriever:
             'venue_name': '',
             'venue_food': '',
             'venue_type': '',
+            'mrt': '',
             'statement': '',
             'rating': ''
         }
 
         exclude_str = self._get_rid_exclude_str()
 
-        sql_str = "SELECT DISTINCT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
+        sql_str = "SELECT DISTINCT v.rid, v.venue_name, f.food, v.venue_type, v.rating, v.mrt_name FROM venues v " \
                   "INNER JOIN venues_food f ON v.rid = f.rid " \
                   "WHERE lower(f.food) LIKE '%{0}%'".format(requested_food) + " " + \
                   exclude_str + " " + \
@@ -74,6 +76,7 @@ class Retriever:
         venue['venue_food'] = result[2] #  the type of food they serve
         venue['venue_type'] = result[3]  # the type of food they serve
         venue['rating'] = result[4]  # rating
+        venue['mrt'] = result[5]  # mrt
         venue['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict,rid)
 
         self.retrieved_biz.extend([venue])
@@ -88,14 +91,15 @@ class Retriever:
             'venue_name': '',
             'venue_food': '',
             'venue_type': '',
+            'mrt': '',
             'statement': '',
             'rating': ''
         }
 
         exclude_str = self._get_rid_exclude_str()
 
-        sql_str = "SELECT DISTINCT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
-                  "INNER JOIN foods f ON v.rid = f.rid " \
+        sql_str = "SELECT DISTINCT v.rid, v.venue_name, f.food, v.venue_type, v.rating, v.mrt_name FROM venues v " \
+                  "INNER JOIN venues_food f ON v.rid = f.rid " \
                   "WHERE lower(v.venue_type) LIKE '%{0}%' ".format(requested_venue_type) + \
                   exclude_str + " " + \
                   "ORDER BY v.rating DESC;"
@@ -127,6 +131,7 @@ class Retriever:
         venue['venue_food'] = result[2]  # the type of food they serve
         venue['venue_type'] = result[3]  # the type of food they serve
         venue['rating'] = result[4]  # rating
+        venue['mrt'] = result[5]  # mrt
         venue['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict,rid)
 
         self.retrieved_biz.extend([venue])
@@ -141,14 +146,15 @@ class Retriever:
             'venue_name': '',
             'venue_food': '',
             'venue_type': '',
+            'mrt': '',
             'statement': '',
             'rating': ''
         }
 
         exclude_str = self._get_rid_exclude_str()
 
-        sql_str = "SELECT DISTINCT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
-                  "INNER JOIN venue_food f ON v.rid = f.rid " \
+        sql_str = "SELECT DISTINCT v.rid, v.venue_name, f.food, v.venue_type, v.rating, v.mrt_name FROM venues v " \
+                  "INNER JOIN venues_food f ON v.rid = f.rid " \
                   "WHERE lower(v.venue_type) LIKE '%{0}%' " \
                   "OR lower(f.food) LIKE '%{1}%' ".format(requested_food, requested_venue_type) + " " + \
                   exclude_str + " " + \
@@ -181,6 +187,7 @@ class Retriever:
         venue['venue_food'] = result[2] #  the type of food they serve
         venue['venue_type'] = result[3]  # the type of food they serve
         venue['rating'] = result[4]  # rating
+        venue['mrt'] = result[5]  # mrt
         venue['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict,rid)
 
         self.retrieved_biz.extend([venue])
@@ -195,14 +202,15 @@ class Retriever:
             'venue_name': '',
             'venue_food': '',
             'venue_type': '',
+            'mrt': '',
             'statement': '',
             'rating': ''
         }
 
         exclude_str = self._get_rid_exclude_str()
 
-        sql_str = "SELECT DISTINCT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
-                  "INNER JOIN venue_food f ON v.rid = f.rid WHERE 1 = 1 " + \
+        sql_str = "SELECT DISTINCT v.rid, v.venue_name, f.food, v.venue_type, v.rating, v.mrt_name FROM venues v " \
+                  "INNER JOIN venues_food f ON v.rid = f.rid WHERE 1 = 1 " + \
                   exclude_str + " " + \
                   "ORDER BY b.biz_rating DESC;"
 
@@ -232,6 +240,7 @@ class Retriever:
         venue['venue_food'] = result[2]  # the type of food they serve
         venue['venue_type'] = result[3]  # the type of food they serve
         venue['rating'] = result[4]  # rating
+        venue['mrt'] = result[5]  # mrt
         venue['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict,rid)
 
         self.retrieved_biz.extend([venue])
@@ -295,7 +304,7 @@ class Retriever:
         statement = ''
 
         # Step 1: Select all statements
-        sql_str = "SELECT tip, tok_tip FROM tips ORDER BY RANDOM() LIMIT 1000" #
+        sql_str = "SELECT tip, tok_tip FROM tips WHERE tok_tip IS NOT NULL ORDER BY RANDOM() LIMIT 500" #
 
         results = []
         tokenized_docs = []
@@ -307,8 +316,10 @@ class Retriever:
             try:
                 tokenized_docs.append(row[1].split('|'))
                 results.append(row[0])
+
             except:
-                print('Error tip!')
+                print('error getting random similar statement')
+
         conn.close()
 
         processed_docs = [[w for w in doc if re.search('^[a-z]+$', w)] for doc in tokenized_docs]
@@ -348,7 +359,7 @@ class Retriever:
         venue = {}
         exclude_str = self._get_rid_exclude_str()
 
-        sql_str = "SELECT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
+        sql_str = "SELECT v.rid, v.venue_name, f.food, v.venue_type, v.rating, v.mrt_name FROM venues v " \
                   "INNER JOIN venues_food f ON v.rid = f.rid " \
                   "WHERE 1 = 1 " \
                   "AND v.venue_name LIKE '%{0}%' ".format(requested) + " " + exclude_str + " " + \
@@ -381,6 +392,7 @@ class Retriever:
         venue['venue_food'] = result[2]  # the type of food they serve
         venue['venue_type'] = result[3]  # the type of food they serve
         venue['rating'] = result[4]  # rating
+        venue['mrt'] = result[5]  # mrt
         venue['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict, rid)
 
         self.retrieved_biz.extend([venue])
@@ -396,7 +408,7 @@ class Retriever:
 
         exclude_str = self._get_rid_exclude_str()
 
-        sql_str = "SELECT v.rid, v.venue_name, f.food, v.venue_type, v.rating FROM venues v " \
+        sql_str = "SELECT v.rid, v.venue_name, f.food, v.venue_type, v.rating, v.mrt_name FROM venues v " \
                   "INNER JOIN venues_food f ON v.rid = f.rid " \
                   "WHERE 1 = 1 " \
                   "AND v.rid IN (SELECT DISTINCT(t.rid) FROM tips t WHERE t.tip LIKE '%" + requested + "%')" + \
@@ -431,6 +443,7 @@ class Retriever:
         venue['venue_food'] = result[2]  # the type of food they serve
         venue['venue_type'] = result[3]  # the type of food they serve
         venue['rating'] = result[4]  # rating
+        venue['mrt'] = result[5]  # mrt
         venue['statement'] = self.get_random_similar_stmt_by_biz(parsed_dict, rid)
 
         self.retrieved_biz.extend([venue])
