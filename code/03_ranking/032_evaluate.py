@@ -68,7 +68,7 @@ hist_recommend_users = c.fetchall()
 
 recs = {}
 counter = 0
-print(Timer.getFormattedTime())
+# print(Timer.getFormattedTime())
 for u in hist_recommend_users:
 
     uid = u[0]
@@ -78,17 +78,17 @@ for u in hist_recommend_users:
 
     # gx = g.copy()
 
-    r = get_recommendation_for_history(gx, uid, clus_id, history, top_n=20)
+    r = get_recommendation_for_history_for_eval(g, uid, clus_id, history, top_n=200)
 
     recs[uid] = (latest[1],r)
 
     counter += 1
     if counter % 100 == 0:
         print(counter)
-    if counter == 5000:
+    if counter == 500:
         break
 
-print(Timer.getFormattedTime())
+# print(Timer.getFormattedTime())
 
 # evaluation
 rr = 0

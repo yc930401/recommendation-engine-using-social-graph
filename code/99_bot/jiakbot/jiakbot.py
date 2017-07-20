@@ -19,8 +19,8 @@ class JiakBot:
     # config_file_path = 'D:/Workspace-Github/saproject/code/99_bot/jiakbot/config_app/app_config.ini'
     # config_key = 'yangcheng'
 
-    config_file_path = 'D:/Workspace-Github/saproject/code/99_bot/jiakbot/config_app/app_config.ini'
-    config_key = 'yangcheng'
+    config_file_path = '/Users/junquantham/Development/saproject/code/99_bot/jiakbot/config_app/app_config.ini'
+    config_key = 'file_path'
 
     config = configparser.ConfigParser()
     config.read(config_file_path)
@@ -44,6 +44,8 @@ class JiakBot:
 
         response = ''
 
+        print('-----  DEBUGGING  -----')
+
         # get the parsed dict
         parsed_dict = p.parse_input(sentence)
 
@@ -51,12 +53,13 @@ class JiakBot:
         sm.update_state(parsed_dict)
 
         # get the response
+
         response = r.get_response(parsed_dict, sm.state,sm.context,sm.history, uid)
+
 
         if sm.state != r.state_after_response:
             sm.update_state_after_response(r.state_after_response)
 
-        print('-----  DEBUGGING  -----')
         print('parsed_dict:', parsed_dict)
         print('state:',sm.state)
         print('context', sm.context)
