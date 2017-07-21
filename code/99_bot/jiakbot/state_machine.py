@@ -9,7 +9,7 @@ class State(Enum):
     provided_initial_result = 4
     provided_revised_result = 5
     provided_no_result = 6
-    provided_guess = 7
+    detected_guess = 7
     provided_guess_result = 8
 
 class StateMachine():
@@ -29,7 +29,8 @@ class StateMachine():
         self.context = {
             'cuisines': [],
             'foods': [],
-            'locations': []
+            'locations': [],
+            'guessed_food' : []
         }
 
         self.history = []
@@ -163,12 +164,16 @@ class StateMachine():
         identified_foods = [phrase for phrase in identified_food_cuisines if phrase.lower() not in self.known_cuisines]
         identified_cuisines = [phrase for phrase in identified_food_cuisines if phrase.lower() in self.known_cuisines]
         identified_locations = [phrase for phrase in identified_locations if phrase.lower() not in not_location]
+
+        # hack to handle guessed food
         guessed_foods = []
 
         for food in self.known_foods:
             for token in parsed_dict['tokens']:
-                if re.match('\b(' + token + ')\b', food):
+                regex = re.compile(r'\b%s\b' % token, re.I)
+                if regex.match(food):
                     guessed_foods.extend([food])
+
 
         # ----------------------------------------------------------------------------
         # all the logic to update the states
@@ -190,7 +195,7 @@ class StateMachine():
             self.state = State.understood_location
 
         elif len(self.context['guessed_foods']) > 0:
-            self.state = State.provided_guess
+            self.state = State.detected_guess
 
         # Update history
         curr_state = copy.deepcopy(self.state)

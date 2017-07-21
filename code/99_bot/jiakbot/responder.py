@@ -202,7 +202,7 @@ class Responder:
 
         # (STATE)  GUESS FOOD
         # ---------------------------------------------------------
-        elif state == State.provided_guess:
+        elif state == State.detected_guess:
 
             guessed_food = context['guessed_foods'][0] if len(context['guessed_foods']) > 0 else None
             response = random.choice(
@@ -232,13 +232,13 @@ class Responder:
                     break
 
             if answered_yes:
-
-                requested_food = context['guessed_foods'][0] if len(context['guessed_foods']) > 0 else None
+                h = history[len(history)-2]
+                requested_food = h[1]['guessed_foods'][0] if len(h[1]['guessed_foods']) > 0 else None
                 result = self.retriever.get_venue_by_food(parsed_dict, requested_food, uid)
 
                 # Construct the response for guessed response
                 if result:
-                    response = self._format_response_with_biz(result, requested_food)
+                    response = self._format_response_with_biz(result)
                     self.state_after_response = State.provided_initial_result  # Update internal state
 
                 # Construct the response for no result
