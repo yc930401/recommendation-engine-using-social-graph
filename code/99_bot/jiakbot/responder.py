@@ -1,6 +1,4 @@
-import configparser
-import json
-import random
+import json, random, re
 from retriever import Retriever
 from state_machine import StateMachine, State
 
@@ -41,8 +39,7 @@ class Responder:
 
         # read in food
         with open(self.food_file_path, 'r') as food_file:
-            known_foods = [food.lower() for food in food_file.read().splitlines()]
-
+            self.known_foods = [food.lower() for food in food_file.read().splitlines()]
 
         self.state_after_response = State.understood_nothing
 
@@ -93,7 +90,6 @@ class Responder:
 
                 elif abt_no:  # no to anything
                     response = random.choice(self.response_yes_no['no_generic'])
-
                 else:
                     response = self.retriever.get_random_similar_stmt(parsed_dict['input_text'])
                     if response == None:
@@ -111,7 +107,6 @@ class Responder:
             # -----------------
             if abt_intent:
                 response = random.choice(self.response_general['recommend'])
-
 
             return response
 
@@ -161,7 +156,7 @@ class Responder:
 
             # Construct the response for guessed response
             if result and guessed:
-                response = self._format_response_with_guessed_biz(result, requested, uid)
+                response = self._format_response_with_guessed_biz(result, requested)
                 self.state_after_response = State.provided_initial_result  # Update internal state
 
             # Construct the response for non-guessed response
@@ -203,6 +198,64 @@ class Responder:
                 self.state_after_response = State.understood_nothing  # Update internal state
 
             return response
+
+
+        # (STATE)  GUESS FOOD
+        # ---------------------------------------------------------
+        elif state == State.provided_guess:
+
+            guessed_food = context['guessed_foods'][0] if len(context['guessed_foods']) > 0 else None
+            response = random.choice(
+                self.response_general['guessed_food']).format(input=parsed_dict['input_text'],
+                                                              guessed_food = guessed_food)
+
+            self.state_after_response = State.provided_guess_result  # Update internal state
+
+            return response
+
+
+        # (STATE) PROVIDED GUESS
+        # ---------------------------------------------------------
+        elif state == State.provided_guess_result:
+
+            answered_yes = False
+            answered_no = False
+            answered_something_else = False
+
+            # Checks what the user answers
+            for word in parsed_dict['tokens']:
+                if word in self.input_yes_or_no['yes']:
+                    answered_yes = True
+                    break
+                elif word in self.input_yes_or_no['no']:
+                    answered_no = True
+                    break
+
+            if answered_yes:
+
+                requested_food = context['guessed_foods'][0] if len(context['guessed_foods']) > 0 else None
+                result = self.retriever.get_venue_by_food(parsed_dict, requested_food, uid)
+
+                # Construct the response for guessed response
+                if result:
+                    response = self._format_response_with_biz(result, requested_food)
+                    self.state_after_response = State.provided_initial_result  # Update internal state
+
+                # Construct the response for no result
+                else:
+                    response = random.choice(self.response_general['no_result'])
+                    self.state_after_response = State.provided_no_result  # Update internal state
+
+            elif answered_no:
+                response = random.choice(self.response_general['request_food_cuisine'])
+                self.state_after_response = State.understood_nothing
+
+            else:
+                response = random.choice(self.response_general['unknown_food_cuisine'])
+                self.state_after_response = State.understood_nothing  # Update internal state
+
+            return response
+
 
         # (STATE) PROVIDED INITIAL RESULT - GETTING FEEDBACK OR WIPE STATE
         # ---------------------------------------------------------
@@ -269,17 +322,19 @@ class Responder:
 
     def _format_response_with_biz(self,business):
 
-        response = random.choice(self.response_for_business['with_biz']).format(biz_name=business['venue_name'],
-                                                                           category=business['venue_type'].lower(),
-                                                                           statement=business['statement'],
-                                                                           rating=business['rating'],
-                                                                                mrt=business['mrt'])
+        response = random.choice(
+            self.response_for_business['with_biz']).format(biz_name=business['venue_name'],
+                                                           category=business['venue_type'].lower(),
+                                                           statement=business['statement'],
+                                                           rating=business['rating'],
+                                                           mrt=business['mrt'].lower())
         return response
 
     def _format_response_with_guessed_biz(self,business, kw):
-        response = random.choice(self.response_for_business['with_guessed_biz']).format(biz_name=business['venue_name'],
-                                                                                   category=business['venue_type'].lower(),
-                                                                                   kw=kw,
-                                                                                mrt=business['mrt'])
+        response = random.choice(
+            self.response_for_business['with_guessed_biz']).format(biz_name=business['venue_name'],
+                                                                   category=business['venue_type'].lower(),
+                                                                   kw=kw,
+                                                                   mrt=business['mrt'].lower())
 
         return response

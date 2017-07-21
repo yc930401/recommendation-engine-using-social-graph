@@ -9,6 +9,8 @@ class State(Enum):
     provided_initial_result = 4
     provided_revised_result = 5
     provided_no_result = 6
+    provided_guess = 7
+    provided_guess_result = 8
 
 class StateMachine():
 
@@ -57,6 +59,7 @@ class StateMachine():
         self.context['foods'] = []
         self.context['cuisines'] = []
         self.context['locations'] = []
+        self.context['guessed_foods'] = []
 
         tagged = nltk.pos_tag(nltk.word_tokenize(parsed_dict['input_text']))
 
@@ -153,7 +156,6 @@ class StateMachine():
                     identified_food_cuisines.remove(location)
                     identified_locations.extend([location.lower()])
 
-
         # ----------------------------------------------------------------------------
         # finalize the identified lists
         # ----------------------------------------------------------------------------
@@ -161,7 +163,12 @@ class StateMachine():
         identified_foods = [phrase for phrase in identified_food_cuisines if phrase.lower() not in self.known_cuisines]
         identified_cuisines = [phrase for phrase in identified_food_cuisines if phrase.lower() in self.known_cuisines]
         identified_locations = [phrase for phrase in identified_locations if phrase.lower() not in not_location]
+        guessed_foods = []
 
+        for food in self.known_foods:
+            for token in parsed_dict['tokens']:
+                if re.match('\b(' + token + ')\b', food):
+                    guessed_foods.extend([food])
 
         # ----------------------------------------------------------------------------
         # all the logic to update the states
@@ -173,6 +180,7 @@ class StateMachine():
         self.context['foods'].extend(identified_foods)
         self.context['cuisines'].extend(identified_cuisines)
         self.context['locations'].extend(identified_locations)
+        self.context['guessed_foods'].extend(guessed_foods)
 
         # Update the state
         if len(self.context['cuisines']) > 0 or len(self.context['foods']) > 0:
@@ -181,6 +189,8 @@ class StateMachine():
         elif len(self.context['locations']) > 0:
             self.state = State.understood_location
 
+        elif len(self.context['guessed_foods']) > 0:
+            self.state = State.provided_guess
 
         # Update history
         curr_state = copy.deepcopy(self.state)

@@ -38,8 +38,12 @@
         "Tell me some cuisines you like."
   ],
   "request_food_cuisine":[
-        "Give me some other foods or cuisines you like",
+        "Give me some other foods or cuisines you like ...",
         "What other food you like to have today?",
         "Tell me some other cuisines you like."
+  ],
+  "guessed_food":[
+    "{input} what? {guessed_food}?",
+    "What {input}? Say in properly lah. {guessed_food} is it?"
   ]
 }
