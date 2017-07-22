@@ -59,7 +59,7 @@ g.add_weighted_edges_from(edge_weights)
 
 nx.set_node_attributes(g,'clus_id',node_clus)
 u_nodes,r_nodes = bipartite.sets(g)
-print('Is graph bipartite:', nx.is_bipartite(g))
+print('Full History Graph is graph bipartite:', nx.is_bipartite(g))
 
 pickle.dump(g, open('data/graph_objects/g.sav', 'wb'))
 
@@ -97,7 +97,6 @@ for grp in gt_df.groups.items():
         for j in range(0,6):
 
             data_ind = j+i
-            eval_ind = j+i+1
 
             clus_id = reviews.iloc[data_ind,0]
             uid = reviews.iloc[data_ind,1]
@@ -120,6 +119,6 @@ rhg.add_weighted_edges_from(edge_weights)
 
 nx.set_node_attributes(rhg,'clus_id',node_clus)
 u_nodes,r_nodes = bipartite.sets(rhg)
-print('Is graph bipartite:', nx.is_bipartite(rhg))
+print('Recent History Graph is graph bipartite:', nx.is_bipartite(rhg))
 
 pickle.dump(g, open('data/graph_objects/g_recent.sav', 'wb'))

@@ -1,0 +1,12 @@
+{
+    "with_biz": [
+      "You can try {biz_name}, it is rated {rating} on our database. They are a {category}.\nOne of their customers said: \"{statement}\". They are near {mrt}. Does this suit your taste?",
+      "I like {biz_name}, its got a {rating} star rating in our database. Some say: \"{statement}\". They are a {category}. It is near {mrt}.This recommendation okay?",
+      "eh ... {biz_name} can or not? Its quite good. Near near {mrt} leh. I say \"{statement}\""
+    ],
+    "with_guessed_biz": [
+      "I'm not really able to find anything else relevant but you can try {biz_name}. Very near {mrt}. They are a {category} and they might have {kw}. Is that okay?",
+      "Can you at least try {biz_name}. {category} is what they are and perhaps they have {kw}. Quite near {mrt} lah. Is that okay?",
+      "Try {biz_name} lah. They are a {category} located close to {mrt}, I think, and they might have {kw}. Okay or not?"
+    ]
+}

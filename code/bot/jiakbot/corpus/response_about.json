@@ -1,0 +1,15 @@
+{
+    "bot": [
+        "You're talking about me? or yourself ...",
+        "Let's talk about you, not me",
+        "I don't see anyone else around here who goes by that name...",
+        "Are you referring to me?",
+        "Yes, I'm a bot - a ChatBot to be exact - but you can call me Jiakbot"
+    ],
+    "user": [
+        "That's nice to know, what food would you like though?",
+        "Tell me more about food...",
+        "I know ... shall we talk about food?",
+        "The feeling is not mutual ... right? Lets talk about food instead..."
+    ]
+}
