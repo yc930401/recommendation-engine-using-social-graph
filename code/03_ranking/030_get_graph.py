@@ -16,9 +16,9 @@ c = conn.cursor()
 # FULL HISTORY GRAPH
 # -------------------
 # get all ratings (implied check-in. except the last rating for evaluation)
-c.execute('SELECT kmn_clus_id as clus_id, t.uid, t.rid, avg(senti_score) as score FROM tips t '
+c.execute('SELECT combined_clus_id as clus_id, t.uid, t.rid, avg(senti_score) as score FROM tips t '
           'LEFT JOIN users u ON t.uid = u.uid '
-          'GROUP BY t.rid, t.uid, u.kmn_clus_id')
+          'GROUP BY t.rid, t.uid, u.combined_clus_id')
 
 scores = c.fetchall()
 
@@ -67,7 +67,7 @@ pickle.dump(g, open('data/graph_objects/g.sav', 'wb'))
 # ------------------------
 # create user-restaurant matrix (short-term) 7 most recent restaurants in order
 # creates the user data for evaluation
-c.execute('SELECT u.kmn_clus_id, t.uid,t.rid,t.created_at,senti_score FROM tips t '
+c.execute('SELECT u.combined_clus_id, t.uid,t.rid,t.created_at,senti_score FROM tips t '
           'LEFT JOIN users u ON t.uid = u.uid '
           'WHERE t.uid in'
           '(SELECT uid FROM (SELECT uid, count(uid) as cnt FROM tips GROUP BY uid) WHERE cnt > 6)'

@@ -170,6 +170,10 @@ class StateMachine():
 
         for food in self.known_foods:
             for token in parsed_dict['tokens']:
+                t = re.sub('[^a-zA-Z0-9-_*.]', '', token)
+                if len(t) <= 1:
+                    continue
+
                 regex = re.compile(r'\b%s\b' % token, re.I)
                 if regex.match(food):
                     guessed_foods.extend([food])

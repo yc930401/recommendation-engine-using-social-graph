@@ -212,7 +212,7 @@ class Retriever:
         sql_str = "SELECT DISTINCT v.rid, v.venue_name, f.food, v.venue_type, v.rating, v.mrt_name FROM venues v " \
                   "INNER JOIN venues_food f ON v.rid = f.rid WHERE 1 = 1 " + \
                   exclude_str + " " + \
-                  "ORDER BY b.biz_rating DESC;"
+                  "ORDER BY v.rating DESC;"
 
         print('get_random_venue --- ', sql_str)
         # connect and get the result
@@ -574,7 +574,7 @@ class Retriever:
 #          'locations': [],
 #          'retrieved': False,
 #          'foods': ['burgers']}
-#
+
 # parsed_dict = {'tokens': ['you', 'know', 'of', 'any', 'place', 'for', 'japanese', 'or', 'sells', 'burgers', '?']}
 # print(r.get_venue_by_food(parsed_dict,'burgers'))
 # print(r.get_similar_venue('burgers'))

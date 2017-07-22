@@ -1,9 +1,8 @@
 # import jiakbot
 import sys
-sys.path.insert(0, 'D:/Workspace-Github/saproject/code/99_bot/jiakbot')
+#sys.path.insert(0, 'D:/Workspace-Github/saproject/code/99_bot/jiakbot')
 
-#sys.path.insert(0, '/Users/junquantham/Development/saproject/code/99_bot/jiakbot')
-
+sys.path.insert(0, '/Users/junquantham/Development/saproject/code/99_bot/jiakbot')
 
 from jiakbot import JiakBot
 
