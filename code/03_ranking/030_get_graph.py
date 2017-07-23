@@ -172,4 +172,4 @@ nx.set_node_attributes(rhg,'clus_id',node_clus)
 u_nodes,r_nodes = bipartite.sets(rhg)
 print('Recent History Graph is graph bipartite:', nx.is_bipartite(rhg))
 
-pickle.dump(g, open('data/graph_objects/g_recent.sav', 'wb'))
+pickle.dump(rhg, open('data/graph_objects/g_recent.sav', 'wb'))

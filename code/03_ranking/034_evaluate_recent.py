@@ -1,4 +1,3 @@
-import sqlite3
 import pickle
 
 g = pickle.load(open('data/graph_objects/g_recent.sav', 'rb'))
@@ -20,7 +19,7 @@ for uid,iteration in eval_records.items():
         recs_recent[uid] = (latest[1], r)
 
         counter += 1
-        if counter % 100 == 0:
+        if counter % 500 == 0:
             print('Recommended records #', counter, 'at: ', getFormattedTime())
 
 pickle.dump(recs_recent, open('data/rec_results/recs_recent.sav', 'wb'))
