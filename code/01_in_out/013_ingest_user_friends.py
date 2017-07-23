@@ -50,5 +50,6 @@ for k in user_friends.keys():
         query_str = 'INSERT INTO user_friends (uid,friend_uid) VALUES (%s);' % var_str
         c.execute(query_str)
 
+c.execute('DELETE FROM user_friends WHERE friend_uid NOT IN (SELECT uid FROM users);')
 conn.commit()
 conn.close()

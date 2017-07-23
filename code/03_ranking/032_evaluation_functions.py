@@ -17,7 +17,6 @@ def get_degree_weighted_centrality(G, nodes=None, alpha=0.5):
         nodes = G.nodes()
 
     for n in nodes:
-
         w = 0
         for e in G.edge[n].values():
             w += e['weight']
@@ -58,7 +57,7 @@ def get_global_recommendation(G,top_n=10):
 # friend_uids = [611228,3441492,32264433,4998202,2686277]
 # uid = 1194133
 
-def get_friends_recommendations_for_eval(G, friend_uids, uid, top_n=10):
+def get_recommendations_using_friends(G, friend_uids, uid, top_n=10):
     venues = []
 
     # get the restaurants nodes from bipartite graph
@@ -89,7 +88,9 @@ def get_friends_recommendations_for_eval(G, friend_uids, uid, top_n=10):
 
     # get generic recommendation if no visited venues in cluster
     if len(visited_venues) == 0:
-        dw_nodes = venue_nodes
+
+        sub_venue_nodes = [(n, d) for n, d in sub_graph.nodes(data=True) if d['bipartite'] == 0]
+        dw_nodes = [n for n,d in sub_venue_nodes]
 
     # if visited venues in cluster based it on the neighbours
     else:
@@ -118,7 +119,7 @@ def get_friends_recommendations_for_eval(G, friend_uids, uid, top_n=10):
 # uid = 1194133
 # history = construct_history(G,uid)
 
-def get_recommendation_for_history_for_eval(G, uid, clus_id, history, top_n=10):
+def get_recommendations_using_history(G, uid, clus_id, history, top_n=10):
 
     # NOTES: history is used for evaluation and can be full or recent history
     # minus the latest venue for comparison purposes
@@ -165,6 +166,22 @@ def get_recommendation_for_history_for_eval(G, uid, clus_id, history, top_n=10):
 
     return(venues)
 
+def get_mrr(recs):
+    # evaluation
+    rr = 0
+
+    for ks,vs in recs.items():
+
+        visited = vs[0]
+        recommended = vs[1]
+
+        for i in range(len(recommended)):
+            if visited == recommended[i]:
+                rr += 1/(i+1)
+
+    mrr = rr / len(recs.items())
+    print('Mean Reciprocal Rank:', mrr)
+    return(mrr)
 
 # get_recommendation_for_history(G,uid,0,history)
 # # ----------------------------------------
