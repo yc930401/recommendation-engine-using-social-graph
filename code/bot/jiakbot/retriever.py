@@ -498,7 +498,7 @@ class Retriever:
         sub_graph = self.g.subgraph(sub_graph_nodes)
 
         # fetch the clus_id
-        sql_str = "SELECT kmn_clus_id FROM users WHERE uid = {0}".format(uid)
+        sql_str = "SELECT combined_clus_id FROM users WHERE uid = {0}".format(uid)
         conn = sqlite3.connect(self._db_path)
         c = conn.cursor()
         c.execute(sql_str)
@@ -532,7 +532,7 @@ class Retriever:
         print('recommending _get_venue_by_uid ... ')
 
         # fetch the clus_id
-        sql_str = "SELECT kmn_clus_id FROM users WHERE uid = {0}".format(uid)
+        sql_str = "SELECT combined_clus_id FROM users WHERE uid = {0}".format(uid)
         conn = sqlite3.connect(self._db_path)
         c = conn.cursor()
         c.execute(sql_str)
