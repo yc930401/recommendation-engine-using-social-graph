@@ -24,5 +24,26 @@ for uid,iteration in eval_records.items():
 
 pickle.dump(recs_recent, open('data/rec_results/recs_recent.sav', 'wb'))
 
+
+# fill recs up to 200
+# ------------------------------------------------
+recs_recent = pickle.load(open('./data/rec_results/recs_recent.sav', 'rb'))
+global_rec = get_global_recommendation(g, top_n=200)
+
+filled_recs = {}
+
+for key, value in recs.items():
+    uid = key
+    latest = value[0]
+    rec = value[1]
+    if len(rec) < 200:
+        num_to_append = 200 - len(rec)
+        rec_to_append = global_rec[0:num_to_append]
+        rec.extend(rec_to_append)
+
+    filled_recs[uid] = (latest,rec)
+
+pickle.dump(recs_recent, open('./data/rec_results/recs_recent.sav', 'wb'))
+
 get_mrr(recs_recent)
 print('Completed recommendations for recent history records')

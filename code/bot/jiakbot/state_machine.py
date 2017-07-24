@@ -1,6 +1,6 @@
 import nltk, re
 from enum import Enum
-import copy, configparser
+import copy
 
 class State(Enum):
     understood_nothing = 1

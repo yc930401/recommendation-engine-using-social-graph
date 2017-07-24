@@ -85,4 +85,42 @@ for u in frd_recommend_users:
 
 pickle.dump(recs, open('data/rec_results/' + save_recs_path, 'wb'))
 
+# fill recs up to 200
+# ------------------------------------------------
+recs = pickle.load(open('./data/rec_results/recs_full_venue.sav', 'rb'))
+global_rec = get_global_recommendation(g, top_n=200)
+
+filled_recs = {}
+
+for key, value in recs.items():
+    uid = key
+    latest = value[0]
+    rec = value[1]
+    if len(rec) < 200:
+        num_to_append = 200 - len(rec)
+        rec_to_append = global_rec[0:num_to_append]
+        rec.extend(rec_to_append)
+
+    filled_recs[uid] = (latest,rec)
+
+pickle.dump(recs, open('./data/rec_results/recs_full_venue.sav', 'wb'))
+get_mrr(recs)
+
+recs = pickle.load(open('./data/rec_results/recs_full.sav', 'rb'))
+global_rec = get_global_recommendation(g, top_n=200)
+
+filled_recs = {}
+
+for key, value in recs.items():
+    uid = key
+    latest = value[0]
+    rec = value[1]
+    if len(rec) < 200:
+        num_to_append = 200 - len(rec)
+        rec_to_append = global_rec[0:num_to_append]
+        rec.extend(rec_to_append)
+
+    filled_recs[uid] = (latest,rec)
+
+pickle.dump(recs, open('./data/rec_results/recs_full.sav', 'wb'))
 get_mrr(recs)
