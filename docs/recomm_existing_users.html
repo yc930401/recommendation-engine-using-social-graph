@@ -1,0 +1,197 @@
+<html>
+ <meta charset="UTF-8">
+<head>
+  <title>ISSS 608 - Social Analytics and Application Project </title>
+  <!--main stylesheet-->
+  <link rel="stylesheet" href="css/sa_visual_main2.css" type = "text/css">
+  <link rel="stylesheet" href="css/lib/04_existing_user.css" type = "text/css">
+  <link rel="stylesheet" href="css/lib/05_new_user.css" type = "text/css">
+
+
+  <script src = "js/lib/d3.v2.js"></script>
+  <script src = "js/lib/jquery-3.2.1.js"></script>
+  <script src = "treemap.js"></script>
+  <script src = "js/04_existing_users.js"></script>
+
+      <!-- this is the header portion-->
+  <nav role = "top_navbar">
+    <ul class = "topnav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="methodology.html">Analytical Approach</a></li>
+          <li><a class="active" href="dashboard.html">Results</a></li>
+          <li><a href="resource.html">Resource</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <!-- this is the 2nd header portion-->
+<nav role = "2nd_top_navbar">
+  <ul class = "topnav">
+    <li><a href="dashboard.html">Overview</a></li>
+    <li><a href="dashboard_cluster01.html">Clustering by Restaurants</a></li>
+    <li><a  href="dashboard_cluster02.html">Clustering by Locations</a></li>
+    <li><a class = "active"  href="recomm_existing_users.html">Recommendation for: Existing Users</a></li>
+    <li><a href="recomm_new_users.html">Recommendation for: New Users</a></li>
+  </ul>
+</nav>
+</head>
+  <body>
+    <p id="chart" style = " top: 13%; bottom:0%; left: 3%">
+    <p id="rawdata">
+    <script src="treemap.js"></script>
+    <script>
+    	function reSortRoot(root,value_key) {
+    		//console.log("Calling");
+    		for (var key in root) {
+    			if (key == "key") {
+    				root.name = root.key;
+    				delete root.key;
+    			}
+    			if (key == "values") {
+    				root.children = [];
+    				for (item in root.values) {
+    					root.children.push(reSortRoot(root.values[item],value_key));
+    				}
+    				delete root.values;
+    			}
+    			if (key == value_key) {
+    				root.value = parseFloat(root[value_key]);
+    				delete root[value_key];
+    			}
+    		}
+    		return root;
+    	}
+
+    	$( document ).ready(function() {
+    		// You can comment out the whole csv section if you just have a JSON file.
+        // loadJSONFile('data/portaldata.json');
+
+        	d3.csv("dataset/cluster_updated.csv", function(csv_data){
+
+    			// Add, remove or change the key values to change the hierarchy.
+          var nested_data = d3.nest()
+          .key(function(d)  { return d.senti_clus_id; })
+          .key(function(d)  { return d.venue_clus_id; })
+            .key(function(d)  { return d.mrt_loc_clus_id; })
+    				      .entries(csv_data);
+
+    			// Creat the root node for the treemap
+    			var root = {};
+
+    			// Add the data to the tree
+    			root.key = "Combined Clusters";
+    			root.values = nested_data;
+
+    			// Change the key names and children values from .next and add values for a chosen column to define the size of the blocks
+    			root = reSortRoot(root,"Count");
+
+    			// DEBUG
+    // 			$("#rawdata").html(JSON.stringify(root));
+    			loadData(root);
+    		});
+    	});
+    </script>
+
+    <div id="new_users_recommendation_list" style=" position: absolute; width: 26%; right: 25%; top: 17%;  ">
+
+      <button onclick="myFunction()">Recommendation(Sample)</button>
+
+      <div id="myDIV" style="display:none">
+        <!-- hardcode now, can be replace with javscript to automate-->
+        <h2> User Name: <font color="#f44336"> Rocky Chang </font></h2>
+        <h2> Combined Cluster ID: <font color="#f44336"> 2_5_6 </font></h2>
+        <h2> Last Visit: <font color="#f44336"> Osteria Mozza </font></h2>
+        <table>
+          <tr>
+            <th> Rank </th>
+            <th> Venue Name </th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Singapore Zam Zam Restaurant</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Lau Pa Sat Festival Market</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Seah Im Food Centre</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Swee Choon Tim Sum Restaurant</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Ippudo (一風堂)</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Golden Mile (Beach Road) Food Centre</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Al-Azhar Eating Restaurant ال اذحار (Al-Azhar Eating Restaurant)</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Bukit Timah Market & Food Centre</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Newton Food Centre</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Ayer Rajah (West Coast Drive) Market & Food Centre</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>Forty Hands</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>Strangers' Reunion</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>PS.Cafe</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>Clementi 448 Market & Food Centre 金文泰巴刹小販中心</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>Kovan Hougang Market & Food Centre</td>
+          </tr>
+          <tr>
+        </table>
+      </div>
+      <script>
+      function myFunction() {
+          var x = document.getElementById('myDIV');
+          if (x.style.display === 'none') {
+              x.style.display = 'block';
+          } else {
+              x.style.display = 'none';
+          }
+      }
+      </script>
+<div id="description_table" style=" position: fixed; width: 300px; right:40px; top: 17%; text-align:left">
+<h1 style= "text-align:left;"> Background: </h1>
+<p>This is a treemap to illustrate how the clusters are being combined to make recommendations </p>
+<br>
+<p><b> Note: </b> the results are best view in Google Chrome with 1350 X 630 resolution. </p>
+
+<br><br>
+<h1 style= "text-align:left;"> How it Works: </h1>
+<p> Clustering results from the previous clustering methodologies are combined together to create a new combined clusters ID for each user. </p>
+
+<br>
+<p> <b> Senti-Clus-ID: </b>Results of clustering from users-users relationship.  </p>
+<p> <b> Type-Clus-ID: </b>Results of clustering from users-restaurant type relationship.  </p>
+<p> <b> Loc-Clus-ID: </b>Results ofclustering from users-location relationship.  </p>
+
+  </body>
+</html>

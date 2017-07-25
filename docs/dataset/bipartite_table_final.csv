@@ -1,0 +1,191 @@
+﻿new_venue_type,venue_name,spe_clus_id,med_senti_score
+American_Restaurant,Morganfield's,3,9.78
+American_Restaurant,Opus Bar & Grill,4,9.75
+American_Restaurant,MELD Grilled Kitchen,5,9.7
+American_Restaurant,Scrummy Grill & BBQ,4,9.68
+American_Restaurant,OverEasy Orchard,3,9.6
+American_Restaurant,Bistecca Tuscan Steakhouse,3,9.58
+American_Restaurant,Wooloomooloo Steakhouse,5,9.56
+American_Restaurant,Banana Leaf BBQ Seafood,4,9.55
+American_Restaurant,Blooie's Roadhouse Bar & Grill,5,9.47
+American_Restaurant,Luke's Oyster Bar & Chop House,5,9.465
+Asian_Food,Gerry's Grill,0,9.24
+Asian_Food,Calle Real,2,8.55
+Asian_Food,Calle Real,5,8.12
+Asian_Food,Calle Real,4,7.7
+Asian_Food,Iskina Cebu,2,7.46
+Asian_Food,Turo Turo,2,7.46
+Asian_Food,Gerry's Grill,2,7.045
+Asian_Food,Turo Turo,4,6.96
+Asian_Food,Gerry's Grill,4,6.43
+Asian_Food,Iskina Cebu,4,5
+Asian_Restaurant,I'm Kim Korean BBQ,5,9.75
+Asian_Restaurant,Oven & Fried Chicken,3,9.66
+Asian_Restaurant,Sarangchae Korean Restaurant,2,9.65
+Asian_Restaurant,Al Waris Restaurant,5,9.645
+Asian_Restaurant,Eight 8 Korean BBQ Shaw Centre,3,9.6
+Asian_Restaurant,Meat Smith,3,9.6
+Asian_Restaurant,Club July,5,9.56
+Asian_Restaurant,Sri Bistari Changi Village Famous Ayam Penyet,2,9.56
+Asian_Restaurant,Blue Bali on Cluny,5,9.55
+Asian_Restaurant,Yu Kee House Of Braised Duck,4,9.52
+Bakery,Uggli Muffins,2,9.64
+Bakery,The Patissier,5,9.57
+Bakery,727 Cakerie,4,9.45
+Bakery,Cottage Pies Cafe,2,9.4
+Bakery,パン達人 BAKER TALENT,5,9.39
+Bakery,Green Pumpkin Japanese Bakery,2,9.36
+Bakery,Bread of Love,4,9.34
+Bakery,The Patissier,2,9.33
+Bakery,Entre-Nous Creperie,5,9.3
+Bakery,Dolcetto,4,9.28
+Buffet,Colony,3,9.52
+Buffet,edge | food theatre,3,9.08
+Buffet,Colony,2,8.84
+Buffet,Lime,2,8.71
+Buffet,Lime,5,8.375
+Buffet,edge | food theatre,4,8.34
+Buffet,edge | food theatre,5,8.18
+Buffet,MELT ~ The World Café,2,8.12
+Buffet,edge | food theatre,2,7.96
+Buffet,Carousel,2,7.875
+Cafe,W•39 Bistro & Bakery,0,9.86
+Cafe,Petite Menu,4,9.8
+Cafe,La Brasserie,5,9.78
+Cafe,Shop Wonderland,3,9.78
+Cafe,House of Indocafe,2,9.77
+Cafe,Flock Café,3,9.76
+Cafe,Tart Blanc,2,9.73
+Cafe,Joan Bowen Cafe,5,9.72
+Cafe,Furry Pets Connection @ Guillemard Village,4,9.67
+Cafe,Geisha Specialty Coffee | 瑰夏咖啡,5,9.06
+Chinese_Restaurant,Na Na Curry,5,9.9
+Chinese_Restaurant,Cherry Garden,5,9.84
+Chinese_Restaurant,iSteamboat Chinese Restaurant,3,9.81
+Chinese_Restaurant,Hainanese Delicacy,5,9.74
+Chinese_Restaurant,126 搵到食,5,9.69
+Chinese_Restaurant,Chef Kang's,2,9.67
+Chinese_Restaurant,Alishan Taiwan Beef Stew/ Tendon Noodle,5,9.66
+Chinese_Restaurant,Da Jia Lai Hainanese Chicken Rice,4,9.66
+Chinese_Restaurant,iSteamboat Chinese Restaurant,4,9.65
+Chinese_Restaurant,Si Chuan Dou Hua Restaurant 四川豆花饭庄,3,9.65
+Deli,Fruit Tart Shop,4,8.05
+Deli,Ladurée,5,7.78
+Deli,Pie Kia @ Choa Chu Kang Xchange,4,6.13
+Deli,Pies & Coffee,2,5.74
+Deli,Pies & Coffee,5,5.535
+Deli,Fruit Tart Shop,2,5.45
+Deli,Ladurée,2,5
+Deli,Ladurée,4,5
+Deli,Pies & Coffee,3,5
+Deli,Pies & Coffee,4,5
+Diner,Han Kee Fish Soup,5,9.84
+Diner,LeVel33,4,9.77
+Diner,LeVel33,2,9.72
+Diner,Knead To Eat,5,9.71
+Diner,Taste Of Village Kitchen,2,9.71
+Diner,Jonathan's - Singapore's First Purely Gluten-Free Kitchen!,5,9.66
+Diner,Eighteen Chefs,0,9.65
+Diner,Hua Long Fish Head Steamboat,4,9.6
+Diner,Tenderfresh Classic,4,9.58
+Diner,Kilo,3,9.575
+English_Restaurant,Bread Yard,3,9.38
+English_Restaurant,Toast Box 土司工坊,3,9.33
+English_Restaurant,泉 Economical Bee Hoon,2,9.22
+English_Restaurant,Big Fish Small Fish,4,8.74
+English_Restaurant,The Udder Pancake,4,8.63
+English_Restaurant,Jiaxiang Pancake,4,8.62
+English_Restaurant,Toast Box 土司工坊,4,8.54
+English_Restaurant,Mr Bean,5,8.49
+English_Restaurant,Hatched,3,8.45
+English_Restaurant,Lim Hai Sheng Cooked Food,5,8.35
+European_Restaurant,Lewin Terrace,4,9.88
+European_Restaurant,Burlamacco Ristorante,3,9.72
+European_Restaurant,Pollen,3,9.72
+European_Restaurant,Flutes at the National Museum,3,9.71
+European_Restaurant,Latteria Mozzarella Bar,3,9.63
+European_Restaurant,Warehouse Bistro (formerly L'entrepot Bistro),2,9.6
+European_Restaurant,Buona Terra Italian Restaurant,2,9.575
+European_Restaurant,Rosso vino,5,9.57
+European_Restaurant,Spago,3,9.57
+European_Restaurant,Brasserie Gavroche,0,9.52
+Fast_Food_Restaurant,Fat Boy's The Burger Bar,3,9.87
+Fast_Food_Restaurant,Plank Sourdough Pizza By Baker & Cook,4,9.77
+Fast_Food_Restaurant,Flamingo Thai Asli @ Asli Village Foodcourt Downtown East,2,9.72
+Fast_Food_Restaurant,Tan's Tu Tu Coconut Cake,4,9.6
+Fast_Food_Restaurant,Burger Barn,5,9.55
+Fast_Food_Restaurant,Wolf Burgers,4,9.54
+Fast_Food_Restaurant,PLANK Sourdough Pizza,2,9.53
+Fast_Food_Restaurant,TenderFresh,5,9.48
+Fast_Food_Restaurant,AltPizza,3,9.36
+Fast_Food_Restaurant,PizzaFace,2,9.36
+Food_Court,Good Good's Eating House,2,9.87
+Food_Court,Chong Boon Market & Food Centre,0,9.72
+Food_Court,Amoy Street Food Centre,0,9.6
+Food_Court,Clementi 448 Market & Food Centre 金文泰巴刹小販中心,3,9.51
+Food_Court,Good Good Eating House 好好餐室 (Good Good Eating House),5,9.45
+Food_Court,kopitiam compassone (Kopitiam),4,9.4
+Food_Court,Good Good Eating House 好好餐室 (Good Good Eating House),3,9.39
+Food_Court,Yishun 81 Food Court,1,9.38
+Food_Court,Chang Cheng Mee Wah 長城美華 (Former G5 Food House),3,9.36
+Food_Court,Chun Sheng Yuan Eating House,3,9.28
+HongKong_Restaurant,Xin Wang Hong Kong Cafe,4,9.28
+HongKong_Restaurant,Hong Kong Street Family Restaurant Bedok,5,9.17
+HongKong_Restaurant,Hong Kong Street Family Restaurant Bedok,4,8.63
+HongKong_Restaurant,Tai Lei Loi Kei 澳门大利来记猪扒包（新加坡） (Tai Lei Loi Kei),4,8.48
+HongKong_Restaurant,Tai Lei Loi Kei 澳门大利来记猪扒包（新加坡） (Tai Lei Loi Kei),2,8.29
+HongKong_Restaurant,笨珍云吞面 (Pontian Wanton Noodles),4,8.24
+HongKong_Restaurant,Legendary Hong Kong 港饮港食,2,7.7
+HongKong_Restaurant,Xin Wang Hong Kong Café,2,7.42
+HongKong_Restaurant,Kowloon Bay HK Cafe,4,7.2
+HongKong_Restaurant,London Fat Duck,2,6.915
+Indian_Restaurant,Saffrons Cafeteria,3,9.72
+Indian_Restaurant,Mufiz Restaurant,3,9.71
+Indian_Restaurant,Saravanaa Bhavan @ Plaza 8,5,9.71
+Indian_Restaurant,Springleaf Prata Place,3,9.67
+Indian_Restaurant,Phoenix Indian Restaurant,4,9.6
+Indian_Restaurant,Elahe Family Restaurant,4,9.53
+Indian_Restaurant,Zaffron Kitchen,4,9.485
+Indian_Restaurant,Khansama Tandoori Restaurant,0,9.47
+Indian_Restaurant,Mustard Restaurant,3,9.42
+Indian_Restaurant,Sri sun prata paradise,4,9.42
+Japanese_Restaurant,Tonkichi (とん吉),0,9.81
+Japanese_Restaurant,Ki-Sho,4,9.75
+Japanese_Restaurant,"Tsukada Nojo 塚田農場 Japanese ""Bijin Nabe"" Restaurant",3,9.73
+Japanese_Restaurant,Men-ichi Japanese Ramen (麺いち),5,9.72
+Japanese_Restaurant,Koji Sushi Bar,3,9.63
+Japanese_Restaurant,Hakata Ikkousha,3,9.62
+Japanese_Restaurant,shabu shabu on-yasai,2,9.57
+Japanese_Restaurant,Healthy Soba IKI,4,9.54
+Japanese_Restaurant,Tori-Q,5,9.54
+Japanese_Restaurant,Matsuo Sushi Restaurant,3,9.51
+Malay_Restaurant,Spize,2,9.71
+Malay_Restaurant,Spize,3,9.47
+Malay_Restaurant,PappaRich,5,9.33
+Malay_Restaurant,Ambeng Cafe By Ummi Abdullah,3,9.31
+Malay_Restaurant,Asia Ghani,2,9.29
+Malay_Restaurant,Kuih Warisan Melayu,2,9.28
+Malay_Restaurant,Rubiah Malay Stall,5,9.27
+Malay_Restaurant,Qiji,4,9.26
+Malay_Restaurant,Penang Chiak,2,9.17
+Malay_Restaurant,Al Ehsan,5,9.04
+Mediterranean_Restaurant,Fill a Pita,5,9.56
+Mediterranean_Restaurant,Moosehead Kitchen,3,9.54
+Mediterranean_Restaurant,Urban Bites,5,9.39
+Mediterranean_Restaurant,Artichoke Café + Bar,3,9.31
+Mediterranean_Restaurant,Bar-B-Q Tonight,3,9.26
+Mediterranean_Restaurant,Alaturka Restaurant,3,9.2
+Mediterranean_Restaurant,Bar-B-Q Tonight,2,9.2
+Mediterranean_Restaurant,Maggie Joan's,3,9.2
+Mediterranean_Restaurant,Arkadas Cafe,4,9.11
+Mediterranean_Restaurant,Levant Middle Eastern Restaurant,4,9.06
+Mexican_Restaurant,My Little Tapas Bar,5,9.52
+Mexican_Restaurant,Myra's @ the indoor stadium,0,9.43
+Mexican_Restaurant,Piedra Negra,3,9.34
+Mexican_Restaurant,UNA @ One Rochester,3,9.29
+Mexican_Restaurant,Guzman y Gomez,2,9.26
+Mexican_Restaurant,La Taperia,5,9.26
+Mexican_Restaurant,OLA Cocina del Mar,3,9.18
+Mexican_Restaurant,OLA Cocina del Mar,2,9.105
+Mexican_Restaurant,Café Iguana,3,9.09
+Mexican_Restaurant,El Tardeo,4,9.09

@@ -1,0 +1,31 @@
+svg {
+  border: 1px solid #ccc;
+}
+body {
+  font: 10px sans-serif;
+}
+circle.node {
+  fill: lightsteelblue;
+  stroke: #555;
+  stroke-width: 3px;
+}
+circle.leaf {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+path.hull {
+  fill: lightsteelblue;
+  fill-opacity: 0.3;
+}
+line.link {
+  stroke: #333;
+  <stroke-opacity: 10;
+  pointer-events: none;
+}
+
+text {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12;
+  font-weight: 400;
+}
