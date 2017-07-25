@@ -32,7 +32,7 @@ var color ={American_Restaurant:"#f44336", Asian_Food:"#b71c1c",
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
   svg.append("text").attr("x",330).attr("y",12)
-    .attr("class","header").text("Cluster by Sentiment Score");
+    .attr("class","header").text("Cluster by Users-Users Relationship");
   svg.append("text").attr("x",1130).attr("y",12)
     .attr("class","header").text("Cluster by Dining Type (Count)");
 

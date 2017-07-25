@@ -403,7 +403,7 @@ master_resta = master_resta.drop('rid', axis = 1)
 master_resta_dicts = master_resta.to_dict()
 master_resta_dicts = master_resta_dicts['venue_name']
 
-master_recomm_list_existing['uid'] = master_recomm_list_existing['uid'].map(master_users_dicts)
+master_recomm_list_existing['name'] = master_recomm_list_existing['uid'].map(master_users_dicts)
 
 master_recomm_list_existing['recent'] = master_recomm_list_existing['recent'].map(master_resta_dicts)
 master_recomm_list_existing['R1'] = master_recomm_list_existing['R1'].map(master_resta_dicts)
@@ -430,7 +430,7 @@ master_recomm_list_existing['R20'] = master_recomm_list_existing['R20'].map(mast
 
 ##master_recomm_list_new
     
-master_recomm_list_new['uid'] = master_recomm_list_new['uid'].map(master_users_dicts)
+master_recomm_list_new['name'] = master_recomm_list_new['uid'].map(master_users_dicts)
 master_recomm_list_new['recent'] = master_recomm_list_new['recent'].map(master_resta_dicts)
 master_recomm_list_new['R1'] = master_recomm_list_new['R1'].map(master_resta_dicts)
 master_recomm_list_new['R2'] = master_recomm_list_new['R2'].map(master_resta_dicts)
@@ -454,6 +454,19 @@ master_recomm_list_new['R19'] = master_recomm_list_new['R19'].map(master_resta_d
 master_recomm_list_new['R20'] = master_recomm_list_new['R20'].map(master_resta_dicts)
 
 
+#############################Export file out to .csv #############################
+
+master_recomm_list_existing.to_csv\
+('recom_for_existing_user.csv', header = True, index= True, sep='\t', encoding='utf-8')
+
+master_recomm_list_new.to_csv\
+('recom_for_new_user.csv', header = True, index= True, sep='\t', encoding='utf-8')
+
+friend_list.to_csv\
+('friend_list.csv', header = True, index= True, sep='\t', encoding='utf-8')
+
+master_user_name.to_csv\
+('user_name.csv', header = True, index= True, sep='\t', encoding='utf-8')
 
 
 

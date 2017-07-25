@@ -13,42 +13,8 @@ function overview_networkgraph_new_users () {
       .tension(.85);
 
       var fill = d3.scale.ordinal()
-            .range(["#e91e63", "#0277bd", "#9e9d24",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00",
-                    "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00", "#ff8f00"]);
+            .range(["#bf360c", "#f9a825", "#2e7d32",
+                    "#26c6da", "#ad1457", "#f44336"]);
 
   function noop() { return false; }
 
@@ -187,7 +153,7 @@ function overview_networkgraph_new_users () {
 
   //d3.json("/d3/ForceLayouts/ExpandableNodes.JSON", function(json) {
   //  data = json;
-  d3.json("dataset/overview_graph_dataset_sample.json", function(json) {
+  d3.json("dataset/new_user_recommendation.json", function(json) {
   data = json;
   for (var i=0; i<data.links.length; ++i) {
     o = data.links[i];
@@ -240,9 +206,9 @@ function overview_networkgraph_new_users () {
       .linkStrength(function(l, i) {
       return 1;
       })
-      .gravity(0.1)   // gravity+charge tweaked to ensure good 'grouped' view (e.g. green group not smack between blue&orange, ...
-      .charge(-800)    // ... charge is important to turn single-linked groups to the outside
-      .friction(0.1)   // friction adjusted to get dampened display: less bouncy bouncy ball [Swedish Chef, anyone?]
+      .gravity(0.5)   // gravity+charge tweaked to ensure good 'grouped' view (e.g. green group not smack between blue&orange, ...
+      .charge(-30000)    // ... charge is important to turn single-linked groups to the outside
+      .friction(0.05)   // friction adjusted to get dampened display: less bouncy bouncy ball [Swedish Chef, anyone?]
         .start();
 
     hullg.selectAll("path.hull").remove();

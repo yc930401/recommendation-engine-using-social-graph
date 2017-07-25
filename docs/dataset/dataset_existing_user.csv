@@ -1,0 +1,4990 @@
+	name	senti_clus_id	venue_clus_id	mrt_loc_clus_id
+0	Steve Tong	3	5	7
+1	Garry Tan	4	2	7
+2	Brook Shelley	4	0	18
+3	Geo 	2	5	5
+4	Kars Alfrink	2	4	7
+5	Dennis Chiuten	2	8	7
+6	Ari B	2	0	6
+7	Rocky Chang	2	5	6
+8	Andrew Davison	2	2	7
+9	Vishnu Prem	4	6	7
+10	pjan vandaele	4	2	5
+11	Mai Dinh	2	5	7
+12	Cynthia Drescher	2	6	7
+13	Emily Tabak	4	8	7
+14	Jeremy Geiger	2	5	7
+15	Noel Yeo	2	8	7
+16	Adrian Pang	4	8	7
+17	Paul Rasmussen	2	8	4
+18	Kim Phạm	2	6	7
+19	Vinoaj Vijeyakumaar	4	5	18
+20	Steven Doyle	4	8	7
+21	Christopher Yeo	4	0	10
+22	Victor Mieres	2	0	7
+23	Aaron Chew	4	0	7
+24	Einstien Ng	2	8	0
+25	Andreas Ehn	3	0	7
+26	Fredrik Stenbeck	4	8	7
+27	Shari McCullough	4	0	5
+28	Alan Brutenic	4	0	12
+29	Camille Burdin	4	8	7
+30	Jeff Woo	4	4	7
+31	Global Highlander	4	0	7
+32	Sathya N	4	0	9
+33	Jack Veiga	2	0	7
+34	AL 	2	0	18
+35	Jean-Philippe 	4	5	6
+36	Skribe Forti	2	5	8
+37	Steve 	4	0	5
+38	Jerry Chong	2	8	6
+39	Valentine 	4	2	7
+40	Jimmy Liew	2	8	7
+41	Ronnie Liew	4	8	7
+42	Alex Lobov	4	4	7
+43	Roger Wong	2	2	1
+44	Cuneyt Uysal	4	6	18
+45	Michael Foong	2	2	7
+46	Garry Huang	2	2	6
+47	Lester Chan	0	8	7
+48	Jim Defcon Chua	4	8	7
+49	sm7catscan 	2	6	7
+50	Joon Ian Wong	2	2	7
+51	cheryl 	2	2	5
+52	Nicholas Pan	2	5	8
+53	JC Eskimo	2	2	7
+54	yjsoon 	2	7	7
+55	Chris Drumgoole	4	5	7
+56	Lucian Teo	3	7	6
+57	gary chin	4	0	19
+58	Bt Tan	4	5	7
+59	Adrianna Tan	2	8	7
+60	Brandon Lee	2	8	7
+61	Jeffrey Ning	2	7	10
+62	Martin Frojd	4	0	5
+63	Sid Das	3	0	7
+64	Alvin Liga	2	7	4
+65	Bond Babe	4	8	7
+66	armand gaerlan	2	5	18
+67	John Tan	4	8	7
+68	Shen Heng	2	0	4
+69	jocelyn L.	2	6	6
+70	Stefan Lesser	2	0	5
+71	Terence Chua	4	2	7
+72	Alice Hu	2	0	7
+73	Daniel Goh	2	3	6
+74	Yu-Mei 	4	0	7
+75	Bec Bruce Lee Yik	3	0	7
+76	Elizabeth Koh	4	8	7
+77	nickjgordon 	4	1	7
+78	Shuyun Cheng	4	7	7
+79	Jules Yim	2	8	7
+80	Sek Ling 	2	2	4
+81	Jeremy Reynolds	2	5	7
+82	Mel 	2	0	7
+83	Daphne Maia Loo	2	5	8
+84	Chu Yeow 	2	5	3
+85	Nicholas Foo	2	2	7
+86	Wenjie 	2	8	7
+87	Abhijeet Gandhi	3	0	6
+88	Pierre Fong	2	8	7
+89	Delicia Tan-Seet	2	8	7
+90	Victor Tan	4	0	7
+91	Patrick Lee	4	2	7
+92	kates 	4	2	6
+93	spacemanoveramk 	4	2	16
+94	Darren Yan	2	2	7
+95	Ken Ng	4	8	7
+96	David 	4	8	7
+97	Julian Lim	2	8	7
+98	zinibites.com Thomas	2	0	7
+99	Steve Androulakis	4	0	7
+100	Leon Traazil	2	0	4
+101	zanyasan 	2	6	6
+102	Jona Neo	2	2	10
+103	Margery Lynn	2	5	5
+104	Keng Hoe Toh	2	0	7
+105	John Choo	2	0	7
+106	Kevin Lee	2	3	7
+107	Jerrick Lim	2	6	4
+108	Joseph Lee	4	2	4
+109	Melvin Lau	4	0	7
+110	Christina T	3	3	6
+111	kennethjayden 	4	5	7
+112	Davier Yoon	2	8	7
+113	Mindy Yap	2	0	5
+114	Suyin Soon	2	1	18
+115	Dominic Leong	4	8	7
+116	George Lim	2	8	7
+117	Alex Turnbull	4	0	7
+118	Cyn Li	4	2	6
+119	Grace S.	2	2	6
+120	Edward Foo	4	0	11
+121	Andrew Stephen	2	6	7
+122	Estrella Chua	2	8	4
+123	Mun Lun	4	0	7
+124	Belinda Ang	2	5	7
+125	Shei Wah Tan	2	8	7
+126	Mar Hug	2	8	6
+127	Soohan Han	2	8	7
+128	Ooi WT	3	6	3
+129	Yu Hsiang Wong	2	8	7
+130	Howard Lo	2	1	6
+131	Wee Liat Tan	2	2	11
+132	Marc R.	4	2	7
+133	David Chong	4	7	7
+134	Cedric Chee	4	6	11
+135	Adam Flinter	2	5	6
+136	Kai-En Loh	4	0	7
+137	Zhi Min Choo	2	2	7
+138	Euphemia Toong	4	0	9
+139	Cesare Tagliaferri	4	0	4
+140	Josephine Tan	4	0	7
+141	huieee 	4	8	4
+142	Ludacus 	4	8	11
+143	Joelle 	4	2	7
+144	Philippe Rogiest	3	1	6
+145	Kim-Geck Lim	2	0	7
+146	steve lim	2	2	17
+147	Kien Wai E	4	2	10
+148	Alphonsus Lee	2	8	7
+149	Vivian Woo	4	2	7
+150	Smith Leong	2	2	11
+151	Daniel Chong	2	4	7
+152	Priscilla Tan	2	2	7
+153	Jun Yong Chong	4	2	7
+154	Nadia Daeng	2	0	18
+155	Phil Tiongson	3	3	4
+156	Felix Ker	4	4	7
+157	Kwang Liak Teo	4	8	7
+158	Sherwin Loh	2	5	7
+159	Julian Chow	2	8	7
+160	Elliot Teo	4	8	7
+161	Alvin Tan	2	6	3
+162	huey yei chun	2	2	6
+163	hisham mohd	2	0	19
+164	Weeteck Yeoh	4	2	0
+165	Fred Erick	2	5	12
+166	Mark Ashworth	2	8	7
+167	Van Nguyen	4	6	7
+168	John Langan	2	0	7
+169	Betty Lim	4	2	7
+170	Dennis Foo	2	2	7
+171	Jeremy Chua	2	5	7
+172	XinYun 	4	6	10
+173	Joel Pan	4	3	16
+174	Amy Pak	4	8	7
+175	KC 	4	8	7
+176	Michelle Tan	4	5	4
+177	Betty Lim	2	8	4
+178	Matias Singers	3	5	6
+179	Christian Geissendoerfer	4	5	7
+180	Jose Mella	2	4	7
+181	shaz carvalho	3	8	7
+182	Jocelyn Englund	4	1	7
+183	Andrew Pickup	2	7	6
+184	Danesh Daryanani	2	0	1
+185	Felicia Ang	4	2	7
+186	Brad T	2	6	18
+187	Jeremy Chia	2	2	7
+188	Weiye Tan	2	2	7
+189	Jacelyn Sng	2	8	14
+190	Siew 	2	8	7
+191	Bjorn Yeo	2	2	7
+192	Jason Ling	4	2	7
+193	reverie 	4	0	7
+194	Zach Lee	2	6	7
+195	Pista Chio	4	3	18
+196	Fiona M.	2	0	3
+197	Shooperman 	2	2	7
+198	Hawshy Goh	2	6	7
+199	Stephen Fountain	2	0	6
+200	Dave Chua	4	7	19
+201	Aldrina Thirunagaran	4	2	18
+202	Royal Plaza on Scotts Singapore	4	3	5
+203	Sengaporean 	3	8	7
+204	Choong Yong Koh	2	3	7
+205	lynnder 	3	8	7
+206	Colin Leong	4	0	7
+207	thalia kamarga	2	8	7
+208	Cheen The Curious	2	4	7
+209	Audrey Tang	2	2	18
+210	gerard t	4	4	7
+211	Lisa Cheong	4	8	7
+212	Jacqueline Tan	4	2	7
+213	Javelynn H	4	0	18
+214	Vignesh Kathiravelu	4	2	2
+215	Jermyn Toh	2	2	7
+216	Keith Nakamura	3	5	10
+217	Ben Charlton	2	7	7
+218	Crystal Goh	4	2	7
+219	Robin Goh	2	8	7
+220	Melvin Chee	2	4	7
+221	wade mealing	4	2	7
+222	Kenpachi Zaraki	4	0	0
+223	Matthew Riley MacPherson	4	0	11
+224	LH Sim	4	2	7
+225	Derrick Koh	3	2	16
+226	Claudia Lim	2	6	7
+227	Brian Leery	2	6	1
+228	Eugene Lim	4	2	17
+229	Brigette Then	2	0	18
+230	Evan Ye	2	8	6
+231	Terry Peh	4	6	10
+232	Kelvin Lee	2	6	6
+233	Fizzycitrus 	2	2	7
+234	Nicholas Cho	4	2	7
+235	M Ling	2	8	10
+236	Shaun Quek	2	2	8
+237	Danielle Colla	4	7	7
+238	Chern yee Khoo	2	0	7
+239	KS Wong	4	5	6
+240	Elvin 	4	2	7
+241	Leonard Teo	4	3	3
+242	namiko 	4	0	5
+243	Benjamin Lee	2	8	7
+244	melissa hie	2	2	6
+245	ismangun ismanyot	4	6	10
+246	EEE NNN	4	2	7
+247	Christel Quek	4	0	7
+248	Linus Koh	4	2	1
+249	Anuj Choudhary	2	0	5
+250	Siân Ng	3	4	7
+251	Jamie Joohander	4	5	7
+252	Marcus Chng	4	0	5
+253	Michael Feng	4	2	14
+254	Slightly Famous	4	2	7
+255	Eon Quay	4	3	3
+256	mrbrown 	2	3	7
+257	Gerald Chua	2	6	7
+258	Joanna Teo	2	2	7
+259	Jeffrey Yeo 	4	8	10
+260	Marvin Cruz	4	2	7
+261	Glynis Tan	2	8	8
+262	Terence Tan	2	2	3
+263	Ken Mandel	3	6	7
+264	Chris Ng	2	0	7
+265	Alwyn Sim	2	8	7
+266	Taufiq Zainal	2	2	19
+267	Grace Choong	2	0	7
+268	Janvier Anonical	2	2	5
+269	Check Girl	2	8	7
+270	SS 	2	5	1
+271	Vix 	2	8	6
+272	Ernest Ho	2	0	7
+273	Anch Lim	2	8	7
+274	Gambit Fauri	4	2	7
+275	Veron @ Sparklette.net 	2	4	7
+276	Andrew Tan	4	2	7
+277	Sarah 	4	5	7
+278	Rui Xiong Yew	4	2	6
+279	calvin wee	2	0	8
+280	Eefee T.	3	4	0
+281	Alan 	2	8	7
+282	bear bear	2	5	7
+283	Titus Phoon	4	4	7
+284	Se7eNPQM 	2	3	6
+285	Anshul Jain	4	1	6
+286	Joe Loy	4	2	7
+287	Gabriel Seah	4	4	7
+288	Bill Tng	2	0	7
+289	Gary Wu	2	6	11
+290	Lauren Melcher	2	0	6
+291	Alex Lee	3	2	7
+292	Michael Sullivan	2	8	1
+293	Alexis van Dam	4	0	7
+294	Roland Seh	2	8	7
+295	VotreX Tan	2	4	7
+296	danny D	2	0	7
+297	Samuel Ho	2	2	4
+298	Eunice Ng	4	0	7
+299	myk cheng	2	0	7
+300	Gareth Sim	4	7	11
+301	Adelle Li	4	0	7
+302	Linda Lim-Tan	2	2	10
+303	Paul Wong	2	3	5
+304	Sarah T.	2	5	6
+305	Tien Beng Chew	2	2	7
+306	Vicott 	4	6	3
+307	Serene Yee	3	2	7
+308	Shaun Chen	2	8	4
+309	Vanessa Ng	4	0	7
+310	Noriaki Gotoh	4	6	12
+311	Zen Koh	2	5	16
+312	kenny chou	2	0	7
+313	Adrian Tan	2	2	7
+314	Muhammad Azril Muhammad Yusof	3	2	19
+315	Lynx Ng	4	0	7
+316	Bernie Chew	4	2	7
+317	Noel Wong	2	2	5
+318	Gilbert Thomas	2	8	7
+319	Jason ZircaTan	4	6	16
+320	Cillian Lyons	4	0	7
+321	Kenneth Pinto	2	5	1
+322	Simon Tan	2	2	7
+323	Shuxian H	2	0	7
+324	Ah Seng 	3	2	16
+325	Selwyn Joseph	2	4	7
+326	@justbeingarlyn 	2	7	17
+327	Daren Tay	2	2	4
+328	Eunice Khoo	4	8	7
+329	Sherrie Blythe	4	3	16
+330	Rajnish Suneja	2	1	18
+331	Paul Lim	4	5	5
+332	Sam Png	2	5	12
+333	angeline terisa	4	0	7
+334	Daren Kong	3	5	7
+335	James Sowden	4	5	7
+336	Lesley John	2	5	18
+337	Gflying F	2	7	16
+338	Glenise Lim	2	2	4
+339	Nazeera 	2	7	7
+340	Daniel 	4	2	7
+341	Ian Darric	4	0	7
+342	Oliver Ralph	4	0	7
+343	Manda Tang	2	5	7
+344	Aik Lim Low	2	6	19
+345	Melanie Cook	4	3	16
+346	Michael Perhaes	4	6	6
+347	Vincent Tan	2	8	7
+348	Winnie Tan	2	7	7
+349	LR Lim	3	8	7
+350	Chris Lee	2	6	7
+351	winifred ling	4	0	7
+352	Calvin Lim	2	8	7
+353	Rahim Khan	2	5	0
+354	Nelson Wee	2	0	19
+355	Ying Ying	4	2	7
+356	Garry Goh	4	8	7
+357	Jason Liew	2	6	7
+358	Jasmine Chye	3	6	11
+359	Albert Gunawan	2	2	7
+360	Chris W	2	2	4
+361	Geraldine Yeoh	2	2	5
+362	ET 	2	2	11
+363	Jonathan Kwa	4	7	4
+364	Juncai Huang	4	2	7
+365	Jeremy Soh	2	6	7
+366	UncleT 	4	0	11
+367	Jules Wei	2	0	5
+368	Paul Baron	4	0	7
+369	George 	2	0	5
+370	Plwh Stylemeister	2	6	19
+371	J T	4	0	5
+372	Leshane Lee	2	6	7
+373	Ricky Wijaya	2	2	7
+374	Debra Wang	3	2	8
+375	Ritchie Chin	2	0	17
+376	antonia chen	2	3	3
+377	Pancras Gomez	2	0	6
+378	Ryan Kwa	4	0	7
+379	aHHwee Lim	4	8	7
+380	Adrian G	2	6	10
+381	chris basil	2	2	7
+382	Sal Lina	2	0	7
+383	Michelle Teo	2	8	7
+384	Jason Ho	2	3	10
+385	Jenkins Chng	2	2	14
+386	Pei 	2	2	7
+387	Jon Chin	4	2	7
+388	nvendr 	2	8	15
+389	JK 	4	2	14
+390	Wilfred 	2	2	5
+391	Victor Ho	2	2	7
+392	Dee Mohd	4	5	7
+393	Irwan Cornelius	2	7	7
+394	Suhaimi Sujangi	4	6	6
+395	Heng Yong Chua	4	0	7
+396	Eugene Yap	4	2	7
+397	Selena Soh	4	0	5
+398	Shiquan Xie	4	7	7
+399	Edwin Lim	2	2	7
+400	Rudy Herman	4	2	3
+401	smerv 	2	8	7
+402	C Y	4	2	3
+403	Tancy Tan	4	0	7
+404	MeilinW 	2	8	5
+405	Tc Pun	2	0	7
+406	WH Yang	2	0	13
+407	Gary Ng	2	6	7
+408	Alex Wee	4	5	7
+409	Roy Devlin	4	2	4
+410	Janie Chua	4	8	7
+411	Prashanth Shankar	4	5	7
+412	Christopher Ellis	4	2	6
+413	Gloria Chiang	4	0	7
+414	Moonberry 	4	6	7
+415	Yian Tay	4	7	7
+416	Winnie Kwa	0	8	7
+417	Alvin Tay	2	2	13
+418	Qaiser Bachani	2	8	7
+419	Vivien Tan	4	2	1
+420	Keri-Lee Beasley	3	8	7
+421	Jasmine Chua	2	8	7
+422	Kristian Olsen	3	5	7
+423	Jared Chan	2	4	7
+424	Rainbow Cheung	4	6	6
+425	jwön 	2	1	5
+426	Leah Francisco	2	2	7
+427	Catherine Ganapathy	4	6	7
+428	William 	2	2	8
+429	Warren Klass	2	8	7
+430	WL T	4	8	7
+431	momo-chan 	2	6	7
+432	Leo Goh	2	4	16
+433	Tak Wai Cheong	4	0	7
+434	Taku 目指せPR :)	2	8	7
+435	Prince JC 	2	7	8
+436	ANNA CHEW	4	0	7
+437	A A L I Y A H 	4	5	7
+438	Yoram Cisinski	3	5	7
+439	Matthew Ang	2	7	10
+440	SuNNiDaez Love	2	0	6
+441	Charles Chua	2	0	7
+442	KentXavier Lin	2	7	16
+443	Anthony Neo	2	2	0
+444	Andrew Yong	2	2	16
+445	Pavel Bulowski	2	6	7
+446	Jeremy Ho	4	2	7
+447	Su Ann Lim	2	2	7
+448	turux1 	2	2	6
+449	Jc Xu	4	0	7
+450	Mel Chua	2	2	11
+451	©heste® 	4	6	10
+452	Noor Roslan	2	3	3
+453	Stephanie Jessica	2	7	18
+454	JERRY 	2	2	7
+455	Phyoe Wai	4	6	1
+456	iamirwin 	2	5	5
+457	Siming 	2	8	7
+458	Rob Digiovanni	2	6	1
+459	Josephine Cheang	4	6	7
+460	Martin Loo	2	2	7
+461	Andrew Mowat	4	2	7
+462	Martin Brochhaus	2	1	7
+463	Khanh Dang	2	2	7
+464	Jonathan Ye	4	0	7
+465	Kennerve Goh	4	5	16
+466	June Hah	2	2	13
+467	Abhishek Mittal	4	7	4
+468	Haikal Siregar	2	2	6
+469	Chris Ong	4	5	7
+470	Shannon Low	2	2	7
+471	Guy Hearn	4	5	7
+472	Calista Gautama	4	2	7
+473	Cynner Lim	2	8	7
+474	JamCanSing 	2	0	7
+475	Jenifer Tan	2	0	16
+476	Dinx Carin	2	7	15
+477	Spinninggirl 	4	2	7
+478	N H	2	8	7
+479	Myke Lee	2	6	11
+480	dennis tang	4	6	7
+481	Filicia Yap	2	3	16
+482	Wen Huang	2	4	7
+483	Edward Yong	4	8	7
+484	Isaac 976	2	0	7
+485	Jamie S.	2	0	7
+486	Flona Hakim	2	8	7
+487	Nin Dichoso	4	0	7
+488	thpsycho 	2	6	7
+489	Kristin MdashO	3	4	7
+490	Dev 	4	2	1
+491	Gu Yiwei	2	2	15
+492	Rudyn R	2	3	3
+493	mm 	4	8	7
+494	Steven Kalifowitz	2	5	7
+495	Yvonne Koh	2	0	7
+496	Brandon Lee	2	5	6
+497	Andreas K	4	0	7
+498	Andreas Cohen	2	2	7
+499	Darren Yap	2	0	7
+500	Will Jay	2	8	7
+501	Matthew Snell	2	3	9
+502	Kee Min Lim	4	5	4
+503	Seah Zhiwei	2	2	8
+504	tiyok 	2	3	7
+505	Josh Windsor	2	5	9
+506	Norman 	4	0	11
+507	Ernst 	4	0	7
+508	Ching S	2	5	14
+509	Riyan Pradiyar	2	8	7
+510	Dinesh Bhatia	2	5	7
+511	freakyfir 	4	5	16
+512	Joanne Chow	2	0	7
+513	Wanderlust Yappy	4	0	11
+514	Andrea C	4	4	7
+515	Wern Chau Wee	2	2	10
+516	Shawn Loo	4	2	18
+517	Grace Magdalene Leong	2	0	11
+518	Napalm Raskull	4	3	9
+519	Jopa M	4	0	7
+520	Jaghan Suppayah	4	2	7
+521	Fuzzy 	2	5	17
+522	NungNing 🎀 	2	8	7
+523	Guan Lim	2	8	7
+524	David Pan	2	2	7
+525	Kelvin Kuan	2	6	7
+526	roy chong	4	0	7
+527	CK Ang	4	0	16
+528	Graham Hills	4	6	7
+529	invenue 	2	5	7
+530	Mark Huang	2	7	7
+531	Lauren Buen	4	2	7
+532	Tom Takamatsu	2	2	9
+533	Chris Ng	2	6	11
+534	EF Dixon	4	0	7
+535	Teresa Shiang	2	5	6
+536	Aran Wilkinson	3	0	18
+537	Wai Chong Lau	2	0	7
+538	Jonah Sng	2	2	12
+539	Jack Leo	3	7	7
+540	Gregory Chan	2	8	7
+541	Trina 	4	4	7
+542	Ronnie Tan	2	2	7
+543	Bryan Poon	2	2	12
+544	Ted Choo	4	8	7
+545	Jem 	4	0	7
+546	Spuzzy Buzzy	2	0	7
+547	Amanda Tan	4	7	5
+548	Pedro Aguirre	2	8	7
+549	Anthony Salim	4	3	7
+550	Loopy ^_^	2	0	7
+551	Carlos Padilla	2	2	6
+552	Matt Lloren	4	8	7
+553	Joseph Ong	3	6	7
+554	William Lim	4	7	7
+555	Simon Lim	4	1	14
+556	ullyss 	4	8	7
+557	Reyane Kang	2	8	7
+558	Toby Phipps	2	5	18
+559	Jackie They	4	0	7
+560	Nuriati Ahmad	4	5	19
+561	Byeongmin Kwon	2	0	7
+562	Sammy Panamuga	2	8	7
+563	edmund ng chee hou	2	5	3
+564	jERry riCe	4	0	7
+565	Weiye Loh	4	0	7
+566	Jieqin Tay	4	6	7
+567	Nickii T.Ittisak	2	2	18
+568	Loong loong	2	8	7
+569	Corby Tan	2	0	7
+570	Ben C	2	8	7
+571	David Lee	2	1	5
+572	cheryl Tan	4	0	7
+573	Shi-Ying Loke	2	0	7
+574	Kaung Myat	2	6	7
+575	Zulkifli Mamat	4	2	7
+576	Jason Lundberg	4	0	11
+577	Huiting Neo	2	7	8
+578	Rodrigo González	2	7	7
+579	Victor Tan	2	2	18
+580	J Lee	2	8	7
+581	Tim Wieringa	4	0	7
+582	Hanyuan Chan	2	3	3
+583	MC 	2	5	7
+584	Godt 07	4	2	0
+585	Salbiah Caenaro	2	7	4
+586	Jiajun Yew	2	3	7
+587	Jeffrey Lim	2	0	7
+588	woeihern chan	2	0	7
+589	Tyler Muñoz	2	0	6
+590	Kinnan 	4	0	5
+591	kisacake 	4	4	7
+592	Jade Yuting Pang	2	8	7
+593	Ivia Ang	4	2	7
+594	Steve 	2	2	7
+595	Nicholas Koh	2	4	7
+596	Giong 強強	2	3	3
+597	Angelica Z	4	5	7
+598	cui 	4	2	19
+599	Catherine Ling	2	8	7
+600	Edd 	2	4	7
+601	Scott Bales	2	0	4
+602	xinxiu Hong	2	8	7
+603	chrysalic 	4	2	7
+604	Julian Lee	2	6	7
+605	Vian 	2	8	7
+606	Mei Yve	4	6	10
+607	Dario Tibay	2	0	7
+608	EV Low	4	2	7
+609	Bhas Karan	2	5	3
+610	Jamshed Wadia	4	6	4
+611	Jason Yap	4	7	16
+612	Venus Ng	4	8	7
+613	Adithya Pratama	3	2	5
+614	Rob 	4	0	7
+615	Jasmine Ho	4	8	7
+616	Jeremy Khoo	2	8	7
+617	John Cheong	99	3	19
+618	Peter W	4	2	7
+619	SingaporeTLA 	3	0	6
+620	Aric Tan	4	7	13
+621	m3ngchoo 	2	6	7
+622	Buck Seng Ng	4	8	7
+623	Qi C	4	0	7
+624	Joe Metalz	2	6	16
+625	Sky Wolf	2	5	0
+626	Isk Iskandar	2	3	15
+627	Bar X	2	8	7
+628	Gillian Ng	2	8	7
+629	Lester Neo	2	7	19
+630	Jeremy Goh	4	5	7
+631	^_^ Ee	4	2	7
+632	Belle Chua	2	8	7
+633	Alan Nadriz	4	3	7
+634	Wei Meng Son	2	8	7
+635	Nick Tay	4	8	7
+636	🐯 A	2	2	7
+637	larry tok	4	2	7
+638	Darren Woolley	2	0	18
+639	Grace Tan	2	2	7
+640	Ai Ling Chia	2	8	7
+641	Yun69 	2	5	7
+642	Yarn Lam	2	4	7
+643	Jtkv Koh	4	0	6
+644	Yew Fai 	2	8	4
+645	Debra Chang	2	8	7
+646	Naomi Wendy	4	2	11
+647	LimeMidori☆ 	4	2	7
+648	Andrew Tan	4	5	7
+649	Idil Syazwan	2	6	7
+650	Herk Ng	2	8	7
+651	Alex Ooi	2	0	7
+652	ferdy qwerty	4	5	7
+653	Chua Sheng	4	0	6
+654	Dellia Lim	2	8	7
+655	Benedict Tang	4	8	7
+656	Rachel Ho	2	8	7
+657	Samuel K	2	2	12
+658	Wiryadi Hamidon	2	6	7
+659	eileen lee	2	8	7
+660	Ken Lim	4	2	0
+661	Mike Anstey	2	1	7
+662	Jaw B	2	0	0
+663	Wei Jen Seah	2	5	4
+664	Chang Ah	2	3	12
+665	Alicia Tan	4	8	7
+666	sHam Abdullah	4	7	7
+667	Rachel Lee	2	5	7
+668	Sushant Ghargi	3	0	7
+669	alan t	2	8	7
+670	Mun Chong Wong	2	2	7
+671	Benjamin Goh	2	2	11
+672	Robert 	4	0	6
+673	Ayi3 A	2	2	6
+674	Patrick Peh	3	2	7
+675	Eric Lim	2	2	7
+676	Isnarny Makhruji	2	1	15
+677	Sue-Anne Chng	2	8	7
+678	Dönałd ʕ •ᴥ•ʔ 	2	8	7
+679	Dylan Wang	4	8	7
+680	Jason Nah	2	8	7
+681	J Teo	2	8	7
+682	D D	4	6	17
+683	Christine Toh	2	2	7
+684	Priscilla Lee	4	2	14
+685	Jim Khor	2	3	15
+686	Tony Poon	4	5	7
+687	Lee Lilian	4	2	7
+688	Sophie Ng	2	6	7
+689	Kathy Lai	2	6	7
+690	Shawn Shawket	3	2	7
+691	Bree Yek	4	8	7
+692	Eileena Lee	4	2	7
+693	Crixtopher Cruz Lee	4	5	7
+694	Michelle Lee	4	7	16
+695	Terry Wong	2	2	1
+696	Johnston Loh	4	2	10
+697	Inez Lim	3	2	16
+698	Tash Z	4	4	7
+699	MakanDeals.com 	2	8	7
+700	Emili Tay	4	2	7
+701	Vicky Sim	2	2	10
+702	Glen Taylor	3	8	6
+703	Z Chen	2	8	7
+704	Weilin Song	2	6	4
+705	John Chan	2	2	15
+706	Germaine Ong	2	6	4
+707	Connie Chan	4	0	7
+708	Sophie 	4	7	7
+709	Melvyn Lim	2	2	6
+710	Uptowngal 	2	2	7
+711	Sam Poullain 	2	0	7
+712	Jaczie Lo	2	8	7
+713	Lars Voedisch	4	7	7
+714	Adrian Khoo	2	2	7
+715	Deryk Yang	2	3	17
+716	Cal Yeo	2	7	8
+717	Cheap N Good Food	4	5	7
+718	Eddy Susanto	3	3	6
+719	Boyke Wijono	4	3	6
+720	Tod 	4	2	6
+721	Syidah Salleh	4	2	7
+722	C. 	3	5	15
+723	Vivienne Chua	4	2	0
+724	Jaslyn Quek	2	0	7
+725	Steph Wong	4	2	6
+726	Adrian Ooi	4	0	7
+727	Samantha 	2	5	8
+728	Shafik Ab Hamid	2	0	19
+729	Tim Wu	2	0	7
+730	Jeffrey Linus	2	6	12
+731	Jia 	2	8	7
+732	AA Mak	2	2	7
+733	Siti Saad	4	8	7
+734	Terence Tan	4	2	10
+735	Lexelle de Charmaine	2	4	11
+736	Paige Soh	2	5	7
+737	Vivien Goh	0	2	12
+738	hao 	2	8	7
+739	Pheobe Tan	2	4	7
+740	Rebecca Chin	4	2	7
+741	Anselm Chelliah	4	0	7
+742	henry kwang	4	7	7
+743	Anne Raphael	4	0	3
+744	Angeline Soh	2	0	7
+745	Benedict Lim	3	2	7
+746	Sue Hanna	2	6	5
+747	Chain U.	4	2	7
+748	Safina V	2	6	7
+749	Matthew Ng	2	2	6
+750	Jeremy Ho	2	2	10
+751	iPris 	4	8	7
+752	Tan Thuan Tong	2	2	9
+753	Citra Ernest	2	8	4
+754	Straven Lim Teng	3	0	7
+755	Lydia Ng	4	2	10
+756	Carol Ng	2	6	7
+757	Weishan Chen	2	2	9
+758	CY Tan	4	3	3
+759	Lina Yong	4	8	11
+760	Ho Clement	4	6	4
+761	ニコラス 	4	8	7
+762	Ricci Chan	2	5	6
+763	Enjay B	4	2	4
+764	Lawrence Jordan Nesado	4	0	7
+765	Ethan Ong	3	6	4
+766	Edwin Poh	2	6	16
+767	Larry C	2	2	7
+768	Sue Anne 	0	0	3
+769	Glady Lee	4	0	17
+770	Gavin Tan	2	2	11
+771	Jarrod Yeo	4	3	17
+772	Tammy Cowan - Learn	2	0	4
+773	Nags 	2	8	7
+774	Elica Chung	4	3	5
+775	Ban Heng Choy	4	0	7
+776	Andy Matrlx	4	0	7
+777	Aditya Moorthy	2	6	9
+778	Estrellita Lindiasari	2	6	11
+779	Ignatius Tong	4	8	7
+780	Marsk Ong	4	3	18
+781	Jzin T	2	8	7
+782	Jerry Iceman	4	6	11
+783	Wayne Ma	2	8	6
+784	Mei Leong	2	8	7
+785	Tommy Low	2	5	7
+786	Lina J	4	2	5
+787	Melissa Clare	2	2	7
+788	Edwin Tan	2	8	7
+789	Ryan Lim	2	0	3
+790	Sebastian Lee	2	6	7
+791	Chester Tan	4	2	7
+792	Jojo F	4	0	7
+793	Mark Fu	4	8	7
+794	Kenn Tan	2	8	7
+795	Francis Pang	4	8	7
+796	Ben Toh	2	6	7
+797	Andrew Lum	2	7	13
+798	Denise Taw	4	1	5
+799	May Leong	2	2	12
+800	Adrian Chin	4	2	7
+801	Chalith 	4	7	7
+802	Phinehas Tan	2	2	4
+803	Farhan Hamid	2	0	7
+804	Dennis Sim	2	2	7
+805	Surayah Ophelia Anwar	4	0	19
+806	Benson Toh	3	8	7
+807	Nurhasanah Johari	4	1	4
+808	Farah Lee	4	0	11
+809	Apple Lim	4	2	17
+810	Tiffany Ng	4	8	7
+811	Alexis Cheong	4	5	7
+812	Fare 	2	0	7
+813	William Foong	4	2	7
+814	Mark Shu	4	6	7
+815	The R 	4	2	8
+816	Jia An L.	4	6	7
+817	Shahirwan Gibraltar	4	7	15
+818	Juvena Wu	4	2	7
+819	JJ Chai	2	6	4
+820	Luz Liamsi	2	0	7
+821	Yaya C.	4	8	7
+822	Andrew Chong Weng Tse	2	5	16
+823	Fairil Yeo	2	8	7
+824	Jason Feirman	3	8	7
+825	Joel Toh	4	2	15
+826	Edna Chua	4	4	7
+827	Shyh jih Lee	4	8	6
+828	M@Nz 	4	0	3
+829	Baba 	4	0	5
+830	Ivy Sng	4	2	7
+831	Wolfgang Amadeus	2	2	12
+832	Bryan Kam	2	2	7
+833	T Derrick Loo	2	0	7
+834	Jaclyn Lee	4	2	4
+835	Ai-Vern Siow	2	2	0
+836	Qiquan -	2	2	18
+837	Jason Denny	2	7	6
+838	Shunsuke Mizamura	2	0	16
+839	Char-Maine Tan	2	2	7
+840	Kerrin Kua	4	2	7
+841	Jodi Chime	2	0	9
+842	Vivien Soon	2	3	3
+843	Jessica Chan	3	0	7
+844	Ethan Lin	3	2	7
+845	Kyzer Wong	2	2	19
+846	peter yeo	2	7	7
+847	Dawn Bey	4	2	7
+848	Jess C	4	4	7
+849	Fiona Sim	2	6	16
+850	Shermin Wu	2	4	7
+851	Q 	4	6	7
+852	Malcolm 	3	7	7
+853	Wess Lee	2	8	7
+854	Kwun Tsun Chan	4	8	7
+855	Bob Pickard	3	0	5
+856	Flora Tan	2	0	7
+857	Nicole Ong	2	0	7
+858	Sharon Vu	4	2	7
+859	Dreamer 	2	0	8
+860	Joanne Chung	2	5	7
+861	Saurabh Dutta	4	5	17
+862	Adrian Lai	2	8	3
+863	Sheila Chan	3	7	7
+864	Neny SaLynna Ismail	2	0	4
+865	Nur Farhana	4	0	7
+866	Jennifer Ho	3	8	7
+867	Nicole Wong	2	2	9
+868	Brenda Then	2	8	7
+869	NESSA LIN	2	0	11
+870	Lim Soon Siang EDEN	2	7	17
+871	Arshad Md Ariffin	4	3	3
+872	Richard Sim	4	2	7
+873	Antony Isoardi	2	8	7
+874	Jennifer 	2	0	7
+875	Jeremy Khong	2	0	7
+876	ランダル 	2	0	7
+877	Sweet n'Fab	2	0	4
+878	Melissa Agustina	2	3	7
+879	Caitlin Nguyen-Ferrante	4	8	7
+880	joahnna 	2	8	7
+881	Huihuis Lim	2	2	7
+882	Dora Chua	2	3	1
+883	Juliana Tan	4	6	7
+884	Christina Chung	2	2	6
+885	Steven Ng	2	2	16
+886	Richard Fitzwell	4	5	7
+887	Bibi NBJ	2	2	7
+888	Wen Wong	2	8	7
+889	Alicia 	4	4	8
+890	Zj Long	2	6	7
+891	Lynette Chua	4	8	7
+892	Ahn Bustamante	4	8	7
+893	Änthony Coundouris	2	1	5
+894	Sara Jaz	2	8	7
+895	Ivan Law	2	2	7
+896	Eric Tan Jh	4	5	7
+897	Lings 	2	2	7
+898	ZG Liew	2	0	7
+899	Edwin Marc	4	5	7
+900	Renzi Yeong	2	0	5
+901	Sandra Koh	4	2	7
+902	Francis Lim H K	2	2	10
+903	Sergio Divino Jr	2	6	10
+904	Eugene Chong	4	2	10
+905	Benjamin Yeow	0	2	16
+906	Alex 	2	7	0
+907	Ayune Ryandi	2	0	7
+908	Keith Bryk	2	2	7
+909	Crono Lee	4	0	11
+910	MASAYOSHI HOSHIKAWA	4	8	7
+911	Benjamin Yeong	2	2	7
+912	Yan Di	4	6	8
+913	Jun Da Ng	4	0	7
+914	Phillip Chai	2	3	15
+915	Linda Tan	4	2	7
+916	Christopher Pestano	2	8	7
+917	Tony Ng	2	8	7
+918	KG Chua	4	2	10
+919	Gar Gar	2	2	7
+920	Melisa Zhang	2	5	7
+921	FENG CHENG	4	2	7
+922	Wei Dong	2	2	6
+923	Jiayi Chen	4	0	7
+924	Javier Yong-En Li	4	4	7
+925	Felicia Ong	4	8	7
+926	Jansen Ek	2	8	7
+927	Tiffy 	2	5	6
+928	Pearle Saoirse Aara Kyda	4	6	11
+929	Haas Haash	2	2	7
+930	Gibson Chua	2	2	16
+931	H DASH ™ 	4	2	0
+932	Yuri Alfani	2	0	7
+933	Shen Tan	2	2	7
+934	Siu Rui Quek	2	0	7
+935	Li Lian Mah	4	8	7
+936	kianti darusman	2	5	7
+937	Jamie Koa	2	8	5
+938	Karen W Lim	4	2	10
+939	Maz 	2	6	10
+940	Jennifer Germaine Choi	2	5	18
+941	Jesse Grayman	2	0	7
+942	donn 	4	0	8
+943	Shirley Tan	4	0	17
+944	Mechie 	2	7	4
+945	YM Y	4	2	7
+946	Too Junye Victor 	3	0	3
+947	Sebastian Cheong	2	3	1
+948	iPearl 	2	0	7
+949	Yvonne Han	2	0	7
+950	Samantha Noh	2	6	10
+951	Mei Chee	2	2	5
+952	Yix Quek	4	8	7
+953	Mei Ying	2	8	7
+954	Noelle Tong-er	2	7	17
+955	Eugene Teo	2	2	4
+956	Ian Thomtori	4	4	7
+957	Nicholas Guan	2	8	7
+958	Suriana 	2	7	7
+959	Fatbonbon 	4	1	7
+960	Joe-sie Tan	4	8	7
+961	Maoxi Elvin	4	0	9
+962	Hui Ling Shazwani 	4	8	7
+963	M Yussuf	4	5	7
+964	Victor Toh	4	2	7
+965	Chai Gavin	2	5	7
+966	Cee Zedby	2	7	8
+967	J Ken Tan	2	8	7
+968	Matthew Gideon	4	6	10
+969	BB See	2	2	11
+970	Eugene Huairen	2	2	10
+971	Wee Meng Chin	2	0	7
+972	Hu Tianfa	2	2	7
+973	Marcio Cacao	2	3	7
+974	Keith Lee	2	2	7
+975	refinehere 	2	6	7
+976	Shasha Ya'kob	4	1	14
+977	Ezbel Tay	4	2	7
+978	Woo Kwunsan	2	0	15
+979	Ghayathri Mohan	2	2	5
+980	Shawn L	4	2	7
+981	Phil Askey	4	0	5
+982	Mia 🐼	4	0	9
+983	Jemuel Ong	3	0	7
+984	Daniel Tay	2	8	7
+985	Ann Heng	4	8	7
+986	Jeffrey Teo	2	8	7
+987	Lam Zhixiu	3	2	7
+988	Susanne Tan	2	2	7
+989	Ian Lee	2	8	7
+990	Miyabi K	2	6	5
+991	Sindy 	4	2	7
+992	Zahari N	2	0	7
+993	Stan Chang Khin Boon	2	0	7
+994	seageath sea	4	6	5
+995	Avis Hong	4	6	16
+996	Kartika Angkawijaya	4	2	7
+997	Ewen Boey	2	5	7
+998	Qiuting Lim	2	8	7
+999	Skywalkerstyle 	2	0	7
+1000	DanYee Oh	4	2	7
+1001	Pierre 	2	6	7
+1002	Augustine Chai	4	3	19
+1003	Shirley Tan	2	0	7
+1004	Amanda L	2	0	19
+1005	Lim Michael	2	2	7
+1006	CNN 	3	5	7
+1007	Pete Iannetta	2	6	6
+1008	Veronica Lee	2	2	5
+1009	femmefauxpas 	2	2	7
+1010	Ko Hui Neo	4	3	10
+1011	Cheng Pei Yeo	4	2	7
+1012	Suzy Susie 	4	0	7
+1013	John Chiong	3	5	12
+1014	Eryk Seah	4	0	19
+1015	KangJie Chia	2	2	19
+1016	Rachel Ong	4	2	4
+1017	Jonathan Guwe	2	2	7
+1018	Jiaxian 	4	8	6
+1019	Jason Chiam	2	0	7
+1020	Calvin 	2	2	1
+1021	Keane 	2	7	16
+1022	Xinyi 	2	2	16
+1023	Terence H	2	5	7
+1024	Keni Lim	2	2	7
+1025	Aditya 	4	6	7
+1026	Radya Wong	2	3	7
+1027	Marc Seow	4	6	10
+1028	Christina C.H.	4	0	4
+1029	Syaza Lim	4	7	13
+1030	M. Lutfi 	2	7	7
+1031	Porsche 911 Turbo Convertible	2	2	15
+1032	Raymond 	2	6	7
+1033	ahMao C.	4	5	1
+1034	Thomas Choo	4	8	7
+1035	Mag Ang	4	7	15
+1036	Jes Harun	2	2	16
+1037	Evan Tony	2	7	13
+1038	Miguel Bernas	4	5	7
+1039	Supermodelme 	4	8	7
+1040	Kenny Bella	2	0	7
+1041	Jean Lee	3	0	7
+1042	zappyzac 	4	2	7
+1043	Suebsak1 	4	2	6
+1044	Simon 	2	8	3
+1045	Adeline Liew	4	2	7
+1046	Crystalz 	2	6	10
+1047	Ranggie Pratama	4	8	7
+1048	Joon Yong 	4	2	7
+1049	Read My Mind	4	5	7
+1050	T4N7 	2	2	7
+1051	Gabriel Jang	2	2	0
+1052	Dnyan Dharkar	2	1	7
+1053	Chi Hian Foo	2	8	7
+1054	Agata Renata	2	0	7
+1055	Eileen Tan	4	8	7
+1056	Alvin Li	2	0	3
+1057	Alex Carrausse	2	5	7
+1058	Drew Graham	2	4	7
+1059	Tris S	2	5	0
+1060	Michael Przytula	4	5	18
+1061	Yue Yun Lee	2	0	7
+1062	Maia Erwan	3	6	7
+1063	Jill Nuqui	2	5	0
+1064	Claudia ♔	4	6	4
+1065	Tiger Koh	3	5	6
+1066	Myra Aubrey	2	7	14
+1067	Natalie Tan	4	0	6
+1068	Anwar Mahbob	4	2	7
+1069	Hendry Taharudin	2	2	7
+1070	David Graves	2	0	5
+1071	Donald Tan	2	2	7
+1072	GoGo Franks	2	7	16
+1073	XiaoHui Low	4	8	7
+1074	Jason Zhang	4	2	10
+1075	Jillene Tan	2	2	10
+1076	Anthony Lau	2	8	7
+1077	Steven Phua	4	3	8
+1078	Amanda Leung	2	4	7
+1079	Guan Hin Tay	4	2	4
+1080	David Tan	4	2	19
+1081	Yee Yeong	4	8	7
+1082	Dee Dee	4	2	7
+1083	George Chew	2	3	3
+1084	Fara 	2	5	7
+1085	Joel Kang	4	2	11
+1086	Leo C.	4	4	7
+1087	Da Mian	4	0	7
+1088	melissa koh	2	2	7
+1089	Shameni TR	4	5	13
+1090	Mei Ling Ong	4	0	7
+1091	Ben Chan	4	5	7
+1092	Lindis Chia	4	2	4
+1093	Qiqi Lin	2	6	7
+1094	Mayank Kochhar	4	1	7
+1095	Devin Wong	4	7	7
+1096	W Ho	2	8	7
+1097	FRANCIS PARK	2	2	7
+1098	Adeline Raleigh	2	3	8
+1099	Sha Md Amsah	2	3	7
+1100	Eunice Tang	4	6	7
+1101	Yus Costacurta	2	7	7
+1102	Ramanan 	4	2	17
+1103	Wayne 	2	2	7
+1104	Kellyn Ting	2	0	5
+1105	Amanda Kohar	2	8	5
+1106	Daniel C.	2	8	7
+1107	Rebecca Jan	0	8	7
+1108	Cherine Teh	0	0	7
+1109	ong sandra	2	2	7
+1110	Jervis Shen	2	2	9
+1111	Leen 	2	2	7
+1112	Victor Lee	4	0	7
+1113	Ronald Ip	2	4	7
+1114	Sze Yen 	2	2	7
+1115	Lolli GoesPop	2	8	7
+1116	GenevieveWijaya 	2	2	7
+1117	Stella Tin	2	3	13
+1118	kiptrip 	2	8	7
+1119	Cheng Yang	4	0	6
+1120	Saishreyas Sundarajoo	4	5	7
+1121	Wana Zainal	4	2	13
+1122	Victor Chen	2	2	7
+1123	cosette cruz	2	0	7
+1124	hazeL lai	2	2	7
+1125	Hazie ira	4	2	7
+1126	Kylie N	2	2	7
+1127	iBoBoYEN 彥♡((≡ຶ⚲͜≡ຶ))♫♡	2	2	3
+1128	Aileen Apolo-de Jesus	4	5	7
+1129	Rupesh Kumar	4	0	9
+1130	ShuHua Tan	4	5	17
+1131	Alfred Tay	2	8	7
+1132	Syahirah Nur	4	0	7
+1133	Justyn Koh	4	0	7
+1134	Tan Daryl	4	1	16
+1135	Lynette C	2	8	7
+1136	Karen Wee	2	0	7
+1137	Lois L	2	2	7
+1138	Frances Huang	4	6	7
+1139	desiree liew	4	2	7
+1140	Akira Shin	2	3	17
+1141	Mingfei Yan	4	0	7
+1142	Chee Keong Soh	2	3	12
+1143	ady 	2	8	4
+1144	Jimmy Tang	4	8	7
+1145	waypoint 	2	6	8
+1146	sf shen	2	0	7
+1147	Nicolas Chan	2	8	7
+1148	Jesse Armand	2	2	6
+1149	Patrck 🈵🈵🈵	4	2	10
+1150	Reymund Navarro	4	7	11
+1151	Samantha D	3	8	7
+1152	York Lou Too	2	5	7
+1153	Vijay Kumar	4	3	0
+1154	Linux Dude	4	0	7
+1155	tony.teokk@gmail.com BBM PIN 74418D84	3	5	8
+1156	Terence T	2	4	7
+1157	Augustine Hong	2	6	19
+1158	Rebekah Lee	4	2	0
+1159	Edwin C	2	6	7
+1160	Joel Lim	2	6	7
+1161	Cherry Chua	4	6	9
+1162	Frieder Bluemle	4	0	7
+1163	Muhiq Marican 	4	5	7
+1164	Terence Hideyoshi	4	2	7
+1165	Deepthi Prasad	2	5	9
+1166	Shing Kae Heng	2	3	7
+1167	Wen Ng	2	2	7
+1168	Damien Yeong	4	2	7
+1169	Alex Chew	2	2	7
+1170	Corinne Kang	2	8	7
+1171	Su-An Ng	3	0	7
+1172	Vania Puspitasari	2	0	7
+1173	Napat SingGolden	4	5	7
+1174	Althea Lau	2	6	0
+1175	Mitz Uninspired	2	0	7
+1176	Summer Yann	2	7	7
+1177	Michael De Roza	2	5	8
+1178	Gwen Tan	2	6	1
+1179	David Ooi 	4	0	7
+1180	Adeline Ng	4	2	0
+1181	Tiffany Yoong	2	7	7
+1182	Bary John Morier	2	2	6
+1183	Abd Alfaa	2	7	7
+1184	Henri Tan	3	7	0
+1185	J j	2	1	7
+1186	Ah Can 	4	6	6
+1187	Charanjit Singh	2	2	9
+1188	Diana Mok	2	0	7
+1189	Eugene Lim	2	5	5
+1190	Marcus Radley Chng	2	2	16
+1191	Yuri 	2	2	14
+1192	Charmaine Ngium	2	2	4
+1193	ZieLiCiouS 	2	0	7
+1194	Ryan Yung	4	0	7
+1195	Lyn Ling	2	0	7
+1196	Weiru T	2	8	7
+1197	Crystalia Gunawan	2	8	7
+1198	Junnita Stephannie	2	2	0
+1199	Justin Searls	0	2	7
+1200	Beatrice Liu	4	2	7
+1201	Edlyn T	4	5	7
+1202	Junior Ng	2	2	7
+1203	Derek Lin	2	8	7
+1204	Leonard Ong	2	8	7
+1205	Randy Lim	2	0	19
+1206	Z Leong	2	7	7
+1207	Jovelle Dancexpression	4	0	11
+1208	Ryan Yusoff	4	6	7
+1209	Daphne Chiang	4	6	12
+1210	🎀Beverly 	2	7	0
+1211	Zong Ong Runner	2	6	19
+1212	Sam Vanheukelom	4	6	1
+1213	Jocelyn Oh	4	2	7
+1214	Belinda Au Yong	2	4	7
+1215	Ivy Tan	2	5	17
+1216	Xueting Zheng	2	2	7
+1217	Bianca Barber	2	7	4
+1218	Nelson Tan	4	2	7
+1219	Tiago Costa Alves	2	0	1
+1220	Pauline Tan	2	0	7
+1221	Metta Setiandi	2	6	5
+1222	Esther Teo	2	6	4
+1223	Paul Farrell	2	5	7
+1224	Matthew Mark Aloysious	4	8	7
+1225	Ferryandi Chai	4	5	8
+1226	S. Dewi	2	3	7
+1227	Darryl Sim	2	7	7
+1228	Raymas Liew	2	2	17
+1229	Katana Masamune 	2	6	5
+1230	Samuel Chee	4	2	7
+1231	Evan Low	4	2	14
+1232	Pohui Ko	4	2	10
+1233	Janell 	4	2	4
+1234	Lijun Chen	2	0	5
+1235	Vijay 	4	2	9
+1236	Jae Lim	2	0	7
+1237	Aik Wee Ong	4	6	5
+1238	ChiahLiang Tan	2	8	4
+1239	Paul O'Keefe	2	0	7
+1240	Milton Sau	2	0	7
+1241	Jeremy Loh Kin Wah	2	2	3
+1242	Rico 17	4	7	1
+1243	John Reyes	3	2	9
+1244	belle tamang yayah 	4	6	8
+1245	carrot 	0	0	7
+1246	8193_ laell	2	6	7
+1247	Leon Chia	4	0	13
+1248	Brian Andre Ng	4	6	16
+1249	Jason Yeo	2	2	1
+1250	Hitoshi Lee	4	2	16
+1251	Fyd 	0	7	7
+1252	Michelle Shoo	4	7	7
+1253	Ally Yong	0	6	7
+1254	Ashley Chen	2	2	16
+1255	denny marton	4	2	12
+1256	Paul Tuddenham	2	4	7
+1257	Zack Mok	2	7	10
+1258	Derek Foo	2	6	7
+1259	ҽƒɑ ❣ ɑӀվɑհվɑ	2	5	7
+1260	Ishan Chatterjee	3	8	7
+1261	Donald Kai	2	2	7
+1262	Shyan Tan	2	5	7
+1263	♡roхanne мιcнelle 	4	7	7
+1264	Aileen Chan	2	2	14
+1265	gary chong	4	6	17
+1266	Marc Ha	2	0	7
+1267	alina 	4	2	10
+1268	July de Leon	2	2	18
+1269	Tan Kelvin	2	2	7
+1270	Asery [LCN] Senpai	2	7	3
+1271	Bittersweet Way	2	0	1
+1272	Fendy 陳汉昌	2	6	18
+1273	Gregg Chen	4	2	5
+1274	Adrienne M	4	8	7
+1275	Levina Wong	4	7	13
+1276	Kym L	2	6	16
+1277	Hkling 	2	0	6
+1278	Nana Goldies 	2	3	1
+1279	Martin P	2	0	7
+1280	Lynn Koh	4	0	7
+1281	Ying 	4	1	18
+1282	Kimmie Tan	2	5	7
+1283	Teng Jeremy	2	3	7
+1284	Yuhana M. Yusoff	2	3	10
+1285	Elvin Yeo	2	8	7
+1286	Kitty Queen	4	6	7
+1287	Eunice Tan	4	0	18
+1288	Sher Sah	2	5	6
+1289	Karolina 	2	1	5
+1290	Jasper 🆖	3	6	7
+1291	Prissy プリシラ	2	8	7
+1292	KelvinYeo 	2	2	9
+1293	Aziz Ahmad	2	7	16
+1294	daryl chen	4	2	11
+1295	Bhan Lam	4	7	7
+1296	Bambang Riandy	4	2	19
+1297	Justus Tan	4	2	3
+1298	Denise Lee	4	2	7
+1299	sieww 	2	8	7
+1300	Jonathan Matthew Tan	4	2	7
+1301	Jonathan Kong	4	2	7
+1302	Bee C	2	6	5
+1303	ziyu teo	2	7	4
+1304	Garrett 	2	5	7
+1305	YewBoon RedOrange	2	3	15
+1306	Wilson Chua	2	6	10
+1307	yeoh lynn	2	6	11
+1308	Trina Arena	4	0	7
+1309	Jasmine Quek	2	2	7
+1310	Szabolcs Sándor	2	0	7
+1311	Nurie Shariff	2	6	0
+1312	Veana Chan	4	2	11
+1313	June Zhang	2	3	16
+1314	Kelvin Ang	2	2	14
+1315	Russell Darnley	2	5	9
+1316	Xinyi Soon	2	8	7
+1317	Wesley 	4	2	16
+1318	Charles Teo	2	5	0
+1319	Bryan Pinz Ponz	2	2	7
+1320	Kimberly Meagan	4	6	8
+1321	Ti Ming Tan	4	0	7
+1322	Daphne Pang Seow Shan	4	2	7
+1323	James Kong	2	2	7
+1324	Four Seasons Hotels and Resorts 	2	2	5
+1325	Joanne Lee	4	5	7
+1326	Jasreen Suah	4	8	7
+1327	Jonathan Seetoh Jie Wei	2	2	1
+1328	Belle Suan	2	0	16
+1329	Tracy 	4	0	7
+1330	Adrianus Putuhena	4	6	7
+1331	Wee Kiong Tan	4	8	7
+1332	Manisah Juwanda	2	0	7
+1333	Chrisrine Soo	2	1	18
+1334	Tarik Hart	4	0	6
+1335	Ming H Koh	4	6	7
+1336	Jude W.	2	3	5
+1337	Oliver Woods	2	0	6
+1338	Yvonne Yong	4	5	6
+1339	JaneBond 	2	7	1
+1340	Winnie Khoo	4	2	7
+1341	Celine A	2	8	7
+1342	Arman Abu Shah	4	7	15
+1343	Justin C	4	2	7
+1344	Maya J.	4	2	7
+1345	Михаил Александрович Бакунин	4	0	7
+1346	Abdillah Ady	2	6	7
+1347	Andy H	4	8	8
+1348	Joyce Tan	4	2	17
+1349	SinDevils Thor	4	2	11
+1350	alvin-can tan	2	8	7
+1351	Puspita Kie	4	8	5
+1352	Kyt 	2	2	11
+1353	Benjamin Tong	2	7	10
+1354	Sarah Sia	4	3	10
+1355	Francis Chua 	2	2	8
+1356	Norman Leibovitz	4	2	4
+1357	Savio Sebastian	2	2	7
+1358	Vincent Ong	2	0	0
+1359	Thomasina Owch	4	8	7
+1360	David Ho	2	6	15
+1361	Nicolas Ho	2	2	4
+1362	Joseph Ng	4	2	7
+1363	SUGAR😜🍀🐱🌀 	2	6	11
+1364	Skywalker 	2	2	7
+1365	San 	2	8	7
+1366	Audrey Tan	4	8	10
+1367	Deborah Sawyer	2	0	6
+1368	Teeny Samantha Ng	2	2	7
+1369	Bing Xian Soon	2	3	7
+1370	Joey Koa	4	6	4
+1371	Rachel Chua	4	2	17
+1372	Wei Han Koh	3	5	0
+1373	Songhua 	2	4	7
+1374	Eric Lim	2	8	7
+1375	Isaac Matthew Ho	4	8	7
+1376	laetitia 	2	0	7
+1377	Julyen Z L	3	2	5
+1378	Song-My Tran	4	0	18
+1379	Dana Lim	2	6	7
+1380	Khairul Nizam	2	6	7
+1381	shah stinson	2	2	7
+1382	Krystalbel 'En	2	2	7
+1383	Clara N	2	6	8
+1384	vOn 	4	2	6
+1385	Christian Yape	4	7	7
+1386	Raymond Yong	4	2	7
+1387	Keith Tan	2	2	7
+1388	Raymund Miranda	2	2	7
+1389	Angie Yang	2	7	7
+1390	Kit 'Ain Cary	2	6	1
+1391	Gavin Tse	2	3	3
+1392	gilda rêvasseur	2	0	5
+1393	Dennis Toh	2	2	7
+1394	Ron Ho	4	0	4
+1395	Jon Carlo Alivio	2	5	6
+1396	Timothy Ngui	2	0	7
+1397	Sylvie Valentine 	4	2	11
+1398	Clement Teo	2	2	17
+1399	Christine Tan	4	8	7
+1400	Alethea Kerk	2	5	7
+1401	Harrow Main	2	2	15
+1402	Suharty Shahril	2	0	7
+1403	Connie Yeow	4	0	7
+1404	Prashant Somosundram	2	5	7
+1405	Eddy - RadNomad	2	8	7
+1406	Shane Goh	2	2	7
+1407	Mattew Tan	4	8	7
+1408	Martini Yim	4	5	19
+1409	Sly Samonte	2	7	6
+1410	Farid Nordin	3	8	7
+1411	Edlyn Giam	4	2	5
+1412	Juits H	4	8	7
+1413	Laurence 	4	8	7
+1414	Nicole Lammy	2	2	6
+1415	Alvin Teo	2	5	7
+1416	Nurdyana Lim	4	2	7
+1417	Kelly H.	4	3	11
+1418	SH. DI. SO. 	2	7	4
+1419	Janice Wu	2	2	7
+1420	Lusy Aaltje 	2	0	7
+1421	Olivia 	2	5	7
+1422	Quan  Ng	4	3	11
+1423	Yuven 	2	1	6
+1424	Sarah Yong	2	8	7
+1425	Jit Seng	4	2	5
+1426	Jeffrey Seow	2	0	15
+1427	Elena FHM	2	8	7
+1428	Meilissa 	2	8	7
+1429	Artis Are	4	0	16
+1430	Goose Crazy	4	3	19
+1431	Mathew MadMax	4	4	7
+1432	Yatie Yusof	4	0	19
+1433	A J LEE	2	5	16
+1434	Jasper Six&Seven	2	8	7
+1435	Grace 	2	4	7
+1436	Jasmine Neo	2	2	7
+1437	Glendon Giam	4	6	16
+1438	hyc 	4	6	7
+1439	wu gui	4	2	17
+1440	Eleen Por	2	0	7
+1441	Xiuling Ng	2	6	7
+1442	Joey Ng	3	1	5
+1443	Nadzirah Yusoff	2	5	0
+1444	Grace Lim	4	0	7
+1445	Yi Wen Koh	2	2	2
+1446	Jingru Tan	2	7	7
+1447	Sanjeev Varma	2	5	7
+1448	Joanne Lee	2	8	19
+1449	Kenneth C S Lim	4	0	13
+1450	Anton Shchekalov	2	0	7
+1451	TedDy Cn1030	4	0	5
+1452	Hazwani Ismail	2	0	7
+1453	Jaryl Koh	2	0	7
+1454	Alittlefatlamb 	2	2	19
+1455	Pinkie Chong	2	0	7
+1456	Patricia Tan	2	0	7
+1457	Patricia Chong	2	2	16
+1458	Christina Teh	2	3	16
+1459	Sam Ho	2	2	7
+1460	Haziq Al-Idros	2	2	19
+1461	Dina Abdullah Enriquez	4	6	7
+1462	Princess Pinky	2	2	7
+1463	Ton-ton Yulo	2	2	7
+1464	Richard Jang	4	4	15
+1465	Labelle Luo	2	8	16
+1466	Kenny Chua	2	2	10
+1467	Nicolette Soh	2	2	7
+1468	Wesley Ng	2	2	7
+1469	Didi Koci	4	2	7
+1470	Mr Nor C	2	0	13
+1471	KBK 	2	7	7
+1472	Jess Wong	4	2	7
+1473	Ja-son 	4	2	9
+1474	Paolo Martin	4	7	17
+1475	Shn Juay	2	8	7
+1476	Clarina Seetho	4	2	7
+1477	Landon Sng	2	5	7
+1478	Joe Lim	4	0	1
+1479	stella gunawan	4	2	7
+1480	Melissa Ng	2	0	7
+1481	Juliet Li	4	5	6
+1482	e3 	2	2	9
+1483	Gerald S	2	5	19
+1484	Ariel Christabelle Chan	4	0	7
+1485	Jun Hong 	2	2	13
+1486	Jeong Min Kim	4	2	7
+1487	Nancy Pang	2	5	7
+1488	Chandra Jusuf	2	2	16
+1489	Kenneth Koh	4	0	17
+1490	Yuriko Jasmine	2	0	7
+1491	Kaung Htet Zaw	4	7	7
+1492	Suet nee Koh	4	8	7
+1493	L'eau Par Kenzo	4	5	3
+1494	K 	4	6	5
+1495	Irene Chia	4	8	7
+1496	Travis 	2	8	7
+1497	Diana Tham	2	2	7
+1498	Jariis Tan	2	3	11
+1499	Ying Min 	2	8	7
+1500	Stewart Leong	2	3	0
+1501	Min Goh	2	8	7
+1502	Simon Tay	4	3	7
+1503	Kien Pang	4	0	18
+1504	Jessica 제시까	4	8	7
+1505	Andrew Chew	4	6	7
+1506	Aleem Din	2	0	19
+1507	Aisyah Salim	4	7	16
+1508	Stanley Tan	2	3	11
+1509	Eugene Goh	2	0	3
+1510	Debbie Min	2	1	7
+1511	Josephine C	4	0	5
+1512	Dx Lin	4	2	1
+1513	Sho Li Hin 	4	0	7
+1514	Michael 	2	7	7
+1515	Ernest Khong	2	3	15
+1516	Kellene L	3	0	15
+1517	Lynde Lim	4	6	7
+1518	Little Ong	2	2	7
+1519	Pepe Torres	4	0	4
+1520	Sharon Tan	4	2	7
+1521	Theresa Low	2	8	7
+1522	Irvan Tan	4	8	7
+1523	Huiling Lee	2	1	7
+1524	Noah Thng	2	3	19
+1525	H L K	2	6	7
+1526	Faie2ah 	2	6	16
+1527	Lynrose Irwan	2	0	7
+1528	Edie Tan	4	0	7
+1529	E L	4	8	3
+1530	Richa👒 Fryatt	2	2	1
+1531	Faisal Huned	2	5	6
+1532	Pau Wow	2	6	14
+1533	Nigel ไนเจล Choi	2	4	11
+1534	Liziana AR	2	7	15
+1535	Zulkarnain Sudarman	3	0	4
+1536	Bianca L	4	2	18
+1537	Onin 	2	2	7
+1538	Hazel Ong	3	0	16
+1539	Christopher Phoon	2	5	13
+1540	Thomas Loke	2	7	3
+1541	Adeline Chung	2	3	16
+1542	Edwin 	4	6	7
+1543	Gio Corsi	2	8	7
+1544	hellosecrets 	2	0	7
+1545	John 	2	5	7
+1546	BrandyCoke 	2	8	7
+1547	Nazree Nazzeer	4	8	3
+1548	Jas. L.	2	2	7
+1549	Azhary Meswan	4	7	7
+1550	Fiza Junior	3	6	7
+1551	donnasaurlee 	4	5	19
+1552	Lynette Lee	4	5	17
+1553	Calvin Saputra	2	1	7
+1554	Melvin K. 	2	2	1
+1555	Jie Heng Chua	4	7	15
+1556	Firuz Aziz	4	6	0
+1557	Nicole Fu	2	0	7
+1558	Walter Lim	4	2	7
+1559	Irma Ibrahim	4	7	19
+1560	Sharon 	4	7	0
+1561	Bene Tan	2	2	19
+1562	Yin 	2	6	4
+1563	Leonard Parlindungan	2	3	8
+1564	Zurah Rahim	4	2	7
+1565	Joanna Lee	2	6	7
+1566	Jolyn Chung	2	8	7
+1567	 Constantine ™ 	2	3	15
+1568	Peter D	4	3	18
+1569	Ibee Lor	4	8	7
+1570	Jolene C	4	3	6
+1571	Mark Wee	4	3	7
+1572	Charis Sher Xu	2	2	7
+1573	STFR 	2	2	7
+1574	Alvin Lee	2	8	7
+1575	Carrie Sim	3	2	7
+1576	Sridriwina Suriyana 	2	7	4
+1577	Carel Wong	2	7	2
+1578	Chan Leong	2	3	16
+1579	Sarah Yap	2	0	7
+1580	Tina Andresha	2	3	7
+1581	Wendy Yeo	2	0	7
+1582	Anthony Wong	4	8	7
+1583	Sophie Lim	2	5	7
+1584	Delilah Rouge	2	5	3
+1585	Jo Yeoh	2	0	7
+1586	Aiddy 	4	5	7
+1587	Mashi Sharry	4	6	7
+1588	Samantha Wong	2	0	7
+1589	Si Yi Peh	2	0	7
+1590	Kai Ong	2	8	7
+1591	💗Caelyn💗 LoveGrace	4	7	16
+1592	Vera Tan	2	5	7
+1593	Victor Ong	3	7	10
+1594	Jenny Y.	4	0	7
+1595	Tiger Miyaw	2	2	14
+1596	Shannon Chow	4	0	18
+1597	Tian Haw Koh	2	7	4
+1598	Yvonne Lin	2	0	3
+1599	Maureen Lo	2	7	7
+1600	David Lim	3	2	6
+1601	Desmond tan	2	6	7
+1602	Gary Tan	4	8	7
+1603	Alice Nguyen	4	1	3
+1604	Kelris Lim	2	2	9
+1605	Lawrence Leong	2	2	5
+1606	Janelle Tay	2	6	7
+1607	💗Jojoty💗 	4	8	3
+1608	Ted Patrick Boglosa	2	8	7
+1609	Siddharth Singhal	2	7	4
+1610	Germie Yeo 🌛	2	0	7
+1611	Razib Shariff	2	0	7
+1612	Amy 	2	5	7
+1613	Jay ..	2	0	7
+1614	Jason Neo	2	3	13
+1615	Bella Queck	0	2	7
+1616	Annabel Tan	2	0	7
+1617	Joycezzz 	4	0	5
+1618	Danny 	2	7	19
+1619	Edmund Lim	4	6	7
+1620	Mak Zhen Yu	2	2	7
+1621	Yuting Ong	2	2	7
+1622	Addictive Lÿ	3	8	7
+1623	Daryl Tang	2	2	7
+1624	Abujalma M N	4	3	1
+1625	Bernard Ng	0	2	7
+1626	Fiona 📷	4	5	5
+1627	Terence Yeo	4	6	7
+1628	Matt 	2	1	7
+1629	Ahmad Nazri Mohamed Naim	3	0	7
+1630	Shirley 	2	2	7
+1631	Gregoryxavier Chan	2	0	13
+1632	Joey K.	2	6	7
+1633	Ivan Ong	2	5	17
+1634	Kim San	2	6	17
+1635	Diana 	2	8	3
+1636	dancia tan	2	2	7
+1637	Piccy 	4	8	7
+1638	Steven Lu	4	6	7
+1639	Chris Koh	2	2	16
+1640	Carló Malbaš	2	2	7
+1641	Hui shan Quah	4	0	7
+1642	Kelvin Tan	2	2	7
+1643	Henry HL	2	2	19
+1644	Kay 	2	8	7
+1645	Lynn Hamzah	4	2	7
+1646	Barnabas Koh	2	0	15
+1647	Eugene Yeo	2	2	7
+1648	Krislin Neo	2	7	15
+1649	Sindy Tan	2	6	16
+1650	jaschintaz 	3	0	4
+1651	Samuel Yong	2	7	10
+1652	Chris Kwok	2	2	13
+1653	Marcus Soh	2	6	11
+1654	YSW YSW	2	2	7
+1655	Desmond Ho	4	3	7
+1656	Ser Wong	4	0	7
+1657	Poyo San	4	8	7
+1658	Eyleen 	2	2	7
+1659	Steven Kwan	4	7	10
+1660	Ema Tu	2	8	7
+1661	Maurice Lai	2	2	7
+1662	Charmaine Siew	4	2	19
+1663	Chris tay	2	2	0
+1664	🎀R€€NA Jumarudin	4	0	7
+1665	Momo Luqman	2	1	4
+1666	Freakoley 	4	2	10
+1667	Zin Ko Hlaing	2	6	7
+1668	Ken Tan	2	2	3
+1669	Kelvin Tan	2	3	7
+1670	Melvin Tan	2	7	16
+1671	Irdawathy Anuar 	2	0	19
+1672	Liana 	2	8	7
+1673	Elinn K.	3	2	4
+1674	grannypurse 	3	0	7
+1675	Adrian Ng	4	2	7
+1676	Vincent Siow	2	2	6
+1677	Ananda Manjie	2	5	5
+1678	Sha Salim	3	5	7
+1679	Kenneth Lin	4	6	10
+1680	Dinnie Lim	4	5	1
+1681	Jacqueline Lee	4	3	16
+1682	Jiayun Bai	2	0	7
+1683	Wallis Night	4	6	11
+1684	bady qb	2	5	7
+1685	Kenji 켄지 Garyk	4	0	7
+1686	Guy Blonde	2	8	7
+1687	En Wee 	2	2	7
+1688	Shawn Farid	2	2	14
+1689	June Phoon	4	2	10
+1690	Yve C	2	2	7
+1691	Paul DL	2	8	4
+1692	Nur Zahirah Syed Hamid	2	7	7
+1693	Deebz 	2	0	7
+1694	William Tan 	4	2	12
+1695	JunHan Yee	4	2	3
+1696	Strawberry Jolin	4	2	6
+1697	Fee3 Ir1d	4	7	8
+1698	Ryan Wong	4	2	4
+1699	Shanon Tan	2	0	7
+1700	Robin Hwang	4	0	7
+1701	noryazzima yassin	2	1	0
+1702	Felix Wong	4	8	1
+1703	Aslinda Wati	2	0	7
+1704	Natalie Wee	2	1	5
+1705	Christopher Tan	4	2	7
+1706	Alainlicious 	4	0	7
+1707	Jenny S	2	8	7
+1708	Ivan 	4	0	3
+1709	Andrea Monni	2	4	7
+1710	Serene Sim	4	7	0
+1711	Danny Lee 	4	2	7
+1712	Clara Cheah	2	5	7
+1713	Nada. Z	2	0	7
+1714	Astrini Sie	2	6	3
+1715	Xiao Guang 	4	1	7
+1716	Kirynn M	4	7	8
+1717	煒業 林	4	6	7
+1718	Esther Teo	2	0	7
+1719	Selina Doll	2	8	0
+1720	Sylvie Chim	2	2	7
+1721	Esther Ho	4	7	14
+1722	Eng Boon Tan	4	2	7
+1723	Ernest 	2	0	6
+1724	Samuel T	2	8	8
+1725	shong 	2	2	14
+1726	Aizhen Lin	2	0	7
+1727	shAnn heSter	4	2	7
+1728	Vincent Sia	4	3	8
+1729	Ann @pigpigscorner.com	4	0	7
+1730	BiFang Koh	4	6	6
+1731	Jeffrey Aw	2	2	10
+1732	Keely Liyue	4	2	11
+1733	sasha farina 	2	5	7
+1734	Unclefeb 	2	6	7
+1735	Dora Seah	3	2	7
+1736	Huiqi Ng	2	2	7
+1737	Debbie Ding	2	2	11
+1738	Nicholas Chia	4	1	5
+1739	Zheng Jie 	2	6	3
+1740	John Aban	3	6	10
+1741	IG @antskong 	2	8	7
+1742	Wen Sheng Lim	2	2	7
+1743	Wesley Tee	4	7	7
+1744	Seth Lim	2	2	13
+1745	Zhenyu Lau	2	8	7
+1746	SaniZ 	2	8	7
+1747	Felisia William	2	1	6
+1748	Dith W	4	0	7
+1749	Gilbert Cheah	4	0	6
+1750	Adrian Koo	2	0	7
+1751	Desmond Charles Perry-Wong	2	2	7
+1752	Janice Ang	2	2	1
+1753	Hussni Satiman	2	7	7
+1754	Léna Le Rolland 	4	6	6
+1755	bεяиæδϊиε® 	3	6	11
+1756	Kerry Wong	4	2	7
+1757	 Dan Dan  	4	0	14
+1758	R U S S 	4	2	7
+1759	Goh Seng how	2	2	3
+1760	Zoe 	2	0	6
+1761	Rianto Wirar	2	0	7
+1762	Shelley Ho	2	2	7
+1763	Kum Hoong Chia	4	2	12
+1764	Vanessa Ng	2	0	7
+1765	Alinda Yeo	2	2	16
+1766	Kelvin Lee	2	2	14
+1767	Brenda B Tan	2	2	17
+1768	Eugene Lee	2	2	7
+1769	mpjan 	2	0	6
+1770	Kevin 陳	4	5	7
+1771	Dale peDerg	2	0	7
+1772	Katie Nguyen	2	2	14
+1773	Quesera Sera	4	0	7
+1774	Ann Toey	2	7	7
+1775	Ameerulddin Joha	4	7	15
+1776	JiM C	2	8	10
+1777	SA 	3	7	2
+1778	Ziela Ela	2	6	17
+1779	Raymond Ang	4	3	12
+1780	Shu Teng	3	7	7
+1781	Sophia Huang	2	0	7
+1782	Din Monzter	4	7	7
+1783	Elle T.	3	8	7
+1784	Mark Dickenson	2	8	7
+1785	Valarie Tay	4	6	0
+1786	Valen Tan	3	2	7
+1787	Shirley To	4	2	7
+1788	Papercut ©	2	2	17
+1789	BL 	4	6	16
+1790	Syed Rehman Shah Bin Syed Abdul Rahim Shah	2	0	7
+1791	Zairina M Zen	4	7	7
+1792	Mohd.Nurwin Rahmat	2	7	15
+1793	Rasyid Sani	4	3	3
+1794	Oon Zenith	2	2	7
+1795	Elmo Hong	2	2	11
+1796	David Chow	4	2	11
+1797	Sean Miller	3	6	7
+1798	MOTLEY GUNS	4	8	7
+1799	KRY Kryeo	2	2	7
+1800	Lisbeth Ariel	2	0	16
+1801	Roy Blacksweet	4	3	16
+1802	Yohana Kristanto	2	1	16
+1803	Li wen Chan	2	6	7
+1804	Pornthep Chaysin	2	7	4
+1805	Han Xin Chin	4	2	7
+1806	Stanley Tay	4	2	7
+1807	Melvin Neo	2	0	16
+1808	Evelyn Poh	4	8	0
+1809	Teo PQ	2	8	7
+1810	Glamchicz 	4	0	3
+1811	Kc Chong	2	5	8
+1812	Kenji Takeshiro	2	8	7
+1813	Doris Teo	2	2	12
+1814	Shaun Chung	2	0	7
+1815	Sally Salihin	2	5	19
+1816	Vince Yong	2	2	7
+1817	Hsien-Hui Tong	4	5	18
+1818	Gary Koh	4	0	7
+1819	Deric Lim	2	8	10
+1820	Marklin Ang	2	8	17
+1821	Stanley Tan	2	2	15
+1822	Rohaizatbai Zbailatin	2	3	7
+1823	Ivan Low	2	3	12
+1824	Eugene YS Han	2	2	7
+1825	jhachiro 	4	0	7
+1826	Lee Hwee Siong	2	2	10
+1827	Violet Leo	2	8	7
+1828	Joslyn Ng Shi Ling	2	0	14
+1829	Isabella Ng	2	2	7
+1830	Lee Jarrett	2	2	7
+1831	Jacelyn Lim	4	5	11
+1832	YiLinn 	2	2	7
+1833	Rachel Felix	4	2	17
+1834	Antonie Suresh	4	0	5
+1835	Tina Goh	4	0	10
+1836	Alvin Nivla	2	7	16
+1837	Yinwen Tan	2	8	7
+1838	Megan Mag	2	2	7
+1839	lkjkgyvkjvugchbb rossi	2	2	7
+1840	Ivy Poh	4	7	0
+1841	Aaron Lin	4	0	7
+1842	IHWS♕ 	2	7	0
+1843	Sam Schuster	0	8	7
+1844	Kris Adimoelja	4	0	6
+1845	Zaylene Tan	2	2	7
+1846	Supabertbert 	2	0	7
+1847	nani shmily™	4	5	7
+1848	Sam Low	2	6	7
+1849	Ang Rebecca	0	8	7
+1850	Ouch Sal	3	6	16
+1851	gherard 	2	0	18
+1852	Nicole Morrissey	4	0	5
+1853	Pauline 	4	0	7
+1854	Shan. XC 	4	8	7
+1855	Kazza 	2	5	7
+1856	Josh Oh K M	3	7	15
+1857	Kevin Sun	4	2	7
+1858	Deepak Nair	2	8	0
+1859	Nat Ng	2	2	1
+1860	Yan Chip	4	5	7
+1861	Ben Chung	4	0	7
+1862	Juliana 	4	2	7
+1863	Jolene Poh	4	0	7
+1864	hanii zoachy	4	0	7
+1865	Vionna Chan	3	7	12
+1866	Ong Sai Keet	2	2	4
+1867	Alvin Chee	2	0	4
+1868	Suraiyah K Abdulla	2	7	7
+1869	Madeline Chen	2	0	7
+1870	Vica Andriani	2	7	0
+1871	Lily Lim	2	2	5
+1872	Sg Kwek	3	0	7
+1873	Jeff K	2	0	7
+1874	Sujun Neo	2	7	4
+1875	Yat Fai Ooi	2	2	7
+1876	Wei 	2	2	7
+1877	Jervenne Ong	4	0	5
+1878	denise tan	2	2	7
+1879	Kency 	2	0	10
+1880	Janice 	4	8	7
+1881	Denis Duster	2	0	7
+1882	Ezekiel Inban	2	3	16
+1883	Chong YJ	2	8	11
+1884	Karl Bustamante	2	0	7
+1885	Jackson Tan	2	6	7
+1886	David Lee	2	0	10
+1887	Peter Leong	2	0	1
+1888	Jeffrey Xu	2	2	15
+1889	Rudi Gixxers	3	2	19
+1890	Puvanan Nadaraja	2	0	4
+1891	Adrienne Choo	4	5	8
+1892	James Li Zhiwei	4	4	7
+1893	Micky Sureanto	4	2	7
+1894	Zee 	2	7	16
+1895	Michael Netzley	4	8	7
+1896	Cynthia Chen	2	2	10
+1897	Jaclyn Choo	2	5	7
+1898	Pauline W	2	8	7
+1899	Nana Read	4	2	17
+1900	Philip Buen	4	0	17
+1901	HJ 	0	8	1
+1902	yangg boii	2	3	7
+1903	Shawn Chua	2	2	7
+1904	trevidzi midzi	2	5	4
+1905	Simon 사이먼	4	2	7
+1906	Andy 	4	6	7
+1907	Erwin 	2	2	7
+1908	Natural Raisins	2	5	7
+1909	Karen L.	2	8	7
+1910	Jeremy Ong	2	2	7
+1911	Jasmond Wong	4	3	11
+1912	Sin Isaac	4	0	7
+1913	Badderflyy 	2	8	7
+1914	Sirin Ramli	4	5	19
+1915	💋JuWieZy™ VoGueZ 🍸	2	0	7
+1916	Rynnah Lim	4	2	12
+1917	w w	2	0	7
+1918	Helen Lim	4	6	7
+1919	Yongshun 	2	6	13
+1920	iRyNee 	3	0	7
+1921	Susan Seow	4	2	8
+1922	Sharilyn 	2	6	3
+1923	BaByGhOsT 	4	3	15
+1924	Evonne Lim	4	2	15
+1925	Aliasgar Lakdawala	2	5	7
+1926	Ivy Lai	2	8	7
+1927	Ben Toh	2	2	12
+1928	Bear 	2	4	7
+1929	Bryan Liang	4	6	3
+1930	Jólyn 	2	2	3
+1931	Mong Jie	4	8	7
+1932	Karthik Nathan	4	5	1
+1933	Arie Yan Abby	2	0	13
+1934	Hui Hui	2	0	7
+1935	Ann Sior	4	2	19
+1936	Siew woon Yeo	2	2	14
+1937	YiJin 	4	8	7
+1938	Sahril® 	2	5	0
+1939	Ng YiShi	4	0	7
+1940	Jenny Cheong 张淑仪	2	2	17
+1941	Anna Wee	2	5	3
+1942	Stanley 辉 	2	4	7
+1943	@--@ 	4	8	7
+1944	Lyn Tai	2	5	8
+1945	jeffrey tang	2	5	7
+1946	Aarone Tan	4	7	7
+1947	Geri Soh	2	6	17
+1948	Sean CSW	4	8	7
+1949	✈️⚓️😃😀😊 	2	2	4
+1950	Serena Loh	2	0	16
+1951	Khairuddin 	4	7	15
+1952	Leslie Ho	2	0	8
+1953	Ishmael Hashimu	2	6	12
+1954	Gwen Lai	2	5	8
+1955	Shaolang Ai	2	3	7
+1956	Joy Loh	4	6	6
+1957	Lady Eda	4	5	7
+1958	Jamillah Anne Dimaculangan	2	0	7
+1959	Salleh Lim	4	0	7
+1960	Nelson Chua	4	0	7
+1961	Charlotte Kiew	2	1	7
+1962	Terence Tay	2	2	7
+1963	Elaine ler	2	7	7
+1964	Huan Ling Yip	4	8	10
+1965	Sean Yang	2	7	7
+1966	Jillian Lim	2	2	7
+1967	Sugar Ang	2	2	7
+1968	Zhou Nick	2	2	7
+1969	Bianca Bueno	2	4	7
+1970	Ammar Wazza	4	7	7
+1971	Kristal Chan	2	2	7
+1972	Yong Angie	2	0	9
+1973	Winfield Zheng	4	2	7
+1974	Norhikmah Sohoi	3	5	7
+1975	Yenny Bay	4	2	7
+1976	Vivien Ho	4	6	7
+1977	Doris Winatap	2	8	7
+1978	Jasmine Lye	2	3	9
+1979	Elise ❥	2	4	7
+1980	Kelly Lee	2	8	7
+1981	Ewen Chan	4	8	7
+1982	Prince Arty	4	2	7
+1983	Ivy Yee	2	2	7
+1984	Jy Low	4	0	7
+1985	afiq sixsixone	2	7	15
+1986	Natty Lee	4	2	7
+1987	Apr K	4	8	7
+1988	Boon Chin 	4	7	7
+1989	Jasper G.	4	3	16
+1990	Huda Ozu	4	6	7
+1991	Dita Galina	4	6	4
+1992	Ziyi Yen	4	0	15
+1993	Ricky Shin	2	6	7
+1994	Agnes Chong	2	2	7
+1995	Izad Razi	2	7	8
+1996	Callie Gay	4	0	12
+1997	Foongming ❤	4	2	11
+1998	Juninho 	4	2	7
+1999	Benny Cahyadi	4	0	16
+2000	Jeffrey Low	2	2	4
+2001	Shaun Wu	4	3	19
+2002	Wan Aifah	0	0	13
+2003	Beatrice Surya	2	8	7
+2004	Yin Sang Teh	4	3	16
+2005	Jin .	3	8	3
+2006	claudia koh	4	2	5
+2007	Loh Teck Seng	2	2	8
+2008	Suzanne 淑欣	2	6	7
+2009	Alvin Boo	2	8	7
+2010	Jonas Ng	4	5	7
+2011	Ruoting Yeo	4	3	3
+2012	Jaron T.	2	2	7
+2013	Santi Lee	4	0	7
+2014	Ed Win	2	2	19
+2015	Ying Yi, Alvin Goh	4	7	7
+2016	Hannah Gerlyn Chia	2	0	7
+2017	Nickeando 	4	2	19
+2018	Destroyer 	2	2	7
+2019	Matthew Tong	4	5	0
+2020	Kelly Ng	2	2	11
+2021	Spring Y	2	0	12
+2022	Gibby Bartholomew	4	0	7
+2023	Ping Ping	2	2	4
+2024	cheRRie L.	4	6	7
+2025	Winnie Or	4	6	7
+2026	Melvin Chia	4	3	16
+2027	Adrian Tan	4	2	18
+2028	Malini S	2	0	7
+2029	MP 	2	2	7
+2030	Lee 	2	8	7
+2031	Alan Cheng	4	2	16
+2032	Linda Lim	2	7	7
+2033	Dennis Tan	2	1	5
+2034	Rachel Tay	2	7	17
+2035	Alester Tan	4	7	11
+2036	Kobi Rehm	4	2	6
+2037	Abdul Halim Abdul Sani	4	3	3
+2038	Otaku Interactive	2	5	7
+2039	Khai Zam Dato' K	4	5	10
+2040	Auddie 	2	1	5
+2041	Nikki Chua	2	2	7
+2042	Bee Leng 	4	2	19
+2043	•• i v y • 	2	7	5
+2044	Melvin Chong	4	6	4
+2045	Eileen Ng	2	2	16
+2046	Gaurav Tholia	2	5	6
+2047	Sean Momo	2	8	16
+2048	Charlotte T	3	2	7
+2049	Hazy Ali	4	5	7
+2050	Faza Rocha	4	7	8
+2051	Firman Fidah Nage	2	3	3
+2052	Catherine Chng	2	2	10
+2053	QiiangQiiang<3s~ 	2	7	0
+2054	Shaf Russ	3	6	7
+2055	Jacqueline Seng	4	2	7
+2056	Star Bucks	2	6	18
+2057	Melvin Choy	2	3	14
+2058	Deborah Tan	2	0	7
+2059	Sassy Angela	2	0	7
+2060	Gan Erika	2	6	2
+2061	chunxiu ong	2	3	16
+2062	Abby Lumanauw	2	2	9
+2063	Jasmine Tay	2	2	6
+2064	is rok	4	7	3
+2065	Pearson Eckhard Justus 吳	4	3	11
+2066	Evirna Teo	2	0	8
+2067	Salina 	2	7	7
+2068	Farrah Tahar	2	2	7
+2069	Jonathan Lum	2	0	17
+2070	Lee 	2	6	14
+2071	Azuary TerNaKaL	3	0	0
+2072	Joanna Seah	4	8	7
+2073	Jonathan Belen	2	0	6
+2074	Henry Tan	4	2	17
+2075	Nicholas Dan	2	3	16
+2076	Kathryn Jimenez	2	7	7
+2077	Felicia Yeo	4	3	7
+2078	陳杰倫 (ジェイ・チェン)	4	8	7
+2079	bee yen sim	2	2	7
+2080	Azmie Cazermy	2	7	19
+2081	Wilkins Chew	4	0	16
+2082	Samuel Goh	3	6	7
+2083	Benjamin Oliver Oh	4	7	14
+2084	Yin Luan Chang	2	5	4
+2085	Chad Yip	4	0	7
+2086	Siang 	2	2	7
+2087	Jeremy Wong	3	8	7
+2088	Jojo スウィー	4	2	7
+2089	🐾FiLi-FaLa🐾 	4	2	19
+2090	Erica Zhao	4	2	7
+2091	Feli xx	2	8	7
+2092	Karen Yap	4	8	7
+2093	Sylvester Tong	2	0	7
+2094	Charlie Phua	4	0	7
+2095	Aaron Kross	2	8	7
+2096	Area 51 	4	0	13
+2097	S 	4	8	7
+2098	Lia Tokijo	4	7	7
+2099	Dino Stern	2	3	0
+2100	Lona Giliah Weiping Soo	4	6	16
+2101	Sangram Sengupta	2	2	14
+2102	Pearly Shana Koh	2	6	18
+2103	Stanley Liu	2	8	7
+2104	Emanuel Lin	2	0	19
+2105	Dexter Tan	2	0	13
+2106	Ras 	2	7	15
+2107	Niza Mystique	4	0	11
+2108	Hoang Pham	4	5	19
+2109	Jakub K	2	2	7
+2110	Delyne 曾伟利💓	4	7	7
+2111	Anna 	2	3	10
+2112	Wanduu Kim	4	0	6
+2113	Kelvin C	3	2	7
+2114	fah jin yong	2	8	0
+2115	🕊 Dawson	3	2	7
+2116	Joycelyn Seet	3	0	7
+2117	Eric 	4	2	7
+2118	Joseph Track Junkie	4	2	16
+2119	elson cheong	4	2	11
+2120	pohty 	4	0	7
+2121	Melzranger 	0	3	16
+2122	Lea Tan	2	5	4
+2123	Cass Starshine	4	2	7
+2124	Kureinai Alexis	2	0	7
+2125	Gerald Chang	2	2	6
+2126	Natasha Crystall	2	6	15
+2127	Mrs LJ 💋	2	2	3
+2128	Kath Lim	2	2	9
+2129	Gabriel Supremo	2	5	7
+2130	Ice Princess	4	8	16
+2131	Rikki Chai	2	3	7
+2132	Eleanor Tay	2	0	7
+2133	Yirong 	4	2	16
+2134	Moe Seth	2	6	3
+2135	Roy Phang	4	6	7
+2136	Jonie Keira	2	0	7
+2137	Edward Ng	2	3	16
+2138	🎀 Chel Chel 🎩 His ❤	4	6	10
+2139	YKuan 	4	3	6
+2140	Aris Sara	2	8	7
+2141	nurism 	2	2	5
+2142	Tian-An Tan	2	0	8
+2143	Muaz. 	4	2	3
+2144	Vivien 	2	7	7
+2145	Jeremy Heng	4	3	15
+2146	Feeq Mcrigg	2	6	17
+2147	Jeff Y	2	5	7
+2148	Tian Lim	0	2	7
+2149	Marcus Gerard	4	0	7
+2150	Limin Oh	4	2	15
+2151	Ian Kahwai	4	2	16
+2152	Cynthia Sheepy	2	2	3
+2153	Kelvin lim 	2	0	17
+2154	Jeremy Huang	4	2	3
+2155	Koktiam 사이콬티암	2	6	16
+2156	Lionel Chan	2	6	9
+2157	Bunny Tang	2	8	17
+2158	Ger. C	4	0	13
+2159	Desiree Choong	2	1	11
+2160	Ronin Lee✌	2	6	7
+2161	Allan Tan	2	2	14
+2162	Aiko Huang	4	2	10
+2163	Yusry Prince	4	7	13
+2164	Nora Worawan Ongcharit	2	2	5
+2165	Sab Tee	4	0	5
+2166	Jen Lee-Ng	4	2	7
+2167	Jastina Lim	4	2	16
+2168	Wong Chunmeielle	2	0	17
+2169	Angel Souza	2	2	7
+2170	Anton Tambunan	2	6	7
+2171	Desmond Koh	2	2	16
+2172	Winston Ong	2	3	7
+2173	Michael Tay BC	4	7	7
+2174	sanifoo 	2	1	3
+2175	Claire Leaw	2	5	7
+2176	Sherrie Hui	4	2	8
+2177	David D	2	8	4
+2178	Arseny Chernov	3	1	0
+2179	Jazlin Caine	4	2	6
+2180	Brian Toh	2	6	4
+2181	Adel YCH	4	8	7
+2182	Joseph Teo	2	2	7
+2183	Elaine Chiam	2	2	7
+2184	Alex Tan	3	6	6
+2185	christina chow	2	8	7
+2186	Vincent Nyeo	4	0	7
+2187	Shai 	4	2	13
+2188	Olivier Biot	2	8	7
+2189	- supermamon - 	2	6	7
+2190	burgerdeel 	2	6	14
+2191	Vincent Choo	4	5	7
+2192	Tony Chan	2	2	19
+2193	Lester Tan	2	2	7
+2194	Pei Wen Lai	2	0	7
+2195	Darryl Wong	2	6	10
+2196	Nicholas Li	4	0	9
+2197	Ethel Goh	3	2	4
+2198	Long 	2	2	1
+2199	Stephanie Tan	4	4	7
+2200	🎀 Michelle Q	4	8	7
+2201	Alice Yong	4	1	4
+2202	Jasmine Tay	3	8	7
+2203	サッカロマイセス ・セレビシエ	2	2	12
+2204	신 양 Shin Yang 	4	2	7
+2205	adeline ng	2	3	7
+2206	Vince Tan	2	8	7
+2207	kunz daniel	4	2	3
+2208	nzyc 	2	3	16
+2209	Amanda Wong	4	2	5
+2210	Rachel 	2	8	7
+2211	Vic Teo	4	5	7
+2212	Sharon L	4	2	7
+2213	josh.dy 	4	8	7
+2214	Hardy Weng	3	5	7
+2215	Kevin Goh	2	0	16
+2216	💎💎 💎 	2	8	7
+2217	Nikie Mikie	2	6	7
+2218	Rohit Jejurikar	4	0	0
+2219	Angie Chang	2	2	17
+2220	Tricia Lim	2	5	16
+2221	Maynard Tann	4	4	7
+2222	Hariz Archibald	2	5	7
+2223	Dson Tan	2	2	1
+2224	Ryna Bebe	2	7	1
+2225	Felix A.	2	0	7
+2226	Tasya R	4	7	15
+2227	Tan Colvis	3	3	16
+2228	sohc 76	2	0	7
+2229	Mel Dean	4	2	16
+2230	♡♛ *aMy* ♛♡ 	4	2	8
+2231	Hani Asri	4	2	9
+2232	Sunny Fong	2	2	11
+2233	Kelvin Ng	2	3	7
+2234	PRINCESS LAYLA 	4	3	16
+2235	Poire surangrath	2	2	5
+2236	Serene Goh	2	0	7
+2237	Mich Mich	4	2	7
+2238	Tina Merwati	4	3	19
+2239	Colin Lian	2	0	10
+2240	Peiyu 	4	2	4
+2241	Natasha Tan	4	2	17
+2242	Colin Chan	4	5	18
+2243	Esther Malar	4	3	16
+2244	Zameen Zahari	2	7	11
+2245	Jean Bautista	3	0	19
+2246	Calvin Choo	4	0	14
+2247	natasha 	2	0	7
+2248	Yang Rui	4	1	5
+2249	Eric Tay	2	3	19
+2250	Goh Jane	4	5	15
+2251	Chris Chua	2	2	7
+2252	Chell Lee	2	8	3
+2253	Jean Yong	4	0	7
+2254	Chris Tina	2	7	7
+2255	Annariana 	4	5	19
+2256	Jasmine Toh	2	0	7
+2257	Jacky Winson Sim	2	8	7
+2258	Jeffery Tan Jian Wei	2	2	10
+2259	Adrian 	3	3	4
+2260	Alvin ♥	2	2	7
+2261	MomoFish 	4	5	7
+2262	Bentley Cheng	2	1	7
+2263	Ana Mardhiah	2	5	7
+2264	Alex Lim	4	6	7
+2265	Jin Ooi	2	2	7
+2266	Catharine Yong	2	8	7
+2267	Alainn Hijabi 	4	0	7
+2268	Esther Lee	2	2	19
+2269	Ho Shirley	2	2	3
+2270	Tammy Chua	2	2	5
+2271	Nana Nana	4	2	11
+2272	Larry Yap	2	6	10
+2273	Mao Jie Chan	4	1	8
+2274	 	2	3	7
+2275	Patricia Lin	2	2	10
+2276	Cheryl Chua	2	2	2
+2277	Pam Sia	2	8	7
+2278	Sameer Sadhu	2	0	7
+2279	aki ishii	2	3	8
+2280	Hayley Tan	2	8	7
+2281	Lucas Sia	4	0	7
+2282	Cordelia Ho	2	0	7
+2283	Adeline Annastasia Tui	4	8	7
+2284	Jacqueline Kwek	0	2	8
+2285	Arman M.	3	3	15
+2286	Jiawei Ong	2	2	12
+2287	Ariel's Daddy	3	5	7
+2288	Angela Chew	2	8	7
+2289	Azra Aziz	2	7	16
+2290	Francis Tan	4	3	7
+2291	Mun Choon Yuen	4	0	7
+2292	Evelyn Woo	2	5	7
+2293	Amanda 	2	7	4
+2294	Lynn Tan	4	2	7
+2295	Benjamin Lin	4	8	11
+2296	KýlęAārön🌹 كالسوم	2	3	11
+2297	Wenjie Wang	2	6	15
+2298	Jackie Num	2	3	3
+2299	Lavin 	2	8	7
+2300	Selene Goh	4	8	7
+2301	Arthur Chai	2	0	14
+2302	@nehpyh Line/Talkbox: nehpyh	2	6	7
+2303	Alfonso Castillo	2	5	18
+2304	Vincent Tan	2	0	11
+2305	陈 Joseph	4	2	7
+2306	Jasmine Isa™	2	2	9
+2307	Nathaniel Heng	2	6	10
+2308	Ong Ray	4	3	12
+2309	Kenny Ng	2	0	3
+2310	Shirlyn Ng	2	2	7
+2311	Ian Lim	4	2	7
+2312	Jeraldine Foo	4	5	7
+2313	Andy Tay	2	6	7
+2314	Lee Peiyan	4	2	7
+2315	Kristin Jai	2	5	9
+2316	David Kim	2	2	7
+2317	NOOR SALAWATI	3	3	14
+2318	Cheryl Yap	2	2	11
+2319	Low Pei Wei	4	6	7
+2320	Hueyjin Lim	2	1	17
+2321	✦Sandy 	2	2	14
+2322	Silvia Ho	4	0	12
+2323	Leanne Tan	4	6	17
+2324	Andre Widodo	2	6	0
+2325	Jayley Woo Jiaqi	4	0	7
+2326	Zuer Tan	2	1	7
+2327	Morwens 	2	8	7
+2328	Hidayah Sis	4	6	7
+2329	Jamaliah Salim	2	1	0
+2330	Lo 	2	8	7
+2331	Fur🤓 babyx	4	8	7
+2332	Priya Gopal	2	7	16
+2333	Koreen Hong	2	3	16
+2334	Diana Neo	4	2	11
+2335	Andy Gay	4	7	17
+2336	Joo Gee	2	6	10
+2337	Noah Yap	2	6	11
+2338	Lewy Jones	4	6	9
+2339	JUDE ANG	2	3	16
+2340	Remington Anand	2	6	7
+2341	Arianna Tan	4	0	7
+2342	Foodspotting 	3	8	7
+2343	Eric Loh	4	5	13
+2344	abby barcelona	2	5	7
+2345	Jamie C	4	2	7
+2346	Raymond Lim	4	3	7
+2347	Joo chin Tay	3	8	7
+2348	Verena Teo	2	7	7
+2349	Neng Rainbow	2	5	18
+2350	Ernz Lim	2	1	7
+2351	Tay Adara	2	5	7
+2352	Les Starz Ls	2	3	17
+2353	Kenneth Wong	4	8	7
+2354	Travel Channel 	4	2	7
+2355	Chee meng Tee	4	3	4
+2356	Joean勤 	2	2	7
+2357	Vien Reyes	4	5	7
+2358	Chris Combe	4	2	7
+2359	Dwayne Tan	2	3	19
+2360	Daniel Foo	4	0	7
+2361	Sujuandy 	2	0	13
+2362	Gyle Cruz	4	6	7
+2363	Janson Tan	4	2	12
+2364	Alexandria Neoh	2	0	7
+2365	Jessica Tan	2	2	7
+2366	Wallace P 	2	5	7
+2367	James Yong	4	0	18
+2368	Vikram Mohan	2	7	7
+2369	Daniel Jie Luo	4	2	9
+2370	Silaqui Escaflowne	4	0	7
+2371	Wen Hai 	2	6	3
+2372	Jen Lee	2	2	4
+2373	Ruth Tai	4	0	7
+2374	pin lee	4	4	7
+2375	Li Sum 	4	0	7
+2376	Daniel Yong	4	8	10
+2377	Hendy Ongkodjojo	2	2	7
+2378	Hannah Lim	2	5	5
+2379	Jamil 	4	5	0
+2380	Zoul Seth Tan	2	7	15
+2381	Ong Xue er	2	2	7
+2382	Hafiz Sadi	2	5	7
+2383	Thomas Chan	4	8	7
+2384	Epul Emery	2	5	19
+2385	ãññã 	2	6	7
+2386	Leong Steven Wayne	2	2	16
+2387	Angel Foo	4	3	13
+2388	Rj Choo	2	8	10
+2389	Kenneth 	2	2	7
+2390	Khairul Chuni	2	7	16
+2391	Adrian 	4	2	7
+2392	Honglun 	2	6	7
+2393	Colin Sng	2	8	7
+2394	Suxian Soo	4	0	7
+2395	bevvyashleyx 	2	2	9
+2396	Jaki Teo	2	5	9
+2397	Chloe Tan	2	5	19
+2398	Feng Zhihui	4	0	13
+2399	Selwin Dhalewal	3	0	7
+2400	Jit Ming 	4	6	7
+2401	Francis Teo	2	3	8
+2402	Gavin Shen	2	8	7
+2403	David Isaac	2	2	7
+2404	Yulia Guzhavina	4	6	11
+2405	Darryl Seah	2	1	7
+2406	Jesper Zeng	4	3	6
+2407	Eddie Anak Mat Salleh	2	6	12
+2408	Kasey Tan	2	1	5
+2409	Ultimatejo 	2	2	7
+2410	Melissa Ng	2	8	7
+2411	Reggie Chen	2	2	4
+2412	Ban Xiong Tan	2	6	3
+2413	Romeo Hsueh	4	2	5
+2414	Tng SJ	4	7	13
+2415	Alan Neo	4	0	7
+2416	Goh Poh Guan	2	6	3
+2417	Rayn Lim	4	2	7
+2418	Joseph Ting	2	2	7
+2419	Jessie Low	4	6	19
+2420	Jesmund Tay	2	3	4
+2421	Abraham Tang	4	3	3
+2422	Jessie Low	4	2	9
+2423	Donald Kee	2	8	0
+2424	Eugene 	2	7	7
+2425	Mayou B	4	0	6
+2426	T.S.back Or Not	4	5	7
+2427	Shihui Pang	4	0	7
+2428	Tonico Maningat	2	6	7
+2429	Benjamin Chiong	4	2	0
+2430	Lis Love	2	6	0
+2431	Fiona 	2	0	6
+2432	Marcus Tan	4	0	7
+2433	淑君 Sim	4	2	12
+2434	Cheryl Nguyen	4	0	7
+2435	Calvin Bong	2	5	12
+2436	Xiao zhou 	2	6	1
+2437	Sincent Soh	2	2	7
+2438	Eileen Tan	2	0	4
+2439	Food ^_* Diva 	4	0	10
+2440	Kenneth Tan	4	0	7
+2441	Candid Cuisine 	2	8	5
+2442	Shawna Liu	2	6	7
+2443	Olivia Chia	2	2	6
+2444	Kar Wai Ng	4	0	7
+2445	Rajen Krishna	2	7	7
+2446	Inge Ardiyanty	2	2	7
+2447	Pink Joey	4	2	4
+2448	Wei Jian Tan	2	2	5
+2449	Dre Michelotti	2	4	7
+2450	May Ng 	2	6	13
+2451	Jaydee Quek	2	2	7
+2452	Ashraf Muhd	2	6	3
+2453	Syahira Zulkifli	2	3	7
+2454	Md Isa Rossi	2	7	0
+2455	Helmie Fizmie	2	5	13
+2456	Alvin 	2	7	8
+2457	chian chai chia	4	2	9
+2458	Dale Yang	4	5	15
+2459	jamz 	4	8	7
+2460	Olivia Lim	3	2	11
+2461	beng 	2	3	19
+2462	Darren Oh	2	0	7
+2463	💓Queenie.A💓 	4	5	7
+2464	Rose Aurora	4	6	13
+2465	Jo-han Goh	2	5	4
+2466	edwin choy	4	6	17
+2467	Andreas Low	2	2	13
+2468	Karen 	2	7	13
+2469	Wilson 	4	2	7
+2470	Ivian Ng	2	2	7
+2471	Roger Cas	4	0	1
+2472	Kester Poh 케스텔	2	5	7
+2473	BoiFaith Sheriff Khalid	2	7	7
+2474	Emily S	4	0	4
+2475	Marvin Julius Siy	2	2	7
+2476	Madeline Koh	2	2	3
+2477	DimSum Bum	2	5	7
+2478	Samuel Lou	2	6	16
+2479	Sean Gwee	2	2	7
+2480	Irene Goh	2	0	7
+2481	Andorra Ooi	2	4	7
+2482	Khim L	4	2	7
+2483	Cassie Fong	4	8	7
+2484	Mathias Körber	4	2	7
+2485	Howie Yan	2	2	7
+2486	Ariel Ong Chai Lin	2	0	12
+2487	Shahrulizan Juli	2	5	19
+2488	Mat Kapal	4	3	8
+2489	J Tay	2	2	19
+2490	Rachel Han	2	6	7
+2491	YuLiang S	2	2	7
+2492	Ogy Star	2	3	19
+2493	Flying Hamster	2	5	7
+2494	Mark 林崍誠	2	0	11
+2495	Bertrand 	2	2	5
+2496	Vinc Poh	4	3	11
+2497	Jaz Nagas	4	2	7
+2498	Andy Koh	2	3	16
+2499	Emily Au	2	0	17
+2500	Joli Toh	2	2	16
+2501	Randolph Ng	3	2	5
+2502	Siang Hwee Foo	4	4	7
+2503	Janice Janice	4	6	7
+2504	E' Shen Wong	2	2	7
+2505	Malek Joy	2	6	12
+2506	Jeph-thah Tay	4	6	7
+2507	Low John	2	3	1
+2508	Taufiq Aman	2	3	7
+2509	BB Madiloggovit	4	2	7
+2510	Vivian Hoo	4	2	13
+2511	Heni Dong	4	2	17
+2512	Dawn Tan	2	2	7
+2513	Nob 	2	2	3
+2514	Danny Ng	2	2	18
+2515	Jane Goh	2	0	8
+2516	mepi teerak	2	8	7
+2517	Jen 	4	8	7
+2518	Sherlyn Lee	4	8	7
+2519	Revz Badayos	4	8	0
+2520	Amber 子瑄	2	2	17
+2521	Yanying 💗 	2	2	11
+2522	is me..... 	2	7	7
+2523	Han Xwj	2	7	15
+2524	ジャッキー タン	2	3	16
+2525	Galvin Chng	4	2	7
+2526	Dewi Gunawan	2	2	7
+2527	Eswari Suresh	4	2	3
+2528	,7TOMA™®🇸🇬 Sumarto Hj Kamsir™®	4	0	0
+2529	Sharon Liew	4	2	18
+2530	Amanda D	2	0	5
+2531	Jonathan Lee	4	2	7
+2532	Raymond Tan	2	2	7
+2533	Stefan Nicholas	4	0	7
+2534	Sara V	2	6	7
+2535	Justin Roberts	4	5	5
+2536	Yanto Karim	2	3	4
+2537	Rosanna Wong	2	2	0
+2538	Andrew Cheah	0	2	7
+2539	Chris 	4	0	17
+2540	Katherine 	2	8	7
+2541	Joyce M.	2	5	7
+2542	Sheeda 	2	7	19
+2543	Hanny 	2	6	16
+2544	Jay Jason	4	6	7
+2545	Ken 	4	2	7
+2546	Tatee Hassan	2	3	7
+2547	Eric Goh	3	6	7
+2548	Robert F	4	5	7
+2549	Darshan Rahul	2	3	7
+2550	Mance Kwok	2	6	3
+2551	Lim Mike	2	6	7
+2552	Wileen Sito	2	8	7
+2553	William Ting	2	6	4
+2554	Jiema Ishak	2	3	7
+2555	Seraphina Chan	4	2	7
+2556	👑 Clarence Hoe	2	8	7
+2557	Li Chen 	2	6	7
+2558	Gary Yun	4	2	7
+2559	Jez Ong	4	6	7
+2560	Grace Simbaco	2	2	7
+2561	Benjamin Low	0	2	4
+2562	Rachel Dwiayutia	4	1	5
+2563	Raymond Ling	2	3	15
+2564	Nique 	2	6	7
+2565	FireIce 	4	4	7
+2566	Calvin Chan	4	2	7
+2567	Cherylene 	4	2	9
+2568	Grace Lee	4	3	3
+2569	JiaYi Wang	2	8	7
+2570	Setsuna 	4	7	3
+2571	Chye Long Yang	2	7	8
+2572	Ghazali Rasul - Agent CIA	4	0	7
+2573	Eric Liebman	2	2	7
+2574	Jerry 	2	2	11
+2575	Kevin S	2	8	7
+2576	Explorer 	2	2	8
+2577	James Papaya	2	0	6
+2578	Nicholas Chew	2	5	7
+2579	Eric Chew	2	1	11
+2580	Suzie Jiang	4	8	7
+2581	Teru Chan	4	2	7
+2582	mez 	4	8	7
+2583	Elisia Phua	3	8	7
+2584	Stephanie Cheong	2	8	7
+2585	Geri Lee	4	0	7
+2586	Vedor Teo	2	8	17
+2587	Hui wen Yap	4	7	7
+2588	"Ken ""The Zen"" Ric "	2	0	7
+2589	Max Amanshauser	4	0	7
+2590	Max Ng	2	0	7
+2591	Ow Ai Khim 	4	6	19
+2592	Grace Ooi	2	6	7
+2593	Momo Hime	4	0	7
+2594	Elaine Thng	4	2	12
+2595	Josvie Madeira	2	2	12
+2596	Fang Junrong	2	2	10
+2597	Qayser 	4	0	5
+2598	Lena Chua	2	2	13
+2599	Yong Patrick	3	0	7
+2600	❄Geraldine Goh❄	2	8	7
+2601	Ankur Banerjee	4	5	6
+2602	Regan Michael	4	3	0
+2603	Chris Ow	2	2	3
+2604	Eileen Tay	4	0	7
+2605	Absolute Puppy	4	0	9
+2606	Celeste Wong	4	2	17
+2607	Nancy 	4	7	16
+2608	Luke Chan	4	3	1
+2609	Peiyi Leow	4	2	5
+2610	S q	2	0	7
+2611	Cedric Tan	2	2	7
+2612	Evelyn Tang 	2	2	7
+2613	Melvin Chia	2	0	7
+2614	Elviana Thio	2	2	5
+2615	Rick 	2	3	11
+2616	Jas L	2	7	8
+2617	Shuzhen 	4	2	6
+2618	Inez Wee	2	6	7
+2619	Olivia Jap	2	2	5
+2620	Dave 	4	5	7
+2621	Asm@di $	4	0	7
+2622	NiZ jEnesiS 	2	5	7
+2623	Hui Cham	2	2	7
+2624	Jan_ice Lim	2	2	9
+2625	Francis Ng	4	2	7
+2626	Wenxi 	4	8	7
+2627	Anna Mohd	2	6	7
+2628	Jocelyn Ng	2	3	16
+2629	Emőke Sasi	2	0	11
+2630	JeS 	2	8	7
+2631	Jerry 	4	6	11
+2632	Edwin Ng	2	3	11
+2633	ChiewMei Lim	2	8	7
+2634	💋Ayul Hamtaro❤	4	5	3
+2635	Evelyn Lee	4	6	8
+2636	Appie Tiffie	2	4	7
+2637	Halifi Alikamal	2	3	7
+2638	Throne Teo	4	2	3
+2639	Dantez Lum	2	5	3
+2640	Ansley Chua	2	0	7
+2641	Sumomo Lee	2	7	3
+2642	mnshabri 	2	7	4
+2643	Tommy Devilin	4	5	16
+2644	Eileen Ang	2	0	7
+2645	Shurli Lieamn	2	1	7
+2646	Neo Ah Hock 	3	2	13
+2647	Chin Han Tan	2	8	8
+2648	Celestyn Wong	2	0	7
+2649	Kelvin Ong	2	2	8
+2650	Sharon Tan	4	8	7
+2651	Li May Joyce Low	2	3	7
+2652	Lynn 	4	2	16
+2653	Felicia Tan	2	2	11
+2654	Janelle Li	4	5	7
+2655	Sharon Tan	4	2	7
+2656	Andrew Ho	4	3	7
+2657	Amirul Rukimin	2	3	7
+2658	Maureen T	2	2	7
+2659	Mavis Wee	2	6	17
+2660	Andy 	2	2	7
+2661	Mavis 	4	8	7
+2662	Aisyah Zulkifli	4	7	14
+2663	ZieDa Lolo	2	3	19
+2664	Teo Li Jie	4	3	10
+2665	Christine Lee	4	2	5
+2666	Sandy Ong	2	5	17
+2667	Neil Tan	2	0	7
+2668	APRILIDER 	2	5	18
+2669	Tan Ke Wei	4	7	13
+2670	May Fang Chin	2	6	7
+2671	Ana Mendoza	2	3	14
+2672	Shiamala 	4	1	6
+2673	Stacy Cheng	2	6	17
+2674	Qingfa Benjamin	2	7	7
+2675	Michael Ambious Tan	2	3	19
+2676	Kenny Teoh	2	0	5
+2677	Fei Zhu	2	8	7
+2678	Adam tay Chong buan	2	6	10
+2679	Jach Chua	4	6	2
+2680	Celestine Sun	2	6	2
+2681	Lynn Dolphiny	2	2	7
+2682	Inez Koh	4	7	8
+2683	Nelson Zhao	2	8	7
+2684	Zee Valentine	2	7	13
+2685	Daniel Tai	3	2	7
+2686	Xueyi Desiree Kextique	2	5	15
+2687	♥♡Ayiki♡♥ 	2	2	6
+2688	Ian Goh	2	7	7
+2689	N A	3	2	7
+2690	Alicia Pang	4	6	4
+2691	Jasmine Teo	2	2	7
+2692	Horacio Miranda	2	0	5
+2693	Helmy Spark™	2	1	3
+2694	Hamizah Razali	3	6	3
+2695	Bonita Ma	2	8	7
+2696	UrbanHikers 	2	6	9
+2697	Eric Wong	2	2	13
+2698	Glenn Goh	2	8	7
+2699	Syl 	2	1	12
+2700	Fatimah Mas Ayu 	2	6	19
+2701	Chuanwah Chace. T	3	2	7
+2702	Vernise Choong	4	0	7
+2703	Andre Teo	3	3	13
+2704	🌹Chris Chung🌹	2	2	7
+2705	Agnes Xue	2	8	7
+2706	Daveid C	4	2	7
+2707	Derek Teng	2	6	7
+2708	Nic Tai	4	3	4
+2709	Ross Roslan	2	6	4
+2710	Gary 朱	2	5	7
+2711	Choon Heng Lim	2	8	7
+2712	Ivan Tan	2	2	7
+2713	Travel + Leisure 	2	5	7
+2714	Zorba Tamangen	4	7	8
+2715	Carrie Lim	2	2	10
+2716	Jules Low	2	0	18
+2717	Fern Sirikwan	2	2	5
+2718	bellestar 	4	0	11
+2719	Shaoann Yo	2	1	7
+2720	Adeline Chan	2	2	7
+2721	JuNe 	2	2	7
+2722	Debbie Tan	2	7	7
+2723	Fairuzaman Haidzir	2	2	3
+2724	Weng Choy	2	5	18
+2725	Ah Jack	2	0	7
+2726	David Hoo	2	6	19
+2727	K. King	2	8	7
+2728	Kathleen Neo	2	2	7
+2729	Raaziff Khan Muhammad	4	6	5
+2730	Marcus Lin	4	2	7
+2731	qwerkyihua 	4	2	7
+2732	Eric Toh	2	3	4
+2733	kimmie liew	2	2	7
+2734	Xavier How-Choong	2	2	7
+2735	Nrhdxtan 	2	7	0
+2736	Serene Loo	2	6	10
+2737	Ngiap Heng Tan	2	0	7
+2738	Aaron Wong	4	4	8
+2739	Missy Teo 	2	8	1
+2740	Marcus Lee	2	7	10
+2741	Boey Vin	4	2	16
+2742	Cindy Chang	2	2	5
+2743	Thet Htar Oo👧🌺	2	7	1
+2744	Ben Liu	4	5	7
+2745	Ben Soo	2	2	7
+2746	Daphne Adrienne Chua	2	0	7
+2747	chen Chee Loon	4	2	17
+2748	Wei Jie	2	7	17
+2749	Devina Nathania 	3	0	9
+2750	Bryann Ng	4	2	7
+2751	Alexandros Abatzis	2	0	18
+2752	Ryan Seahorse	2	2	15
+2753	Rashidul Karim Khan	2	0	7
+2754	Muhammad 	2	6	7
+2755	Jessica Kwan	4	5	4
+2756	clairbear T	3	8	7
+2757	Wilson Lee	2	0	8
+2758	Alex Teo	2	2	4
+2759	Pablo Gonzales	2	2	1
+2760	Wendy T	2	8	3
+2761	Cheryl Yamato Zala	4	6	18
+2762	Vincent A	2	2	8
+2763	ãCë 	2	0	7
+2764	Ezzul Zulkarnain	2	1	5
+2765	Daniel Ang	4	8	7
+2766	P Fong	4	8	7
+2767	Trissa Miguel	2	0	6
+2768	Wannie M	4	8	7
+2769	Mohamad Shafiee Saban	4	0	7
+2770	Shelin Kelison	2	8	7
+2771	Bobby Wong	4	1	5
+2772	Jason Jdithrysen Chua	2	7	3
+2773	Li Peter	4	6	13
+2774	Amirul Amri	4	3	7
+2775	Ummi Lily Ashburn	2	2	7
+2776	Li Guang Yu	2	6	10
+2777	Fel 	2	1	18
+2778	Thomas P	2	6	11
+2779	Adrian Rusu	4	2	7
+2780	Kailing 	4	0	7
+2781	Musli Zulkifly	4	2	7
+2782	Cheryl Lim	2	5	13
+2783	Red Maric	4	3	7
+2784	Loy Huiyuan	2	2	7
+2785	Chee Keong Ang	4	2	7
+2786	Colin Leow	2	5	18
+2787	IRene FOng	2	0	7
+2788	Wong Seng Wee	2	8	13
+2789	kudorin 	4	2	7
+2790	Kenny Grant	2	2	5
+2791	Babykiyumi 	2	2	11
+2792	Chin Ong	2	2	7
+2793	Big Roy 	2	8	7
+2794	Liilii Yap	3	3	1
+2795	Kc White	2	5	0
+2796	Kelveen Soh	2	2	7
+2797	Herbert Lee	3	2	14
+2798	AvAlAnChE 	4	7	16
+2799	Ervin K.	2	2	7
+2800	Rloh Kok wah	2	2	6
+2801	His Royal Hancurness hancurman	3	0	7
+2802	Jackson Tan	2	2	2
+2803	Wee Heng See	2	2	7
+2804	C Mobile	3	5	7
+2805	Charlie Henderson	4	3	7
+2806	Felicia Cheng	2	0	4
+2807	Wai Kay	2	7	4
+2808	Yappily 	4	8	7
+2809	Joy Ho	2	8	7
+2810	Didi Dudu	4	0	7
+2811	Tryna Astra	2	3	1
+2812	Nilesh Gule	2	3	1
+2813	Colin Chua	4	2	7
+2814	Sherri Wu 	4	0	18
+2815	Avanna 	4	8	7
+2816	Douglas Christian	2	0	7
+2817	Karen Ang	3	2	7
+2818	Chris Blasting	2	5	7
+2819	David Lok	4	2	10
+2820	Cherlynn 😍 SiaoZhaBor	2	7	13
+2821	zee hamzah	4	7	16
+2822	TheDebbieJude 	4	8	7
+2823	Egor Homakov	4	0	7
+2824	mitch tan	2	2	9
+2825	sapp1600 Liew	2	2	7
+2826	Weejie Ng	4	3	13
+2827	Pushkar Dandekar	2	6	7
+2828	Bebez joyce 	4	2	14
+2829	nate Yu Hui	4	6	10
+2830	Wynne 	4	7	5
+2831	Alan Tan	4	8	13
+2832	Jemmmm 	4	6	0
+2833	Dilly Yusoff	4	3	7
+2834	Frances Peng	2	2	7
+2835	SomChun Malikul	2	0	7
+2836	Farhana Ghani	4	7	4
+2837	Hydn Eun Hyun	2	3	13
+2838	Jaslin Tan	4	2	7
+2839	Benjamin Tan	4	3	7
+2840	Gladys Wu	2	2	6
+2841	fiona chan	2	8	7
+2842	Nita Talib	2	3	7
+2843	Rami Abdullah	2	6	7
+2844	Julie M	2	2	7
+2845	Zeeshan Khan	4	1	6
+2846	Robin Sim	2	2	7
+2847	Harun Lie	2	2	9
+2848	Irene Wong	2	8	7
+2849	Bernard Chua	3	8	7
+2850	Icyflame Livingdead	2	8	3
+2851	Susheel John	2	2	7
+2852	Ernie Ang	4	6	7
+2853	Edwin Kwek	4	2	7
+2854	Heather S.	2	2	13
+2855	iiuhshii Lim	4	2	12
+2856	Jasline Chua	2	6	6
+2857	Jazzie Chew	2	2	7
+2858	Michelle Pang	2	7	7
+2859	Mark Tan	2	3	12
+2860	Xiao Jas	4	2	7
+2861	Yoona 메신저 오윤아	4	2	7
+2862	Benjamin Ng	2	2	7
+2863	Jonathan Ang	4	0	4
+2864	Yvonne Loh	2	0	7
+2865	Serene Tang	4	2	16
+2866	Ling 	4	8	7
+2867	Mark Habla	4	6	8
+2868	audrey leong	2	6	17
+2869	Vanessa Yeo	2	6	10
+2870	Chin Hong 	2	7	13
+2871	Daniel Poh	4	8	7
+2872	Yinz Yin	2	0	3
+2873	Jeremy Lee	2	0	6
+2874	Rachel Ruixian	4	2	7
+2875	Daniel Tan	2	0	7
+2876	Ivan Lim	2	6	19
+2877	Marlow Lim	2	2	7
+2878	Jeremy Koh	2	6	4
+2879	jam 	4	5	8
+2880	Jasmine Chen	3	3	7
+2881	Deswin Lim	2	6	8
+2882	Jamilah Abu	2	6	11
+2883	Fuad Huat	2	8	7
+2884	Marijn De Vries Hoogerwerff	2	0	7
+2885	Dark Knight 	4	0	7
+2886	Mas Kas	4	5	7
+2887	Chin Joycelyn	4	6	7
+2888	Stella Seah	2	0	7
+2889	Joanna Aslyn	2	5	7
+2890	Aliah Selamat	4	8	7
+2891	Suzanna Shantini	2	5	9
+2892	Ishimura George	2	1	18
+2893	Audrey Heng	2	8	11
+2894	Yong Qing Zhu	2	0	7
+2895	Sheepie 	2	8	6
+2896	Jamie Aw	2	6	7
+2897	加薪达 T.	2	7	16
+2898	Chen James	2	0	7
+2899	Mab T	2	2	7
+2900	KaySha Aw	2	5	16
+2901	Ripple Van	4	8	7
+2902	William Ng	2	8	7
+2903	Eileen L.	4	0	7
+2904	Muhammad Syafiq	4	6	14
+2905	Cindy Too	4	5	8
+2906	jianhui emma kwee	4	1	7
+2907	cynthia 	4	0	5
+2908	Jazereel Teo	2	2	15
+2909	Christopher Lim	2	2	7
+2910	nicole lim	4	0	16
+2911	Yvonne Wong	2	8	7
+2912	Gene Yusi	2	2	6
+2913	Billy Soh	2	2	4
+2914	Chris Swee	4	2	7
+2915	Gera T	2	5	13
+2916	Dawn Lum	4	2	16
+2917	ferlyna 	4	5	16
+2918	Don T	2	0	7
+2919	Vanessa Quek	4	8	7
+2920	K T	2	8	7
+2921	Ellen Ng	4	2	7
+2922	Stella Clare Wee	2	0	7
+2923	Karthik Raju	3	2	7
+2924	Jerry Fong	4	3	13
+2925	Jovin M	4	2	7
+2926	Chantel Ang	2	7	13
+2927	Jerry Kwan	2	5	8
+2928	Shiang yee Wong	2	8	6
+2929	Terence Yong	2	2	7
+2930	Blue_sora 	4	8	7
+2931	SupremeSebas 	2	7	7
+2932	Yung Sin Mauw	3	0	6
+2933	Eugene Lau	4	2	5
+2934	amanda 	4	8	7
+2935	Christopher Liu	4	5	7
+2936	|∂ﾑ έScﾑԀﾑ	4	3	11
+2937	Farid Cooper	4	5	0
+2938	Chiyo Chan	2	2	7
+2939	Adley 	4	0	7
+2940	Ian Nicolson	2	3	5
+2941	Andre Andri	2	7	16
+2942	Jen or 	4	3	0
+2943	Jeslyn Tan	4	7	13
+2944	Ashley Icamen	2	0	5
+2945	Simon Tay	2	3	7
+2946	cindy Ying	4	2	7
+2947	SinhuiBEBE 	4	2	7
+2948	NeMeSiS 	3	8	10
+2949	Aileen Tan	2	5	11
+2950	jackson loh	4	0	7
+2951	Amelia Yeap	2	2	7
+2952	Wex Woo	2	1	10
+2953	Lawrence Goh	2	6	16
+2954	Damien Chen	4	0	15
+2955	Makky Rawrs	2	7	5
+2956	Aruna L.	4	1	10
+2957	AnGeL ToH	4	2	15
+2958	AdDy SaM	2	8	7
+2959	Elise C	2	8	13
+2960	Shaun Tham	2	2	14
+2961	Yew wing Yip	2	8	7
+2962	John Patrick Santos	4	7	13
+2963	Fin 	4	7	3
+2964	Shazhu HateMemories	4	2	16
+2965	Lee Jie Yun	2	7	2
+2966	nel seah	2	8	7
+2967	Yvonne Chong	4	7	7
+2968	Alap Bharadwaj	2	2	6
+2969	Rustam Affendi	2	6	19
+2970	Lynette Valentines Chong	3	2	6
+2971	Chloe Sng	4	5	4
+2972	peter zinser	4	0	18
+2973	Sharifah Muznah 	2	7	2
+2974	Jacqui Hocking	4	0	7
+2975	Rex 	2	2	14
+2976	Vern Lo	4	3	7
+2977	Jess Thia	4	4	7
+2978	Amber Chong	4	2	17
+2979	Shawn Lim	4	6	4
+2980	Terence Wong	2	0	1
+2981	Jimmy ong	2	2	7
+2982	Douglas Goh	4	6	7
+2983	Sandy Natalia	2	8	7
+2984	Min Khoo	2	2	4
+2985	Cindy Tan	4	0	10
+2986	CoCo Sumida❤	4	0	7
+2987	uuıɯ 🇲🇲	4	6	16
+2988	Georgina michelle George	4	7	4
+2989	Seth Tan	4	2	7
+2990	Albert Koh	2	3	0
+2991	Longs Ng	4	2	7
+2992	Graeme Oei	4	2	7
+2993	Siew Fong Choy	4	3	3
+2994	Daniel Ong	4	3	3
+2995	Andrew Au	4	0	7
+2996	Joe Lim 	2	6	3
+2997	karen kong	2	5	12
+2998	Raymond Lim 	2	2	7
+2999	jk C	4	3	16
+3000	Victor Ang	4	2	11
+3001	Judy Tan	2	2	7
+3002	Andy Hun	4	8	10
+3003	Glen Chin	4	0	7
+3004	Ulysses James	2	7	16
+3005	Evelyn Tan	4	7	13
+3006	Casey Chen	4	2	13
+3007	Bina Surya	4	8	7
+3008	Nia Nymue 	2	7	7
+3009	Lonely Boy	2	6	7
+3010	Amos Eshet	4	0	7
+3011	xiao hao	2	8	7
+3012	Benjamin Lim	4	8	7
+3013	Brian David	4	7	10
+3014	Hachikaoru 	3	5	9
+3015	Woo Edmund	4	3	7
+3016	Issey Sayuri	4	0	19
+3017	herfian rothman	4	0	4
+3018	Donna Ting	4	2	16
+3019	Clement Chai	2	8	7
+3020	Ken Chan	2	2	9
+3021	Eric Yeo	4	6	7
+3022	Syvil Jimera-Garay	2	2	7
+3023	Jan Sundström	2	7	8
+3024	Joseph Tan	4	5	4
+3025	Tiffany Tng	4	6	6
+3026	S Y L	2	0	14
+3027	RedDragO💋Sasha 	2	6	16
+3028	Dee 	2	7	7
+3029	Katerina👑🔨💍 Ieromonachou	2	6	6
+3030	Ismail 	4	7	11
+3031	Terry Lee	2	0	6
+3032	Nikk ✞	2	2	7
+3033	chinyee 	2	2	7
+3034	Daisy Ng	2	0	4
+3035	Joshua Symons	2	3	19
+3036	Trev Neo	2	3	6
+3037	Joy Mah	2	6	12
+3038	Dot Chan	4	2	7
+3039	Jason Chia	4	5	0
+3040	Terence Tay	2	8	7
+3041	吴 Andrew	4	2	15
+3042	Belinda Tan	4	7	7
+3043	Derrick Tan	4	8	7
+3044	Min Shen Teh	4	2	7
+3045	OUTLET Singapore 	2	3	19
+3046	Pearlyn Sin	2	8	7
+3047	Shan-ren L	2	2	7
+3048	Charlene Lin	4	2	7
+3049	Adrian Sim	2	2	12
+3050	EVE MSB 	3	6	11
+3051	Lee San Koh	2	2	7
+3052	Ahpok 1987	4	5	11
+3053	Amy Chua	2	2	7
+3054	Jeannie 	2	8	7
+3055	Fashioncancer Gladys	2	6	7
+3056	Karen Lim	2	1	6
+3057	Anthony Lee	2	2	8
+3058	Tanya T	4	3	8
+3059	Pei Ling Lee	2	8	7
+3060	Rick 	4	2	8
+3061	Ifwan Petrelli	2	7	7
+3062	Wanlin Tan	4	0	19
+3063	Slayer Fong	4	8	17
+3064	Azima Amir	4	3	3
+3065	belleyrina 	2	7	6
+3066	NT 	2	0	6
+3067	Audrey Goh	3	5	7
+3068	Ashley Tan	3	8	7
+3069	Lina Lim	2	4	7
+3070	Eric 	2	5	8
+3071	DoriKin Starr	4	0	3
+3072	Megan L	2	5	7
+3073	Jasonn Wg	4	3	12
+3074	Nicholas Chia	2	5	18
+3075	Dave ExMen	2	3	8
+3076	Some Guy 	4	2	5
+3077	joel lim	2	6	7
+3078	Dhamol 	4	0	7
+3079	Lim Jun Cheng 	2	6	7
+3080	Zack Lim	4	2	9
+3081	Darlz Zy	2	2	11
+3082	Clement Tang	2	0	7
+3083	Kim Kim	2	8	7
+3084	Phar Nuk	4	2	7
+3085	杰 J	2	7	15
+3086	貓 	2	5	9
+3087	Huang Kaihuan	2	2	14
+3088	Jason Chew	4	6	17
+3089	Janet 	2	5	7
+3090	Eugenia Seah	4	0	3
+3091	Rhicke Jennings	2	0	4
+3092	Andre Ang	4	6	7
+3093	James S	4	8	7
+3094	c.s. 	4	8	7
+3095	Helen C	2	8	7
+3096	Clement Ng	2	8	7
+3097	Fuyuhiko Takaya	2	2	18
+3098	Darren Kwan	2	2	16
+3099	Justin Chan	3	2	10
+3100	Francis Chong	4	2	7
+3101	@tinhead Raj Taneja	4	5	7
+3102	Carrie Phang	4	5	7
+3103	Vic Tan	2	8	7
+3104	Diane Fang	2	8	7
+3105	Lynman 	4	7	6
+3106	Ant Lim	4	2	7
+3107	SW Leo	4	3	10
+3108	Jyrus Paul Castillo	2	2	7
+3109	Mohamad Ridhwan Bin Saad	4	7	7
+3110	Benny Lim	2	0	11
+3111	Martin 	4	2	7
+3112	Eliz Tan	4	2	7
+3113	Ken Yip	4	0	7
+3114	Johnson Wee	2	2	7
+3115	Jia Xun Ngoo	2	8	7
+3116	Brian Wong	2	7	0
+3117	Joshua Lim	2	1	8
+3118	Cheryl Gan	2	0	7
+3119	Vince Chee	4	2	4
+3120	Charminn Ngiam	4	3	18
+3121	Joe Lim	4	8	17
+3122	Ern Sze Raymond Lim	0	2	7
+3123	Ang Kai Wen	2	8	7
+3124	Aaron Fu	2	0	7
+3125	Danny 	2	7	17
+3126	Wei 	2	6	7
+3127	Ken Lew	4	2	16
+3128	Amy Lee	2	1	8
+3129	CoCo 	2	7	6
+3130	David Bryan Ramos	2	2	10
+3131	Alyssa Ng	4	2	7
+3132	J 	4	2	3
+3133	Charles Lim	2	7	15
+3134	Zhengyu Yong	2	6	7
+3135	Toh Boon Leng	3	3	8
+3136	Debbie Ng	2	8	7
+3137	Ryan Sebastian	2	7	3
+3138	Malcolm Choi	4	2	4
+3139	Jason T	4	0	5
+3140	Paul Canterbury	4	0	7
+3141	Dave Chen	2	0	3
+3142	chiuping yeo	4	6	10
+3143	Jeff Eng	2	6	11
+3144	Angel 👼	2	1	18
+3145	Jeffrey Liew	2	2	7
+3146	Anh Han	4	4	7
+3147	Angel M.	2	5	7
+3148	Ksenya Che	2	5	7
+3149	Kartini Liu	4	5	7
+3150	Aloysius Mok	2	5	7
+3151	Hed K	2	8	17
+3152	Melisa Regina	2	6	17
+3153	Mummy Manja	4	5	7
+3154	Naveeshini Nair	4	0	7
+3155	junweee 	2	6	10
+3156	Raymond Lau	2	0	16
+3157	Eckerene Wong	2	6	7
+3158	Nat IP	2	0	7
+3159	Mae Noor	4	2	7
+3160	Trans Female	4	7	8
+3161	Johnny @home	4	8	7
+3162	Karen Huang	2	5	18
+3163	Jennifer Ong	2	3	16
+3164	USOP's 	4	3	9
+3165	Joo Choi	4	6	11
+3166	Thao Pham	4	8	7
+3167	Condé Nast Traveler 	2	6	7
+3168	Jukka Peurala	2	3	7
+3169	Annabelle Kittykitkat	2	4	7
+3170	Caroline Kay Hwa Tan	2	0	7
+3171	Pangeran Situmorang	4	0	7
+3172	Chriszy Bandong	2	4	7
+3173	Amanda 	4	2	7
+3174	Cynthia Zhai	2	2	7
+3175	StellaSoonKueh ♥	4	3	6
+3176	Juliana 蔡莹颖	4	8	7
+3177	Leya T	4	2	7
+3178	Jannifer 🍴 Hsiaomayi	4	0	7
+3179	Jeremy Tan S . Yong	4	3	11
+3180	David S.	4	2	4
+3181	Shelley Ong	2	2	16
+3182	MiJung Jin	2	5	7
+3183	Weiyan Chen	3	0	10
+3184	Slutty Fox	2	0	7
+3185	Evelyn Zoé Chong	2	7	7
+3186	Chunyan Tan	2	6	7
+3187	Ashraf Hamzah	4	1	15
+3188	DishOnIt 	4	2	18
+3189	Dave Sloan	4	5	12
+3190	Fel Chia	2	5	7
+3191	Stephen ORCarrier	4	0	7
+3192	Kef 	2	2	16
+3193	Senthamil V	4	0	0
+3194	Sean.T 	4	7	18
+3195	Alan Lee	4	0	7
+3196	gdoyl3 	2	0	7
+3197	Benjamin Thomas	2	8	7
+3198	Theresa H	4	2	7
+3199	Aishah Ashburn	2	2	7
+3200	J.J Soemartono	4	0	2
+3201	Jocelyn Joe	3	0	1
+3202	Eunice Ow	2	0	11
+3203	Clarence 曾子庭	2	7	12
+3204	Kasmiranti Kassim	3	0	7
+3205	Grace Ng	4	5	10
+3206	Albert Chan	4	2	7
+3207	Rebecca Eu	2	5	7
+3208	Bernard Tan	2	8	7
+3209	LeeWangLong 	2	7	13
+3210	Anna Ragen	4	8	7
+3211	Beatrice Christelle	4	1	3
+3212	Winnie Li	4	8	7
+3213	JsRockFort 	4	8	7
+3214	Zouk Kaflee	2	7	15
+3215	Alex P. 	2	0	7
+3216	Jack Zhang	2	2	7
+3217	kristie annabell	4	2	6
+3218	Wh Yau	2	2	6
+3219	Jiayuan Wu	3	5	7
+3220	paul toh	2	2	7
+3221	Joanna Tang	4	2	6
+3222	Ice Lee	4	2	16
+3223	inSing.com 	2	2	7
+3224	Sawung Galing	4	0	7
+3225	Paul Banday	2	2	0
+3226	AC Cantuba	4	0	10
+3227	Morgan Lefay	4	8	7
+3228	Jenny Lok	3	3	13
+3229	Nick Velge	2	7	7
+3230	Jess baby 	4	2	7
+3231	Thisha Jason	2	5	7
+3232	Dphn 	2	2	7
+3233	Eileen C	4	8	7
+3234	Sam Koh	4	5	7
+3235	Kenneth Hing	2	5	7
+3236	Victor Tey	2	8	7
+3237	Ng Yi Yang	4	7	7
+3238	Rachel Lam	4	8	7
+3239	Andrew Abogado	4	6	7
+3240	Steven Tan	2	7	16
+3241	Jason Ding	0	2	10
+3242	Nik 	4	8	7
+3243	Momo Hui Shan	0	8	7
+3244	Eunkyeong Jeon	4	0	18
+3245	Simon TAN	4	0	7
+3246	fang yu ooi	4	0	10
+3247	Winn Mar SAW	2	0	16
+3248	Will H.	4	6	4
+3249	Jess A	2	2	5
+3250	Sin Wei 	2	0	4
+3251	Junias Foong	4	2	7
+3252	Mabel Ling	2	2	10
+3253	D o w n i e ~ 🌟 L a d i e z	2	0	0
+3254	Beverly Li	2	0	0
+3255	Amizyo Hairie	3	8	7
+3256	Ruth Frazetta	3	7	7
+3257	Daniel Lim	2	8	12
+3258	Ong Kelvin	4	2	7
+3259	THE Z WORLD ZAHRAN	4	6	9
+3260	Bunnyroar! 	2	2	6
+3261	Jason Leow	2	0	7
+3262	Arlene Aran Amarante	4	8	7
+3263	휘휘 임	4	6	4
+3264	lolcorporation SG 	2	7	7
+3265	Aileen Ang	2	5	6
+3266	Maya AR	4	7	7
+3267	Shervmin Ng	4	0	7
+3268	Mark McKenna	4	8	7
+3269	Brandon 	4	2	7
+3270	Tarren 	2	0	4
+3271	Melvin Lim	4	0	7
+3272	Iyan Bloodvein	2	5	7
+3273	Tan 	4	2	7
+3274	Brecht De Weirdt	2	8	7
+3275	cteesayang cteesayang	4	6	9
+3276	WF Woo	2	0	7
+3277	Gurhan Cam	2	5	5
+3278	Emily W	4	2	7
+3279	Eugene Rudyy	2	5	11
+3280	Ana G Csiky	2	2	5
+3281	Ann Ng	2	6	1
+3282	Corrine 	4	8	7
+3283	Time Out Singapore 	4	4	7
+3284	Derrick Huang	2	8	7
+3285	Julie Hayfa	2	7	3
+3286	Samantha Wong	2	8	7
+3287	Larry Lim	4	8	19
+3288	Lee St	4	3	7
+3289	Khin Yuya Thet	4	0	3
+3290	Ashley Takarai	3	0	7
+3291	Vivian Le	4	5	6
+3292	Jeremy Ow	4	0	7
+3293	Shelly Sim	2	2	7
+3294	Jacques lefebvre	4	5	18
+3295	Lisa Twang	2	2	7
+3296	Fana Chord	2	5	15
+3297	Mariam Hamid	2	7	13
+3298	l y d i a 🚲 	2	5	7
+3299	Justin 	2	0	0
+3300	Tridib Chowdhury	4	0	7
+3301	Yinling Wang	0	7	7
+3302	Leon Khoo	0	2	4
+3303	Ann Tu	2	2	7
+3304	Suhaimi D™	4	6	7
+3305	elwen poon	2	8	7
+3306	rEDdEVILS™ aka HASSAN	2	5	7
+3307	Ming Siu Goh	0	8	7
+3308	Zaifi Ahmad Sahari	2	7	13
+3309	Tim Hill	2	8	7
+3310	Jay V	4	8	7
+3311	Usher Musketeer Thong	2	2	7
+3312	Matt Ng	2	6	7
+3313	Justin Lee	2	2	7
+3314	April Lim	4	6	3
+3315	Jane Tok	2	8	7
+3316	Regina Ng	4	2	7
+3317	Daniel Kee	3	8	7
+3318	Bee 	4	3	4
+3319	Chan Ian	4	0	3
+3320	Christina Cheong	2	2	7
+3321	Eugene Koh	3	3	12
+3322	MingHui Chua	4	2	2
+3323	Timothy Lin	2	7	7
+3324	Matilda Lim	4	2	5
+3325	Melissa Lim	2	2	7
+3326	捩花 	2	8	7
+3327	Angie Nguyen	4	2	7
+3328	Jules Paul Santos	2	7	17
+3329	SK Lee	2	0	10
+3330	Jeremy Ng	2	8	0
+3331	Kong Yi	4	3	7
+3332	Jason Z	4	2	7
+3333	Jennifer Chee	2	2	7
+3334	Chitra Rao	4	6	7
+3335	Xenia 	2	5	7
+3336	daren koh	2	5	7
+3337	Marcus Humphrey	2	8	7
+3338	Clarissa C	4	0	6
+3339	dania fitriana	4	5	11
+3340	Richard Sun	4	1	1
+3341	Lay Lim Teo	2	0	7
+3342	Chuck P	4	8	7
+3343	Jasmin Quek	2	2	7
+3344	Michael Pomponio	2	0	6
+3345	Michelle 	4	3	16
+3346	ramdan abdullah	2	7	15
+3347	YSA Derma-Dental	2	2	6
+3348	Eos Enriquez	2	6	7
+3349	GoldFinger 	2	3	7
+3350	K Tan	2	2	19
+3351	Jasmine Shen	2	2	5
+3352	NïNâ 	4	0	7
+3353	Untung Cahyadi	4	2	5
+3354	Ken Dman	2	7	7
+3355	Jasmine Toh	2	2	13
+3356	✈ Nàdÿá Aÿdàn ✈ 	2	0	7
+3357	Ho Yong	2	2	7
+3358	Peter Per	4	0	8
+3359	Kairunnisa Abdullah	4	2	14
+3360	Carolyn MarinabayNuw	2	5	16
+3361	Vincent Chan	2	0	7
+3362	Susanna Ho	2	2	0
+3363	Janice Kim	2	8	7
+3364	Jorin3 	2	2	7
+3365	Richard Qi	2	2	7
+3366	Miao Ling	2	2	7
+3367	Mustafah M Yusuf	2	2	4
+3368	Wenxi Xie	2	0	7
+3369	Caleb Pragasam	4	6	4
+3370	Jessie Koh	2	0	7
+3371	Jowel Foo	4	5	7
+3372	Gary Bacon	2	2	6
+3373	Seanna Yip	2	0	10
+3374	Frank Tan	4	2	7
+3375	Denise 	4	0	4
+3376	Jeremy Ng	3	7	7
+3377	Mighty Travels	4	0	18
+3378	Shawn Loh	2	2	7
+3379	Katsunori K	0	6	7
+3380	_weijie 	2	0	11
+3381	Lawrence Eng	4	2	7
+3382	Ng Yuxuan	4	5	16
+3383	Sylvia Thay	2	6	16
+3384	Zsiti Shyuhaila	2	0	4
+3385	Suvega Srinivasan	2	5	7
+3386	Michael Sim	4	5	8
+3387	Baffy Allen	4	5	4
+3388	Angela Toh	2	2	13
+3389	Xiaowei Lin	2	2	7
+3390	Shau Fang	2	0	16
+3391	Sharon Tan	2	8	7
+3392	Wee Tan	2	0	19
+3393	Lawrence Siow	2	5	7
+3394	JJay Lin	4	3	17
+3395	Timothy Soh	2	2	16
+3396	Roland Danke	4	7	11
+3397	Maybelline Teo	2	7	5
+3398	Hazel Moore	2	2	10
+3399	Santhosh Shanbhag	2	7	15
+3400	Joycelynn Chung	2	0	7
+3401	Ariahnna Ng	2	0	8
+3402	Daniel Liang	4	2	3
+3403	MAC 	2	4	7
+3404	Nicolette Anne Roszellene Teo 	4	2	7
+3405	Yantimariast 얀티	2	3	6
+3406	Ubershopper 	4	8	7
+3407	Great Deals Singapore 	2	2	4
+3408	Wong Casandra	4	0	7
+3409	Alvin Tan	2	8	7
+3410	TK S	2	0	1
+3411	Lawrence Quek	2	2	11
+3412	Chen Jingwen	4	0	7
+3413	Feeyohna Lim	2	0	5
+3414	Yong Siang Koh	2	7	13
+3415	Fran Ung	2	6	7
+3416	Jared Yeo	2	2	7
+3417	Kes Long	4	0	4
+3418	Garry Tan	2	3	16
+3419	Adeline Chua	2	8	7
+3420	David Wormley	2	6	18
+3421	Aunty Diana	2	0	18
+3422	Aup Ah Vantage	2	7	11
+3423	Chelsea 	3	0	7
+3424	Mayller Lopez	4	3	6
+3425	John Yap	2	0	7
+3426	Gera Lau	4	0	7
+3427	Alvyn Lee	4	2	7
+3428	Ryan Lim	2	5	3
+3429	Keane Ang	2	2	8
+3430	Marjorie C	4	2	7
+3431	Guil Kahn	2	6	7
+3432	Gastón Soto Denegri	4	5	7
+3433	Yanling Tan	2	0	5
+3434	Andrew Wee	2	0	7
+3435	Koh Yong xiang	2	2	7
+3436	F.Yee 	2	3	14
+3437	Wenyi Goh	2	0	5
+3438	bonjourbun 🌈 宝钏	4	6	7
+3439	Dannica 	2	8	11
+3440	Liwen 👑 리완 ツ	2	6	7
+3441	Miaoning PinkDolphin	4	6	19
+3442	Dušan Eremić	4	0	1
+3443	Jie Qi Ng	2	0	7
+3444	malatlou 	4	0	3
+3445	Lin Li	2	2	7
+3446	Keilya Jan	4	8	7
+3447	HM Lee	4	8	7
+3448	Weiwu Lah	2	8	7
+3449	Shelova 	2	8	7
+3450	리민 	2	0	7
+3451	Michelle Cassiel	2	7	3
+3452	TY Heng	2	0	12
+3453	Chenyze 	2	8	7
+3454	Charleston Claver	2	5	7
+3455	Geraldine Ang	4	8	7
+3456	Verywanderful 	2	8	7
+3457	Javad 	4	2	7
+3458	Shii Teck 	2	5	6
+3459	Jayden Haohaox	4	0	7
+3460	Candice Lim	2	2	7
+3461	Imran Jamil	2	5	14
+3462	Laremy Lee	2	8	7
+3463	Minnhwei Chew	4	2	7
+3464	Miu Miu 	4	7	7
+3465	Christina Sidy	4	5	5
+3466	💕🌼 ÅnGe£icÅ 💕🌼 	4	8	7
+3467	Richard Busch	2	6	1
+3468	Nasa Rudynn	4	5	7
+3469	Prakash Yalamarthi	2	7	0
+3470	'Mas TigeŘess'	2	7	10
+3471	9VSKA 	2	8	7
+3472	Amrt Sagar	4	1	11
+3473	Sam Architect	4	3	13
+3474	Viknesh K	4	0	6
+3475	Jija Light07	2	6	7
+3476	JD Daez	2	7	12
+3477	Gd Balasubramaniam	4	2	6
+3478	Christian Katarn	3	7	18
+3479	Akasha A.Rahman	2	7	7
+3480	Carlson Yong	4	3	6
+3481	Kirsten Soo	2	1	6
+3482	Matthew Fox	2	0	7
+3483	KB T	2	3	7
+3484	Amisha Rathod	2	0	6
+3485	Sheena T.S.Y	2	8	7
+3486	Feng Run Chouw	4	8	7
+3487	Belle Isa	2	2	10
+3488	Leonardo Tay	3	2	11
+3489	Cudee Andrade	2	5	7
+3490	E T 	2	8	7
+3491	Rui Baltazar	2	5	7
+3492	Melissa Tan	2	0	7
+3493	Into Yourself	3	6	3
+3494	imboru 	2	2	17
+3495	Evgeny Kulagin	3	5	6
+3496	Stacy Seah	2	4	7
+3497	Carolyn Teo	2	0	7
+3498	Jane 	4	8	7
+3499	Sarah Yana Akib	4	8	7
+3500	K D	4	8	7
+3501	Susanne 	2	6	19
+3502	Glen Myles	4	6	7
+3503	Gorilla 	2	6	7
+3504	Just to share	4	3	16
+3505	Darryl PYJ	4	5	17
+3506	Sharon Ng	4	6	0
+3507	Qiling Leong	4	2	10
+3508	Alvin J	2	6	7
+3509	Jexston Ong	4	2	8
+3510	Cheung Tsz Yan 	2	8	7
+3511	Kenny Wong	4	6	5
+3512	Sarav S	4	0	6
+3513	James T	2	5	7
+3514	Massive Headwound	2	2	7
+3515	Louie Cu	4	0	7
+3516	Charles Chen	2	0	3
+3517	Fabian Chua	2	3	19
+3518	Nan Xiao	2	1	7
+3519	Kinda Lau	2	0	7
+3520	Robert B.	4	8	7
+3521	Discover Singapore 	2	2	9
+3522	Daisuke Shintani	4	2	18
+3523	Eddie Goh	4	3	18
+3524	Fatin Qistina	2	7	16
+3525	Tang Muzhi Tom	2	2	7
+3526	P P	4	2	7
+3527	Jan Hecking	3	2	7
+3528	Melvin Lim	4	2	7
+3529	Saudade 	4	4	7
+3530	Cheng Siong Lim	4	2	7
+3531	A Sunny Gal	2	8	7
+3532	💓ジャ スミン💓	2	6	8
+3533	Mel K	4	0	7
+3534	Jazz 	2	2	7
+3535	Ying Lim	2	6	16
+3536	Jia De Cheok	2	2	16
+3537	🎈 Alan 🐶 Loo 🎉	4	2	3
+3538	Denise d	2	0	18
+3539	George Joseph	4	8	7
+3540	Sonya 	4	6	6
+3541	Yury Shevchenko	2	5	7
+3542	Jasmine Foo	2	2	7
+3543	Pearlypearl 	2	6	7
+3544	Marcella Chua	2	2	7
+3545	Alaric Sng	2	0	12
+3546	Daryl Oo	4	5	11
+3547	Gary Hor	0	2	7
+3548	M S	2	4	7
+3549	Torzin S 	2	4	7
+3550	Elaine Low	0	0	7
+3551	Time Out Singapore Manager	4	8	7
+3552	GDS Team	4	2	7
+3553	Christina Goh	4	8	10
+3554	Serious Eats 	2	5	9
+3555	Apostrophe Digital	2	2	3
+3556	Minerva C.	4	0	3
+3557	Lord_Voldemort 	2	3	7
+3558	Himanshu Gaurav	2	1	6
+3559	fazlin malek	2	0	19
+3560	Vy Nguyen	2	0	12
+3561	MakanDeals.com 	4	5	7
+3562	Lee Sj	4	2	7
+3563	Benjamin Tan	2	0	7
+3564	Jack Chua	4	0	5
+3565	Grace Ng	4	0	6
+3566	Tammie 	2	5	15
+3567	NS 	4	2	19
+3568	Kira Aguilar	4	5	7
+3569	Benedict Khoo	4	2	7
+3570	Thara Ravindran	3	0	7
+3571	Joselyn Belle  	2	2	7
+3572	♒️Bertram Happy DieYou♒️	2	7	2
+3573	Wadi Waddee	2	3	7
+3574	Mingmingsoo 	2	3	10
+3575	Kiron Joel D'Lima	3	0	14
+3576	Acennan Cruise	4	5	8
+3577	John L	4	2	7
+3578	Dada L	2	8	7
+3579	★CHUNJING★ 	4	0	19
+3580	Elissa 	2	0	7
+3581	James Hansford	3	7	6
+3582	Dealzilla Monst	3	7	7
+3583	DealZilla Singapore 	2	8	7
+3584	miss_yvonne 	2	2	7
+3585	Tjia Lin Astuti	4	2	5
+3586	Nyc Ikea	2	7	4
+3587	Indira Christiani	4	0	7
+3588	Wai Min 	3	0	7
+3589	Elijah Tan Si Da	2	0	6
+3590	Yi Min Tan	3	8	7
+3591	Asaliah 🐰	2	8	7
+3592	Jonathan Caines	4	8	1
+3593	Shefali Rajeev	2	8	7
+3594	Krystel Bendahan	2	8	6
+3595	Fu Min Chong	2	7	10
+3596	Vin Prasad	2	2	7
+3597	Joon Khee Ng	2	7	7
+3598	Elena L	2	0	6
+3599	J F	2	2	3
+3600	Amalina Rosli	2	7	8
+3601	Arno van den Berg	2	0	6
+3602	Nalaka Wijayantha	2	7	7
+3603	Bella Aishiteru	4	7	7
+3604	Su Ann C	2	8	7
+3605	Mike Anthony	4	5	7
+3606	x Li	4	8	7
+3607	Jimmy Teo	4	3	0
+3608	choon chuan goh	2	2	9
+3609	Fiona Lim	2	0	7
+3610	Desmond Yeo	2	2	16
+3611	Michelle Evangeline	2	8	7
+3612	Suryani Tjiang	4	5	10
+3613	Michelle Tey	4	0	7
+3614	Wong Jacky	2	2	9
+3615	Tiphanie Yu	4	8	0
+3616	Cheryl Quincy	4	8	7
+3617	Julimar C	2	7	15
+3618	Yi'en Soh	2	7	15
+3619	Charmaine Yik	2	0	7
+3620	Md Farhan	4	7	7
+3621	Liew CH	2	3	19
+3622	Pauloong Tay	2	0	1
+3623	Benjamin Ni	4	2	19
+3624	Janek Toomikas	2	0	7
+3625	H P Mun	2	7	7
+3626	Low Kum Sung Ricky	3	7	17
+3627	Albert Ong	2	2	5
+3628	Tracy Braberry	2	2	7
+3629	Syafiq Suratman	4	5	7
+3630	Pml 	2	0	10
+3631	Kenneth Tiong	4	8	7
+3632	4sq Singapore 	2	1	18
+3633	M muzammil	2	2	14
+3634	Quincy YONG	2	0	7
+3635	Rebecca 	2	8	7
+3636	Daniel Lim	4	7	16
+3637	Audrina Lee	2	5	8
+3638	Melvin Tan	4	0	7
+3639	Jeremy Tay	2	0	4
+3640	Gary Shyan	2	8	7
+3641	Bushra A	2	1	7
+3642	Spenser Chen	2	0	7
+3643	Cecilia Neo	4	1	6
+3644	Linda Ling	2	7	9
+3645	AnN wH	4	0	6
+3646	Tyan Chwan Rong	4	2	15
+3647	Angie Gigi Voon	2	2	3
+3648	Elena Em	2	0	5
+3649	Yatin Premchand	2	0	6
+3650	Shirley Sharine	2	2	7
+3651	Filberto Budhy	2	8	7
+3652	Atilla Torgay	2	1	7
+3653	Jen Ng	2	2	7
+3654	Keane 	4	3	16
+3655	Karin Gattringer	2	0	7
+3656	Michelle Lee	3	5	7
+3657	Tan Kimberley	2	2	7
+3658	Justin Cheo	2	0	8
+3659	KalininaKote 	2	2	6
+3660	Lino Sauro	4	1	18
+3661	Peter Lim	2	0	7
+3662	Alvin Soon	4	2	18
+3663	JuriaTRM 	2	8	7
+3664	Davin Chua	4	5	7
+3665	Janice Lee	4	2	12
+3666	🍀Jessie Agnes Ng🌟 黄羚榛	2	2	7
+3667	Lidya Chu	4	8	7
+3668	Pei Jin	2	0	7
+3669	Angel Choir	2	2	7
+3670	Arima Kurita	2	0	7
+3671	Eric Nguyen	2	5	7
+3672	Rui Ling	4	7	10
+3673	Huang Zhikang	2	6	7
+3674	Christian W	2	0	4
+3675	Cheeky jess✈ 	2	5	2
+3676	Cailin Lim	2	8	7
+3677	Fenny Yolanda	4	2	7
+3678	Nyta Darlis	2	6	7
+3679	Rohan Thomas	2	2	7
+3680	Kay Woo	4	8	15
+3681	jovan zh	4	0	7
+3682	Alex Paris	2	8	6
+3683	Susian Kow	4	6	7
+3684	Gerlin Yeo	4	5	16
+3685	Amirul Amin	2	5	7
+3686	Yuan Li	4	3	4
+3687	Wolfgang P.	2	5	7
+3688	Regina Bautista	2	0	7
+3689	Vincent Lee	2	2	10
+3690	Neutral 	4	2	7
+3691	Sam 	2	2	0
+3692	ZuL 	2	6	7
+3693	Brian 	3	0	7
+3694	Jalaluddin bin Aris 	2	7	7
+3695	Raven S.	4	2	3
+3696	Anna Chai	4	0	7
+3697	Lyna Arlyna	4	5	7
+3698	Lieke De Vrankrijker	4	0	9
+3699	Ng Huiyi	2	5	7
+3700	Jean Leong	2	7	14
+3701	JM Lagapa	2	0	4
+3702	Joey Lim	4	4	7
+3703	Atin Rsg	3	0	5
+3704	San Lo	3	0	7
+3705	Crissie Tan	2	0	13
+3706	Hilary Low	4	5	18
+3707	M W	3	8	7
+3708	Che' Mann	2	0	7
+3709	Jas Jas 洁斯敏	2	2	7
+3710	Mohd Rizwan	2	1	0
+3711	Jillette Esguerra	2	7	18
+3712	Jasmine Pang	2	4	7
+3713	Alex Ho	2	8	7
+3714	Oliver Oei	4	2	7
+3715	Mae Lee	2	5	0
+3716	Oranginanana 	2	0	7
+3717	Lynn Tan	4	0	3
+3718	Alycia 	4	8	7
+3719	Pamela Tan	2	0	4
+3720	Louisa N.	2	6	7
+3721	Wanda Wang	3	2	7
+3722	Gabriel Henry Jacob	2	6	7
+3723	Guosheng 	2	0	6
+3724	Stephanie Dova	2	1	3
+3725	Dennis Quah	4	5	7
+3726	Jonathan Yan	4	8	7
+3727	Celes 思凯拉	2	8	7
+3728	Berns Wu	2	8	7
+3729	Jinny Tan	2	8	18
+3730	Nicholas Chow	4	6	3
+3731	Eunice Chua	2	2	7
+3732	pulp paper	2	2	9
+3733	Spice Sutra Admin	4	1	10
+3734	Richard Kuppusamy	2	7	7
+3735	Shawn Lee	4	6	7
+3736	Cheryn Wong	2	3	7
+3737	Imira Yanty	2	0	11
+3738	A. 	3	0	7
+3739	Gagan Singh	4	7	7
+3740	Gabriel Lim	4	2	7
+3741	Rod Strother	2	8	7
+3742	Ketat Sarakune	2	2	18
+3743	Chia Mercado	4	5	7
+3744	Bernard Tan	4	0	7
+3745	Dean Zuhri	0	1	0
+3746	Sally Yeo	2	8	7
+3747	Elaine J.	3	6	7
+3748	Lear Lawr	4	2	7
+3749	Gis Tay	3	5	16
+3750	Tour Explora	4	8	7
+3751	Law Angeline	4	6	11
+3752	Penn Ng	4	7	7
+3753	Brendan B.	4	0	7
+3754	Kenny L	4	3	9
+3755	Benjamin Ngeow	2	8	7
+3756	Made Devy Deria	2	5	5
+3757	Jessie L.	2	0	12
+3758	Stacy 	0	2	13
+3759	Terry Young	4	0	5
+3760	Alex H	4	2	17
+3761	Terence O	2	8	7
+3762	Kathy Matthiesen	4	2	6
+3763	Joseph WT	4	8	11
+3764	Arthi Ramesh	2	5	7
+3765	RW 	4	2	3
+3766	WenJie Ng	2	0	7
+3767	Shirley W L	4	6	3
+3768	Heun Jx	2	3	12
+3769	Anita Ramkumar	4	0	7
+3770	Toh Wan Koon	2	2	7
+3771	Ryan's Mommy 	4	2	11
+3772	Prasad Wimalasiri	2	6	6
+3773	Vanessa Lee	2	8	7
+3774	Goh Beng	4	8	7
+3775	Kenneth sin	2	2	3
+3776	Raymond Chua	4	2	10
+3777	Sterve Lim	4	3	7
+3778	Andre Tozzi	2	2	7
+3779	Amiro P.	4	8	7
+3780	Helen Zhang	2	8	7
+3781	Tsai David Tristan	4	8	7
+3782	C. L.	2	8	7
+3783	D W.	2	7	7
+3784	David Ash	4	0	6
+3785	Kiril Kickyourass	2	5	7
+3786	Molly Low	4	2	4
+3787	Charles Ryan Teo	4	8	7
+3788	MeNa Kun	2	0	7
+3789	Chris Malx	2	0	3
+3790	Naísa T	2	2	5
+3791	Mimi Cheng	2	0	7
+3792	Min Min	2	6	13
+3793	Anthony Wong	2	1	7
+3794	Daphne Anne	2	0	7
+3795	Bell Yeo	4	0	7
+3796	Hunt Chua	3	0	7
+3797	Fieldburt C	2	3	10
+3798	Povege 	2	8	7
+3799	Sherwin Lee	2	8	7
+3800	Meng Low	4	6	7
+3801	miszy tasya	99	1	11
+3802	Cally Star	4	7	4
+3803	Meng Han Yeo	2	3	10
+3804	Sera Teo	2	7	10
+3805	Oli Sari-Goerlach	3	8	7
+3806	Bobo Tan	4	2	10
+3807	Suyi Goh	2	0	5
+3808	Laura Lee	4	0	7
+3809	Jean Lee	4	6	13
+3810	Vikas Bahar	2	5	7
+3811	Rhys 	2	2	7
+3812	Tam Shuxuan	2	0	18
+3813	Michal Zatopek	2	0	7
+3814	karthi Sri	2	2	3
+3815	Emvlyn Ong	2	7	16
+3816	Charlotte T	4	0	7
+3817	Kathy Chan	2	6	7
+3818	Mark C°	4	6	7
+3819	Ridhish Guhan	2	1	9
+3820	Rafa Larrañaga	2	2	18
+3821	Marga 	4	3	1
+3822	Prieska Lie Junnies	4	2	7
+3823	Ross Webster-Salter	2	5	7
+3824	missuschewy 	4	6	7
+3825	Droem 	4	5	7
+3826	Faridah Rahman	4	2	0
+3827	E_Drez iDrIs	4	7	16
+3828	Ninda Amir	2	6	5
+3829	Denvy Lo	2	0	18
+3830	Natalie Chin	2	2	8
+3831	Acc Deactivated	4	2	13
+3832	Grace Tan	4	0	7
+3833	Drew Nocente	2	6	7
+3834	Mario Chen	2	7	16
+3835	Ann Kalina	2	1	5
+3836	Sam 	2	2	6
+3837	Jas Pang	2	7	17
+3838	Candra Pratama	2	3	1
+3839	Natasha Mitter	2	4	7
+3840	Eline Smithereens	4	0	4
+3841	Hui Li	4	2	19
+3842	Tevin Ng	2	2	14
+3843	Kingsley Younger	2	4	7
+3844	Clarissa Suharli	2	8	7
+3845	Lill Lee	2	7	6
+3846	Stacey Ching	4	5	7
+3847	Steph Shih	4	0	7
+3848	G M	2	6	18
+3849	Dmitry Efremov	4	5	6
+3850	Tan Jun Liang 	4	0	7
+3851	Justin Noah	2	6	7
+3852	Klennie Chien	2	2	7
+3853	DealsChrome 	4	8	7
+3854	Lionel Cheong	4	0	10
+3855	Miico 	2	8	7
+3856	Hwee Ling Tan	2	0	7
+3857	Omar Romer	4	2	6
+3858	bel loh	3	8	9
+3859	Richard Lim	2	3	7
+3860	Joni Siah	2	5	0
+3861	Valarie Lee	2	2	7
+3862	Kevin Lam	4	2	3
+3863	Aziz Kasenda	2	6	19
+3864	Wesley Goh	4	5	5
+3865	Sarah Capecci	2	0	7
+3866	Crowne Plaza Changi Airport	2	5	2
+3867	Nicole Tay	2	8	7
+3868	Ary Arbani	2	5	7
+3869	Alexis Gan	4	3	7
+3870	Cynthia Chee	2	0	7
+3871	gim beng Richard	2	2	19
+3872	Claire C.	2	5	12
+3873	Sarah Hiew	4	2	7
+3874	Alvin Orbigo	4	2	18
+3875	hiday st cloud	2	5	7
+3876	Ilah Nabilah	2	7	7
+3877	Prinz Ludwig 	4	2	4
+3878	FooDLoVeR 	2	2	14
+3879	Kanyaphat J	2	3	7
+3880	Bryan Tey	2	0	7
+3881	Ron Phipps	2	0	7
+3882	Marie Sim	4	0	16
+3883	7161440 	2	8	7
+3884	JulietKa 🏁 	2	8	6
+3885	D C	2	8	7
+3886	Alex Ortega	2	8	7
+3887	Bridget Cheng	4	2	7
+3888	Sher Alibaba	4	2	0
+3889	Andrei Jedidiah	2	8	7
+3890	Jason Tan	2	2	14
+3891	Princes Palero	2	5	5
+3892	Brian 	2	2	10
+3893	Sharon 	2	0	7
+3894	Sony Djuana	4	7	10
+3895	QiQi Chee	2	0	7
+3896	Melissa Guo	4	2	7
+3897	Jannie Mantuhac	4	2	7
+3898	Dean Wicks	4	8	7
+3899	Ang siew mui	2	2	16
+3900	Sharon Koh	4	0	6
+3901	Ayeez Dollah	2	8	0
+3902	Adeline Lee	2	0	7
+3903	Manfred Foo	2	2	16
+3904	Tan Pau Cen	2	0	3
+3905	Li May DamnSmart	4	0	7
+3906	Karen. L	4	4	7
+3907	Sancha E	2	0	18
+3908	Thin Dagami	2	5	10
+3909	Ei Khine	2	8	7
+3910	Sean McCarthy	4	0	7
+3911	Nic Kaito Arale	2	5	1
+3912	Maslinda Masrol	2	7	0
+3913	Jun Wee	2	8	7
+3914	Elvira 	0	5	7
+3915	Joseph Quek Tiramizus that melts in ur mouth	4	2	7
+3916	Bindu N	4	2	4
+3917	Ng BoonLei	2	2	9
+3918	Sher Chua	2	2	18
+3919	Gourmet Master King Quality Assurance Specialist	2	8	7
+3920	Ryan Nguyen	3	8	7
+3921	rYuK_oP sG	2	0	8
+3922	M A L C O L M ♚ 	4	7	7
+3923	Fadi Abbas	2	1	6
+3924	Luisa Li	4	8	7
+3925	Kaven Kam	4	2	7
+3926	C M 	2	2	7
+3927	Shaheer Shaikh	4	0	7
+3928	Kok Hoong Fong	2	0	7
+3929	Kai Fang	2	2	7
+3930	Fahad Al-Thani	2	1	6
+3931	Kentie Heng	3	0	18
+3932	Lim T H	2	5	7
+3933	Natalya Kosenko	4	2	6
+3934	Hareesh Nuthi	2	6	0
+3935	Aura Alturas	2	7	7
+3936	Mk Ph	4	2	6
+3937	Amber Lee	2	7	6
+3938	Audrey Phan	2	2	16
+3939	Grag Fox	2	1	9
+3940	Rielz Cheong	4	0	7
+3941	Sing Fui Loh	2	6	7
+3942	Pearlyn Haha	2	0	7
+3943	Mark A	2	0	6
+3944	Charlene Mooi	2	6	7
+3945	Grant Matthews	2	0	7
+3946	Kenneth Chua	2	8	7
+3947	BoBo Velev	4	2	12
+3948	Kim T	3	2	7
+3949	GM Store (Muthu)	2	3	12
+3950	Ann Soon	4	2	7
+3951	Smarty Boey	2	2	7
+3952	yojirok111 	2	5	7
+3953	shower c	4	2	16
+3954	Henry Essential	4	5	7
+3955	Pik Chean Goh	4	6	7
+3956	Anna Tatlonghari	2	5	5
+3957	Danesha Marasinghe	4	8	7
+3958	Patty C	4	8	7
+3959	Barney Trezona	2	5	7
+3960	P Toh	4	6	7
+3961	Vivek Dixit	4	7	7
+3962	Daniel Hui	2	0	18
+3963	Wiebe De Witte	3	1	18
+3964	ChinLee Lee	4	2	15
+3965	J OH	2	8	7
+3966	Karim Warthi	4	3	11
+3967	Martina Maitan	4	4	7
+3968	★kiss the city★太子★ ★风云★BLUE SKY★	3	8	7
+3969	Angeline Tay	2	3	3
+3970	Zayden zhong	2	8	10
+3971	Gordon Tan	4	6	7
+3972	Kloé D	2	2	11
+3973	Hari Vaerhn	4	0	7
+3974	Julia Estrebor	4	1	7
+3975	Russel Wong	2	8	7
+3976	Himanshu Deshpande	2	6	7
+3977	Rayner Eng	2	3	15
+3978	Andy Low	0	2	7
+3979	K Alto	4	5	7
+3980	Jason Ong	2	8	7
+3981	Jovern Oh	4	2	7
+3982	Eunicorn Eats	4	0	7
+3983	Alvin Chan	4	8	7
+3984	Azmidah Mohd Shah	2	6	7
+3985	Dafydd Green	4	0	7
+3986	Alf Hafidz	2	6	6
+3987	Nik Bedford	4	0	6
+3988	Zhou Jiajun Jasmine	4	2	7
+3989	Hoe Kok Siong	4	2	7
+3990	Ken Chua	2	8	8
+3991	Regal Tan	2	6	11
+3992	Eric Neo	2	4	7
+3993	Lola__06 	4	0	5
+3994	Bernadine Reddy	4	0	7
+3995	Daniel Lim	4	0	7
+3996	Matlock Wallace	2	0	6
+3997	Shirley Lau	2	0	7
+3998	Rosemarie Casuyon	2	2	3
+3999	.DotDot. 	4	6	0
+4000	Sebastian Lim	4	5	12
+4001	David Lim	2	0	7
+4002	Sally Ann	4	2	4
+4003	BenO 	2	2	7
+4004	David Yip	4	5	7
+4005	Maggie Tan Meng Yee	4	2	7
+4006	Handy Mulyono	2	5	7
+4007	Ursula S	2	8	7
+4008	Camy Leong	3	1	1
+4009	Boon Leong Tan	2	2	7
+4010	Joanna Lee	2	8	7
+4011	Mary Ang	2	2	7
+4012	Jo Chua	2	0	7
+4013	Emma Regañon	2	2	11
+4014	Joanna 	2	8	7
+4015	Lim Michael	2	6	17
+4016	Akshay Kumar	2	8	7
+4017	Cassie Utt	2	0	18
+4018	Johnnie 	2	2	7
+4019	Yanni Cheng	0	6	7
+4020	PH Tan	4	1	7
+4021	KJ Sumalde Jacob	4	5	7
+4022	Joel Tan	4	0	5
+4023	Joel S	2	2	7
+4024	偉信 王	2	1	3
+4025	Sienna Sangines	2	7	7
+4026	Linh Lee	4	0	18
+4027	V▲NESS▲ 	2	8	7
+4028	Five Waves	2	2	11
+4029	Ernie Ahmad	2	3	0
+4030	Olivia Intan	4	2	5
+4031	Jason King	4	7	7
+4032	Jeremy Yeo	3	8	7
+4033	Nikki 	2	8	7
+4034	Natalie Ong	4	1	7
+4035	Elia Amalia Yulnawati	4	7	11
+4036	Eason Gium	2	2	5
+4037	Tatyana Kildisheva	2	5	6
+4038	Asyh I.	4	6	7
+4039	David Kelham	3	0	7
+4040	Glen Tan	2	0	7
+4041	Jemimah Wei	2	1	7
+4042	CJ Dayrit	2	8	7
+4043	dshsy 	2	6	0
+4044	David Teo	2	2	7
+4045	Laarni de Lusong	2	8	7
+4046	Wei Gao	2	3	1
+4047	Zafeiris Syrras	4	6	5
+4048	Shawn 	4	5	7
+4049	Ah Lai Huat Ah	4	0	5
+4050	Lulu C.	2	2	7
+4051	Fraser 	2	0	5
+4052	Richard Lim Jr	2	2	6
+4053	Yun Qing Liau	4	2	6
+4054	Emily 	3	8	7
+4055	Peppy Sarah	2	6	12
+4056	Benjamin Soo	4	0	5
+4057	Nicholas Tay	2	2	7
+4058	Ree Nee Khaw	2	0	7
+4059	Nicholas Sng	2	2	17
+4060	Suan Pin Foo	4	8	7
+4061	Japna 	2	8	6
+4062	Themis Thng	2	2	16
+4063	My Ugly Cher from ZHSS! Lol 	2	5	17
+4064	Rachel Yap	2	8	7
+4065	Tahlia 	2	5	7
+4066	Kelvin Ang	2	2	14
+4067	Candy Macalincag	4	8	7
+4068	minzyiii 	2	4	7
+4069	Jonathan Lim	2	4	7
+4070	Tsyr En 	2	5	7
+4071	Desmond 	2	3	0
+4072	Edmond Chew	4	3	0
+4073	Beale 	2	2	7
+4074	XUAN Ng	4	6	7
+4075	Yang JunLong	2	2	11
+4076	Jansen Sun	3	0	4
+4077	Irene Arieputri	4	0	10
+4078	Rachel 	2	7	12
+4079	Y.shan 	3	2	7
+4080	Coke Chiong	2	5	0
+4081	Michael 	2	2	7
+4082	Andre Joseph	2	0	7
+4083	Junyi Zheng	4	2	7
+4084	Sorin Ciocan	2	5	7
+4085	Hana 	2	6	7
+4086	Evi Dananto	2	0	5
+4087	Jessie 	4	8	7
+4088	Onur Ozer	2	8	7
+4089	Teejay 	2	8	7
+4090	David Lee	2	2	11
+4091	Michelle 	4	8	7
+4092	Shwe Yee Win	4	2	7
+4093	Thierry Moreau	4	5	7
+4094	Ruimin 	3	2	7
+4095	cyrandy 	4	0	7
+4096	Edoardo 	2	0	7
+4097	Kenneth Goh	2	6	10
+4098	Jennifer 	2	1	7
+4099	Albert Ling	2	2	0
+4100	Kaizad Medora	2	2	4
+4101	Jessica Leanne	4	5	7
+4102	Gosia 	2	6	7
+4103	Eva K	2	8	7
+4104	Ida AB	2	7	7
+4105	Bridget Shao	4	0	7
+4106	Rupesh Bhuran	2	0	7
+4107	Vivienneeluv 	2	4	7
+4108	Aki 	2	8	7
+4109	ming jen	2	2	18
+4110	Wan Wen Chan	2	2	0
+4111	Dave Caleb	2	0	7
+4112	Ashley Lim	2	5	15
+4113	Della Michel	4	0	10
+4114	Phyu Ei	4	2	0
+4115	Henry 	4	7	17
+4116	Pranoti 	2	5	0
+4117	Angela 	2	0	12
+4118	Hans Jorn Petersen	4	0	4
+4119	Norman Khoo	4	0	6
+4120	Ping Yen Tan	2	2	16
+4121	Lin Naing Oo 	4	6	7
+4122	Weisin 	2	2	7
+4123	Xuanling Chen	2	2	10
+4124	Caron 	2	0	7
+4125	Adx 	2	5	2
+4126	DB 	4	7	16
+4127	CheekyKoalas Singapore	3	1	11
+4128	Campbell 	4	8	6
+4129	💓👸AWYL👸💓 	3	2	10
+4130	Nisa Pataki	2	3	7
+4131	Pete C	2	2	8
+4132	Arnan Koh	4	3	18
+4133	Xinyu F.	2	2	7
+4134	Vincent Choo	2	5	17
+4135	Michelle Loke	4	2	15
+4136	Joel Tay	4	2	7
+4137	OngAndrew 翁	2	2	7
+4138	Ardhika Viryanata	4	6	11
+4139	Grace 	4	7	3
+4140	Marcowesome 	3	0	7
+4141	🌸Winnie🌸 	3	0	5
+4142	Jinna Meimei	2	7	0
+4143	Alyssa Guo	4	3	7
+4144	Arshad Joe Mw	3	6	6
+4145	Mingli Chen	4	2	7
+4146	Magdalena Mrázková	2	2	7
+4147	Mike Nhu	3	0	18
+4148	David L	2	6	7
+4149	Toby Kwan	4	0	18
+4150	Vivianne Redsworth	4	0	7
+4151	Lee Ze Feng Hayden	4	8	7
+4152	Maddalena Magro	3	0	1
+4153	Ilyas Fakrudeen	4	5	7
+4154	Zen Akira	2	3	11
+4155	XY T	2	8	7
+4156	Cheng Wei Lee	2	0	3
+4157	Sean Lim 小林方正	2	7	7
+4158	Conor 林诺	4	5	7
+4159	Rachel Ksh ♔	2	8	7
+4160	JK 	2	2	7
+4161	Lil Lee	4	2	7
+4162	Anton S	4	8	7
+4163	Halal Society 	2	1	7
+4164	Hazel Han	2	2	4
+4165	Oodie Watcharin	4	2	16
+4166	Murat Atan	2	7	6
+4167	ALLI TAASKIN	4	2	7
+4168	Ria R	2	0	7
+4169	Sergey K	2	8	7
+4170	Sandeep Bharadwaj	3	5	5
+4171	Clo Gallet	4	6	7
+4172	V I. Ang	2	6	7
+4173	Li Neng Lee	2	0	7
+4174	Aaron Teo	2	6	7
+4175	Charmian Aw	4	8	7
+4176	Ronald Ong	4	0	7
+4177	John Doran	4	6	7
+4178	Poison Ivy	2	0	7
+4179	Davey Lagman	2	8	7
+4180	Roy Toh	2	6	7
+4181	Jay Atwood	2	2	6
+4182	Konstantin Lysenko	2	3	10
+4183	Flee Bird	2	0	7
+4184	Erik Ie	4	8	7
+4185	Kelvin S	2	2	14
+4186	mohd latiff rahmat	2	0	13
+4187	Yann 	4	0	7
+4188	Jayson Ng	2	8	7
+4189	Ah Jar 	2	2	7
+4190	Shelby Hiadan	2	0	7
+4191	Christabel Lim	4	2	7
+4192	Agnes Tan	2	2	7
+4193	Y 	4	2	18
+4194	Eugene Oh	4	6	7
+4195	Luayp 	2	2	7
+4196	Ryoma Echizen	2	3	4
+4197	Simon Owner	2	2	11
+4198	Loh Phillip	2	2	7
+4199	Jen Lu	2	2	7
+4200	KT Ling	2	4	7
+4201	Terence Lee	4	3	7
+4202	Natalya Shanty	3	4	7
+4203	Renz 	4	0	0
+4204	Oliver Dino	4	2	4
+4205	Caryn Tan	4	0	10
+4206	Jason Lee	2	5	7
+4207	Aaron 	2	8	7
+4208	Sin Yee 	2	2	7
+4209	Ixas Caelum	2	2	7
+4210	Ignatius Seth Tong	2	6	7
+4211	J L	2	0	18
+4212	Sandra Tan	2	0	7
+4213	Ange Sim	4	4	7
+4214	Brina Alessandra	4	5	4
+4215	Noel Bartolome	2	7	11
+4216	!ndianOnRun 	4	0	7
+4217	Tj Quiogue	2	2	7
+4218	Zhuo Dai	4	2	7
+4219	Vicky Chan	4	2	16
+4220	Malcolm Lee	2	8	7
+4221	Yep Zhe	4	0	7
+4222	samichlaus 	4	8	7
+4223	Candy Doll	4	0	0
+4224	Win Min Soe	2	0	7
+4225	Johnny Tan	2	3	7
+4226	TsuiRen Clover	4	8	7
+4227	Clara Cheang	4	2	7
+4228	Ozlem Savas Dayioglu	4	1	2
+4229	Farah See	2	0	7
+4230	Chloe 	2	6	7
+4231	Jacson Cherrick 	2	2	8
+4232	ItsAdreamyDay 	2	3	7
+4233	Ling Ling	4	5	11
+4234	Nijing Feng	2	2	15
+4235	Amit Saberwal	2	2	5
+4236	Lipstouched 	2	8	7
+4237	Jimmy Chai	4	0	7
+4238	Brian Neu	2	0	7
+4239	Daisy Zook	2	0	5
+4240	Vernon Cheong	4	2	0
+4241	Elizabeth Lee	2	4	7
+4242	Juwin Ho Property	3	5	0
+4243	James Quaky	2	0	16
+4244	Food Esteem 	2	8	7
+4245	SANGHOON OH	2	0	7
+4246	Connie 🍀	3	2	19
+4247	Nick Melby Whereswellsy	2	0	6
+4248	Katrine 	4	1	6
+4249	Varun Kapoor	2	0	7
+4250	Anna Ku	2	1	7
+4251	Sunny Bee	2	8	7
+4252	Pj 	4	0	7
+4253	shakira alabama	2	5	7
+4254	Omprakash Rudhru	2	2	9
+4255	Maksim Golub	2	0	7
+4256	Ramesh Chawla	2	7	7
+4257	Francis Toh	4	2	17
+4258	Lionel Lim	2	4	7
+4259	Ryan L	2	5	16
+4260	Ewan Lim	2	2	4
+4261	tajinder singh	4	3	7
+4262	Alisa Abrahman	4	0	7
+4263	AHA! Drop-In	2	0	13
+4264	Aha! Drop-In 	4	0	13
+4265	Noor Dieyanah	2	0	3
+4266	Ernie 	2	8	7
+4267	Fiona Lim	2	6	10
+4268	Dara Fisher	2	8	7
+4269	Serene Lim	2	0	18
+4270	Alex Duperouzel	2	5	6
+4271	Neu Tea	4	8	7
+4272	Sunny Tan H C	2	0	7
+4273	Jin Ngee Chia	4	8	7
+4274	HappyFamily BenMai	4	2	7
+4275	Nowel Chan	2	7	7
+4276	dairycream ng	4	2	6
+4277	Greg S. 	2	2	3
+4278	Elaine Huang	2	2	7
+4279	Phuan Kok Wai	2	8	7
+4280	Anil George	2	0	6
+4281	GAry Wong	2	0	7
+4282	Edwin Lau	2	3	15
+4283	Victoria Chen	4	4	7
+4284	HaeAn Sung	4	4	7
+4285	KarLuis Q	2	6	7
+4286	Jisun Yu	3	8	7
+4287	HHuey Venus	4	2	7
+4288	Attitude One	2	2	7
+4289	Liz L	2	0	4
+4290	Karen Loh	2	8	7
+4291	H M Tan	2	8	17
+4292	Ryan 	4	6	18
+4293	Irving Sequeira	2	6	7
+4294	Ty Le	4	8	7
+4295	Nutty🍇✨ 	2	2	6
+4296	Ngoc Lan Nguyen Truong	2	0	7
+4297	Fernando Braz Scherr Brandi	4	2	7
+4298	Kelvin Chee	4	2	7
+4299	Joanne Ho	4	0	3
+4300	Joseph M	2	6	7
+4301	IDWN ARTHA WIJAYA B	2	0	5
+4302	Didier Baron	2	6	6
+4303	Rocío M	2	5	0
+4304	Rob Maye	2	2	6
+4305	Vincent Ang	4	4	7
+4306	thumb 	2	0	6
+4307	Sunny Thelionlop	2	2	7
+4308	ee Liz	2	2	15
+4309	Jiaying Chen	2	0	11
+4310	Karen See	2	2	15
+4311	WeiJie 	2	2	7
+4312	Peiwen O	4	0	7
+4313	Marc Meissner	4	8	7
+4314	Damian Foster	4	5	7
+4315	oglop 	2	2	7
+4316	Limonova Maria	2	0	6
+4317	BaliBlogger 	2	0	6
+4318	Decki Kwok	4	6	7
+4319	Sam Ong	4	5	7
+4320	Wesley Tam	2	8	7
+4321	Linda Osman	2	6	11
+4322	Warren Wong	4	0	7
+4323	Siti Zetty	2	7	7
+4324	C 	4	4	7
+4325	Martijn Verbruggen	2	7	9
+4326	Nick Lim	2	6	7
+4327	Jo Lo	2	0	5
+4328	Jas Ngan	2	2	10
+4329	Derek Poh	4	6	7
+4330	Elthiyat Ali Banks	4	0	3
+4331	Cheng Koh	3	0	7
+4332	Kaizhi Scott Meng	4	2	11
+4333	Roger Goh	4	3	6
+4334	Dyan Tjhia	3	0	7
+4335	Woof Woof	2	6	7
+4336	Jeffrey Choo	2	8	7
+4337	Beveyy 	2	0	7
+4338	Andreas Reuther	4	6	7
+4339	Zhong Hong	2	0	7
+4340	同人不同命 	2	3	3
+4341	Daniel K	4	6	18
+4342	Elliot Seow	4	2	7
+4343	Veronica Thangaperakasam	4	2	9
+4344	Stanley Ang	2	7	13
+4345	Tony Padgett	2	5	0
+4346	Ian Lui	0	8	6
+4347	Mike Carmona	2	2	7
+4348	Beverly Joyce Bufete	4	0	5
+4349	Nicholas Chia Tze Yong	2	8	7
+4350	William Soo	4	2	7
+4351	Alan Chang	2	2	10
+4352	Anne Law	4	8	7
+4353	Adelia A	0	0	7
+4354	Phinehas Tan	4	2	7
+4355	Hian Hong	4	8	7
+4356	David Walker	2	5	6
+4357	Louis Tan	2	2	3
+4358	Winn 	2	0	5
+4359	Shelly Selly	2	0	7
+4360	Hui Kai Wong	4	0	7
+4361	Javier Liow	4	7	12
+4362	Dianne Tan-Nazareno	4	1	18
+4363	Hianmin Tan	2	8	7
+4364	Len Guillen	3	7	0
+4365	Javier 	2	1	7
+4366	Nick Barry	2	2	6
+4367	Rui Rui	2	0	6
+4368	Patrick Tan	2	0	7
+4369	冰淇淋 	2	8	12
+4370	Madeline Widerberg	4	0	7
+4371	Alistair Cook	2	0	4
+4372	Ritika Ojha	2	0	6
+4373	Hoby K	2	0	8
+4374	Corina Sng	2	8	7
+4375	Владислав Макушев	2	1	6
+4376	Nastja Stacey	2	0	6
+4377	Jack Sung	2	4	7
+4378	チュ リー 	2	0	7
+4379	Sonia De Mello	4	8	7
+4380	melody ju	4	8	7
+4381	Sherrie Sun	2	0	7
+4382	Vinz! 	2	2	0
+4383	Derrick Koh	2	6	7
+4384	Albert Koellner	2	2	6
+4385	Yakuza 	2	2	7
+4386	Clarka Honziku	4	0	7
+4387	Daniel Hendrata	4	5	6
+4388	Veronika Kovaličová	4	0	6
+4389	Toby Ruckert	2	8	7
+4390	Volha Bryleva	2	0	3
+4391	Muriel X.	2	5	7
+4392	Nicole A	2	8	7
+4393	Constance | @croostifoodi	2	0	7
+4394	WanTing Lee	2	2	7
+4395	Kitt Aldea	4	2	7
+4396	Bella Chow	2	8	7
+4397	Ah Leong San	2	8	7
+4398	Selena Tan	2	1	7
+4399	@k1h 	2	4	7
+4400	Winston Chua	2	8	7
+4401	A b e l l e  🐙 	3	2	7
+4402	Weng Cheun Fong	4	6	15
+4403	Sean Powl	4	0	7
+4404	Jolanda Hakvoort	2	8	6
+4405	Travis Teo	4	2	9
+4406	Ting 	2	4	7
+4407	Valerie Oon	4	4	7
+4408	Simona K.	4	0	7
+4409	Chris Chung Chee Hoe	2	8	5
+4410	Mohd Roslan Ahmad	2	5	8
+4411	Boon 	2	8	7
+4412	Mark.M Seiei	4	2	6
+4413	Mark Yeow	2	2	14
+4414	Yuki devils Su	2	2	3
+4415	Passion 	2	1	7
+4416	Hopper Anon	4	6	7
+4417	Daria Trushina-Vatrushina	4	5	4
+4418	Xin Ru Ong	2	0	18
+4419	Hard Rocker	2	6	5
+4420	Nia Kurniati Junaeni	4	0	16
+4421	Jeskino 	3	8	7
+4422	Basar Guncu	2	3	7
+4423	Nicole T	4	0	7
+4424	Kin Hoe Lee	4	0	7
+4425	Ht Wong	4	2	7
+4426	Seetlicious 	4	2	7
+4427	Murat S	2	0	0
+4428	Billy Toh	4	2	7
+4429	Rapiszal Rusli	4	7	7
+4430	King Kong	2	0	18
+4431	Hui Elly	4	2	2
+4432	Tonia S.	2	0	11
+4433	Jermaine Lee	2	2	7
+4434	Natalya Mykhalova	2	2	7
+4435	Alexander Patterson	2	1	6
+4436	P Y 	3	4	7
+4437	Ricardo III Basallo	2	0	7
+4438	Charm H	2	5	7
+4439	Ahmad Ramli	2	5	7
+4440	Danielle Song	4	1	6
+4441	Kassyn Ng	4	8	7
+4442	Lin LeeLoh	2	2	10
+4443	Joy Yao	2	0	7
+4444	Hoa Mai Nguyễn	4	7	7
+4445	Victoria L	2	8	7
+4446	Whye Melissa	2	6	7
+4447	Dan L	4	7	7
+4448	Iain Chou	3	0	6
+4449	Jason Khor Ying Heng	4	0	7
+4450	Aubrey Kurlansky	4	1	18
+4451	Poh Hau Tan	4	2	7
+4452	superahtan 	4	5	18
+4453	Eve 	2	6	11
+4454	Carine Chew	4	2	17
+4455	David Prl	4	8	7
+4456	Jacinta Lee	4	8	7
+4457	Viv A 	4	2	16
+4458	Jenny C	4	8	7
+4459	Richard Navarro	2	6	0
+4460	Weng Chan	4	8	7
+4461	C. L.	2	0	7
+4462	Cindy Hung	3	0	7
+4463	Ronald Suwandi	4	8	7
+4464	Kenny Low	2	8	7
+4465	3sther 	4	6	7
+4466	LukaSH 	4	0	7
+4467	FamilyTrip Co	2	5	6
+4468	Sc Zy	2	0	7
+4469	Josef Carlo Mission	4	3	7
+4470	Gerard Peck	2	6	7
+4471	Anh Thư	2	6	11
+4472	Michelle Tan	2	2	12
+4473	jansen c	2	0	7
+4474	сергей полянский	4	1	1
+4475	James Lim	4	3	11
+4476	Lina Yippy	2	4	7
+4477	Curtis Lee	2	2	7
+4478	Sutlej S	2	8	7
+4479	Bellaaa xy	4	8	3
+4480	Lucille Fisher	4	2	7
+4481	Wensdelight @ Wendy Han	2	2	10
+4482	Johnny Lim	2	2	7
+4483	Wong Jiaqi	2	7	15
+4484	June Hoo	2	6	17
+4485	Joey Weini	2	7	7
+4486	Adey Lim	3	8	7
+4487	Tepoy Gabe	0	2	7
+4488	Evelyn Tan	2	8	7
+4489	jess k	2	6	7
+4490	Klavier Tan	4	6	7
+4491	Ayeza Danielle Simon	2	1	7
+4492	EslieCarmen 	2	1	13
+4493	Andi Tesorero	2	8	7
+4494	Peter Coleman	4	7	0
+4495	Edmond Tay	2	2	7
+4496	Kathleen Lo	4	0	7
+4497	Get My Grub On! www.getmygrubon.co	2	4	7
+4498	Li Qing	2	2	6
+4499	Gastronomad 	4	8	7
+4500	Sean Michael	2	1	7
+4501	Ken Loke	2	0	14
+4502	Little Miss Honey	2	8	7
+4503	Hassan Nahas	4	8	7
+4504	Maxim Masri	4	2	7
+4505	Lareina Ng	2	4	7
+4506	Clara A	4	8	7
+4507	Ivy Banerjee	2	1	7
+4508	Matthew F	4	2	7
+4509	LiChin Lee	2	2	15
+4510	Sarfaraz Shaikh	2	5	9
+4511	Jef Tan	2	0	16
+4512	Robin Rheaume	2	0	7
+4513	Andrew C.	4	4	7
+4514	Mike G.	2	2	6
+4515	Julia Cavalli	4	6	6
+4516	Bob Griffin	2	6	7
+4517	kiwi tay	2	0	7
+4518	Ivan Gn	4	7	7
+4519	Felicity H Naicker	2	0	16
+4520	Tash Concepcion	4	8	7
+4521	Agapus Ho	4	2	7
+4522	Jim Bailey	2	5	7
+4523	Dutched Pinay Travels	4	2	7
+4524	ShanShan Chang	2	5	3
+4525	Roy Lee	4	0	7
+4526	Rinnapat 	3	5	7
+4527	Chong Wei LIM	4	8	7
+4528	Olessia 	2	5	18
+4529	Mark Tan	3	8	7
+4530	fundamentallyflawed 	4	8	7
+4531	Richard Hudson	4	0	5
+4532	Soo How Low	2	2	9
+4533	Carmynn de Carmen	2	2	7
+4534	Eileen Lin	2	4	7
+4535	ocean blue	2	2	6
+4536	Hu-Lin Tay	4	5	7
+4537	Maya Ahmad	2	5	7
+4538	Eugene Aseev	2	5	7
+4539	Дмитрий Кадыков	2	8	7
+4540	Marie Antoniette Abad	4	0	7
+4541	Joy Koh	2	0	7
+4542	Yoki Boki	2	0	12
+4543	Kaiyan Leong	4	2	5
+4544	Shaiy Daquiz	2	8	7
+4545	Terror Risk	2	1	7
+4546	Jimen Ian	2	0	11
+4547	Foodin S	2	2	12
+4548	Jerry Lucas	2	5	6
+4549	Manuela Winter	2	0	4
+4550	Bradley Quek	4	2	7
+4551	Sawit K.	2	8	7
+4552	Raymond Zhang	2	8	7
+4553	Mark Wee	4	0	7
+4554	Woo Nelson	4	8	7
+4555	Elena Lee	4	8	7
+4556	Michael Greenberg	4	5	6
+4557	Tan Yong Hwee	4	7	8
+4558	Niko Pro	2	0	7
+4559	Timor Chan	3	6	12
+4560	Sangeetha Sukumar	2	0	5
+4561	Edward Madden	2	7	7
+4562	Phang Cun Mun	2	0	7
+4563	Valeria SH	2	0	6
+4564	M 	2	0	7
+4565	Hong Lim Park	4	4	7
+4566	Gavin Kok Meng	4	8	7
+4567	Aleksei T	4	5	1
+4568	Cj Lim	4	2	7
+4569	SDG 	4	8	7
+4570	Diana T	2	4	7
+4571	Max Lim	4	0	13
+4572	erespac 	2	5	7
+4573	Taiki Inoue	2	5	7
+4574	Jolly Shandy	2	8	7
+4575	azwan a.	4	8	7
+4576	Eric Poh	2	2	15
+4577	Jason Tan	3	0	7
+4578	CK Ng	4	3	7
+4579	Owner 登发	2	2	13
+4580	Catharina T	2	8	7
+4581	Kelly K	2	5	7
+4582	Billie 	2	0	11
+4583	ari bodenk Aniwijaya	4	7	3
+4584	Pang Satawat	4	1	7
+4585	Liza Kwek	2	0	7
+4586	Sammie Sumarli	4	0	7
+4587	Rim Karoui	2	6	5
+4588	WeRn Juin 	4	8	17
+4589	Foxx 	2	0	8
+4590	Lynette Sam	2	3	6
+4591	Sapasapa Chai	2	8	7
+4592	Shane Gavin	4	8	7
+4593	Bings 	4	2	19
+4594	Desmond Chua	2	2	3
+4595	Dinyar 	2	0	4
+4596	Hoe Lon Leng	2	6	7
+4597	Weiyong Toh	4	8	7
+4598	Darrell Sim	2	2	16
+4599	Rachel 	2	8	7
+4600	Day-an Tong	2	5	7
+4601	Hsiang Yap	3	0	7
+4602	Natalia Tan	4	5	7
+4603	Cheryl Tan Chia Sing	2	0	5
+4604	Joey Lim	4	0	7
+4605	Brandon Soo	2	3	17
+4606	paberu 	4	0	11
+4607	Aryani K. Putri	2	5	7
+4608	Freddie Tan	4	8	7
+4609	Jette S	2	0	0
+4610	Keith Lim	4	0	7
+4611	Jerry Tay	4	8	7
+4612	Samantha Wong	2	6	7
+4613	mohd irwan mihat	2	2	7
+4614	Sarah Hoe	2	0	4
+4615	Jessica Chak	2	4	7
+4616	sputneek 	2	0	7
+4617	Yiling Ding	4	2	7
+4618	dy 	4	8	7
+4619	Danuwari Shamasudin	2	3	7
+4620	Aaron 	2	8	7
+4621	Peggy Tan	2	1	7
+4622	Christine Tan	2	5	7
+4623	Kanchuya Sukdheva	4	5	7
+4624	Ivan Hoe	4	0	7
+4625	Karthik Aiyer	2	6	3
+4626	Liz Kim	4	5	7
+4627	Eiichi Kishita	2	6	6
+4628	Herry Geps	2	0	11
+4629	Neil Madhvani	4	5	7
+4630	Mag TY	2	4	7
+4631	Patrick Goh	2	2	1
+4632	Ji Gopi	2	2	9
+4633	Ruth Huang	4	0	15
+4634	Vivek Menon	2	0	5
+4635	Jane Ang	2	6	7
+4636	Ann TAN	2	6	7
+4637	Riann Goettl Seymour	2	2	7
+4638	Honglin Chen	2	6	18
+4639	Annie Hibberd	2	0	6
+4640	Ben Mayson	4	4	7
+4641	Aaron Bloomfield	4	3	6
+4642	Pocket Sun	2	8	7
+4643	Ellen Chua	2	0	16
+4644	Kimberly Ong	2	0	7
+4645	Alice Fulwood	2	5	7
+4646	Randy Kusuma	2	8	4
+4647	Aditi Amalean	4	2	6
+4648	Jan 	2	0	15
+4649	Larry Pike	2	2	5
+4650	Elizabeth Zhou	2	8	7
+4651	Melissa Ooi	2	8	7
+4652	hhKang 	4	5	8
+4653	bob ong	2	2	7
+4654	arieslow. 	4	2	7
+4655	Ajit Singh	2	0	9
+4656	L G	4	3	6
+4657	Ann-Margaret M Javier	2	0	5
+4658	Rita Martinez	2	6	4
+4659	Linda Siow	2	0	4
+4660	Lee Soon Guan	4	8	19
+4661	Ben Tan	2	3	19
+4662	Ivy Lim	4	6	19
+4663	Humeyra Unalan	3	1	6
+4664	Ladiiz Clio	2	2	6
+4665	Ridzwan Haron	2	0	7
+4666	Elaine Kay	4	5	7
+4667	Minka Monica Li	2	8	7
+4668	Tom 	3	0	6
+4669	C S	2	2	11
+4670	Harry 	2	0	6
+4671	Jessie Lee	2	6	1
+4672	Rajiv VIETNAM	4	2	7
+4673	Dora Choo	4	4	7
+4674	Mo Herb	4	0	7
+4675	Michael Cheng	2	6	7
+4676	Kristie Sim	4	3	1
+4677	Richard Foo	2	2	5
+4678	Emily Koo	2	0	6
+4679	Keith 	2	8	7
+4680	albatrossfries 	2	2	7
+4681	Mouthfool 	2	1	7
+4682	Ky Jihan	2	6	7
+4683	Lyubov 	2	6	7
+4684	David Poon	2	0	7
+4685	Alex Ho	2	5	6
+4686	Eatandtravelwithus 	4	5	7
+4687	Lili Oxana 	4	7	7
+4688	James Baker	4	7	7
+4689	Arc Chua	2	0	4
+4690	JLAM 	2	7	18
+4691	Teresa 	4	8	7
+4692	🍫 	2	8	7
+4693	Ee Leen 	2	0	5
+4694	Brian Slattery	4	0	1
+4695	Kristian Lam	4	2	7
+4696	Ahmed Amer	4	0	7
+4697	Huixian Yang	2	0	7
+4698	Hướng Dương Vicky	2	2	7
+4699	Jaze Gong	4	6	18
+4700	Chui YK	2	3	15
+4701	Danilo D	4	7	7
+4702	Edmund Boey	2	8	7
+4703	Robin Boomer	2	2	7
+4704	The Skys	4	0	5
+4705	Julia Duclos	2	6	7
+4706	Valerie Wan	4	8	7
+4707	Cynthia Wei	4	0	6
+4708	unskilledmaker -	2	8	7
+4709	S. C.	2	0	7
+4710	Edmund Chew	3	0	7
+4711	Ab T	4	0	6
+4712	Ivan N	3	8	7
+4713	Insook Kim	2	6	7
+4714	tingjyun guo ⭐️	2	8	7
+4715	Sora Mare	4	2	6
+4716	marshmellowfroyo 	0	5	16
+4717	Keat Key Choo	3	3	15
+4718	Mm283 	2	1	5
+4719	Tan Jacky	2	7	16
+4720	Jodie Hia	2	0	3
+4721	John Antos	4	4	7
+4722	James Lee	4	1	6
+4723	Anny Tan	2	8	7
+4724	KairenandJenny's food hunt 	2	0	17
+4725	K. Mk	4	0	7
+4726	Silene Lim	2	8	7
+4727	She-Ler Goh	2	8	13
+4728	Dynaqa Tester 03	2	5	19
+4729	Dyna Test02	2	3	19
+4730	DynaqaFIVE Test	2	3	19
+4731	Chandra Marsono	4	0	6
+4732	Alex Gi	2	0	7
+4733	William Dunn	2	1	7
+4734	Matvey Stvtsk	2	0	18
+4735	Gloria Cheong	4	2	4
+4736	Pham Huong	4	2	7
+4737	Kankang Zhu	3	8	7
+4738	Juan Otero	4	1	6
+4739	Maria Tran Larsen	4	2	18
+4740	Xiao Ping ng	4	2	7
+4741	Bellyman O	2	8	7
+4742	Caca 	2	0	7
+4743	Nigel 	2	2	5
+4744	Ngoc Trang Ly	4	2	5
+4745	Camille 	2	8	7
+4746	Clare Wee-Goh	2	6	7
+4747	Dolores Hazlewood	2	4	7
+4748	Xlf 	2	2	7
+4749	Foodyluz 	3	8	7
+4750	NIKITA Dhulekar	4	0	5
+4751	Gessica Vettori	4	7	11
+4752	Kath HY Kan	4	7	6
+4753	TAJ 👑	4	1	7
+4754	R Tan	2	2	11
+4755	Genevieve Ho	4	4	7
+4756	Kurt Haa	4	2	6
+4757	PowLook Yap	2	2	7
+4758	Kit&kafoodle 	2	2	7
+4759	Asha Jacob	2	8	7
+4760	Rïjü Jö§é	4	6	7
+4761	Azimuthal 	4	0	11
+4762	Y. 	3	4	7
+4763	Tau Seng Cham	2	3	3
+4764	Tomek Wolny	2	8	7
+4765	Rachel Andrea	4	3	7
+4766	Sniper Food Hunt	2	8	7
+4767	Rachel Lim	2	0	11
+4768	Valerie Le	4	0	6
+4769	Shivaji Thiru	3	5	11
+4770	Samuel Ngin	2	0	7
+4771	G Sim	2	0	7
+4772	Ashley Dando	2	0	7
+4773	Elika Mather	2	8	7
+4774	Jo L	2	0	11
+4775	Jess Yeap	4	6	7
+4776	MSLi 	2	2	11
+4777	Truc Huynh	4	2	7
+4778	Angela Liu	4	0	7
+4779	Croco Alista	4	2	5
+4780	Andre Garcia	4	5	7
+4781	Clarissa Ferreira	4	6	7
+4782	Kasper Nurmi	2	5	7
+4783	mo pleasure 	2	4	7
+4784	Julia Gus	2	8	18
+4785	Xiangting Liu	2	0	7
+4786	Matt Ta-Min	4	0	7
+4787	Aziza Zi	2	1	6
+4788	Charlene Fang	2	6	7
+4789	Lee Soon Guan	2	8	7
+4790	jacko wacko	4	0	11
+4791	Adi-Yusdi Yusoff	2	0	7
+4792	Jonathan Werrett	4	0	6
+4793	Vu Long Tran	2	2	7
+4794	Caro Schiefer	2	6	7
+4795	Starving Banker	2	7	18
+4796	Ann-Marie Eu	2	4	7
+4797	Louanne Li	2	6	5
+4798	Supri Mazlan	2	7	0
+4799	Lina A.	2	8	7
+4800	Jamin Allen	4	0	7
+4801	Aaron Mechelke	4	1	7
+4802	y h	2	5	7
+4803	Lin Ma	4	2	6
+4804	Choo Yao Chuen Yao Chuen	2	4	7
+4805	Uncle V	2	0	7
+4806	giota pipi	4	0	5
+4807	Michelle Marek	4	0	7
+4808	roger w	3	0	7
+4809	greg wong	2	6	10
+4810	abb chan	2	0	7
+4811	Wazi Dzulkifli	2	8	7
+4812	KC Koo	2	2	7
+4813	Salty K	4	2	3
+4814	Justine Francotte	2	6	11
+4815	Gabi Z.	4	6	6
+4816	Marvin Lew	4	8	7
+4817	safia r	4	4	7
+4818	Thomas Boiteau	4	8	7
+4819	Tino Buranasilapin	4	4	7
+4820	Ananya Samuel	2	0	4
+4821	everythingsalty 	2	1	6
+4822	Trifonov Alexander	4	1	1
+4823	Andy Seng	2	2	7
+4824	Els D.	3	0	6
+4825	John Booth	4	5	18
+4826	아멜 	2	0	7
+4827	Chantal Travers	2	0	7
+4828	Ali Hassani	2	6	14
+4829	allison kean	4	4	7
+4830	Julia Janelle	2	2	7
+4831	Ummi 	4	8	7
+4832	Михаил Костин 	4	5	6
+4833	Aman Bhonsle	4	2	7
+4834	Winston Tay	4	0	7
+4835	singapore butler 	2	2	7
+4836	Khor Lan	4	7	19
+4837	Annie Lorraine 	4	2	18
+4838	Cat Cortes	2	0	4
+4839	Charles Louis	2	2	5
+4840	Amelia Isabella	4	8	7
+4841	Beerfest Brewery 	2	1	1
+4842	Rebecca Hum	4	6	8
+4843	May Zhao	2	0	7
+4844	Vernice Pang	4	8	7
+4845	Ulya 	4	2	7
+4846	Eric Teo	2	2	8
+4847	Nidhi Singh Jha	2	0	6
+4848	Emilie Neumann	2	0	6
+4849	Yas Ab	4	5	6
+4850	Masdiana Kepunyaan Göksel	2	3	5
+4851	xoxoputeri 💋	4	7	2
+4852	Ramphal Raaj	4	2	8
+4853	Christina Michele	2	8	7
+4854	Joe Graham	4	0	18
+4855	Jon Tinney	4	6	4
+4856	Vivienne 	3	5	7
+4857	Val Pilch	4	2	6
+4858	Tan 	2	2	6
+4859	Maia Azazel	2	6	3
+4860	James Chew	2	3	7
+4861	Alonso Carral	4	2	5
+4862	Krishna Zulkarnain	2	8	7
+4863	Four Seasons Singapore	4	2	5
+4864	Li-Sha Lapar	2	8	7
+4865	Danny Teo	2	8	7
+4866	Marta Mska	2	3	9
+4867	Jessica de Oliveira	2	0	7
+4868	Daniel Ong	4	2	6
+4869	Ali G	2	0	7
+4870	Jackey Chong	4	0	7
+4871	Sam Yatish	4	0	11
+4872	Taka 13g	2	2	18
+4873	Celine Ong	2	4	7
+4874	Ray Sng	4	6	7
+4875	cracklingkeratin O	4	0	19
+4876	Coolrunner7 	3	8	4
+4877	Emily Jordan	3	0	5
+4878	Earl Baker	2	5	6
+4879	Melvin Chan	4	0	5
+4880	Kelly Ng	4	2	6
+4881	Charles Lim	3	0	6
+4882	tim gulick	3	0	11
+4883	Sylvia Tan	2	0	7
+4884	Rupali Karekar	4	6	7
+4885	Geoff Peret	4	0	7
+4886	foodie goodie	2	8	7
+4887	Anastasia Dianna Putri	4	7	7
+4888	Kahina Zeghebibe	2	2	5
+4889	Richard Ho	4	2	7
+4890	Suzan Yeo	2	6	11
+4891	Ivy Tan	2	2	14
+4892	Mandy Govender	2	5	7
+4893	GL 	2	6	7
+4894	Ruth Wok	4	0	7
+4895	Nigel Kong	3	8	7
+4896	Vincent Tan	2	8	7
+4897	Chongann Teh	2	0	7
+4898	Joseph Ng	2	3	6
+4899	S Yusop	2	6	5
+4900	Kei Oki	3	0	7
+4901	Melinda C	2	0	7
+4902	Adam Mulligan	4	0	6
+4903	CN 	4	0	7
+4904	Krishna Zulkarnain	4	5	7
+4905	Diddilicious 	2	8	11
+4906	Lim Li Hui	4	1	6
+4907	Michael Silbermann	3	0	7
+4908	Conrad Hotels & Resorts 	4	6	18
+4909	shoon lim	2	0	4
+4910	Laura Teodori	2	5	7
+4911	Yi Ho	2	0	6
+4912	Gypsee World	4	8	7
+4913	Melissa Meow	2	1	15
+4914	Jacqui Lau	2	0	6
+4915	George Oetomo	2	8	7
+4916	P C	4	8	7
+4917	Joyce Ewing-Chow	2	5	7
+4918	Anthony Millar	3	0	6
+4919	Andrew Cheong	4	2	11
+4920	Cheng Yuan Hong	4	8	18
+4921	sim see min	4	4	0
+4922	Anne Åsen	2	2	7
+4923	Jen Chia	2	0	7
+4924	Kristina Liu	2	0	18
+4925	Cho Hee Heo	2	2	18
+4926	Arthur Liao	2	5	18
+4927	Eugene Hwang	2	8	7
+4928	Hir Batin	4	3	3
+4929	Swee Kiat	2	2	7
+4930	Ben Bang	2	2	11
+4931	Rebecca Tan	4	2	5
+4932	Kuan Yeap	4	8	7
+4933	Aiyun Song	2	1	6
+4934	Johan Ismail	4	5	7
+4935	Known-You Singapore Kyd	2	5	17
+4936	Samantha Chng	4	0	7
+4937	Aaron Li	2	8	6
+4938	Satya T	2	8	7
+4939	Chris Coon	4	0	7
+4940	hirohito kinjyo	2	2	3
+4941	Ashley Teo	4	6	7
+4942	Lp Georgiou	2	6	1
+4943	DK LE	4	8	6
+4944	Shin Yee Yeo	4	0	11
+4945	William Lai	3	2	6
+4946	hello stranger	4	0	7
+4947	Chiffonbear 	3	8	7
+4948	Amber Tan	2	0	3
+4949	Saavy Gourmet	4	1	11
+4950	Li Pit	2	2	16
+4951	Jamal Benali	3	3	14
+4952	Lene Mae	2	2	3
+4953	Miffy Ling	2	8	7
+4954	Krishna Nataraj	2	0	7
+4955	Katerina Vlachopoulos	4	6	7
+4956	Soo Ian	2	2	7
+4957	Lim Wilson	0	2	6
+4958	Mateo Ravagli	2	0	6
+4959	Katerina V	2	0	7
+4960	Rachel Roth	4	0	7
+4961	Poornima Bargotra	2	2	18
+4962	Kevin 	2	0	6
+4963	Grace Lcm	2	8	7
+4964	Eric Woo	2	0	18
+4965	Kate 673	4	8	7
+4966	Satoshi Lau	4	2	7
+4967	Z 	2	4	7
+4968	Bernard Lim	2	8	7
+4969	Merlina Kasman	2	8	7
+4970	JuanJuan Yao	3	6	7
+4971	Miguel Fernandes	2	0	7
+4972	Yuliya Tyshchenko	4	0	1
+4973	Hazel Ratcliffe	2	0	7
+4974	Xyt Xyt	2	0	7
+4975	Dar Gekko	4	2	5
+4976	Ee Ling Chee	2	0	18
+4977	James Bedford	2	0	17
+4978	Arabella 	2	2	6
+4979	Edmund Lee	3	2	3
+4980	Richard Mak	4	2	12
+4981	Ka Ling	2	0	7
+4982	Ralph Yang	2	2	5
+4983	Emma Peet	4	0	7
+4984	Ck Lee	4	0	7
+4985	Chrissy Lummie	2	2	7
+4986	Calfred Lor	4	3	7
+4987	Wong Heng Cheong	4	2	7
+4988	Hongjai 	2	2	18

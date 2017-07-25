@@ -1,0 +1,203 @@
+<html>
+ <meta charset="UTF-8">
+<head>
+  <title>ISSS 608 - Social Analytics and Application Project </title>
+  <!--main stylesheet-->
+  <link rel="stylesheet" href="css/sa_visual_main2.css" type = "text/css">
+  <link rel="stylesheet" href="css/lib/05_recommendation_new_user" type = "text/css">
+
+  <script src = "js/lib/d3.v2.js"></script>
+  <script src = "js/lib/jquery-3.2.1.js"></script>
+  <script src = "js/05_recommendation_new_user.js"></script>
+  <script src = "js/05_recommendation_table.js"></script>
+
+      <!-- this is the header portion-->
+  <nav role = "top_navbar">
+    <ul class = "topnav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="methodology.html">Analytical Approach</a></li>
+          <li><a class="active" href="dashboard.html">Results</a></li>
+          <li><a href="Resource.html">Resource</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <!-- this is the 2nd header portion-->
+<nav role = "2nd_top_navbar">
+  <ul class = "topnav">
+    <li><a href="dashboard.html">Overview</a></li>
+    <li><a href="dashboard_cluster01.html">Clustering by Restaurants</a></li>
+    <li><a href="dashboard_cluster02.html">Clustering by Locations</a></li>
+    <li><a href="recomm_existing_users.html">Recommendation for: Existing Users</a></li>
+    <li><a class = "active" href="recomm_new_users.html">Recommendation for: New Users</a></li>
+  </ul>
+</nav>
+</head>
+<!--1stportion-->
+
+<div id="table-description" style="position: absolute; width: 30%; right: 68%; top: 10%; ">
+  <table style = "border-bottom: 1px solid grey; width: 100%;" >
+    <p> <b> Background: </b> </p>
+    <tr>
+      <td style = "width: 100%; background-color: white; color:black; text-align: justify;; font-family: 'Roboto'; font-size: 13;">
+        This is a force-directed graph which aim to provide a sample size of the dataset of a new user.
+        <br><br>In this graph, we will illustrate how the new user(s) are connected to his/her friends.
+      </td>
+  </tr>
+  </table>
+  <table style = "border-bottom: 1px solid grey; width: 100%;" >
+  <p> <b> Legend: </b> </p>
+  <img src="images/05_legend.png" alt="overview" style="width: auto;height:100px;">
+  </table>
+  <table style = "border-bottom: 1px solid grey; width: 100%;" >
+    <p> <b> Rationale: </b> </p>
+    <tr>
+      <td style = "width: 100%; background-color: white; color:black; text-align: justify; font-family: 'Roboto'; font-size: 13;">
+        Recommendation(s) for the new users are made by making reference to his/her friends. <br><br>
+        This is done by making reference to the clusters that the friends <br>
+        belong to, and comparing the similarity between the existing user,<br>
+        and those belonging from thes same cluster.
+      </td>
+  </tr>
+  </table>
+  <table style = "border-bottom: 1px solid grey; width: 100%;" >
+    <p> <b> About the Clusters: </b> </p>
+    <tr>
+      <td style = "width: 100%; background-color: white; color:black; text-align: justify;; font-family: 'Roboto'; font-size: 13;">
+        This is based on a combined clustering index from (1) User-Relationship Clustering, (2) Restaurant Type Clustering
+        , and (3) Location Clustering.
+      </td>
+  </tr>
+  </table>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--2nd portion-->
+<div id="new_users_recommendation_list" style=" position: absolute; width: 26%; right: 42%; top: 15%;  ">
+
+<button onclick="myFunction()">View Recommendation</button>
+  <div id="myDIV" style="display:none">
+    <!-- hardcode now, can be replace with javscript to automate-->
+    <h2> User Name: <font color="#f44336"> Benjamin Lee </font></h2>
+    <h2> Last Visit: <font color="#f44336"> Guan Hoe Soon Restaurant </font></h2>
+    <table>
+      <tr>
+        <th> Rank </th>
+        <th> Venue Name </th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Maison Ikkoku Cafe</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Wild Honey</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Swee Choon Tim Sum Restaurant</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Singapore Zam Zam Restaurant</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Song Fa Bak Kut Teh 松发肉骨茶</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Golden Mile (Beach Road) Food Centre</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Old Airport Road Market & Food Centre</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Bukit Timah Market & Food Centre</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>126 (搵到食) Eating House</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Ayer Rajah (West Coast Drive) Market & Food Centre</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Forty Hands</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Strangers' Reunion</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>PS.Cafe</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>Clementi 448 Market & Food Centre 金文泰巴刹小販中心</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>Kovan Hougang Market & Food Centre</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>Beach Road Scissor-Cut Curry Rice 美芝律剪刀咖哩飯 (Beach Road Scissor-Cut Curry Rice)</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>Symmetry</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td>CUT by Wolfgang Puck</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>Hong Lim Market & Food Centre 芳林巴刹与熟食中心 (Hong Lim Complex Market & Food Centre)</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>KPT 咖啡店</td>
+      </tr>
+    </table>
+
+  </div>
+
+
+  <script>
+  function myFunction() {
+      var x = document.getElementById('myDIV');
+      if (x.style.display === 'none') {
+          x.style.display = 'block';
+      } else {
+          x.style.display = 'none';
+      }
+  }
+  </script>
+
+  <!--3rd portion-->
+<div id="new_users_overview_graph" style=" position: absolute; width: 65%; left: 32%%; bottom: 0%; ">
+    <script>
+    var graph = overview_networkgraph_new_users()
+    </script>
+</div>
+
+
+</body>
+</html>
