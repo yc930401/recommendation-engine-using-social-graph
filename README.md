@@ -26,4 +26,8 @@ This project is for our social analytics course. In this project, we built a tel
 
 ## Result
 
-![GitHub Logo](/images/logo.png)
+![Chatbot Example](/chatbot1.jpg)
+![Chatbot Example](/chatbot2.jpg)
+
+See this report for more information about our project. </br>
+https://github.com/yc930401/recommendation-engine-using-social-graph/blob/master/report/Grp5_ProjectReport.pdf
