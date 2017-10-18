@@ -1,4 +1,4 @@
-# Social Analytics Repo
+# Social Analytics Project
 
 * An academic project for social analytics.
 
